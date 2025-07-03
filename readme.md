@@ -1,4 +1,11 @@
-# Chatbot Prototype Setup Guide
+# Documentation-AI-Assistant
+
+This repo is about how create dccumentation chatbot
+
+
+
+## Chatbot Prototype Setup Guide
+
 
 
 ### 1. Create a Virtual Environment
