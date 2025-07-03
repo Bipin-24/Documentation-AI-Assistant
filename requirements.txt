@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain-community
+markdown
+sentence-transformers
+unstructured
+python-dotenv
+google-generativeai
