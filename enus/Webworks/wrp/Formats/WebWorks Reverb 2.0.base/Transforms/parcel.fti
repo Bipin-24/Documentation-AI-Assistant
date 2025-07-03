@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes />
+
+ <Groups>
+  <Group name="toc" />
+ </Groups>
+
+ <Settings>
+  <!-- TOC -->
+  <!--     -->
+  <Setting name="toc-generate" group="toc" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

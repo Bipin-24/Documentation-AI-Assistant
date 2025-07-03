@@ -1,0 +1,621 @@
+@import "colors";
+@import "sizes";
+@import "functions";
+
+/*~~~~~ BORDERS ~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~*/
+
+/*
+  DISCLAIMER: By default, border size properties do not conform with the other size properties of HTML.
+  This means that when a border is set on an element with a defined height or width, the final size of
+  an element will calculate to HEIGHT/WIDTH + BORDER WIDTH. This has been mitigated as much as possible
+  using the 'box-sizing: border-box' property, but there is always a possibility for some instances
+  where this will not work. (ex. An element with a border inside another element inside it with a border.
+  The toolbar in some skins is like this)
+
+  If widths in this file are to be changed, you understand that this may change the uniformity of the
+  layout, and that there may also be height and width properties that also need to be changed in
+  _sizes.scss to get the layout to line up properly.
+
+
+*/
+
+
+/* Toolbar */
+/*         */
+
+$toolbar_border_style: none;
+// if $toolbar_border_width is set to greater than 0px, $toolbar_border_top_offset and
+// $toolbar_border_bottom_offset in _sizes.scss needs to be set to match these values.
+$toolbar_border_width: 0px;
+$toolbar_border_color: transparent;
+
+$toolbar_border_radius: 0px;
+
+/* Toolbar - Logo Section */
+/*                        */
+
+$toolbar_logo_section_border_style: none;
+$toolbar_logo_section_border_width: 0px;
+$toolbar_logo_section_border_color: transparent;
+
+$toolbar_logo_section_border_radius: 0px;
+
+// Menu Button
+
+$toolbar_button_menu_border_style: none;
+$toolbar_button_menu_border_width: 0px;
+$toolbar_button_menu_border_color: transparent;
+
+$toolbar_button_menu_border_radius: 0px;
+
+$toolbar_button_menu_border_style_hover: $toolbar_button_menu_border_style;
+$toolbar_button_menu_border_width_hover: $toolbar_button_menu_border_width;
+$toolbar_button_menu_border_color_hover: darken-all($toolbar_button_menu_border_color, 20%);
+
+$toolbar_button_menu_border_radius_hover: $toolbar_button_menu_border_radius;
+
+$toolbar_button_menu_border_style_click: $toolbar_button_menu_border_style;
+$toolbar_button_menu_border_width_click: $toolbar_button_menu_border_width;
+$toolbar_button_menu_border_color_click: lighten-all($toolbar_button_menu_border_color, 20%);
+
+$toolbar_button_menu_border_radius_click: $toolbar_button_menu_border_radius;
+
+// Logo Container
+
+$toolbar_logo_container_border_style: none;
+$toolbar_logo_container_border_width: 0px;
+$toolbar_logo_container_border_color: transparent;
+
+$toolbar_logo_container_border_radius: 0px;
+
+$toolbar_logo_container_border_style_hover: $toolbar_logo_container_border_style;
+$toolbar_logo_container_border_width_hover: $toolbar_logo_container_border_width;
+$toolbar_logo_container_border_color_hover: $toolbar_logo_container_border_color;
+
+$toolbar_logo_container_border_radius_hover: $toolbar_logo_container_border_radius;
+
+/* Toolbar - Search Section */
+/*                          */
+
+$toolbar_search_section_border_style: none;
+$toolbar_search_section_border_width: 0px;
+$toolbar_search_section_border_color: transparent;
+
+$toolbar_search_section_border_radius: 0px;
+
+$toolbar_search_section_border_style_hover: $toolbar_search_section_border_style;
+$toolbar_search_section_border_width_hover: $toolbar_search_section_border_width;
+$toolbar_search_section_border_color_hover: $toolbar_search_section_border_color;
+
+$toolbar_search_section_border_radius_hover: $toolbar_search_section_border_radius;
+
+// Search Scope Selector
+
+$toolbar_search_scope_selector_border_style: none;
+$toolbar_search_scope_selector_border_width: 0px;
+$toolbar_search_scope_selector_border_color: transparent;
+
+$toolbar_search_scope_selector_border_radius: 3px 0px 0px 3px;
+
+$toolbar_search_scope_selector_border_style_hover: $toolbar_search_scope_selector_border_style;
+$toolbar_search_scope_selector_border_width_hover: $toolbar_search_scope_selector_border_width;
+$toolbar_search_scope_selector_border_color_hover: darken-all($toolbar_search_scope_selector_border_color, 20%);
+
+$toolbar_search_scope_selector_border_radius_hover: $toolbar_search_scope_selector_border_radius;
+
+// Search Scope Options
+
+$toolbar_search_scope_options_border_style: solid;
+$toolbar_search_scope_options_border_width: 1px;
+$toolbar_search_scope_options_border_color: darken($toolbar_search_scope_options_background_color, 10%);
+
+$toolbar_search_scope_options_border_radius: 1px;
+
+// Search Scope Option
+
+$toolbar_search_scope_option_border_style: none;
+$toolbar_search_scope_option_border_width: 0px;
+$toolbar_search_scope_option_border_color: transparent;
+
+$toolbar_search_scope_option_border_radius: 0px;
+
+$toolbar_search_scope_option_border_style_hover: $toolbar_search_scope_option_border_style;
+$toolbar_search_scope_option_border_width_hover: $toolbar_search_scope_option_border_width;
+$toolbar_search_scope_option_border_color_hover: darken-all($toolbar_search_scope_option_border_color, 20%);
+
+$toolbar_search_scope_option_border_radius_hover: $toolbar_search_scope_option_border_radius;
+
+// Search Input
+
+$toolbar_search_input_border_style: solid;
+$toolbar_search_input_border_width: 1px;
+$toolbar_search_input_border_color: transparent;
+
+$toolbar_search_input_border_radius: 0px;
+
+$toolbar_search_input_border_style_focus: $toolbar_search_input_border_style;
+$toolbar_search_input_border_width_focus: $toolbar_search_input_border_width;
+$toolbar_search_input_border_color_focus: $toolbar_search_input_border_color;
+
+$toolbar_search_input_border_radius_focus: $toolbar_search_input_border_radius;
+
+// Search Button
+
+$toolbar_button_search_border_style: none;
+$toolbar_button_search_border_width: 0px;
+$toolbar_button_search_border_color: transparent;
+
+$toolbar_button_search_border_radius: 0px;
+
+$toolbar_button_search_border_style_hover: $toolbar_button_search_border_style;
+$toolbar_button_search_border_width_hover: $toolbar_button_search_border_width;
+$toolbar_button_search_border_color_hover: darken-all($toolbar_button_search_border_color, 20%);
+
+$toolbar_button_search_border_radius_hover: $toolbar_button_search_border_radius;
+
+$toolbar_button_search_border_style_click: $toolbar_button_search_border_style;
+$toolbar_button_search_border_width_click: $toolbar_button_search_border_width;
+$toolbar_button_search_border_color_click: lighten-all($toolbar_button_search_border_color, 20%);
+
+$toolbar_button_search_border_radius_click: $toolbar_button_search_border_radius;
+
+/* Toolbar - Button Section */
+/*                          */
+
+$toolbar_button_section_border_style: none;
+$toolbar_button_section_border_width: 0px;
+$toolbar_button_section_border_color: transparent;
+
+$toolbar_button_section_border_radius: 0px;
+
+// Previous Button
+
+$toolbar_button_previous_border_style: none;
+$toolbar_button_previous_border_width: 0px;
+$toolbar_button_previous_border_color: transparent;
+
+$toolbar_button_previous_border_radius: 0px;
+
+$toolbar_button_previous_border_style_hover: $toolbar_button_previous_border_style;
+$toolbar_button_previous_border_width_hover: $toolbar_button_previous_border_width;
+$toolbar_button_previous_border_color_hover: darken-all($toolbar_button_previous_border_color, 20%);
+
+$toolbar_button_previous_border_radius_hover: $toolbar_button_previous_border_radius;
+
+$toolbar_button_previous_border_style_click: $toolbar_button_previous_border_style;
+$toolbar_button_previous_border_width_click: $toolbar_button_previous_border_width;
+$toolbar_button_previous_border_color_click: lighten-all($toolbar_button_previous_border_color, 20%);
+
+$toolbar_button_previous_border_radius_click: $toolbar_button_previous_border_radius;
+
+// Next Button
+
+$toolbar_button_next_border_style: none;
+$toolbar_button_next_border_width: 0px;
+$toolbar_button_next_border_color: transparent;
+
+$toolbar_button_next_border_radius: 0px;
+
+$toolbar_button_next_border_style_hover: $toolbar_button_next_border_style;
+$toolbar_button_next_border_width_hover: $toolbar_button_next_border_width;
+$toolbar_button_next_border_color_hover: darken-all($toolbar_button_next_border_color, 20%);
+
+$toolbar_button_next_border_radius_hover: $toolbar_button_next_border_radius;
+
+$toolbar_button_next_border_style_click: $toolbar_button_next_border_style;
+$toolbar_button_next_border_width_click: $toolbar_button_next_border_width;
+$toolbar_button_next_border_color_click: lighten-all($toolbar_button_next_border_color, 20%);
+
+$toolbar_button_next_border_radius_click: $toolbar_button_next_border_radius;
+
+// Home Button
+
+$toolbar_button_home_border_style: none;
+$toolbar_button_home_border_width: 0px;
+$toolbar_button_home_border_color: transparent;
+
+$toolbar_button_home_border_radius: 0px;
+
+$toolbar_button_home_border_style_hover: $toolbar_button_home_border_style;
+$toolbar_button_home_border_width_hover: $toolbar_button_home_border_width;
+$toolbar_button_home_border_color_hover: darken-all($toolbar_button_home_border_color, 20%);
+
+$toolbar_button_home_border_radius_hover: $toolbar_button_home_border_radius;
+
+$toolbar_button_home_border_style_click: $toolbar_button_home_border_style;
+$toolbar_button_home_border_width_click: $toolbar_button_home_border_width;
+$toolbar_button_home_border_color_click: lighten-all($toolbar_button_home_border_color, 20%);
+
+$toolbar_button_home_border_radius_click: $toolbar_button_home_border_radius;
+
+// Translate Button
+
+$toolbar_button_translate_border_style: none;
+$toolbar_button_translate_border_width: 0px;
+$toolbar_button_translate_border_color: transparent;
+
+$toolbar_button_translate_border_radius: 0px;
+
+$toolbar_button_translate_border_style_hover: $toolbar_button_translate_border_style;
+$toolbar_button_translate_border_width_hover: $toolbar_button_translate_border_width;
+$toolbar_button_translate_border_color_hover: darken-all($toolbar_button_translate_border_color, 20%);
+
+$toolbar_button_translate_border_radius_hover: $toolbar_button_translate_border_radius;
+
+$toolbar_button_translate_border_style_click: $toolbar_button_translate_border_style;
+$toolbar_button_translate_border_width_click: $toolbar_button_translate_border_width;
+$toolbar_button_translate_border_color_click: lighten-all($toolbar_button_translate_border_color, 20%);
+
+$toolbar_button_translate_border_radius_click: $toolbar_button_translate_border_radius;
+
+// Inactive Button
+
+$toolbar_button_disabled_border_style: none;
+$toolbar_button_disabled_border_width: 0px;
+$toolbar_button_disabled_border_color: transparent;
+
+$toolbar_button_disabled_border_radius: 0px;
+
+// Tab
+
+$toolbar_tab_border_style: solid;
+$toolbar_tab_border_width: 0px;
+$toolbar_tab_border_color: transparent;
+$toolbar_tab_border_radius: 16px;
+
+$toolbar_tab_border_style_hover: $toolbar_tab_border_style;
+$toolbar_tab_border_width_hover: $toolbar_tab_border_width;
+$toolbar_tab_border_color_hover: $toolbar_tab_border_color;
+$toolbar_tab_border_radius_hover: $toolbar_tab_border_radius;
+
+$toolbar_tab_current_border_style: $toolbar_tab_border_style;
+$toolbar_tab_current_border_width: $toolbar_tab_border_width;
+$toolbar_tab_current_border_color: $toolbar_tab_border_color;
+$toolbar_tab_current_border_radius: $toolbar_tab_border_radius;
+
+$toolbar_tab_current_border_style_hover: $toolbar_tab_current_border_style;
+$toolbar_tab_current_border_width_hover: $toolbar_tab_current_border_width;
+$toolbar_tab_current_border_color_hover: $toolbar_tab_current_border_color;
+$toolbar_tab_current_border_radius_hover: $toolbar_tab_current_border_radius;
+
+/* Menu */
+/*      */
+
+$menu_border_style: none;
+$menu_border_width: 0px;
+$menu_border_color: transparent;
+
+$menu_border_radius: 0px;
+
+// Nav Buttons (Use to apply style to both)
+
+$menu_nav_buttons_border_style: none;
+$menu_nav_buttons_border_width: 0px;
+$menu_nav_buttons_border_color: transparent;
+
+$menu_nav_buttons_border_radius: 0px;
+
+$menu_nav_buttons_border_style_hover: $menu_nav_buttons_border_style;
+$menu_nav_buttons_border_width_hover: $menu_nav_buttons_border_width;
+$menu_nav_buttons_border_color_hover: darken-all($menu_nav_buttons_border_color, 20%);
+
+$menu_nav_buttons_border_radius_hover: $menu_nav_buttons_border_radius;
+
+$menu_nav_buttons_border_style_click: $menu_nav_buttons_border_style;
+$menu_nav_buttons_border_width_click: $menu_nav_buttons_border_width;
+$menu_nav_buttons_border_color_click: lighten-all($menu_nav_buttons_border_color, 20%);
+
+$menu_nav_buttons_border_radius_click: $menu_nav_buttons_border_radius;
+
+// Nav Buttons - Selected (Use to apply style to both)
+
+$menu_nav_buttons_current_border_style: none;
+$menu_nav_buttons_current_border_color: transparent;
+
+// Nav Button - TOC
+
+$menu_nav_button_toc_border_style: none solid solid none;
+$menu_nav_button_toc_border_width: 0px;
+$menu_nav_button_toc_border_color: transparent darken($menu_nav_buttons_background_color, 10%) darken($menu_nav_buttons_background_color, 10%) transparent;
+
+$menu_nav_button_toc_border_radius: 0px;
+
+$menu_nav_button_toc_border_style_hover: $menu_nav_button_toc_border_style;
+$menu_nav_button_toc_border_width_hover: $menu_nav_button_toc_border_width;
+$menu_nav_button_toc_border_color_hover: darken-all($menu_nav_button_toc_border_color, 20%);
+
+$menu_nav_button_toc_border_radius_hover: $menu_nav_button_toc_border_radius;
+
+$menu_nav_button_toc_border_style_click: $menu_nav_button_toc_border_style;
+$menu_nav_button_toc_border_width_click: $menu_nav_button_toc_border_width;
+$menu_nav_button_toc_border_color_click: lighten-all($menu_nav_button_toc_border_color, 20%);
+
+$menu_nav_button_toc_border_radius_click: $menu_nav_button_toc_border_radius;
+
+// Nav Button - Index
+
+$menu_nav_button_index_border_style: none none solid solid;
+$menu_nav_button_index_border_width: 0px;
+$menu_nav_button_index_border_color: transparent transparent darken($menu_nav_buttons_background_color, 10%) darken($menu_nav_buttons_background_color, 10%);
+
+$menu_nav_button_index_border_radius: 0px;
+
+$menu_nav_button_index_border_style_hover: $menu_nav_button_index_border_style;
+$menu_nav_button_index_border_width_hover: $menu_nav_button_index_border_width;
+$menu_nav_button_index_border_color_hover: darken-all($menu_nav_button_index_border_color, 20%);
+
+$menu_nav_button_index_border_radius_hover: $menu_nav_button_index_border_radius;
+
+$menu_nav_button_index_border_style_click: $menu_nav_button_index_border_style;
+$menu_nav_button_index_border_width_click: $menu_nav_button_index_border_width;
+$menu_nav_button_index_border_color_click: lighten-all($menu_nav_button_index_border_color, 20%);
+
+$menu_nav_button_index_border_radius_click: $menu_nav_button_index_border_radius;
+
+/* Menu - TOC */
+/*            */
+
+$menu_toc_border_style: none;
+$menu_toc_border_width: 0px;
+$menu_toc_border_color: transparent;
+
+$menu_toc_border_radius: 0px;
+
+$menu_toc_border_style_hover: $menu_toc_border_style;
+$menu_toc_border_width_hover: $menu_toc_border_width;
+$menu_toc_border_color_hover: $menu_toc_border_color;
+
+$menu_toc_border_radius_hover: $menu_toc_border_radius;
+
+// TOC Title
+
+$menu_toc_title_border_style: none;
+$menu_toc_title_border_width: 0px;
+$menu_toc_title_border_color: transparent;
+
+$menu_toc_title_border_radius: 0px;
+
+// TOC Item
+
+$menu_toc_item_border_style: none none none solid;
+$menu_toc_item_border_width: 0px 0px 0px $menu_toc_item_padding;
+$menu_toc_item_border_color: transparent;
+
+$menu_toc_item_border_radius: 0px;
+
+$menu_toc_item_border_style_hover: $menu_toc_item_border_style;
+$menu_toc_item_border_width_hover: $menu_toc_item_border_width;
+$menu_toc_item_border_color_hover: darken-all($menu_toc_item_border_color, 20%);
+
+$menu_toc_item_border_radius_hover: $menu_toc_item_border_radius;
+
+$menu_toc_item_border_style_click: $menu_toc_item_border_style;
+$menu_toc_item_border_width_click: $menu_toc_item_border_width;
+$menu_toc_item_border_color_click: lighten-all($menu_toc_item_border_color, 20%);
+
+$menu_toc_item_border_radius_click: $menu_toc_item_border_radius;
+
+// TOC Item Current
+
+$menu_toc_item_current_border_style: none none none solid;
+$menu_toc_item_current_border_width: 0px 0px 0px $menu_toc_item_current_highlight_size;
+$menu_toc_item_current_border_color: transparent transparent transparent $menu_toc_item_current_highlight_color;
+
+$menu_toc_item_current_border_radius: 0px;
+
+$menu_toc_item_current_border_style_hover: $menu_toc_item_current_border_style;
+$menu_toc_item_current_border_width_hover: $menu_toc_item_current_border_width;
+$menu_toc_item_current_border_color_hover: $menu_toc_item_current_border_color;
+
+$menu_toc_item_current_border_radius_hover: $menu_toc_item_current_border_radius;
+
+$menu_toc_item_current_border_style_click: $menu_toc_item_current_border_style;
+$menu_toc_item_current_border_width_click: $menu_toc_item_current_border_width;
+$menu_toc_item_current_border_color_click: $menu_toc_item_current_border_color;
+
+$menu_toc_item_current_border_radius_click: $menu_toc_item_current_border_radius;
+
+/* Menu - Index */
+/*              */
+
+$menu_index_border_style: none;
+$menu_index_border_width: 0px;
+$menu_index_border_color: transparent;
+
+$menu_index_border_radius: 0px;
+
+$menu_index_border_style_hover: $menu_index_border_style;
+$menu_index_border_width_hover: $menu_index_border_width;
+$menu_index_border_color_hover: $menu_index_border_color;
+
+$menu_index_border_radius_hover: $menu_index_border_radius;
+
+// Index Title
+
+$menu_index_title_border_style: none;
+$menu_index_title_border_width: 0px;
+$menu_index_title_border_color: transparent;
+
+$menu_index_title_border_radius: 0px;
+
+/* Page */
+/*      */
+
+$page_border_style: none;
+$page_border_width: 0px;
+$page_border_color: transparent;
+
+$page_border_radius: 0px;
+
+// Breadcrumbs
+
+$page_breadcrumbs_border_style: none;
+$page_breadcrumbs_border_width: 0px;
+$page_breadcrumbs_border_color: transparent;
+
+$page_breadcrumbs_border_radius: 0px;
+
+// Page Toolbar
+
+$page_toolbar_border_style: none;
+$page_toolbar_border_width: 0px;
+$page_toolbar_border_color: transparent;
+
+$page_toolbar_border_radius: 0px;
+
+// Popup
+
+$popup_border_style: solid;
+$popup_border_width: 1px;
+$popup_border_color: $popup_border_color;
+
+$popup_border_radius: 0px 0px 0px 0px;
+
+// Related Topics
+$related_topics_border_style: none;
+$related_topics_border_width: 0px;
+$related_topics_border_color: transparent;
+
+$related_topics_border_radius: 0px 0px 0px 0px;
+
+$related_topics_title_border_style: none;
+$related_topics_title_border_width: 0px;
+$related_topics_title_border_color: transparent;
+
+$related_topics_title_border_radius: 0px 0px 0px 0px;
+
+$related_topics_list_border_style: solid;
+$related_topics_list_border_width: 1px;
+$related_topics_list_border_color: $_layout_color_3;
+
+$related_topics_list_border_radius: 0px 0px 0px 0px;
+
+$related_topics_entry_border_style: none;
+$related_topics_entry_border_width: 0px;
+$related_topics_entry_border_color: transparent;
+
+$related_topics_entry_border_radius: 0px 0px 0px 0px;
+
+/* Mini TOC */
+/*          */
+
+$mini_toc_border_style: solid;
+$mini_toc_border_width: 1px;
+$mini_toc_border_color: darken($mini_toc_background_color, 10%);
+
+$mini_toc_border_radius: 0px;
+
+// Mini TOC Entry
+
+$mini_toc_entry_border_style: $mini_toc_border_style;
+$mini_toc_entry_border_width: 1px 0px 0px 0px;
+$mini_toc_entry_border_color: $mini_toc_border_color;
+
+$mini_toc_entry_border_radius: 0px;
+
+/* Search */
+/*        */
+
+$search_border_style: none;
+$search_border_width: 0px;
+$search_border_color: transparent;
+
+$search_border_radius: 0px;
+
+// Search Title
+
+$search_title_border_style: none;
+$search_title_border_width: 0px;
+$search_title_border_color: transparent;
+
+$search_title_border_radius: 0px;
+
+// Search Result Container
+
+$search_result_border_style: none none solid none;
+$search_result_border_width: 1px;
+$search_result_border_color: transparent transparent $search_result_separator_color transparent;
+
+$search_result_border_radius: 0px;
+
+$search_result_border_style_hover: $search_result_border_style;
+$search_result_border_width_hover: $search_result_border_width;
+$search_result_border_color_hover: darken-all($search_result_border_color, 20%);
+
+$search_result_border_radius_hover: $search_result_border_radius;
+
+// Search Result Title
+
+$search_result_title_border_style: none;
+$search_result_title_border_width: 0px;
+$search_result_title_border_color: transparent;
+
+$search_result_title_border_radius: 0px;
+
+$search_result_title_border_style_hover: $search_result_title_border_style;
+$search_result_title_border_width_hover: $search_result_title_border_width;
+$search_result_title_border_color_hover: darken-all($search_result_title_border_color, 20%);
+
+$search_result_title_border_radius_hover: $search_result_title_border_radius;
+
+// Search Result Summary
+
+$search_result_summary_border_style: none;
+$search_result_summary_border_width: 0px;
+$search_result_summary_border_color: transparent;
+
+$search_result_summary_border_radius: 0px;
+
+$search_result_summary_border_style_hover: $search_result_summary_border_style;
+$search_result_summary_border_width_hover: $search_result_summary_border_width;
+$search_result_summary_border_color_hover: darken-all($search_result_summary_border_color, 20%);
+
+$search_result_summary_border_radius_hover: $search_result_summary_border_radius;
+
+// Search Result Group Name
+
+$search_result_group_name_border_style: none;
+$search_result_group_name_border_width: 0px;
+$search_result_group_name_border_color: transparent;
+
+$search_result_group_name_border_radius: 0px;
+
+$search_result_group_name_border_style_hover: $search_result_group_name_border_style;
+$search_result_group_name_border_width_hover: $search_result_group_name_border_width;
+$search_result_group_name_border_color_hover: darken-all($search_result_group_name_border_color, 20%);
+
+$search_result_group_name_border_radius_hover: $search_result_group_name_border_radius;
+
+/* Header */
+/*        */
+
+$header_border_style: none;
+$header_border_width: 0px;
+$header_border_color: transparent;
+
+$header_border_radius: 0px;
+
+/* Footer */
+/*        */
+
+$footer_border_style: none;
+$footer_border_width: 0px;
+$footer_border_color: transparent;
+
+$footer_border_radius: 0px;
+
+/* Back to Top */
+/*             */
+
+$back_to_top_border_style: none;
+$back_to_top_border_width: 0px;
+$back_to_top_border_color: transparent;
+
+$back_to_top_border_radius: 0px;
+
+$back_to_top_border_style_hover: $back_to_top_border_style;
+$back_to_top_border_width_hover: $back_to_top_border_width;
+$back_to_top_border_color_hover: darken-all($back_to_top_border_color, 20%);
+
+$back_to_top_border_radius_hover: $back_to_top_border_radius;

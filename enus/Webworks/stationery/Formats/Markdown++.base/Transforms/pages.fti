@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="encoding" validater="encoding">
+   <Item value="UTF-8" stringid="encoding-utf-8" />
+   <Item value="ISO-8859-1" stringid="encoding-iso-8859-1" />
+   <Item value="Shift_JIS" stringid="encoding-shift-jis" />
+   <Item value="EUC-KR" stringid="encoding-euc-kr" />
+   <Item value="GB2312" stringid="encoding-gb2312" />
+   <Item value="Big5" stringid="encoding-big5" />
+   <Item value="Windows-1250" stringid="encoding-windows-1250" />
+   <Item value="Windows-1251" stringid="encoding-windows-1251" />
+   <Item value="Windows-1252" stringid="encoding-windows-1252" />
+   <Item value="Windows-1253" stringid="encoding-windows-1253" />
+   <Item value="Windows-1254" stringid="encoding-windows-1254" />
+   <Item value="Windows-1257" stringid="encoding-windows-1257" />
+  </Class>
+
+  <Class name="href-target" validater="string">
+   <Common value="_blank" />
+   <Common value="_self" />
+   <Common value="_parent" />
+   <Common value="_top" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="files" />
+  <Group name="accessibility" />
+  <Group name="options" />
+  <Group name="navigation" />
+  <Group name="file-processing" />
+ </Groups>
+
+ <Settings>
+
+  <!-- Baggage File Target -->
+  <!--                     -->
+  <Setting name="baggage-file-target" group="links" default="external_window">
+   <SettingClass name="none" />
+   <SettingClass name="href-target" />
+  </Setting>
+
+  <!-- External URL Target -->
+  <!--                     -->
+  <Setting name="external-url-target" group="links" default="external_window">
+   <SettingClass name="none" />
+   <SettingClass name="href-target" />
+  </Setting>
+
+  <!-- Processing -->
+  <!--            -->
+  <Setting name="file-processing-toc" group="file-processing" default="ignore">
+   <SettingClass name="processing" />
+  </Setting>
+  <Setting name="file-processing-index" group="file-processing" default="ignore">
+   <SettingClass name="processing" />
+  </Setting>
+  <Setting name="file-processing-front-matter" group="file-processing" default="output">
+   <SettingClass name="processing" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet>
+  <RuleTraits category="Paragraph">
+   <Options>
+    <Option name="use-numbering" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="use-character-styles" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="citation" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="pass-through" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+  <RuleTraits category="Character">
+   <Options>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="abbreviation" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="acronym" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="citation" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="pass-through" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+
+  <RuleTraits category="Page">
+   <Options>
+    <Option name="file-extension" group="options" default=".md">
+     <OptionClass name="file-extension" />
+    </Option>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="publish-date-bottom-generate" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties>
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Marker">
+   <Options>
+    <Option name="marker-type" group="options" default="ignore">
+     <OptionClass name="marker-type" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+  <RuleTraits category="Graphic">
+   <Options>
+    <Option name="by-reference-vector" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="responsive-image-size" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+ </RuleTraitsSet>
+</FormatTraitInfo>

@@ -1,0 +1,82 @@
+@import "colors";
+@import "icons";
+
+// Social Links
+
+// Sizing and Positioning
+$size_ww_social: 22px;
+$line_height_ww_social: 24px;
+$margin_ww_social: 6px;
+
+#social_links {
+  display: inline-block;
+}
+
+.ww_social {
+  color: $page_toolbar_social_icon_color;
+}
+
+a.ww_social {
+  text-decoration: none;
+  outline-width: 0;
+}
+
+// Twitter
+.ww_social_twitter {
+  display: inline-block;
+  width: $size_ww_social;
+  height: $size_ww_social;
+  line-height: $line_height_ww_social;
+  margin-left: $margin_ww_social;
+  margin-right: $margin_ww_social;
+  i:before {
+    content: $page_social_twitter_icon;
+  }
+}
+
+a.ww_social_twitter {
+  color: $page_toolbar_social_icon_twitter_color;
+  &:hover {
+    color: $page_toolbar_social_icon_twitter_color_hover;
+  }
+}
+
+// Facebook
+.ww_social_facebook {
+  display: inline-block;
+  width: $size_ww_social;
+  height: $size_ww_social;
+  line-height: $line_height_ww_social;
+  margin-left: $margin_ww_social;
+  margin-right: $margin_ww_social;
+  i:before {
+    content: $page_social_facebook_icon;
+  }
+}
+
+a.ww_social_facebook {
+  color: $page_toolbar_social_icon_facebook_color;
+  &:hover {
+    color: $page_toolbar_social_icon_facebook_color_hover;
+  }
+}
+
+// LinkedIn
+.ww_social_linkedin {
+  display: inline-block;
+  width: $size_ww_social;
+  height: $size_ww_social;
+  line-height: $line_height_ww_social;
+  margin-left: $margin_ww_social;
+  margin-right: $margin_ww_social;
+  i:before {
+    content: $page_social_linkedin_icon;
+  }
+}
+
+a.ww_social_linkedin {
+  color: $page_toolbar_social_icon_linkedin_color;
+  &:hover {
+    color: $page_toolbar_social_icon_linkedin_color_hover;
+  }
+}

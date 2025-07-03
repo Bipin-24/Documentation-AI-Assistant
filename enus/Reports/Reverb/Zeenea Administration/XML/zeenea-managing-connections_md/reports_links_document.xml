@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-managing-connections.md' to document 'zeenea-connectors-list.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\zeenea-managing-connections.md" />
+        <Data key="DocumentID" value="OxPZXuwQvZQ" />
+        <Data key="ID" value="p100066" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Reverb/Zeenea%20Administration/zeenea-managing-connections.md#p100066" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-managing-connections.md' to document 'zeenea-data-profiling.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\zeenea-managing-connections.md" />
+        <Data key="DocumentID" value="OxPZXuwQvZQ" />
+        <Data key="ID" value="p100333" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Reverb/Zeenea%20Administration/zeenea-managing-connections.md#p100333" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-managing-connections.md' to document 'zeenea-data-sampling.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\zeenea-managing-connections.md" />
+        <Data key="DocumentID" value="OxPZXuwQvZQ" />
+        <Data key="ID" value="p100348" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Reverb/Zeenea%20Administration/zeenea-managing-connections.md#p100348" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

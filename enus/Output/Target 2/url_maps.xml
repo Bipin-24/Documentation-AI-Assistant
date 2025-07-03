@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Project projectID="EifmldnGvu0" formatVersion="2024.1" runtimeVersion="2024.1">
+    <Entry name="default" href="index.html" />
+    <TopicMap />
+    <PageMap>
+      <Page basename="zeenea-intro.html" path="Zeenea\zeenea-intro.html" title="Zeenea Data Discovery Platform" href="index.html#page/Zeenea/zeenea-intro.html" groupID="ZjRXuIIZp1s" documentID="xH9-POksI58" />
+      <Page basename="zeenea-concepts-and-definitions.html" path="Getting Started\zeenea-concepts-and-definitions.html" title="Concepts and Definitions" href="index.html#page/Getting%20Started/zeenea-concepts-and-definitions.html" groupID="Yq0XdtOLOls" documentID="KxhIGJA7ZtU" />
+      <Page basename="zeenea-supported-browsers.html" path="Getting Started\zeenea-supported-browsers.html" title="Supported Browsers" href="index.html#page/Getting%20Started/zeenea-supported-browsers.html" groupID="Yq0XdtOLOls" documentID="b2KiFhUWk7I" />
+    </PageMap>
+    <BaggageMap />
+  </Project>
+</Report>

@@ -1,0 +1,217 @@
+<!DOCTYPE html ><html xml:lang="en" lang="en" data-highlight-require-whitespace="false" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>title: Palantir Foundry</title><link rel="Prev" href="zeenea-connector-palantir.60.1.html" title="Previous" /><link rel="Next" href="zeenea-connector-postgresql.61.1.html" title="Next" /><link rel="StyleSheet" href="../css/font-awesome/css/all.min.css" type="text/css" media="all" /><link rel="StyleSheet" href="css/zeenea-connector-palantir.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/skin.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/social.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/print.css" type="text/css" media="print" /><noscript><div id="noscript_padding"></div></noscript></head><body id="pZmLR4uRWi8diaSg20LP1pg" class="ww_skin_page_body" style="visibility: hidden;"><input type="hidden" id="page_onload_url" value="../index.html#page/Connectors/zeenea-connector-palantir.60.2.html"></input><span id="dropdown_ids" style="display:none;"></span><div id="ww_content_container"><header id="wwconnect_header"><div class="ww_skin_breadcrumbs"><a class="WebWorks_Breadcrumb_Link" href="zeenea-connectors-list.01.1.html">Connectors</a> : <span class="WebWorks_Breadcrumb_Text">title: Palantir Foundry  </span></div><div class="ww_skin_page_toolbar"><div id="dropdown_button_container" class="dropdown_container dropdown_button_container_disabled"><a id="show_hide_all" class="ww_skin ww_behavior_dropdown_toggle ww_skin_dropdown_toggle" title="Page DropDown Toggle" href="#"><i class="far"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><div id="social_links"><!-- Twitter --><!--         --><a id="social_twitter" class="ww_social ww_social_twitter" title="Twitter" target="_blank" href="#"><i class="fab"></i></a><!-- FaceBook Like --><!--               --><a id="social_facebook_like" class="ww_social ww_social_facebook" title="Facebook" target="_blank" href="#"><i class="fab"></i></a><!-- LinkedIn Share --><!--                --><a id="social_linkedin" class="ww_social ww_social_linkedin" title="LinkedIn" target="_blank" href="#"><i class="fab"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><a class="ww_behavior_print ww_skin ww_skin_print" title="Print" href="#"><i class="fa"></i></a></div><!-- was this helpful button --><!--                         --><div class="ww_skin_was_this_helpful_container"><div class="ww_skin_was_this_helpful_message">Was this helpful?</div><div class="ww_skin_was_this_helpful_buttons_container"><div id="helpful_thumbs_up" class="ww_skin_was_this_helpful_button" title="Helpful"><i class="far"></i></div><div id="helpful_thumbs_down" class="ww_skin_was_this_helpful_button" title="Unhelpful"><i class="far"></i></div></div></div></header><div id="page_content_container"><div id="page_content"><div id="wwp100018" class="Title_1">title: Palantir Foundry  </div><div class="WebWorks_MiniTOC"><div class="WebWorks_MiniTOC_Heading">&nbsp;</div><dl class="WebWorks_MiniTOC_List"><dd><div class="WebWorks_MiniTOC_Entry"><a class="WebWorks_MiniTOC_Link" href="../Connectors/zeenea-connector-palantir.60.2.html#wwp100024">Adding a Palantir Foundry Connection</a></div></dd></dl></div><div id="wwp100024" class="Heading_1">Adding a Palantir Foundry Connection</div><div id="wwp100030" class="Heading_2">Prerequisites</div><ul id="wwl100063" class="UList"><li id="wwli100051" class="UList_Item" value="1"><div id="wwp100045" class="UList_Paragraph">A user with sufficient <span class="Link"><a href="../Connectors/zeenea-connector-palantir.60.2.html#wwp100177" title="title: Palantir Foundry">permissions</a></span> is required to establish a connection with Palantir. </div></li><li id="wwli100060" class="UList_Item" value="2"><div id="wwp100054" class="UList_Paragraph">Zeenea traffic flows towards the data source must be open.</div></li></ul><div id="wwp100075" class="Paragraph">:::note A link to the configuration template can be found here: <span class="Link"><a href="../Connectors/zeenea-connectors-list.01.1.html#" title="Zeenea Connector Downloads">Zeenea Connector Downloads</a></span>. :::</div><div id="wwp100081" class="Heading_2">Supported Versions</div><div id="wwp100087" class="Paragraph">The Palantir connector was developed and tested with the Palantir Foundry SaaS version.</div><div id="wwp100093" class="Heading_2">Installing the Plugin</div><div id="wwp100108" class="Paragraph">The Palantir plugin can be downloaded here: <span class="Link"><a href="../Connectors/zeenea-connectors-list.01.1.html#" title="Zeenea Connector Downloads">Zeenea Connector Downloads</a></span></div><div id="wwp100123" class="Paragraph">For more information on how to install a plugin, please refer to the following article: <span class="Link"><a href="../Connectors/zeenea-connectors-install-as-plugin.02.1.html#" title="Installing and Configuring Connectors as a Plugin">Installing and Configuring Connectors as a Plugin</a></span>.</div><div id="wwp100129" class="Heading_2">Declaring the Connection</div><div id="wwp100138" class="Paragraph">Creating and configuring connectors is done through a dedicated configuration file located in the <span class="Code">/connections</span> folder of the relevant scanner. The scanner frequently checks for any change and resynchronises automatically.</div><div id="wwp100144" class="Paragraph">Read more: Managing Connections</div><div id="wwp100150" class="Paragraph">In order to establish a connection with a Palantir instance, specifying the following parameters in the dedicated file is required:</div><div id="wwp100156" class="HTML"><table>
+  <tr>
+    <th>Parameter</th>
+    <th>Expected value</th>
+  </tr>
+  <tr>
+    <td>`name`</td>
+    <td>The name that will be displayed to catalog users for this connection.</td>
+  </tr>
+  <tr>
+    <td>`code`</td>
+    <td>The unique identifier of the connection on the Zeenea platform. Once registered on the platform, this code must not be modified or the connection will be considered as new and the old one removed from the scanner.</td>
+  </tr>
+  <tr>
+    <td>`connector_id`</td>
+    <td>The type of connector to be used for the connection. Here, the value must not be modified.<br /> <font color="red">Should this say "...value must be `palantir`" as with other connectors?</font></td>
+  </tr>
+  <tr>
+    <td>`connection.url`</td>
+    <td>Database address (example: `https://tenant.palantirfoundry.fr/`)</td>
+  </tr>
+  <tr>
+    <td>`connection.oauth.endpoint`</td>
+    <td>(Optional) API's endpoint. Default value is from `connection.url` parameter completed by `/multipass/api/oauth2/token`.</td>
+  </tr>
+  <tr>
+    <td>`connection.oauth.client_id`</td>
+    <td>Application ID (client) as defined in Palantir</td>
+  </tr>
+  <tr>
+    <td>`connection.oauth.client_secret`</td>
+    <td>Application's password (client) as defined in Palantir</td>
+  </tr>
+  <tr>
+    <td>`connection.token`</td>
+    <td>Authentication token</td>
+  </tr>
+  <tr>
+    <td colspan="2">**Google Cloud Storage**</td>
+  </tr>
+  <tr>
+    <td>`connection.google_cloud.json_key`</td>
+    <td>
+      <p>JSON key. Use either as:  </p>
+      <ul>
+        <li>an embedded raw value (use triple quotes `"""{ "json: "here" }""")`</li>
+        <li>or as a file by setting a absolute file URL<br />(e.g., `file:///etc/bigquery/zeenea-key.json`)</li>
+      </ul>
+      <p>Using the file URL to an external JSON key file is recommended.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.google_cloud.project_id`</td>
+    <td>Project Id used at connection. Invoices will be sent to this project.</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p>**AWS - S3**</p>
+      <p>The following parameters can be set to specify a region and an access key. If not set, information will be taken from:</p>
+      <ol>
+        <li>Environment variables</li>
+        <li>Shared credential and config files</li>
+        <li>ECS container or EC2 instance role</li>
+      </ol>
+      <p>See [Amazon documentation](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/credentials.html)</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.aws.region`</td>
+    <td>Amazon S3 region</td>
+  </tr>
+  <tr>
+    <td>`connection.aws.access_key_id`</td>
+    <td>
+      <p>Amazon S3 Access Key Identifier.</p>
+      <p>*Prefer to use container or instance role.*</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.aws.secret_access_key`</td>
+    <td>
+      <p>Amazon S3 Secret Access Key</p>
+      <p>*Prefer to use container or instance role.*</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p>**Azure ADLS Gen 2**</p>
+      <p>Two authentication methods are available:</p>
+      <ol>
+        <li>Service Account OAuth2 credentials (`client_id`, `client_secret`, `tenant_id`)</li>
+        <li>Account Key (`account_name`, `account_key`)</li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.azure.tenant_id`</td>
+    <td>Tenant Identifier</td>
+  </tr>
+  <tr>
+    <td>`connection.azure.client_id`</td>
+    <td>Client Application Identifier</td>
+  </tr>
+  <tr>
+    <td>`connection.azure.client_secret`</td>
+    <td>Client Application Secret</td>
+  </tr>
+  <tr>
+    <td>`connection.azure.account_name`</td>
+    <td>Storage Account Name</td>
+  </tr>
+  <tr>
+    <td>`connection.azure.account_key`</td>
+    <td>Storage Account Secret Key</td>
+  </tr>
+  <tr>
+    <td colspan="2">**Inventory**</td>
+  </tr>
+  <tr>
+    <td>`inventory.file_path`</td>
+    <td>
+      <p>Path to the file containing the Resource Identifier (RID) in case the inventory is provided.</p>
+      <p>The path must be formatted like:</p>
+      <ol>
+        <li>**AWS S3**: `s3://[bucket_name]/[optional_prefix]/[file_name]`</li>
+        <li>**Google Storage**: `gs://[bucket_name]/[optional_prefix]/[file_name]`</li>
+        <li>**Local File System**: `file:///path/to/file` or `/path/to/file`</li>
+        <li>**Azure ADLS Gen 2**: `http://[account_name].dfs.core.windows.net/[container_name]/[optional_prefix]/[file_name]`</li>
+      </ol>
+      <p>Examples:</p>
+      <p>`connection.path = "aws://palantir-bucket/rids.txt"`</p>
+      <p>or</p>
+      <p>`connection.path = "/var/palantir/rids.txt"`</p>
+      <p>The file should contain a list of Resource Identifiers (RID), with one identifier per line.</p>
+      <p>Example:</p>
+      ```
+      ri.foundry.main.dataset.4bbacdc9-3965-45ff-b44a-1d8f64b822bb
+      ri.foundry.main.dataset.6bf56e27-2106-42fb-aa81-4a012f865f84
+      ri.foundry.main.dataset.30399d1c-a942-4cb2-85eb-25f69db6fd72
+      ri.foundry.main.dataset.746fb5dd-9153-4a4a-b2c6-052ada4a900c
+      ```
+    </td>
+  </tr>
+  <tr>
+    <td>`inventory.from_datacatalog`</td>
+    <td>Default value `false`. Set to `true` to filter on Palantir's data catalog objects.</td>
+  </tr>
+  <tr>
+    <td>`inventory.with_ontology`</td>
+    <td>Default value `false`. Set to `true` to list datasets from ontology objects. They will be prefixed by `/ontology` only in the Zeenea selection import window.</td>
+  </tr>
+  <tr>
+    <td colspan="2">**Filter**</td>
+  </tr>
+  <tr>
+    <td>`filter`</td>
+    <td>To filter collections associated with datasets.</td>
+  </tr>
+  <tr>
+    <td colspan="2">**Others**</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.path`</td>
+    <td>The Trust Store file path. This file must be provided in case TLS encryption is activated (protocol https) and when certificates of servers are delivered by a specific authority. It must contain the certification chain.</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.password`</td>
+    <td>Password of the trust store file</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.type`</td>
+    <td>Type of the trust store file (`PKCS12` or `JKS`). Default value is discovered from the file extension.</td>
+  </tr>
+  <tr>
+    <td>`proxy.scheme`</td>
+    <td>Depending on the proxy, `http` or `https`</td>
+  </tr>
+  <tr>
+    <td>`proxy.hostname `</td>
+    <td>Proxy address</td>
+  </tr>
+  <tr>
+    <td>`proxy.port`</td>
+    <td>Proxy port</td>
+  </tr>
+  <tr>
+    <td>`proxy.username`</td>
+    <td>Proxy username</td>
+  </tr>
+  <tr>
+    <td>`proxy.password`</td>
+    <td>Proxy account password</td>
+  </tr>
+</table></div><div id="wwp100171" class="Paragraph">:::note A template of the configuration file is available in <span class="Link"><a href="https://github.com/zeenea/connector-conf-templates/tree/main/templates" target="external_window">this repository</a></span>. :::</div><div id="wwp100177" class="Heading_2">User Permissions</div><div id="wwp100183" class="Paragraph">To communicate with Palantir, the connector supports two authentication modes:</div><ul id="wwl100207" class="UList"><li id="wwli100195" class="UList_Item" value="1"><div id="wwp100189" class="UList_Paragraph">OAuth2 (Grant Type: client_credentials)</div></li><li id="wwli100204" class="UList_Item" value="2"><div id="wwp100198" class="UList_Paragraph">Token</div></li></ul><div id="wwp100210" class="Paragraph">OAuth2 protocol is recommended. To select a mode, fill in the corresponding parameters.</div><div id="wwp100216" class="Paragraph">In order to collect metadata, the running user's permissions must allow them to access and read databases that need cataloging. </div><ul id="wwl100240" class="UList"><li id="wwli100228" class="UList_Item" value="1"><div id="wwp100222" class="UList_Paragraph">In the case of Token protocol authentication: the token must have access to the resources that need to be cataloged.</div></li><li id="wwli100237" class="UList_Item" value="2"><div id="wwp100231" class="UList_Paragraph">In the case of OAuth2 protocol authentication: rights about objects that need cataloging must be added to the user associated with the declared application.</div></li></ul><div id="wwp100243" class="Heading_2">Rich Filters</div><div id="wwp100249" class="Paragraph">Since version 1.2.0 of the plugin, the Palantir connector benefits from the feature of rich filters in the configuration of the connector. This filter is compatible only with the "collection" key to filter the values of the collected metadata.</div><div id="wwp100255" class="Paragraph">Read more: Filters</div><div id="wwp100261" class="Heading_2">Data Extraction</div><div id="wwp100267" class="Paragraph">Inventory can be performed from a file containing a list of object identifiers (RID).</div><div id="wwp100273" class="Paragraph">If a file is configured, the connector will connect to the file system to retrieve it, then make a call per RID to check its existence and retrieve its name:</div><ul id="wwl100291" class="UList"><li id="wwli100288" class="UList_Item" value="1"><div id="wwp100282" class="UList_Paragraph"><span class="Code">/compass/api/resources/{rid}</span>: To get the name of a collection dataset</div></li></ul><div id="wwp100294" class="Paragraph">If no file is provided to the connector, it will automatically discover available objects with the following calls:</div><ul id="wwl100477" class="UList"><li id="wwli100348" class="UList_Item" value="1"><div id="wwp100306" class="UList_Paragraph">If <span class="Code">from_datacatalog</span> option value is <span class="Bold">false</span>:</div><ul id="wwl100345" class="UList"><li id="wwli100342" class="UList_Item" value="1"><div id="wwp100336" class="UList_Paragraph"><span class="Code">/compass/api/all-resources (pagined)</span> <span class="HTML"><font color="red">Should <span class="Code">pagined</span> be <span class="Code">pageid</span>?</font></span>: To get the list of available resources</div></li></ul></li><li id="wwli100423" class="UList_Item" value="2"><div id="wwp100357" class="UList_Paragraph">If <span class="Code">from_datacatalog</span> option value is <span class="Bold">true</span>:</div><ul id="wwl100420" class="UList"><li id="wwli100393" class="UList_Item" value="1"><div id="wwp100387" class="UList_Paragraph"><span class="Code">/compass/api/collections (pagined)</span> <span class="HTML"><font color="red">Should <span class="Code">pagined</span> be <span class="Code">pageid</span>?</font></span>: To get the list of available collections</div></li><li id="wwli100405" class="UList_Item" value="2"><div id="wwp100399" class="UList_Paragraph"><span class="Code">/compass/api/collections/{collection.rid}/children</span>: To get collections datasets</div></li><li id="wwli100417" class="UList_Item" value="3"><div id="wwp100411" class="UList_Paragraph"><span class="Code">/compass/api/resources/{rid}</span>: To get the name of a collection dataset</div></li></ul></li><li id="wwli100474" class="UList_Item" value="3"><div id="wwp100429" class="UList_Paragraph">If with_ontology option value is <span class="Bold">true</span>:</div><ul id="wwl100471" class="UList"><li id="wwli100444" class="UList_Item" value="1"><div id="wwp100438" class="UList_Paragraph"><span class="Code">/phonograph2/api/objects/registry/ontology/all</span>: To get the list of available objects</div></li><li id="wwli100456" class="UList_Item" value="2"><div id="wwp100450" class="UList_Paragraph"><span class="Code">/ontology-metadata/api/ontology/ontology/bulkLoadEntities</span>: To get objects datasets</div></li><li id="wwli100468" class="UList_Item" value="3"><div id="wwp100462" class="UList_Paragraph"><span class="Code">/compass/api/resources/{rid}</span>: To get the name of an object dataset</div></li></ul></li></ul><div id="wwp100480" class="Paragraph">The import is done with the following calls:</div><ul id="wwl100522" class="UList"><li id="wwli100495" class="UList_Item" value="1"><div id="wwp100489" class="UList_Paragraph"><span class="Code">/compass/api/resources/{rid}</span>: To extract objects metadata</div></li><li id="wwli100507" class="UList_Item" value="2"><div id="wwp100501" class="UList_Paragraph"><span class="Code">/foundry-metadata/api/schemas/datasets/{rid}/branches/master</span>: To extract datasets fields</div></li><li id="wwli100519" class="UList_Item" value="3"><div id="wwp100513" class="UList_Paragraph"><span class="Code">/foundry-metadata/api/metadata/datasets/{dataset.rid}/branches/master/view</span>: To extract fields description</div></li></ul><div id="wwp100525" class="Heading_2">Collected Metadata</div><div id="wwp100531" class="Heading_3">Inventory</div><div id="wwp100537" class="Paragraph">Inventory can be conducted from a file stored on the cloud/local storage, or the inventory will collect the list of datasets accessible by the user.  </div><div id="wwp100543" class="Heading_2">Dataset</div><ul id="wwl100678" class="UList"><li id="wwli100558" class="UList_Item" value="1"><div id="wwp100552" class="UList_Paragraph"><span class="Bold">Name</span></div></li><li id="wwli100570" class="UList_Item" value="2"><div id="wwp100564" class="UList_Paragraph"><span class="Bold">Source Description</span></div></li><li id="wwli100675" class="UList_Item" value="3"><div id="wwp100576" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100672" class="UList"><li id="wwli100588" class="UList_Item" value="1"><div id="wwp100582" class="UList_Paragraph">Project</div></li><li id="wwli100597" class="UList_Item" value="2"><div id="wwp100591" class="UList_Paragraph">Location</div></li><li id="wwli100606" class="UList_Item" value="3"><div id="wwp100600" class="UList_Paragraph">Dataset Format</div></li><li id="wwli100615" class="UList_Item" value="4"><div id="wwp100609" class="UList_Paragraph">Organization</div></li><li id="wwli100624" class="UList_Item" value="5"><div id="wwp100618" class="UList_Paragraph">Creation Date</div></li><li id="wwli100633" class="UList_Item" value="6"><div id="wwp100627" class="UList_Paragraph">Modification Date</div></li><li id="wwli100642" class="UList_Item" value="7"><div id="wwp100636" class="UList_Paragraph">From</div></li><li id="wwli100651" class="UList_Item" value="8"><div id="wwp100645" class="UList_Paragraph">Collections</div></li><li id="wwli100660" class="UList_Item" value="9"><div id="wwp100654" class="UList_Paragraph">Object Types</div></li><li id="wwli100669" class="UList_Item" value="10"><div id="wwp100663" class="UList_Paragraph">Marking</div></li></ul></li></ul><div id="wwp100681" class="Heading_3">Field</div><div id="wwp100687" class="Paragraph">Dataset field.</div><ul id="wwl100816" class="UList"><li id="wwli100702" class="UList_Item" value="1"><div id="wwp100696" class="UList_Paragraph"><span class="Bold">Name</span></div></li><li id="wwli100714" class="UList_Item" value="2"><div id="wwp100708" class="UList_Paragraph"><span class="Bold">Source Description</span></div></li><li id="wwli100726" class="UList_Item" value="3"><div id="wwp100720" class="UList_Paragraph"><span class="Bold">Type</span></div></li><li id="wwli100741" class="UList_Item" value="4"><div id="wwp100735" class="UList_Paragraph"><span class="Bold">Can be null</span>: Not supported. Default value <span class="Code">false</span>.</div></li><li id="wwli100756" class="UList_Item" value="5"><div id="wwp100750" class="UList_Paragraph"><span class="Bold">Multivalued</span>: Not supported. Default value <span class="Code">false</span>.</div></li><li id="wwli100771" class="UList_Item" value="6"><div id="wwp100765" class="UList_Paragraph"><span class="Bold">Primary key</span>: Not supported. Default value <span class="Code">false</span>.</div></li><li id="wwli100813" class="UList_Item" value="7"><div id="wwp100777" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100810" class="UList"><li id="wwli100789" class="UList_Item" value="1"><div id="wwp100783" class="UList_Paragraph">Technical Name</div></li><li id="wwli100798" class="UList_Item" value="2"><div id="wwp100792" class="UList_Paragraph">Native type: field native type</div></li><li id="wwli100807" class="UList_Item" value="3"><div id="wwp100801" class="UList_Paragraph">Object Types</div></li></ul></li></ul><div id="wwp100819" class="Heading_2">Object Identification Keys</div><div id="wwp100825" class="Paragraph">An identification key is associated with each object in the catalog. In the case of the object being created by a connector, the connector builds it.</div><div id="wwp100831" class="Paragraph">More information about unique identification keys in this documentation: Identification Keys.</div><div id="wwp100837" class="HTML"> <table>
+   <tr><th>Object</th><th>Identification Key</th><th>Description</th></tr>
+   <tr>
+     <td>Dataset</td>
+     <td>code/ri.foundry.main.dataset.rid   </td>
+     <td>
+       <ul>
+         <li>**code**: Unique identifier of the connection noted in the configuration file</li>
+         <li>**rid**: Palantir Foundry dataset technical identifier</li>
+       </ul>
+     </td>
+   </tr>
+   <tr>
+     <td>Field</td>
+     <td>code/ri.foundry.main.dataset.rid/field name</td>
+     <td>
+       <ul>
+         <li>**code**:  Unique identifier of the connection noted in the configuration file</li>
+         <li>**rid**: Palantir Foundry dataset technical identifier</li>
+         <li>**field name**</li>
+       </ul>
+     </td>
+   </tr>
+ </table></div></div><div id="page_dates"><div class="ww_skin_document_last_modified_date">Last modified date: 03/19/2025</div></div><!-- Related Topics --><!--                --><footer><!-- Disqus --><!--        --><!-- Google Translation --><!--                    --><br /></footer></div></div><input type="hidden" id="preserve_unknown_file_links" value="false"></input><noscript><div id="noscript_warning">This site works best with JavaScript enabled</div></noscript><script type="text/javascript" src="../scripts/common.js"></script><script type="text/javascript" src="../scripts/page.js"></script></body></html>

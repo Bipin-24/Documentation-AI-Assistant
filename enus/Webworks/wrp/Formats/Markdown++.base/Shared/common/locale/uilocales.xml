@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Locales version="1.0" xmlns="urn:WebWorks-Locale-Schema">
+ <Locale name="en" culture="en" lcid="0x0409" codepage="1252">
+  <Strings>
+   <String name="MapTOCStyles" value="Please map TOC styles!" />
+   <String name="UnresolvedLinkToAnchorInsideDocument" value="Unresolved link to target '{0}' in document '{1}'." />
+   <String name="UnresolvedLinkToAnchorInTargetDocument" value="Unresolved link from document '{0}' to target '{1}' in document '{2}'." />
+   <String name="UnresolvedLinkToTargetDocument" value="Unresolved link from document '{0}' to document '{1}'." />
+   <String name="UnresolvedLinkToMissingTarget" value="Unresolved link from document '{0}' to missing file '{1}'." />
+   <String name="GroupToGroupLinkingNotSupported" value="Unresolved link from document '{0}' to document '{1}'. Output format does not support group to group linking." />
+   <String name="BaggageFilesNotSupported" value="Unresolved link from document '{0}' to file '{1}'. Output format does not support baggage files." />
+   <String name="BaggageFile" value="File '{0}' has been processed as a baggage file." />
+   <String name="ReportSummary" value="Report '{0}' for group '{1}' contains {2} errors and {3} warnings." />
+   <String name="StylesReportTitle" value="Styles Report" />
+   <String name="StyleType-Paragraph" value="Paragraph" />
+   <String name="StyleType-Character" value="Character" />
+   <String name="StyleType-Table" value="Table" />
+   <String name="StyleType-Graphic" value="Graphic" />
+   <String name="StyleType-Marker" value="Marker" />
+   <String name="PrintableReportDisplayNameFormat" value="{0} (Printable)" />
+   <String name="XMLReportDisplayNameFormat" value="{0} (XML)" />
+   <String name="NonStandardStyleInUse" value="Encountered {1} style name '{0}' in your source file that is not defined in ePublisher." />
+   <String name="StyleOverridesExist" value="Encountered text with {1} style name '{0}' that has modified style properties in your source file." />
+   <String name="UnnamedStyleOverridesExist" value="Encountered style properties not associated with a named style in your source file." />
+   <String name="LinksReportTitle" value="Links Report" />
+   <String name="ExternalURL" value="External URL link '{0}'." />
+   <String name="UnsupportedExternalURL" value="External URL link '{0}' is not supported." />
+   <String name="AccessibilityReportTitle" value="Accessibility Report" />
+   <String name="AccessibilityMissingTableSummary" value="Table is missing a table summary." />
+   <String name="AccessibilityMissingImageLinkAltText" value="Image link '{0}' is missing alternate text." />
+   <String name="AccessibilityMissingImageAltText" value="Image is missing alternate text." />
+   <String name="AccessibilityMissingImageLongDescription" value="Image is missing a long description." />
+   <String name="FilenamesReportTitle" value="Filenames Report" />
+   <String name="FilenamesUsed" value="Filename marker '{0}' has been used for generated file '{1}'." />
+   <String name="FilenamesIgnored" value="Filename marker '{0}' has been ignored." />
+   <String name="FilenamesRenamed" value="Filename marker '{0}' has been processed as '{1}' for generated file '{2}'." />
+   <String name="LogDownloading" value="Starting to download: {0}" />
+   <String name="LogUnusedBaggageFile" value="Unused entry: '{0}' in baggage file list '{1}'." />
+   <String name="LogUnableToProcessFile" value="Invalid HTML encountered on '{0}'. Unable to index it. See errors below:&#13;{1}" />
+   <String name="LogBaggageFilesNoTitle" value="Title missing for '{0}'; using '{1}'." />
+   <String name="LogBaggageFilesNoSummary" value="Summary missing for '{0}'; using '{1}'." />
+   <String name="LogBaggageFilesNoSummaryNoParagraph" value="Unable to create summary from content." />
+   <String name="LogMissingBaggageFilesInBaggageList" value="Invalid file path '{0}' in baggage file list '{1}'." />
+   <String name="LogMissingURLBaggageFilesInBaggageList" value="Invalid external link '{0}' in baggage file list '{1}'." />
+   <String name="ReportBaggageFilesNoTitle" value="Title missing for '{0}'." />
+   <String name="ReportBaggageFilesNoSummary" value="Summary missing for '{0}'." />
+   <String name="BaggageFilesReportTitle" value="Baggage Files Report" />
+   <String name="ImagesReportTitle" value="Images Report" />
+   <String name="ImagesByRefSourceMissing" value="Missing source path '{0}' for by-reference image.  Image rendered as generated file '{1}'." />
+   <String name="ImagesInTableCell" value="Image '{0}' occurs inside a table and may not render properly in some eBook readers." />
+   <String name="TopicsReportTitle" value="Topics Report" />
+   <String name="TopicsLink" value="Topic '{0}' resolves to the file '{1}'." />
+   <String name="TopicsDuplicate" value="Topic '{0}' duplicated in file '{1}'." />
+   <String name="ConditionsReportTitle" value="Conditions Report" />
+   <String name="UnknownConditionInUse" value="Unknown condition '{0}' in use." />
+   <String name="DLinkDescription" value="Description link for '{0}'." />
+   <String name="ViewEclipseHelp" value="View Eclipse Help" />
+   <String name="ViewOutput" value="View Output" />
+   <String name="MediaWikiIgnoringSVGWarning" value="Ignoring file '{0}'.  MediaWiki does not support deployment of SVG files." />
+   <String name="ePubAuthorNameWarning" value="Author name not specified.  Using placeholder value.  Assign correct author name in the Target Settings dialog." />
+   <String name="ePubCoverImageNot3x4" value="Cover image '{0}' may not display properly.  Recommended cover image width/height ratio is 3x4.  Specified image width/height ratio is {1}x4." />
+   <String name="ePubCoverImageNot600x800" value="Cover image '{0}' may not display properly.  Recommended cover image dimensions are 600x800.  Specified image dimensions are {1}x{2}." />
+   <String name="ePubCoverImageMediaTypeWarning" value="Cover image '{0}' may not display properly.  Recommended cover image media types are 'image/jpeg' and 'image/png'.  Specified image media type is '{1}'." />
+   <String name="ePubDefaultBookIDWarning" value="Permanent book ID not specified.  Using '{0}' for group '{1}'.  Assign a permanent book ID in the Group context field of the Merge Settings dialog." />
+   <String name="ReportsSource" value="Source" />
+   <String name="ReportsOutput" value="Output" />
+   <String name="ReportsSeverity" value="Severity" />
+   <String name="ReportsDocument" value="Document" />
+   <String name="ReportsDescription" value="Description" />
+   <String name="ReportsLinks" value="Links" />
+  </Strings>
+ </Locale>
+ <Locale name="de" culture="de" lcid="0x0407" codepage="1252">
+  <Strings>
+   <String name="MapTOCStyles" value="Bitte ordnen Sie Inhaltsverzeichnisstile zu!" />
+   <String name="UnresolvedLinkToAnchorInsideDocument" value="Ungel&#246;ster Link zu Ziel '{0}' in Dokument '{1}'." />
+   <String name="UnresolvedLinkToAnchorInTargetDocument" value="Ungel&#246;ster Link von Dokument '{0}' zu Ziel '{1}' in Dokument '{2}'." />
+   <String name="UnresolvedLinkToTargetDocument" value="Ungel&#246;ster Link von Dokument &apos;{0}&apos; zu Dokument &apos;{1}&apos;." />
+   <String name="UnresolvedLinkToMissingTarget" value="Ungel&#246;ster Link von Dokument &apos;{0}&apos; fehlender Datei &apos;{1}&apos;." />
+   <String name="GroupToGroupLinkingNotSupported" value="Ungel&#246;ster Link von Dokument '{0}' zu Dokument '{1}'. Ausgabeformat unterst&#252;tzt kein Gruppe-zu-Gruppe-Linking." />
+   <String name="BaggageFilesNotSupported" value="Ungel&#246;ster Link von Dokument &apos;{0}&apos; zu Dokument &apos;{1}&apos;. Ausgabeformat unterst&#252;tzt keine Baggage-Files." />
+   <String name="BaggageFile" value="Datei '{0}' wurde als eine Baggage-File bearbeitet." />
+   <String name="ReportSummary" value="Report '{0}' f&#252;r Gruppe '{1}' enth&#228;lt {2} Fehler und {3} Warnungen." />
+   <String name="StylesReportTitle" value="Stilreporte" />
+   <String name="StyleType-Paragraph" value="Paragraph" />
+   <String name="StyleType-Character" value="Zeichen" />
+   <String name="StyleType-Table" value="Tabelle" />
+   <String name="StyleType-Graphic" value="Graphik" />
+   <String name="StyleType-Marker" value="Markierungszeichen" />
+   <String name="NonStandardStyleInUse" value="In der Quelldatei, die nicht in ePublisher definiert ist, ist {1} der Stilname '{0}' aufgetreten." />
+   <String name="StyleOverridesExist" value="Text mit dem {1} Stilnamen '{0}', der die Stileigenschaften in der Quelldatei geändert hat." />
+   <String name="UnnamedStyleOverridesExist" value="Es sind Stileigenschaften aufgetreten, die keinem benannten Stil in Ihrer Quelldatei zugeordnet sind." />
+   <String name="LinksReportTitle" value="Verkn&#252;pft den Report" />
+   <String name="ExternalURL" value="Externer URL-Link '{0}'." />
+   <String name="UnsupportedExternalURL" value="Externer URL-Link '{0}' ist nicht unterst&#252;tzt." />
+   <String name="AccessibilityReportTitle" value="Eingabehilfenreport" />
+   <String name="AccessibilityMissingTableSummary" value="Der Tabelle fehlt eine Tabellenzusammenfassung." />
+   <String name="AccessibilityMissingImageLinkAltText" value="Dem Image-Link '{0}' fehlt alternativer Text." />
+   <String name="AccessibilityMissingImageAltText" value="Dem mage fehlt alternativer Text." />
+   <String name="AccessibilityMissingImageLongDescription" value="Dem Image fehlt eine ausf&#252;hrliche Beschreibung." />
+   <String name="FilenamesReportTitle" value="Dateinamenreport" />
+   <String name="FilenamesUsed" value="Dateinamenmarkierungszeichen '{0}' wurde zur Erstellung von Datei '{1}' verwendet." />
+   <String name="FilenamesIgnored" value="Dateinamenmarkierungszeichen '{0}' wurde ignoriert." />
+   <String name="FilenamesRenamed" value="Dateinamenmarkierungszeichen '{0}' wurde als '{1}' f&#252;r die erstellte Datei '{2}' verarbeitet." />
+   <String name="LogDownloading" value="Zum Download: {0}" />
+   <String name="LogUnusedBaggageFile" value="Unbenutzten Eintrag: '{0}' in der Gepäck-Dateiliste '{1}'." />
+   <String name="LogUnableToProcessFile" value="Ungültiges HTML auf '{0}' angetroffen. Kann es nicht indizieren Siehe Fehler unten:&#13;{1}" />
+   <String name="LogBaggageFilesNoTitle" value="Titel fehlt für '{0}'; Mit '{1}' verwenden." />
+   <String name="LogBaggageFilesNoSummary" value="Zusammenfassung fehlt für '{0}'; Mit '{1}' verwenden." />
+   <String name="LogBaggageFilesNoSummaryNoParagraph" value="Kann keine Zusammenfassung aus dem Inhalt erstellen." />
+   <String name="LogMissingBaggageFilesInBaggageList" value="Ungültiger Dateipfad '{0}' in der Gepäckdatei '{1}'." />
+   <String name="LogMissingURLBaggageFilesInBaggageList" value="Ungültiger externer Link '{0}' in der Gepäck-Dateiliste '{1}'." />
+   <String name="ReportBaggageFilesNoTitle" value="Titel fehlt für '{0}'." />
+   <String name="ReportBaggageFilesNoSummary" value="Zusammenfassung fehlt für '{0}'." />
+   <String name="BaggageFilesReportTitle" value="Gepäckdateien Bericht" />
+   <String name="ImagesReportTitle" value="Bilder-Bericht" />
+   <String name="ImagesByRefSourceMissing" value="Fehlende Quellpfad '{0}' für by-reference Bild. Image als generierte Datei gerendert '{1}'." />
+   <String name="ImagesInTableCell" value="Image '{0}' kommt in einer Tabelle und kann nicht richtig machen in einigen eBook-Readern." />
+   <String name="TopicsReportTitle" value="Themenreport" />
+   <String name="TopicsLink" value="Thema '{0}' wird zu Datei '{1}' aufgel&#246;st." />
+   <String name="TopicsDuplicate" value="Topic '{0}' löst in der Datei '{1}'." />
+   <String name="ConditionsReportTitle" value="Bedingungen Bericht" />
+   <String name="UnknownConditionInUse" value="Unbekannter Zustand {0} im Gebrauch." />
+   <String name="ViewEclipseHelp" value="Ansicht Eclipse-Hilfe" />
+   <String name="ViewOutput" value="Preview-Ausgang" />
+   <String name="MediaWikiIgnoringSVGWarning" value="Ignorieren Datei '(0)'. MediaWiki nicht unterstützt den Einsatz von SVG-Dateien." />
+   <String name="ePubAuthorNameWarning" value="Autor Namen nicht angegeben. Mit Platzhalter Wert. Weisen Sie richtige Name des Autors in der Target-Einstellungen-Dialog." />
+   <String name="ePubCoverImageNot3x4" value="Cover Bild '{0}' kann nicht richtig angezeigt. Empfohlen Titelbild Breite / Höhe-Verhältnis ist 3x4. Angegebene Bild Breite / Höhe-Verhältnis ist {1}x4." />
+   <String name="ePubCoverImageNot600x800" value="Cover Bild '{0}' kann nicht richtig angezeigt. Empfohlen Titelbild Abmessungen sind 600x800. Angegebene Bild Dimensionen sind {1}x{2}." />
+   <String name="ePubCoverImageMediaTypeWarning" value="Cover Bild '{0}' kann nicht richtig angezeigt. Empfohlen Titelbild Medien-Typen sind 'image/jpeg' und 'image/png'. Festgelegte Bildmedien Typ {1}." />
+   <String name="ePubDefaultBookIDWarning" value="Permanent Buch-ID nicht angegeben. Mit '{0}' für Gruppe '{1}'. Vergeben Sie einen Dauer Buch ID im Rahmen des Dialogfeld Zusammenführungseinstellungen Group." />
+   <String name="ReportsSource" value="Quelle" />
+   <String name="ReportsOutput" value="Ausgabe" />
+   <String name="ReportsSeverity" value="Schwere" />
+   <String name="ReportsDocument" value="Dokument" />
+   <String name="ReportsDescription" value="Beschreibung" />
+   <String name="ReportsLinks" value="Links" />
+  </Strings>
+ </Locale>
+ <Locale name="fr" culture="fr" lcid="0x040C" codepage="1252">
+  <Strings>
+   <String name="MapTOCStyles" value="Veuillez mapper les styles de table des mati&#232;res !" />
+   <String name="UnresolvedLinkToAnchorInsideDocument" value="Lien non r&#233;solu vers la cible '{0}' dans le document '{1}'." />
+   <String name="UnresolvedLinkToAnchorInTargetDocument" value="Lien non r&#233;solu du document '{0}' vers la cible '{1}' dans le document '{2}'." />
+   <String name="UnresolvedLinkToTargetDocument" value="Lien non r&#233;solu vers le document &apos;{0}&apos; dans le document &apos;{1}&apos;." />
+   <String name="UnresolvedLinkToMissingTarget" value="Lien non r&#233;solu vers le document &apos;{0}&apos; dans le fichier manquant &apos;{1}&apos;." />
+   <String name="GroupToGroupLinkingNotSupported" value="Lien non r&#233;solu du document '{0}' vers le document '{1}'. Le format de sortie ne prend pas en charge la liaison groupe &#224; groupe." />
+   <String name="BaggageFilesNotSupported" value="Lien non r&#233;solu du document &apos;{0}&apos; vers le fichier &apos;{1}&apos;. Le format de sortie ne prend pas en charge les fichiers d&apos;&#233;quipement." />
+   <String name="BaggageFile" value="Le fichier '{0}' a &#233;t&#233; trait&#233; comme un fichier d&apos;&#233;quipement ." />
+   <String name="ReportSummary" value="L&apos;&#233;tat '{0}' du groupe '{1}' contient {2} erreurs et {3} avertissements." />
+   <String name="StylesReportTitle" value="Rapport des styles" />
+   <String name="StyleType-Paragraph" value="Paragraphe" />
+   <String name="StyleType-Character" value="Caract&#232;res" />
+   <String name="StyleType-Table" value="Table" />
+   <String name="StyleType-Graphic" value="Graphique" />
+   <String name="StyleType-Marker" value="Marqueur" />
+   <String name="NonStandardStyleInUse" value="Le nom {1} du style {0} a été rencontré dans votre fichier source qui n'est pas défini dans ePublisher." />
+   <String name="StyleOverridesExist" value="Texte rencontré avec le nom de style {1} '{0}' qui a modifié les propriétés de style dans votre fichier source." />
+   <String name="UnnamedStyleOverridesExist" value="Propriétés de style rencontrées non associées à un style nommé dans votre fichier source." />
+   <String name="LinksReportTitle" value="Rapport des liens" />
+   <String name="ExternalURL" value="Lien URL externe '{0}'." />
+   <String name="UnsupportedExternalURL" value="Le lien URL externe '{0}' n&apos;est pas pris en charge." />
+   <String name="AccessibilityReportTitle" value="Accessibilit&#233; du rapport" />
+   <String name="AccessibilityMissingTableSummary" value="La table ne comporte pas de sommaire." />
+   <String name="AccessibilityMissingImageLinkAltText" value="Le lien de l&apos;image &apos;{0}&apos; ne comporte pas de texte de remplacement." />
+   <String name="AccessibilityMissingImageAltText" value="L&apos;image ne comporte pas de texte de remplacement." />
+   <String name="AccessibilityMissingImageLongDescription" value="L&apos;image ne comporte pas de description d&#233;taill&#233;e." />
+   <String name="FilenamesReportTitle" value="Rapport des noms de fichiers" />
+   <String name="FilenamesUsed" value="Le marqueur de nom de fichier &apos;{0}&apos; a &#233;t&#233; utilis&#233; pour le fichier '{1}' cr&#233;&#233;." />
+   <String name="FilenamesIgnored" value="Le marqueur de nom de fichier '{0}' a &#233;t&#233; ignor&#233;." />
+   <String name="FilenamesRenamed" value="Le marqueur de nom de fichier '{0}' a &#233;t&#233; trait&#233; comme '{1}' pour le fichier '{2} cr&#233;&#233;'." />
+   <String name="LogDownloading" value="Commencer à télécharger: {0}" />
+   <String name="LogUnusedBaggageFile" value="Entrée inutilisée: '{0}' dans la liste des fichiers de bagages '{1}'." />
+   <String name="LogUnableToProcessFile" value="HTML non valide sur '{0}'. Impossible de l'indexer. Voir les erreurs ci-dessous:&#13;{1}" />
+   <String name="LogBaggageFilesNoTitle" value="Titre manquant pour '{0}'; En utilisant '{1}'." />
+   <String name="LogBaggageFilesNoSummary" value="Résumé manquant pour '{0}'; En utilisant '{1}'." />
+   <String name="LogBaggageFilesNoSummaryNoParagraph" value="Impossible de créer un résumé à partir du contenu." />
+   <String name="LogMissingBaggageFilesInBaggageList" value="Chemin de fichier invalide '{0}' dans la liste de fichiers de bagages '{1}'." />
+   <String name="LogMissingURLBaggageFilesInBaggageList" value="Lien externe non valide '{0}' dans la liste des fichiers de bagages '{1}'." />
+   <String name="ReportBaggageFilesNoTitle" value="Titre manquant pour '{0}'." />
+   <String name="ReportBaggageFilesNoSummary" value="Résumé manquant pour '{0}'." />
+   <String name="BaggageFilesReportTitle" value="Rapport sur les bagages" />
+   <String name="ImagesReportTitle" value="Fichiers Rapport" />
+   <String name="ImagesByRefSourceMissing" value="Chemin d'accès source manquant '{0}' 'pour l'image par référence. Image rendus sous forme de fichier généré '{1}'." />
+   <String name="ImagesInTableCell" value="Image '{0}' se produit dans un tableau et peuvent ne pas s'afficher correctement dans certains lecteurs de livres électroniques." />
+   <String name="TopicsReportTitle" value="Rapport des th&#232;mes" />
+   <String name="TopicsLink" value="Le th&#232;me '{0}' correspond au fichier  '{1}'." />
+   <String name="TopicsDuplicate" value="Sujet '{0}' correspond au fichier '{1}'." />
+   <String name="ConditionsReportTitle" value="Rapport sur les Conditions" />
+   <String name="UnknownConditionInUse" value="Condition inconnue {0} utilisée." />
+   <String name="ViewEclipseHelp" value="Voir Aide Eclipse" />
+   <String name="ViewOutput" value="Aperçu de la Sortie" />
+   <String name="MediaWikiIgnoringSVGWarning" value="Ignorer le fichier '(0)'. MediaWiki ne prend pas en charge le déploiement de fichiers SVG." />
+   <String name="ePubAuthorNameWarning" value="Nom de l'auteur n'est pas spécifié. Utilisation de la valeur d'espace réservé. Attribuer le nom auteur correct dans la boîte de dialogue Paramètres de la cible." />
+   <String name="ePubCoverImageNot3x4" value="Cover image '{0}' peut ne pas s'afficher correctement. Recommandé couvrir largeur de l'image / taille est 3x4. ratio largeur de l'image indiquée hauteur / est {1}x4." />
+   <String name="ePubCoverImageNot600x800" value="Cover image '{0}' peut ne pas s'afficher correctement. Recommandé couvrir dimensions de l'image sont 600x800. dimensions de l'image indiquée sont {1}x{2}." />
+   <String name="ePubCoverImageMediaTypeWarning" value="Cover image '{0}' peut ne pas s'afficher correctement. Recommandé couvrir les médias de l'image sont les types 'image/jpeg' et 'image/png'. image spécifié le type de support est '{1}'." />
+   <String name="ePubDefaultBookIDWarning" value="Permanent ID de livre pas spécifié. L'utilisation de '{0}' pour le groupe '{1}'. Affecter un ID de livre permanente dans le domaine de contexte Groupe de la boîte de dialogue Paramètres de fusion." />
+   <String name="ReportsSource" value="Source" />
+   <String name="ReportsOutput" value="Sortie" />
+   <String name="ReportsSeverity" value="Gravité" />
+   <String name="ReportsDocument" value="Document" />
+   <String name="ReportsDescription" value="Description" />
+   <String name="ReportsLinks" value="Des liens" />
+  </Strings>
+ </Locale>
+ <Locale name="ja" culture="ja" lcid="0x0411" codepage="932">
+  <Strings>
+   <String name="MapTOCStyles" value="&#30446;&#27425;&#12473;&#12479;&#12452;&#12523;&#12434;&#12510;&#12483;&#12503;&#12375;&#12390;&#12367;&#12384;&#12373;&#12356;&#65281;" />
+   <String name="UnresolvedLinkToAnchorInsideDocument" value="&#25991;&#26360; '{1}' &#12398; &#12479;&#12540;&#12466;&#12483;&#12488; '{0}' &#12408;&#12398;&#26410;&#35299;&#27770;&#12522;&#12531;&#12463;" />
+   <String name="UnresolvedLinkToAnchorInTargetDocument" value="&#25991;&#26360; '{0}' &#12363;&#12425; &#25991;&#26360; '{2}' &#12398;&#12479;&#12540;&#12466;&#12483;&#12488; '{1}' &#12408;&#12398;&#26410;&#35299;&#27770;&#12522;&#12531;&#12463;" />
+   <String name="UnresolvedLinkToTargetDocument" value="&#25991;&#26360; '{0}' &#12363;&#12425;&#25991;&#26360; '{1}' &#12408;&#12398;&#26410;&#35299;&#27770;&#12522;&#12531;&#12463;" />
+   <String name="UnresolvedLinkToMissingTarget" value="&#25991;&#26360; '{0}' &#12363;&#12425;&#32027;&#22833;&#12501;&#12449;&#12452;&#12523; '{1} &#12408;&#12398;&#26410;&#35299;&#27770;&#12522;&#12531;&#12463;" />
+   <String name="GroupToGroupLinkingNotSupported" value="&#25991;&#26360; '{0}' &#12363;&#12425;&#25991;&#26360; '{1}' &#12408;&#12398;&#26410;&#35299;&#27770;&#12522;&#12531;&#12463;&#12290;&#20986;&#21147;&#12501;&#12457;&#12540;&#12510;&#12483;&#12488;&#12364;&#12464;&#12523;&#12540;&#12503;&#38291;&#12398;&#12522;&#12531;&#12463;&#12434;&#12469;&#12509;&#12540;&#12488;&#12375;&#12390;&#12356;&#12414;&#12379;&#12435;&#12290;" />
+   <String name="BaggageFilesNotSupported" value="&#25991;&#26360; '{0}' &#12363;&#12425;&#12501;&#12449;&#12452;&#12523; '{1}' &#12408;&#12398;&#26410;&#35299;&#27770;&#12522;&#12531;&#12463;&#12290;&#20986;&#21147;&#12501;&#12457;&#12540;&#12510;&#12483;&#12488;&#12364;&#12496;&#12466;&#12540;&#12472; &#12501;&#12449;&#12452;&#12523;&#12434;&#12469;&#12509;&#12540;&#12488;&#12375;&#12390;&#12356;&#12414;&#12379;&#12435;&#12290;" />
+   <String name="BaggageFile" value="&#12501;&#12449;&#12452;&#12523; '{0}' &#12399;&#12289;&#12496;&#12466;&#12540;&#12472; &#12501;&#12449;&#12452;&#12523;&#12392;&#12375;&#12390;&#20966;&#29702;&#12373;&#12428;&#12414;&#12375;&#12383;&#12290;" />
+   <String name="ReportSummary" value="&#12464;&#12523;&#12540;&#12503; '{1}' &#12398;&#12524;&#12509;&#12540;&#12488; '{0}' &#12395;&#12399;&#12289;&#12456;&#12521;&#12540; {2} &#20491;&#12392;&#35686;&#21578; {3} &#20491;&#12364;&#21547;&#12414;&#12428;&#12390;&#12356;&#12414;&#12377;&#12290;" />
+   <String name="StylesReportTitle" value="&#12473;&#12479;&#12452;&#12523; &#12524;&#12509;&#12540;&#12488;" />
+   <String name="StyleType-Paragraph" value="&#27573;&#33853;" />
+   <String name="StyleType-Character" value="&#25991;&#23383; " />
+   <String name="StyleType-Table" value="&#12486;&#12540;&#12502;&#12523;" />
+   <String name="StyleType-Graphic" value="&#12464;&#12521;&#12501;&#12451;&#12483;&#12463;" />
+   <String name="StyleType-Marker" value="&#12510;&#12540;&#12459;&#12540;" />
+   <String name="NonStandardStyleInUse" value="ePublisherで定義されていないソースファイル内の{1}スタイル名「{0}」が見つかりました。" />
+   <String name="StyleOverridesExist" value="ソースファイルのスタイルプロパティが変更された{1}スタイル名{0}のテキストが検出されました。" />
+   <String name="UnnamedStyleOverridesExist" value="ソースファイルの名前付きスタイルに関連付けられていないスタイルプロパティが検出されました。" />
+   <String name="LinksReportTitle" value="&#12522;&#12531;&#12463; &#12524;&#12509;&#12540;&#12488;" />
+   <String name="ExternalURL" value="&#22806;&#37096; URL &#12522;&#12531;&#12463; '{0}'&#12290;" />
+   <String name="UnsupportedExternalURL" value="&#22806;&#37096; URL &#12522;&#12531;&#12463; '{0}' &#12399;&#12469;&#12509;&#12540;&#12488;&#12373;&#12428;&#12390;&#12356;&#12414;&#12379;&#12435;&#12290;" />
+   <String name="AccessibilityReportTitle" value="&#12450;&#12463;&#12475;&#12471;&#12499;&#12522;&#12486;&#12451; &#12524;&#12509;&#12540;&#12488;" />
+   <String name="AccessibilityMissingTableSummary" value="&#12486;&#12540;&#12502;&#12523;&#12395;&#12486;&#12540;&#12502;&#12523; &#12469;&#12510;&#12522;&#12364;&#12354;&#12426;&#12414;&#12379;&#12435;&#12290;" />
+   <String name="AccessibilityMissingImageLinkAltText" value="&#30011;&#20687;&#12522;&#12531;&#12463; '{0}' &#12395;&#20195;&#26367;&#12486;&#12461;&#12473;&#12488;&#12364;&#12354;&#12426;&#12414;&#12379;&#12435;&#12290;" />
+   <String name="AccessibilityMissingImageAltText" value="&#30011;&#20687;&#12395;&#20195;&#26367;&#12486;&#12461;&#12473;&#12488;&#12364;&#12354;&#12426;&#12414;&#12379;&#12435;&#12290;" />
+   <String name="AccessibilityMissingImageLongDescription" value="&#30011;&#20687;&#12395;&#38263;&#12356;&#35500;&#26126;&#12364;&#12354;&#12426;&#12414;&#12379;&#12435;&#12290;" />
+   <String name="FilenamesReportTitle" value="&#12501;&#12449;&#12452;&#12523;&#21517;&#12524;&#12509;&#12540;&#12488;" />
+   <String name="FilenamesUsed" value="&#12501;&#12449;&#12452;&#12523;&#21517;&#12510;&#12540;&#12459;&#12540; '{0}' &#12399;&#12289;&#29983;&#25104;&#12373;&#12428;&#12383;&#12501;&#12449;&#12452;&#12523; '{1}' &#12395;&#20351;&#29992;&#12373;&#12428;&#12390;&#12356;&#12414;&#12377;&#12290;" />
+   <String name="FilenamesIgnored" value="&#12501;&#12449;&#12452;&#12523;&#21517;&#12510;&#12540;&#12459;&#12540; {0}' &#12399;&#28961;&#35222;&#12373;&#12428;&#12390;&#12356;&#12414;&#12377;&#12290;" />
+   <String name="FilenamesRenamed" value="&#12501;&#12449;&#12452;&#12523;&#21517;&#12510;&#12540;&#12459;&#12540; '{0}' &#12399;&#12289;&#29983;&#25104;&#12373;&#12428;&#12383;&#12501;&#12449;&#12452;&#12523; '{2} &#12398; '{1}' &#12392;&#12375;&#12390;&#20966;&#29702;&#12373;&#12428;&#12390;&#12356;&#12414;&#12377;&#12290;" />
+   <String name="LogDownloading" value="ダウンロードを開始する：{0}" />
+   <String name="LogUnusedBaggageFile" value="手荷物ファイルリスト '{1}'手荷物ファイル情報リストに未使用のエントリが含まれています： '{0}'。" />
+   <String name="LogUnableToProcessFile" value="'{0}'に無効なHTMLがあります。 インデックスに登録できません。 以下のエラーを参照してください：&#13;{1}" />
+   <String name="LogBaggageFilesNoTitle" value="'{0}'のタイトルがありません。 '{1}'を使用しています。" />
+   <String name="LogBaggageFilesNoSummary" value="'{0}'のサマリーがありません。 '{1}'を使用しています。" />
+   <String name="LogBaggageFilesNoSummaryNoParagraph" value="コンテンツから要約を作成できません。" />
+   <String name="LogMissingBaggageFilesInBaggageList" value="手荷物ファイルリスト '{1}'のファイルパス '{0}'が無効です。" />
+   <String name="LogMissingURLBaggageFilesInBaggageList" value="手荷物ファイルリスト '{1}'に無効な外部リンク '{0}'があります。" />
+   <String name="ReportBaggageFilesNoTitle" value="'{0}'のタイトルがありません。" />
+   <String name="ReportBaggageFilesNoSummary" value="'{0}'のサマリーがありません。" />
+   <String name="BaggageFilesReportTitle" value="手荷物ファイルレポート" />
+   <String name="ImagesReportTitle" value="画像レポート" />
+   <String name="ImagesByRefSourceMissing" value="参照によるイメージの不足している元のパス'{0}'。画像は'{1}'生成されたファイルとして表示されます。" />
+   <String name="ImagesInTableCell" value="画像は'{0}'、テーブルの内部で発生するいくつかの電子ブックリーダーで正しくレンダリングされない場合があります。" />
+   <String name="TopicsReportTitle" value="&#12488;&#12500;&#12483;&#12463; &#12524;&#12509;&#12540;&#12488;" />
+   <String name="TopicsLink" value="&#12488;&#12500;&#12483;&#12463; '{0}' &#12399;&#12289;&#12501;&#12449;&#12452;&#12523; '{1}' &#12395;&#20998;&#35299;&#12373;&#12428;&#12414;&#12377;&#12290;" />
+   <String name="TopicsDuplicate" value="トピック'{0}'がファイル'{1}'に解決されます。" />
+   <String name="ConditionsReportTitle" value="条件レポート" />
+   <String name="UnknownConditionInUse" value="不明な状態'{0}'が使用中です。" />
+   <String name="ViewEclipseHelp" value="&#x12499;&#12517;&#12540; Eclipse&#12398;&#12504;&#12523;&#12503;" />
+   <String name="ViewOutput" value="プレビュー出力" />
+   <String name="MediaWikiIgnoringSVGWarning" value="&#12501;&#12449;&#12452;&#12523;&#12434;&#28961;&#35222;&#12290; '{0}'.  MediaWiki&#12398;&#12501;&#12449;&#12452;&#12523;&#12399;SVG&#12398;&#37197;&#20633;&#12434;&#12469;&#12509;&#12540;&#12488;&#12375;&#12390;&#12356;&#12414;&#12379;&#12435;&#12290;" />
+   <String name="ePubAuthorNameWarning" value="著者名が指定されていません。プレースホルダの値を使用します。ターゲット設定]ダイアログボックスで割り当て正しい著者名。" />
+   <String name="ePubCoverImageNot3x4" value="カバーイメージ'{0}'が正しく表示されない場合があります。おすすめは、/高さの比率画像の幅をカバー× 4です。特定の画像の幅/高さの比率は、{1}×4。" />
+   <String name="ePubCoverImageNot600x800" value="カバー画像は'{0}'が正しく表示されない場合があります。おすすめは、イメージのサイズをカバーは600x800です。特定の画像のサイズは{1}×{2}です。" />
+   <String name="ePubCoverImageMediaTypeWarning" value="カバーイメージ'{0}'が正しく表示されない場合があります。おすすめのイメージ/'jpegのと'イメージ/ PNG形式'はイメージのメディアタイプをカバーします。特定のイメージのメディアタイプは'{1}'です。" />
+   <String name="ePubDefaultBookIDWarning" value="永久書籍IDが指定されていません。グループに対して'{0}'を使用して'{1}'。マージの設定]ダイアログボックスの[グループコンテキストフィールドに恒久的な書籍IDを割り当てます。" />
+   <String name="ReportsSource" value="ソース" />
+   <String name="ReportsOutput" value="出力" />
+   <String name="ReportsSeverity" value="重大度" />
+   <String name="ReportsDocument" value="資料" />
+   <String name="ReportsDescription" value="説明" />
+   <String name="ReportsLinks" value="リンク" />
+  </Strings>
+ </Locale>
+</Locales>

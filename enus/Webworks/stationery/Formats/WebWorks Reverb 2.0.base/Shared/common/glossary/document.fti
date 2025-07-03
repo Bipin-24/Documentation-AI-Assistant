@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="glossary-behavior">
+   <Item value="none" />
+   <Item value="glossary-term" />
+   <Item value="glossary-term-no-output" />
+   <Item value="glossary-definition" />
+   <Item value="glossary-definition-no-output" />
+  </Class>
+ </Classes>
+
+ <Groups />
+
+ <Settings />
+
+ <RuleTraitsSet>
+  <RuleTraits category="Paragraph">
+   <Options>
+    <Option name="glossary-behavior" group="options" default="none">
+     <OptionClass name="glossary-behavior" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+ </RuleTraitsSet>
+</FormatTraitInfo>

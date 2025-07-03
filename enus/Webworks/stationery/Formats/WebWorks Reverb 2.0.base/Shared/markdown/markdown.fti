@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="marker-type">
+   <Item value="abbreviation" stringid="abbreviation" />
+   <Item value="acronym" stringid="acronym" />
+   <Item value="citation" stringid="citation" />
+   <Item value="ignore" stringid="ignore" />
+   <Item value="filename" stringid="filename" />
+   <Item value="image-alt-text" stringid="image-alt-text" />
+   <Item value="image-area-alt-text" stringid="image-area-alt-text" />
+   <Item value="image-scale" />
+   <Item value="keywords" stringid="keywords" />
+   <Item value="description" stringid="description" />
+   <Item value="link-title" stringid="link-title" />
+   <Item value="pass-through" stringid="pass-through" />
+   <Item value="table-summary" stringid="table-summary" />
+   <Item value="table-summary-not-required" stringid="table-summary-not-required"/>
+   <Item value="topic" stringid="topic" />
+  </Class>
+
+  <Class name="block-syntax">
+   <Item value="title-1" />
+   <Item value="title-2" />
+   <Item value="heading-1" />
+   <Item value="heading-2" />
+   <Item value="heading-3" />
+   <Item value="heading-4" />
+   <Item value="heading-5" />
+   <Item value="heading-6" />
+   <Item value="unordered-list" />
+   <Item value="ordered-list" />
+   <Item value="blockquote" />
+   <Item value="code-fence" />
+  </Class>
+
+  <Class name="inline-syntax">
+   <Item value="bold" />
+   <Item value="italic" />
+   <Item value="strikethrough" />
+   <Item value="code" />
+  </Class>
+
+  <Class name="rendering-type">
+   <Item value="pipes-multiline" stringid="pipes-multiline" />
+   <Item value="pipes" stringid="pipes" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="markdown" />
+ </Groups>
+
+ <Settings />
+
+ <RuleTraitsSet>
+  <RuleTraits category="Paragraph">
+   <Options>
+    <Option name="use-numbering" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="use-character-styles" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="pass-through" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="markdown++-style-name" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="markdown++-markers" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="markdown++-anchor" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties>
+    <!-- markdown -->
+    <!--          -->
+    <Property name="syntax" group="markdown" default="auto-detect">
+     <PropertyClass name="auto-detect" />
+     <PropertyClass name="none" />
+     <PropertyClass name="block-syntax" />
+    </Property>
+    <Property name="indentation-level" group="markdown" default="none">
+     <PropertyClass name="none" />
+     <PropertyClass name="number" />
+    </Property>
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Character">
+   <Options>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="pass-through" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="markdown++-style-name" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties>
+    <!-- markdown -->
+    <!--          -->
+    <Property name="syntax" group="markdown" default="auto-detect">
+     <PropertyClass name="auto-detect" />
+     <PropertyClass name="none" />
+     <PropertyClass name="inline-syntax" />
+    </Property>
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Table">
+   <Options>
+    <Option name="additional-css-classes" group="options" default="">
+     <OptionClass name="string" />
+    </Option>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="split-priority" group="options" default="none">
+     <OptionClass name="none" />
+     <OptionClass name="number" />
+    </Option>
+    <Option name="table-rendering" group="options" default="pipes-multiline">
+     <OptionClass name="rendering-type" />
+    </Option>
+    <Option name="markdown++-style-name" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+  </RuleTraits>
+
+  <RuleTraits category="Page">
+   <Options>
+    <Option name="file-extension" group="options" default=".md">
+     <OptionClass name="file-extension" />
+    </Option>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+  </RuleTraits>
+
+  <RuleTraits category="Graphic">
+   <Options>
+    <Option name="markdown++-style-name" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+  </RuleTraits>
+
+  <RuleTraits category="Marker">
+   <Options>
+    <Option name="marker-type" group="options" default="ignore">
+     <OptionClass name="marker-type" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+ </RuleTraitsSet>
+</FormatTraitInfo>

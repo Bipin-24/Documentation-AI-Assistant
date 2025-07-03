@@ -1,0 +1,91 @@
+﻿Generation started at 11:30:30 AM, 2025-06-11.
+Running WebWorks ePublisher Designer version 2024.1.4577.0.
+Using base format version 2024.1.
+Pre-flighting pipeline stages.
+Pre-flighting pipeline stages.
+Document conversion in progress...
+Initializing file information
+Initializing file information
+Document conversion in progress...
+Updating documents.
+Updating documents.
+Applying settings to 'zeenea-intro.md', 1 of 4.
+Applying settings to 'zeenea-intro.md', 1 of 4.
+Updating documents.
+Preparing 'zeenea-intro.md', 1 of 4.
+Preparing 'zeenea-intro.md', 1 of 4.
+Updating documents.
+Applying settings to 'zeenea-data-explorer.md', 2 of 4.
+Applying settings to 'zeenea-data-explorer.md', 2 of 4.
+Updating documents.
+Preparing 'zeenea-data-explorer.md', 2 of 4.
+Preparing 'zeenea-data-explorer.md', 2 of 4.
+Updating documents.
+Applying settings to 'zeenea-data-steward.md', 3 of 4.
+Applying settings to 'zeenea-data-steward.md', 3 of 4.
+Updating documents.
+Preparing 'zeenea-data-steward.md', 3 of 4.
+Preparing 'zeenea-data-steward.md', 3 of 4.
+Updating documents.
+Applying settings to 'zeenea-superadmin.md', 4 of 4.
+Applying settings to 'zeenea-superadmin.md', 4 of 4.
+Updating documents.
+Preparing 'zeenea-superadmin.md', 4 of 4.
+Preparing 'zeenea-superadmin.md', 4 of 4.
+Updating documents.
+Document conversion in progress...
+Generating output
+Generating output
+Processing pipeline 'Locale', 1 of 33.
+Processing pipeline 'CompanyInfo', 2 of 33.
+Processing pipeline 'CSS', 3 of 33.
+Processing pipeline 'DocumentBehaviors', 4 of 33.
+Processing pipeline 'DocumentSplits', 5 of 33.
+Processing pipeline 'Behaviors', 6 of 33.
+Processing pipeline 'Baggage', 7 of 33.
+Processing pipeline 'ImageTypes', 8 of 33.
+Processing pipeline 'SASS', 9 of 33.
+Executing command 'C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\python.exe' with arguments ' "C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\WebWorks\compile_sass.py" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\Temp.13836\connect.scss" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\ePublisher\6kPXCl2G6AydRw\Data\UTti3rMGVbk\css\connect.css"'.
+Executing command 'C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\python.exe' with arguments ' "C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\WebWorks\compile_sass.py" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\Temp.13836\menu_initial_closed.scss" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\ePublisher\6kPXCl2G6AydRw\Data\UTti3rMGVbk\css\menu_initial_closed.css"'.
+Executing command 'C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\python.exe' with arguments ' "C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\WebWorks\compile_sass.py" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\Temp.13836\menu_initial_open.scss" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\ePublisher\6kPXCl2G6AydRw\Data\UTti3rMGVbk\css\menu_initial_open.css"'.
+Executing command 'C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\python.exe' with arguments ' "C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\WebWorks\compile_sass.py" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\Temp.13836\print.scss" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\ePublisher\6kPXCl2G6AydRw\Data\UTti3rMGVbk\css\print.css"'.
+Executing command 'C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\python.exe' with arguments ' "C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\WebWorks\compile_sass.py" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\Temp.13836\search.scss" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\ePublisher\6kPXCl2G6AydRw\Data\UTti3rMGVbk\css\search.css"'.
+Executing command 'C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\python.exe' with arguments ' "C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\WebWorks\compile_sass.py" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\Temp.13836\skin.scss" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\ePublisher\6kPXCl2G6AydRw\Data\UTti3rMGVbk\css\skin.css"'.
+Executing command 'C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\python.exe' with arguments ' "C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\WebWorks\compile_sass.py" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\Temp.13836\social.scss" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\ePublisher\6kPXCl2G6AydRw\Data\UTti3rMGVbk\css\social.css"'.
+Executing command 'C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\python.exe' with arguments ' "C:\Program Files\WebWorks\ePublisher\2024.1\Helpers\python\WebWorks\compile_sass.py" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\Temp.13836\webworks.scss" "C:\Users\bpandey\AppData\Local\Temp\WebWorks\ePublisher\6kPXCl2G6AydRw\Data\UTti3rMGVbk\css\webworks.css"'.
+Processing pipeline 'Splits', 10 of 33.
+Processing pipeline 'Copy', 11 of 33.
+Processing pipeline 'Segment', 12 of 33.
+Processing pipeline 'Links', 13 of 33.
+Processing pipeline 'Variables', 14 of 33.
+Processing pipeline 'Splash', 15 of 33.
+Processing pipeline 'NotFound', 16 of 33.
+Processing pipeline 'TOC', 17 of 33.
+Processing pipeline 'Index', 18 of 33.
+Processing pipeline 'Styles', 19 of 33.
+Processing pipeline 'Image', 20 of 33.
+Processing pipeline 'PDF', 21 of 33.
+Processing pipeline 'Page', 22 of 33.
+Processing pipeline 'Connect', 23 of 33.
+Processing pipeline 'Search', 24 of 33.
+Processing pipeline 'URL-Maps', 25 of 33.
+Processing pipeline 'Report-Styles', 26 of 33.
+Report 'Report-Styles' for group 'Zeenea' contains 0 errors and 0 warnings.
+Processing pipeline 'Report-Links', 27 of 33.
+[WARN] Report 'Report-Links' for group 'Zeenea' contains 0 errors and 12 warnings.
+Processing pipeline 'Report-Accessibility', 28 of 33.
+Processing pipeline 'Report-Filenames', 29 of 33.
+Report 'Report-Filenames' for group 'Zeenea' contains 0 errors and 0 warnings.
+Processing pipeline 'Report-Topics', 30 of 33.
+Report 'Report-Topics' for group 'Zeenea' contains 0 errors and 0 warnings.
+Processing pipeline 'Report-Images', 31 of 33.
+Report 'Report-Images' for group 'Zeenea' contains 0 errors and 0 warnings.
+Processing pipeline 'Report-Conditions', 32 of 33.
+Processing pipeline 'Report-Baggage-Files', 33 of 33.
+Report 'Report-Baggage-Files' for group 'Zeenea' contains 0 errors and 0 warnings.
+Document conversion in progress...
+Generating output
+Generating output
+Document conversion in progress...
+Generation finished at 11:31:15 AM, 2025-06-11.
+Total time: 00:00:44.

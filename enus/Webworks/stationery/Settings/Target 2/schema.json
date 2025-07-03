@@ -1,0 +1,970 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "reverb_2.0_page": {
+            "title": "Page",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "splash_page_style": {
+                    "type": "string",
+                    "title": "Splash Page Style"
+                },
+                "document_last_modified_date": {
+                    "type": "boolean",
+                    "title": "Document last modified date"
+                },
+                "page_dropdown_toggle": {
+                    "type": "boolean",
+                    "title": "Dropdown expand/collapse toggle button"
+                },
+                "reverb_2.0_page_style": {
+                    "type": "string",
+                    "title": "Reverb 2.0 Page Style"
+                },
+                "not_found_page_enabled": {
+                    "type": "boolean",
+                    "title": "Not Found Page"
+                },
+                "not_found_page_style": {
+                    "type": "string",
+                    "title": "Not Found Page Style"
+                },
+                "page_related_topic_icon_position": {
+                    "type": "string",
+                    "title": "Related Topic Dropdown Icon Position",
+                    "enum": [
+                        "left",
+                        "right"
+                    ]
+                },
+                "page_publish_date": {
+                    "type": "boolean",
+                    "title": "Publish Date"
+                },
+                "page_related_topic_use_dropdown": {
+                    "type": "boolean",
+                    "title": "Use Dropdown for Related Topics"
+                },
+                "page_related_topic_dropdown_start_behavior": {
+                    "type": "string",
+                    "title": "Related Topic Dropdown Start Behavior",
+                    "enum": [
+                        "start open",
+                        "start closed"
+                    ]
+                }
+            }
+        },
+        "report_accessibility": {
+            "title": "Accessibility Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_accessibility_generate": {
+                    "type": "boolean",
+                    "title": "Generate accessibility report"
+                },
+                "report_accessibility_image_map_alt_tags": {
+                    "type": "string",
+                    "title": "Image links without alternative text",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_accessibility_table_summaries": {
+                    "type": "string",
+                    "title": "Tables without summaries",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_accessibility_image_long_descriptions": {
+                    "type": "string",
+                    "title": "Images without long descriptions",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_accessibility_image_alt_tags": {
+                    "type": "string",
+                    "title": "Images without alternative text",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                }
+            }
+        },
+        "reverb_2.0_toolbar": {
+            "title": "Toolbar",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "toolbar_logo_override": {
+                    "type": "string",
+                    "title": "Toolbar Logo Override"
+                },
+                "toolbar_tabs": {
+                    "type": "boolean",
+                    "title": "Toolbar Tabs"
+                },
+                "google_translate": {
+                    "type": "boolean",
+                    "title": "Google Translate Button"
+                },
+                "toolbar_logo_link_address": {
+                    "type": "string",
+                    "title": "Toolbar Logo Link Address",
+                    "enum": [
+                        "home",
+                        "company webpage"
+                    ]
+                },
+                "toolbar_logo": {
+                    "type": "string",
+                    "title": "Toolbar Logo",
+                    "enum": [
+                        "company name",
+                        "company logo image"
+                    ]
+                },
+                "toolbar_logo_linked": {
+                    "type": "boolean",
+                    "title": "Linked Toolbar Logo"
+                },
+                "button_home": {
+                    "type": "boolean",
+                    "title": "Home"
+                }
+            }
+        },
+        "reverb_2.0_footer": {
+            "title": "Footer",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "footer_logo": {
+                    "type": "string",
+                    "title": "Footer Logo",
+                    "enum": [
+                        "company name",
+                        "company logo image"
+                    ]
+                },
+                "footer_location": {
+                    "type": "string",
+                    "title": "Footer Location",
+                    "enum": [
+                        "end of layout",
+                        "end of page"
+                    ]
+                },
+                "footer_logo_linked": {
+                    "type": "boolean",
+                    "title": "Linked Footer Logo"
+                },
+                "footer_logo_override": {
+                    "type": "string",
+                    "title": "Footer Logo Override"
+                },
+                "footer_logo_link_address": {
+                    "type": "string",
+                    "title": "Footer Logo Link Address",
+                    "enum": [
+                        "home",
+                        "company webpage"
+                    ]
+                },
+                "footer_generate": {
+                    "type": "boolean",
+                    "title": "Generate Footer"
+                },
+                "footer_publish_date": {
+                    "type": "boolean",
+                    "title": "Publish Date"
+                }
+            }
+        },
+        "file_processing": {
+            "title": "File Processing",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "file_processing_mark_of_the_web": {
+                    "type": "boolean",
+                    "title": "Insert Mark of the Web (MOTW)"
+                },
+                "file_processing_pretty_print": {
+                    "type": "boolean",
+                    "title": "Pretty Print"
+                },
+                "file_processing_front_matter": {
+                    "type": "string",
+                    "title": "File processing behavior for front matter",
+                    "enum": [
+                        "ignore",
+                        "generate output"
+                    ]
+                },
+                "file_processing_back_to_top_link": {
+                    "type": "boolean",
+                    "title": "Back to top button"
+                },
+                "file_processing_toc": {
+                    "type": "string",
+                    "title": "File processing behavior for TOC files",
+                    "enum": [
+                        "ignore",
+                        "generate output"
+                    ]
+                },
+                "file_processing_index": {
+                    "type": "string",
+                    "title": "File processing behavior for index files",
+                    "enum": [
+                        "ignore",
+                        "generate output"
+                    ]
+                }
+            }
+        },
+        "reverb_2.0": {
+            "title": "WebWorks Reverb 2.0",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "connect_plugin_skin": {
+                    "type": "string",
+                    "title": "Skin"
+                },
+                "feedback_email_message": {
+                    "type": "string",
+                    "title": "Feedback Email Message"
+                },
+                "connect_browser_tab_icon": {
+                    "type": "string",
+                    "title": "Browser Tab Icon (favicon)"
+                },
+                "connect_browser_tab_title": {
+                    "type": "string",
+                    "title": "Browser Tab Title",
+                    "enum": [
+                        "page title",
+                        "merge title"
+                    ]
+                },
+                "feedback_email": {
+                    "type": "string",
+                    "title": "Feedback Email"
+                },
+                "connect_lightbox_large_images": {
+                    "type": "boolean",
+                    "title": "Display large images in lightbox"
+                },
+                "connect_api_wwhelp": {
+                    "type": "boolean",
+                    "title": "WebWorks Help API Compatibility"
+                },
+                "button_print": {
+                    "type": "boolean",
+                    "title": "Enable Print Icon"
+                },
+                "connect_entry": {
+                    "type": "string",
+                    "title": "Entry Filename"
+                },
+                "show_first_document": {
+                    "type": "boolean",
+                    "title": "Use first document as splash page"
+                }
+            }
+        },
+        "report_filenames": {
+            "title": "Filenames Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_filenames_used": {
+                    "type": "string",
+                    "title": "File named by Marker",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_filenames_renamed": {
+                    "type": "string",
+                    "title": "Filename Marker collision with existing filename",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_filenames_ignored": {
+                    "type": "string",
+                    "title": "Filename Marker ignored",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_filenames_generate": {
+                    "type": "boolean",
+                    "title": "Generate filenames report"
+                }
+            }
+        },
+        "reverb_2.0_header": {
+            "title": "Header",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "header_logo_override": {
+                    "type": "string",
+                    "title": "Header Logo Override"
+                },
+                "header_generate": {
+                    "type": "boolean",
+                    "title": "Generate Header"
+                },
+                "header_logo_linked": {
+                    "type": "boolean",
+                    "title": "Linked Header Logo"
+                },
+                "header_logo_link_address": {
+                    "type": "string",
+                    "title": "Header Logo Link Address",
+                    "enum": [
+                        "home",
+                        "company webpage"
+                    ]
+                },
+                "header_logo": {
+                    "type": "string",
+                    "title": "Header Logo",
+                    "enum": [
+                        "company name",
+                        "company logo image"
+                    ]
+                }
+            }
+        },
+        "pdf": {
+            "title": "PDF",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "pdf_per_group": {
+                    "type": "boolean",
+                    "title": "Generate a combined PDF per top level group"
+                },
+                "pdf_job_settings": {
+                    "type": "string",
+                    "title": "PDF job settings",
+                    "enum": [
+                        "default",
+                        "screen",
+                        "ebook",
+                        "print",
+                        "pre press"
+                    ]
+                },
+                "pdf_target_dependency": {
+                    "type": "string",
+                    "title": "Copy PDFs from target"
+                },
+                "pdf_force_download": {
+                    "type": "boolean",
+                    "title": "Force download on click"
+                },
+                "pdf_save_as_pdf_job_settings": {
+                    "type": "string",
+                    "title": "Save As PDF - PDF job settings"
+                },
+                "pdf_target": {
+                    "type": "string",
+                    "title": "PDF Target Window"
+                },
+                "pdf_per_document": {
+                    "type": "boolean",
+                    "title": "Generate a PDF per document"
+                },
+                "pdf_acrobat_distiller_job_settings": {
+                    "type": "string",
+                    "title": "Acrobat Distiller - PDF job settings"
+                },
+                "pdf_save_as_pdf_extensions": {
+                    "type": "string",
+                    "title": "Save As PDF - Use for document extensions"
+                },
+                "pdf_acrobat_distiller_extensions": {
+                    "type": "string",
+                    "title": "Acrobat Distiller - Use for document extensions"
+                }
+            }
+        },
+        "report_images": {
+            "title": "Images Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_images_byref_source_missing": {
+                    "type": "string",
+                    "title": "Missing by-reference source files",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_images_in_table_cells": {
+                    "type": "string",
+                    "title": "Images in table cells",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_images_generate": {
+                    "type": "boolean",
+                    "title": "Generate images report"
+                }
+            }
+        },
+        "report_links": {
+            "title": "Links Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_links_unsupported_external_url": {
+                    "type": "string",
+                    "title": "Unsupported external URLs",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_unresolved_to_document": {
+                    "type": "string",
+                    "title": "Unresolved link to missing document",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_unsupported_group_to_group": {
+                    "type": "string",
+                    "title": "Unsupported group to group links",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_unsupported_baggage_file": {
+                    "type": "string",
+                    "title": "Unsupported baggage files",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_generate": {
+                    "type": "boolean",
+                    "title": "Generate links report"
+                },
+                "report_links_baggage_file": {
+                    "type": "string",
+                    "title": "Baggage files",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_external_url": {
+                    "type": "string",
+                    "title": "External URLs",
+                    "enum": [
+                        "validate",
+                        "ignore",
+                        "message"
+                    ]
+                },
+                "report_links_unresolved_to_anchor_in_document": {
+                    "type": "string",
+                    "title": "Unresolved link to destination in other documents",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_unresolved_to_file": {
+                    "type": "string",
+                    "title": "Unresolved link to missing file",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_unresolved_to_anchor": {
+                    "type": "string",
+                    "title": "Unresolved link within document",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                }
+            }
+        },
+        "company_info": {
+            "title": "Company Information",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "company_link": {
+                    "type": "string",
+                    "title": "Company webpage"
+                },
+                "company_fax": {
+                    "type": "string",
+                    "title": "Company fax number"
+                },
+                "company_email": {
+                    "type": "string",
+                    "title": "Company email address"
+                },
+                "company_copyright": {
+                    "type": "string",
+                    "title": "Company Copyright"
+                },
+                "company_name": {
+                    "type": "string",
+                    "title": "Company name"
+                },
+                "company_phone": {
+                    "type": "string",
+                    "title": "Company phone number"
+                },
+                "company_logo_src": {
+                    "type": "string",
+                    "title": "Company logo image"
+                }
+            }
+        },
+        "files": {
+            "title": "Files",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "filename_split_pattern": {
+                    "type": "string",
+                    "title": "Page naming pattern"
+                },
+                "connect_url_maps_name": {
+                    "type": "string",
+                    "title": "URL Entry Map filename"
+                },
+                "groupname_convert_spaces": {
+                    "type": "boolean",
+                    "title": "Replace spaces in group names"
+                },
+                "filename_frame_pattern": {
+                    "type": "string",
+                    "title": "Graphic naming pattern"
+                },
+                "file_split_handling": {
+                    "type": "string",
+                    "title": "Page break handling",
+                    "enum": [
+                        "never",
+                        "always",
+                        "combine",
+                        "if not previous"
+                    ]
+                },
+                "filename_replace_spaces_with": {
+                    "type": "string",
+                    "title": "Replace spaces with"
+                },
+                "filename_convert_name_to": {
+                    "type": "string",
+                    "title": "Convert name to",
+                    "enum": [
+                        "normal",
+                        "lower case",
+                        "upper case",
+                        "camel case",
+                        "pascal case"
+                    ]
+                },
+                "connect_url_maps": {
+                    "type": "boolean",
+                    "title": "Generate URL Entry Map file"
+                },
+                "filename_spaces_to_underscores": {
+                    "type": "boolean",
+                    "title": "Replace spaces"
+                }
+            }
+        },
+        "social": {
+            "title": "Social",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "social_disqus_id": {
+                    "type": "string",
+                    "title": "Disqus Identifier"
+                },
+                "social_disqus_developer": {
+                    "type": "boolean",
+                    "title": "Disqus - Allow non-public networks"
+                },
+                "social_facebook_like": {
+                    "type": "boolean",
+                    "title": "FaceBook Like"
+                },
+                "social_twitter": {
+                    "type": "boolean",
+                    "title": "Tweet This!"
+                },
+                "social_linkedin": {
+                    "type": "boolean",
+                    "title": "LinkedIn Share"
+                }
+            }
+        },
+        "reverb_2.0_search": {
+            "title": "Search",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "progressive_search_enabled": {
+                    "type": "boolean",
+                    "title": "Progressive Search"
+                },
+                "search_scope_enabled": {
+                    "type": "boolean",
+                    "title": "Search Scope Filtering"
+                },
+                "search_result_count": {
+                    "type": "boolean",
+                    "title": "Search Result Count"
+                },
+                "search_query_minimum_character_amount": {
+                    "type": "string",
+                    "title": "Minimum Character Amount to Execute Search"
+                }
+            }
+        },
+        "report_topics": {
+            "title": "Topics Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_topics_link": {
+                    "type": "string",
+                    "title": "Topic links",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_topics_duplicate": {
+                    "type": "string",
+                    "title": "Duplicate topic aliases",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_topics_generate": {
+                    "type": "boolean",
+                    "title": "Generate topics report"
+                }
+            }
+        },
+        "toc": {
+            "title": "Table of contents",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "toc_collapse": {
+                    "type": "string",
+                    "title": "Collapse table of contents",
+                    "enum": [
+                        "don't collapse",
+                        "re-label",
+                        "fully collapse",
+                        "smart collapse"
+                    ]
+                },
+                "toc_icon_position": {
+                    "type": "string",
+                    "title": "Dropdown Icon Position",
+                    "enum": [
+                        "left",
+                        "right"
+                    ]
+                },
+                "toc_generate": {
+                    "type": "boolean",
+                    "title": "Generate table of contents"
+                }
+            }
+        },
+        "report_styles": {
+            "title": "Styles Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_styles_non_standard_style": {
+                    "type": "string",
+                    "title": "Non-standard styles",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_styles_generate": {
+                    "type": "boolean",
+                    "title": "Generate styles report"
+                },
+                "report_styles_override": {
+                    "type": "string",
+                    "title": "Style overrides",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                }
+            }
+        },
+        "analytics": {
+            "title": "Analytics",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "page_helpful_buttons": {
+                    "type": "boolean",
+                    "title": "Page "Was This Helpful?" Buttons"
+                },
+                "search_helpful_buttons": {
+                    "type": "boolean",
+                    "title": "Search "Was This Helpful?" Buttons"
+                },
+                "google_analytics_id": {
+                    "type": "string",
+                    "title": "Google Tracking ID"
+                },
+                "google_analytics_default_url": {
+                    "type": "string",
+                    "title": "Google Default URL"
+                }
+            }
+        },
+        "report_conditions": {
+            "title": "Conditions Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_conditions_unknown_condition": {
+                    "type": "string",
+                    "title": "Unknown conditions",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_conditions_generate": {
+                    "type": "boolean",
+                    "title": "Generate conditions report"
+                }
+            }
+        },
+        "links": {
+            "title": "Links",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "external_url_target": {
+                    "type": "string",
+                    "title": "External URL Target"
+                },
+                "baggage_file_target": {
+                    "type": "string",
+                    "title": "Baggage File Target"
+                },
+                "preserve_unknown_file_links": {
+                    "type": "boolean",
+                    "title": "Preserve Unknown File Links"
+                }
+            }
+        },
+        "report_baggagefiles": {
+            "title": "Baggage Files Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_baggagefiles_without_summary": {
+                    "type": "string",
+                    "title": "Baggage files without summary",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_baggagefiles_generate": {
+                    "type": "boolean",
+                    "title": "Generate baggage files report"
+                },
+                "report_baggagefiles_without_title": {
+                    "type": "string",
+                    "title": "Baggage files without title",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                }
+            }
+        },
+        "index": {
+            "title": "Index",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "index_generate": {
+                    "type": "boolean",
+                    "title": "Generate index"
+                },
+                "index_combined_enabled": {
+                    "type": "boolean",
+                    "title": "Combined Index"
+                }
+            }
+        },
+        "reverb_2.0_menu": {
+            "title": "Menu",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "reverb_2.0_minimum_page_width": {
+                    "type": "string",
+                    "title": "Minimum Page Width for Docked Menu"
+                },
+                "menu_initial_state": {
+                    "type": "string",
+                    "title": "Menu Initial State",
+                    "enum": [
+                        "opened",
+                        "closed"
+                    ]
+                },
+                "menu_generate": {
+                    "type": "boolean",
+                    "title": "Generate Menu"
+                }
+            }
+        },
+        "baggage": {
+            "title": "Baggage Files",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "baggage_files_list": {
+                    "type": "string",
+                    "title": "Baggage Files Info List"
+                },
+                "index_baggage_files": {
+                    "type": "boolean",
+                    "title": "Index Baggage Files"
+                },
+                "index_external_baggage_files": {
+                    "type": "boolean",
+                    "title": "Index external links"
+                },
+                "copy_baggage_file_dependents": {
+                    "type": "boolean",
+                    "title": "Copy Baggage File Dependents"
+                }
+            }
+        },
+        "locale": {
+            "title": "Locale",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "locale": {
+                    "type": "string",
+                    "title": "Locale"
+                }
+            }
+        },
+        "accessibility": {
+            "title": "Accessibility",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "accessibility_image_d_links": {
+                    "type": "boolean",
+                    "title": "Include visible [D] links to images with long descriptions"
+                },
+                "accessibility_skip_navigation_link": {
+                    "type": "boolean",
+                    "title": "Add link to skip navigation content"
+                }
+            }
+        }
+    }
+}

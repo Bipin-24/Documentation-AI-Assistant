@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://login.microsoftonline.com'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-powerbi-saas.md" />
+        <Data key="DocumentID" value="TQprQsUrd6Y" />
+        <Data key="ID" value="p100036" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-powerbi-saas.html#wwp100036" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://login.microsoftonline.com" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://api.powerbi.com'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-powerbi-saas.md" />
+        <Data key="DocumentID" value="TQprQsUrd6Y" />
+        <Data key="ID" value="p100048" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-powerbi-saas.html#wwp100048" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://api.powerbi.com" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUbtm&amp;d=%2Fa%2FNu000002lg4H%2FaccvqwXA6moiD6Jy3bOWkDoT7IpIcp6CXYsZj0JT.MI&amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-powerbi-saas.md" />
+        <Data key="DocumentID" value="TQprQsUrd6Y" />
+        <Data key="ID" value="p100072" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-powerbi-saas.html#wwb100078" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUbtm&amp;d=%2Fa%2FNu000002lg4H%2FaccvqwXA6moiD6Jy3bOWkDoT7IpIcp6CXYsZj0JT.MI&amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#option-3-create-a-new-client-secret'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-powerbi-saas.md" />
+        <Data key="DocumentID" value="TQprQsUrd6Y" />
+        <Data key="ID" value="p100672" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-powerbi-saas.html#wwp100672" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#option-3-create-a-new-client-secret" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://docs.microsoft.com/en-us/power-bi/enterprise/read-only-apis-service-principal-authentication'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-powerbi-saas.md" />
+        <Data key="DocumentID" value="TQprQsUrd6Y" />
+        <Data key="ID" value="p100699" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-powerbi-saas.html#wwp100699" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://docs.microsoft.com/en-us/power-bi/enterprise/read-only-apis-service-principal-authentication" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://docs.microsoft.com/en-us/power-bi/admin/service-admin-metadata-scanning-setup'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-powerbi-saas.md" />
+        <Data key="DocumentID" value="TQprQsUrd6Y" />
+        <Data key="ID" value="p100759" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-powerbi-saas.html#wwp100759" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://docs.microsoft.com/en-us/power-bi/admin/service-admin-metadata-scanning-setup" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://learn.microsoft.com/fr-fr/rest/api/power-bi/admin/workspace-info-get-scan-result#reportuseraccessright'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-powerbi-saas.md" />
+        <Data key="DocumentID" value="TQprQsUrd6Y" />
+        <Data key="ID" value="p100972" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-powerbi-saas.html#wwt100984" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://learn.microsoft.com/fr-fr/rest/api/power-bi/admin/workspace-info-get-scan-result#reportuseraccessright" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

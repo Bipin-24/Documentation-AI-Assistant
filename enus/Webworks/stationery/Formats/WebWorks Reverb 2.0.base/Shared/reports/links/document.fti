@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="severity-validate">
+   <Item value="validate" stringid="severity-validate" />
+   <Item value="ignore" stringid="severity-ignore" />
+   <Item value="message" stringid="severity-message" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="report-links" />
+ </Groups>
+
+ <Settings>
+  <Setting name="report-links-generate" group="report-links" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="report-links-baggage-file" group="report-links" default="message">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-links-external-url" group="report-links" default="validate">
+   <SettingClass name="severity-validate" />
+  </Setting>
+  <Setting name="report-links-unresolved-to-file" group="report-links" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-links-unresolved-to-anchor" group="report-links" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-links-unresolved-to-document" group="report-links" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-links-unresolved-to-anchor-in-document" group="report-links" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-links-unsupported-baggage-file" group="report-links" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-links-unsupported-group-to-group" group="report-links" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-links-unsupported-external-url" group="report-links" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

@@ -1,0 +1,386 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "report_accessibility": {
+            "title": "Accessibility Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_accessibility_image_long_descriptions": {
+                    "type": "string",
+                    "title": "Images without long descriptions",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_accessibility_table_summaries": {
+                    "type": "string",
+                    "title": "Tables without summaries",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_accessibility_generate": {
+                    "type": "boolean",
+                    "title": "Generate accessibility report"
+                },
+                "report_accessibility_image_map_alt_tags": {
+                    "type": "string",
+                    "title": "Image links without alternative text",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_accessibility_image_alt_tags": {
+                    "type": "string",
+                    "title": "Images without alternative text",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                }
+            }
+        },
+        "report_styles": {
+            "title": "Styles Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_styles_non_standard_style": {
+                    "type": "string",
+                    "title": "Non-standard styles",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_styles_override": {
+                    "type": "string",
+                    "title": "Style overrides",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_styles_generate": {
+                    "type": "boolean",
+                    "title": "Generate styles report"
+                }
+            }
+        },
+        "links": {
+            "title": "Links",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "external_url_target": {
+                    "type": "string",
+                    "title": "External URL Target"
+                },
+                "baggage_file_target": {
+                    "type": "string",
+                    "title": "Baggage File Target"
+                }
+            }
+        },
+        "report_links": {
+            "title": "Links Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_links_unresolved_to_anchor": {
+                    "type": "string",
+                    "title": "Unresolved link within document",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_unresolved_to_anchor_in_document": {
+                    "type": "string",
+                    "title": "Unresolved link to destination in other documents",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_unsupported_group_to_group": {
+                    "type": "string",
+                    "title": "Unsupported group to group links",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_unresolved_to_document": {
+                    "type": "string",
+                    "title": "Unresolved link to missing document",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_unsupported_external_url": {
+                    "type": "string",
+                    "title": "Unsupported external URLs",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_unresolved_to_file": {
+                    "type": "string",
+                    "title": "Unresolved link to missing file",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_external_url": {
+                    "type": "string",
+                    "title": "External URLs",
+                    "enum": [
+                        "validate",
+                        "ignore",
+                        "message"
+                    ]
+                },
+                "report_links_generate": {
+                    "type": "boolean",
+                    "title": "Generate links report"
+                },
+                "report_links_unsupported_baggage_file": {
+                    "type": "string",
+                    "title": "Unsupported baggage files",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_links_baggage_file": {
+                    "type": "string",
+                    "title": "Baggage files",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                }
+            }
+        },
+        "report_filenames": {
+            "title": "Filenames Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_filenames_ignored": {
+                    "type": "string",
+                    "title": "Filename Marker ignored",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_filenames_renamed": {
+                    "type": "string",
+                    "title": "Filename Marker collision with existing filename",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_filenames_used": {
+                    "type": "string",
+                    "title": "File named by Marker",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_filenames_generate": {
+                    "type": "boolean",
+                    "title": "Generate filenames report"
+                }
+            }
+        },
+        "file_processing": {
+            "title": "File Processing",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "file_processing_index": {
+                    "type": "string",
+                    "title": "File processing behavior for index files",
+                    "enum": [
+                        "ignore",
+                        "generate output"
+                    ]
+                },
+                "file_processing_toc": {
+                    "type": "string",
+                    "title": "File processing behavior for TOC files",
+                    "enum": [
+                        "ignore",
+                        "generate output"
+                    ]
+                },
+                "file_processing_front_matter": {
+                    "type": "string",
+                    "title": "File processing behavior for front matter",
+                    "enum": [
+                        "ignore",
+                        "generate output"
+                    ]
+                }
+            }
+        },
+        "files": {
+            "title": "Files",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "groupname_convert_spaces": {
+                    "type": "boolean",
+                    "title": "Replace spaces in group names"
+                },
+                "file_split_handling": {
+                    "type": "string",
+                    "title": "Page break handling",
+                    "enum": [
+                        "never",
+                        "always",
+                        "combine",
+                        "if not previous"
+                    ]
+                },
+                "filename_split_pattern": {
+                    "type": "string",
+                    "title": "Page naming pattern"
+                },
+                "filename_spaces_to_underscores": {
+                    "type": "boolean",
+                    "title": "Replace spaces"
+                },
+                "filename_convert_name_to": {
+                    "type": "string",
+                    "title": "Convert name to",
+                    "enum": [
+                        "normal",
+                        "lower case",
+                        "upper case",
+                        "camel case",
+                        "pascal case"
+                    ]
+                },
+                "filename_frame_pattern": {
+                    "type": "string",
+                    "title": "Graphic naming pattern"
+                },
+                "filename_replace_spaces_with": {
+                    "type": "string",
+                    "title": "Replace spaces with"
+                }
+            }
+        },
+        "report_conditions": {
+            "title": "Conditions Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_conditions_unknown_condition": {
+                    "type": "string",
+                    "title": "Unknown conditions",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_conditions_generate": {
+                    "type": "boolean",
+                    "title": "Generate conditions report"
+                }
+            }
+        },
+        "report_images": {
+            "title": "Images Report",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "report_images_in_table_cells": {
+                    "type": "string",
+                    "title": "Images in table cells",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                },
+                "report_images_generate": {
+                    "type": "boolean",
+                    "title": "Generate images report"
+                },
+                "report_images_byref_source_missing": {
+                    "type": "string",
+                    "title": "Missing by-reference source files",
+                    "enum": [
+                        "ignore",
+                        "message",
+                        "warning",
+                        "error"
+                    ]
+                }
+            }
+        },
+        "locale": {
+            "title": "Locale",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "locale": {
+                    "type": "string",
+                    "title": "Locale"
+                }
+            }
+        }
+    }
+}

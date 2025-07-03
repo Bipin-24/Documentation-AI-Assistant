@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Format version="1.0" xmlns="urn:WebWorks-Engine-Format-Schema">
+ <Capabilities>
+  <Capability name="family" value="XHTML 1.0" />
+  <Capability name="CSS" value="1.0" />
+  <Capability name="HTML" value="4.0" />
+  <Capability name="XHTML" value="1.0" />
+  <Capability name="merge-hierarchy" value="toc" />
+  <Capability name="merge-title" value="true" />
+  <Capability name="merge-context" value="true" />
+ </Capabilities>
+
+ <TaskGroups>
+  <TaskGroup name="generate">
+   <Task name="Generate">
+    <EntryPoint scope="document" type="page:output" category="pages" />
+    <EntryPoint scope="project" type="connect:entry" category="merge" />
+   </Task>
+  </TaskGroup>
+
+  <TaskGroup name="reports" stringid="reports">
+   <Task name="Styles Report" stringid="report-styles" pipeline="Report-Styles">
+    <EntryPoint scope="document" type="reports:styles:document" />
+    <EntryPoint scope="group" type="reports:styles:group" />
+   </Task>
+   <Task name="Links Report" stringid="report-links" pipeline="Report-Links">
+    <EntryPoint scope="document" type="reports:links:document" />
+    <EntryPoint scope="group" type="reports:links:group" />
+   </Task>
+   <Task name="Accessibility Report" stringid="report-accessibility" pipeline="Report-Accessibility">
+    <EntryPoint scope="document" type="reports:accessibility:document" />
+    <EntryPoint scope="group" type="reports:accessibility:group" />
+   </Task>
+   <Task name="Filenames Report" stringid="report-filenames" pipeline="Report-Filenames">
+    <EntryPoint scope="document" type="reports:filenames:document" />
+    <EntryPoint scope="group" type="reports:filenames:group" />
+   </Task>
+   <Task name="Topics Report" stringid="report-topics" pipeline="Report-Topics">
+    <EntryPoint scope="document" type="reports:topics:document" />
+    <EntryPoint scope="group" type="reports:topics:group" />
+   </Task>
+   <Task name="Images Report" stringid="report-images" pipeline="Report-Images">
+    <EntryPoint scope="document" type="reports:images:document" />
+    <EntryPoint scope="group" type="reports:images:group" />
+   </Task>
+   <Task name="Conditions Report" stringid="report-conditions" pipeline="Report-Conditions">
+    <EntryPoint scope="document" type="reports:conditions:document" />
+    <EntryPoint scope="group" type="reports:conditions:group" />
+   </Task>
+   <Task name="Baggage Files Report" stringid="report-baggagefiles" pipeline="Report-Baggage-Files">
+    <EntryPoint scope="document" type="reports:baggagefiles:document" />
+    <EntryPoint scope="group" type="reports:baggagefiles:group" />
+   </Task>
+  </TaskGroup>
+ </TaskGroups>
+
+ <Pipelines>
+  <Pipeline name="Locale">
+   <Stage type="xsl" action="wwtransform:common/locale/locale.xsl">
+    <Parameter name="ParameterType" value="locale:project" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/locale/uilocale.xsl">
+    <Parameter name="ParameterType" value="uilocale:project" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="CompanyInfo">
+   <Stage type="xsl" action="wwtransform:common/companyinfo/companyinfo.xsl">
+    <!-- Pull in Company Info .fti file -->
+    <!--                                -->
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="CSS">
+   <Stage type="xsl" action="wwtransform:html/css.xsl">
+    <!-- Pull in CSS .fti file -->
+    <!--                       -->
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="DocumentBehaviors">
+   <Stage type="xsl" action="wwtransform:common/behaviors/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterType" value="behaviors:document" />
+    <Parameter name="ParameterDropDowns" value="true" />
+    <Parameter name="ParameterPopups" value="true" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/behaviors/pullup.xsl">
+    <Parameter name="ParameterDependsType" value="behaviors:document" />
+    <Parameter name="ParameterType" value="behaviors:pullup" />
+    <Parameter name="ParameterDropDowns" value="true" />
+    <Parameter name="ParameterPopups" value="true" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="DocumentSplits">
+   <Depends pipeline="DocumentBehaviors" />
+
+   <Stage type="xsl" action="wwtransform:common/splits/priorities.xsl">
+    <Parameter name="ParameterDependsType" value="behaviors:pullup" />
+    <Parameter name="ParameterType" value="splits:priorities" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/splits/collapse.xsl">
+    <Parameter name="ParameterDependsType" value="splits:priorities" />
+    <Parameter name="ParameterType" value="splits:collapse" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Behaviors">
+   <Depends pipeline="DocumentBehaviors" />
+   <Depends pipeline="DocumentSplits" />
+
+   <Stage type="xsl" action="wwtransform:common/behaviors/splits.xsl">
+    <Parameter name="ParameterDependsType" value="behaviors:pullup" />
+    <Parameter name="ParameterDocumentSplitsType" value="splits:collapse" />
+    <Parameter name="ParameterType" value="behaviors:splits" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/behaviors/finalize.xsl">
+    <Parameter name="ParameterDependsType" value="behaviors:splits" />
+    <Parameter name="ParameterType" value="behaviors:finalize" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/behaviors/minimize.xsl">
+    <Parameter name="ParameterDependsType" value="behaviors:finalize" />
+    <Parameter name="ParameterType" value="behaviors:minimal" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Baggage">
+   <Stage type="xsl" action="wwtransform:common/baggage/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterType" value="baggage:document" />
+    <Parameter name="ParameterInternalType" value="internal" />
+    <Parameter name="ParameterExternalType" value="external" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/baggage/group.xsl">
+    <Parameter name="ParameterDependsType" value="baggage:document" />
+    <Parameter name="ParameterType" value="baggage:group" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/filter-baggage-files.xsl">
+    <Parameter name="ParameterBaggageType" value="baggage:group" />
+    <Parameter name="ParameterType" value="baggage:filter" />
+    <Parameter name="ParameterInternalType" value="internal" />
+    <Parameter name="ParameterExternalType" value="external" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/convert-to-xhtml-baggage-files.xsl">
+    <Parameter name="ParameterDependsGroupType" value="baggage:group" />
+    <Parameter name="ParameterDependsFilteredGroupType" value="baggage:filter" />
+    <Parameter name="ParameterType" value="baggage:xhtml" />
+    <Parameter name="ParameterInternalType" value="internal" />
+    <Parameter name="ParameterExternalType" value="external" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="ImageTypes">
+   <Stage type="xsl" action="wwtransform:common/images/types.xsl">
+    <Parameter name="ParameterImagesFTIURI" value="wwtransform:html/images.fti" />
+    <Parameter name="ParameterType" value="images:types" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Splits">
+   <Depends pipeline="Baggage" />
+   <Depends pipeline="Behaviors" />
+   <Depends pipeline="DocumentSplits" />
+   <Depends pipeline="ImageTypes" />
+   <Depends pipeline="Locale" />
+   <Depends pipeline="SASS" />
+
+   <Stage type="xsl" action="wwtransform:common/splits/nameinfo.xsl">
+    <Parameter name="ParameterDocumentType" value="engine:wif" />
+    <Parameter name="ParameterDependsType" value="splits:collapse" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterType" value="splits:nameinfo" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/splits/groupnameinfo.xsl">
+    <Parameter name="ParameterDependsType" value="splits:nameinfo" />
+    <Parameter name="ParameterType" value="splits:groupnameinfo" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/splits/names.xsl">
+    <Parameter name="ParameterDependsType" value="splits:groupnameinfo" />
+    <Parameter name="ParameterImageTypesType" value="images:types" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterType" value="splits:names" />
+    <Parameter name="ParameterDefaultPageExtension" value=".html" />
+    <Parameter name="ParameterDefaultGraphicExtension" value=".jpg" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/files.xsl">
+    <Parameter name="ParameterDependsType" value="splits:names" />
+    <Parameter name="ParameterType" value="splits:formatnames" />
+    <Parameter name="ParameterDocumentType" value="engine:wif" />
+    <Parameter name="ParameterBaggageType" value="baggage:group" />
+    <Parameter name="ParameterDependsFilteredGroupType" value="baggage:filter" />
+    <Parameter name="ParameterSearchBaggageUniqueType" value="search:baggage:unique" />
+    <Parameter name="ParameterXHTMLBaggageType" value="baggage:xhtml" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Page.asp" />
+    <Parameter name="ParameterPopupPageTemplateURI" value="wwformat:Pages/Popup.asp" />
+    <Parameter name="ParameterCopySplitFileType" value="copy" />
+    <Parameter name="ParameterBaggageSplitFileType" value="baggage" />
+    <Parameter name="ParameterParcelInfoSplitFileType" value="parcel" />
+    <Parameter name="ParameterIndexSplitFileType" value="index" />
+    <Parameter name="ParameterSearchSplitFileType" value="search" />
+    <Parameter name="ParameterCSSSplitFileType" value="css" />
+    <Parameter name="ParameterInternalType" value="internal" />
+    <Parameter name="ParameterExternalType" value="external" />
+    <Parameter name="ParameterSASSType" value="sass:css" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:pdf/files.xsl">
+    <Parameter name="ParameterDependsType" value="splits:formatnames" />
+    <Parameter name="ParameterSinglePDFSplitFileType" value="singlepdf" />
+    <Parameter name="ParameterGroupPDFSplitFileType" value="grouppdf" />
+    <Parameter name="ParameterType" value="splits:allnames" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/splits/uniquenames.xsl">
+    <Parameter name="ParameterDependsType" value="splits:allnames" />
+    <Parameter name="ParameterType" value="splits:uniquenames" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/splits/project.xsl">
+    <Parameter name="ParameterDependsType" value="splits:uniquenames" />
+    <Parameter name="ParameterType" value="splits:project" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Copy">
+   <Depends pipeline="Splits" />
+
+   <!-- Copies dependent files discovered in non-group level ASP templates -->
+   <!--                                                                    -->
+   <Stage type="xsl" action="wwformat:Transforms/project-copy.xsl">
+    <Parameter name="ParameterType" value="copy:files" />
+    <Parameter name="ParameterDeploy" value="true" />
+    <Parameter name="ParameterSplashPageTemplateURI" value="wwformat:Pages/Splash.asp" />
+    <Parameter name="ParameterNotFoundPageTemplateURI" value="wwformat:Pages/NotFound.asp" />
+    <Parameter name="ParameterParcelPageTemplateURI" value="wwformat:Pages/Parcel.asp" />
+    <Parameter name="ParameterConnectPageTemplateURI" value="wwformat:Pages/Connect.asp" />
+    <Parameter name="ParameterSearchPageTemplateURI" value="wwformat:Pages/Search.asp" />
+    <Parameter name="ParameterIndexPageTemplateURI" value="wwformat:Pages/Index.asp" />
+    <Parameter name="ParameterUnsupportedTemplateURI" value="wwformat:Pages/Unsupported_Browser.asp" />
+    <Parameter name="ParameterHeaderTemplateURI" value="wwformat:Pages/Header.asp" />
+    <Parameter name="ParameterFooterTemplateURI" value="wwformat:Pages/Footer.asp" />
+   </Stage>
+
+   <Stage type="xsl" action="wwtransform:common/files/copy.xsl">
+    <Parameter name="ParameterDependsType" value="splits:uniquenames" />
+    <Parameter name="ParameterType" value="copy:files" />
+    <Parameter name="ParameterSplitFileType" value="copy" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/files/copy.xsl">
+    <Parameter name="ParameterDependsType" value="splits:uniquenames" />
+    <Parameter name="ParameterType" value="copy:baggage" />
+    <Parameter name="ParameterSplitFileType" value="baggage" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="SASS">
+   <Stage type="xsl" action="wwtransform:common/fonts/font-awesome.xsl">
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/sass.xsl">
+    <Parameter name="ParameterType" value="sass:css" />
+    <Parameter name="ParameterDestinationFolderName" value="css" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Segment">
+   <Depends pipeline="Splits" />
+
+   <Stage type="xsl" action="wwtransform:common/splits/segments.xsl">
+    <Parameter name="ParameterDependsType" value="splits:uniquenames" />
+    <Parameter name="ParameterWIFType" value="engine:wif" />
+    <Parameter name="ParameterSegmentWIFType" value="segment:wif" />
+    <Parameter name="ParameterType" value="segment:splits" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/splits/segment.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterSegmentsType" value="segment:splits" />
+    <Parameter name="ParameterType" value="segment:wif" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Links">
+   <Depends pipeline="Splits" />
+   <Depends pipeline="Segment" />
+
+   <!-- Link destinations -->
+   <!--                   -->
+   <Stage type="xsl" action="wwtransform:common/links/document.xsl">
+    <Parameter name="ParameterDependsType" value="splits:uniquenames" />
+    <Parameter name="ParameterDocumentType" value="engine:wif" />
+    <Parameter name="ParameterSegmentsType" value="segment:splits" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:finalize" />
+    <Parameter name="ParameterType" value="links:document" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/links/document_unique.xsl">
+    <Parameter name="ParameterDependsType" value="links:document" />
+    <Parameter name="ParameterType" value="links:document_unique" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/links/group.xsl">
+    <Parameter name="ParameterDependsType" value="links:document_unique" />
+    <Parameter name="ParameterType" value="links:group" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/links/project_groups.xsl">
+    <Parameter name="ParameterDependsType" value="links:group" />
+    <Parameter name="ParameterType" value="links:project" />
+   </Stage>
+
+   <!-- Link anchors -->
+   <!--              -->
+   <Stage type="xsl" action="wwtransform:common/anchors/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterType" value="anchors:document" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/anchors/unique.xsl">
+    <Parameter name="ParameterDependsType" value="anchors:document" />
+    <Parameter name="ParameterType" value="anchors:document_unique" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/anchors/group.xsl">
+    <Parameter name="ParameterDependsType" value="anchors:document_unique" />
+    <Parameter name="ParameterType" value="anchors:group" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/anchors/unique.xsl">
+    <Parameter name="ParameterDependsType" value="anchors:group" />
+    <Parameter name="ParameterType" value="anchors:group_unique" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/anchors/project.xsl">
+    <Parameter name="ParameterDependsType" value="anchors:group_unique" />
+    <Parameter name="ParameterType" value="anchors:project" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/anchors/unique.xsl">
+    <Parameter name="ParameterDependsType" value="anchors:project" />
+    <Parameter name="ParameterType" value="anchors:project_unique" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/anchors/project_linkids.xsl">
+    <Parameter name="ParameterDependsType" value="anchors:project_unique" />
+    <Parameter name="ParameterLinksType" value="links:project" />
+    <Parameter name="ParameterType" value="anchors:project_linkids" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/anchors/unique.xsl">
+    <Parameter name="ParameterDependsType" value="anchors:project_linkids" />
+    <Parameter name="ParameterType" value="anchors:project_linkids_unique" />
+   </Stage>
+
+   <!-- Minimize links -->
+   <!--                -->
+   <Stage type="xsl" action="wwtransform:common/links/minimize.xsl">
+    <Parameter name="ParameterDependsType" value="links:project" />
+    <Parameter name="ParameterAnchorsType" value="anchors:project_linkids_unique" />
+    <Parameter name="ParameterType" value="links:minimal" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Variables">
+   <Depends pipeline="Splits" />
+
+   <Stage type="xsl" action="wwtransform:common/variables/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterType" value="variables:document" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/variables/group.xsl">
+    <Parameter name="ParameterDependsType" value="variables:document" />
+    <Parameter name="ParameterType" value="variables:group" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/variables/project.xsl">
+    <Parameter name="ParameterDependsType" value="variables:group" />
+    <Parameter name="ParameterType" value="variables:project" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Splash">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Variables" />
+
+   <Stage type="xsl" action="wwformat:Transforms/splash.xsl">
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Splash.asp" />
+    <Parameter name="ParameterCopyType" value="copy:files" />
+    <Parameter name="ParameterType" value="connect:splash" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="NotFound">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Variables" />
+
+   <Stage type="xsl" action="wwformat:Transforms/not-found.xsl">
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/NotFound.asp" />
+    <Parameter name="ParameterCopyType" value="copy:files" />
+    <Parameter name="ParameterType" value="connect:notfound" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="TOC">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Links" />
+   <Depends pipeline="Variables" />
+
+   <Stage type="xsl" action="wwtransform:common/toc/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:finalize" />
+    <Parameter name="ParameterType" value="toc:document" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/toc/join.xsl">
+    <Parameter name="ParameterDependsType" value="toc:document" />
+    <Parameter name="ParameterType" value="toc:join" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/toc/hierarchy.xsl">
+    <Parameter name="ParameterDependsType" value="toc:join" />
+    <Parameter name="ParameterType" value="toc:hierarchy" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/toc/nest.xsl">
+    <Parameter name="ParameterDependsType" value="toc:hierarchy" />
+    <Parameter name="ParameterType" value="toc:nest" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/toc/collapse.xsl">
+    <Parameter name="ParameterDependsType" value="toc:nest" />
+    <Parameter name="ParameterType" value="toc:collapse" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/toc/resolve.xsl">
+    <Parameter name="ParameterDependsType" value="toc:collapse" />
+    <Parameter name="ParameterLinksType" value="links:project" />
+    <Parameter name="ParameterType" value="toc:resolve" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Index">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Links" />
+   <Depends pipeline="Variables" />
+
+   <Stage type="xsl" action="wwtransform:common/index/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterLinksType" value="links:project" />
+    <Parameter name="ParameterType" value="index:document" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/index/group.xsl">
+    <Parameter name="ParameterDependsType" value="index:document" />
+    <Parameter name="ParameterType" value="index:group" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/index/combine.xsl">
+    <Parameter name="ParameterDependsType" value="index:group" />
+    <Parameter name="ParameterType" value="index:combine" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/index/sections.xsl">
+    <Parameter name="ParameterDependsType" value="index:combine" />
+    <Parameter name="ParameterType" value="index:sections" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/index/hierarchy.xsl">
+    <Parameter name="ParameterDependsType" value="index:sections" />
+    <Parameter name="ParameterType" value="index:hierarchy" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/index/resolve.xsl">
+    <Parameter name="ParameterDependsType" value="index:hierarchy" />
+    <Parameter name="ParameterType" value="index:resolve" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/index.xsl">
+    <Parameter name="ParameterDependsType" value="index:resolve" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterType" value="index:output" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Index.asp" />
+    <Parameter name="ParameterIndexSplitFileType" value="index" />
+    <Parameter name="ParameterCategory" value="navigation" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Styles">
+   <Depends pipeline="Splits" />
+
+   <Stage type="xsl" action="wwformat:Transforms/styles.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterType" value="styles:documentcss" />
+    <Parameter name="ParameterSplitFileType" value="css" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Image">
+   <Depends pipeline="Splits" />
+
+   <Stage type="xsl" action="wwtransform:html/images.xsl">
+    <!-- Pull in images .fti file -->
+    <!--                          -->
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/images/byref.xsl">
+    <Parameter name="ParameterDependsType" value="splits:uniquenames" />
+    <Parameter name="ParameterType" value="copy:byref" />
+    <Parameter name="ParameterCategory" value="images" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/images/media.xsl">
+    <Parameter name="ParameterDependsType" value="splits:uniquenames" />
+    <Parameter name="ParameterType" value="copy:media" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:common/images/images.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterPostScriptType" value="image:postscript" />
+    <Parameter name="ParameterDefaultFormat" value="jpeg" />
+    <Parameter name="ParameterAllowThumbnails" value="true" />
+    <Parameter name="ParameterThumbnailType" value="image:thumbnail" />
+    <Parameter name="ParameterType" value="image:output" />
+    <Parameter name="ParameterCategory" value="images" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:html/longdesc.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterType" value="image:longdesc" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Page">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Copy" />
+   <Depends pipeline="Splits" />
+   <Depends pipeline="Behaviors" />
+   <Depends pipeline="Variables" />
+   <Depends pipeline="Links" />
+   <Depends pipeline="Styles" />
+   <Depends pipeline="TOC" />
+   <Depends pipeline="Image" />
+   <Depends pipeline="PDF" />
+   <Depends pipeline="Segment" />
+
+   <Stage type="xsl" action="wwformat:Transforms/popups.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterLinksType" value="links:minimal" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterProjectSplitsType" value="splits:project" />
+    <Parameter name="ParameterStylesType" value="styles:documentcss" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Popup.asp" />
+    <Parameter name="ParameterTOCDataType" value="toc:resolve" />
+    <Parameter name="ParameterAllowBaggage" value="true" />
+    <Parameter name="ParameterAllowGroupToGroup" value="true" />
+    <Parameter name="ParameterAllowURL" value="true" />
+    <Parameter name="ParameterBaggageSplitFileType" value="baggage" />
+    <Parameter name="ParameterTOCSplitFileType" value="toc" />
+    <Parameter name="ParameterIndexSplitFileType" value="index" />
+    <Parameter name="ParameterType" value="page:popup" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/wrappers.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterLinksType" value="links:minimal" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterStylesType" value="styles:documentcss" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Page.asp" />
+    <Parameter name="ParameterTOCDataType" value="toc:resolve" />
+    <Parameter name="ParameterThumbnailType" value="image:thumbnail" />
+    <Parameter name="ParameterAllowBaggage" value="true" />
+    <Parameter name="ParameterAllowGroupToGroup" value="true" />
+    <Parameter name="ParameterAllowURL" value="true" />
+    <Parameter name="ParameterBaggageSplitFileType" value="baggage" />
+    <Parameter name="ParameterType" value="page:wrapper" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+    <Parameter name="ParameterProjectSplitsType" value="splits:project" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/pages.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterSegmentsType" value="segment:splits" />
+    <Parameter name="ParameterLinksType" value="links:minimal" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterStylesType" value="styles:documentcss" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Page.asp" />
+    <Parameter name="ParameterTOCDataType" value="toc:resolve" />
+    <Parameter name="ParameterAllowBaggage" value="true" />
+    <Parameter name="ParameterAllowGroupToGroup" value="true" />
+    <Parameter name="ParameterAllowURL" value="true" />
+    <Parameter name="ParameterBaggageSplitFileType" value="baggage" />
+    <Parameter name="ParameterType" value="page:output" />
+    <Parameter name="ParameterCategory" value="pages" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+    <Parameter name="ParameterDocumentPDFType" value="pdf:document_pdf" />
+    <Parameter name="ParameterGroupPDFType" value="pdf:group_pdf" />
+    <Parameter name="ParameterProjectSplitsType" value="splits:project" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="PDF">
+   <Depends pipeline="Splits" />
+   <Depends pipeline="TOC" />
+
+   <Stage type="xsl" action="wwformat:Transforms/pdf.xsl">
+    <!-- Pull in PDF .fti file -->
+    <!--                       -->
+   </Stage>
+   <Stage type="xsl" action="wwtransform:pdf/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:conversionpdf" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterPDFSplitFileType" value="singlepdf" />
+    <Parameter name="ParameterType" value="pdf:document_pdf" />
+    <Parameter name="ParameterCategory" value="pages" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:pdf/group_document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:conversionpdf" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterPDFSplitFileType" value="grouppdf" />
+    <Parameter name="ParameterType" value="pdf:group_doc_pdf" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:pdf/group_pdf.xsl">
+    <Parameter name="ParameterDependsType" value="pdf:group_doc_pdf" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterTOCInfoType" value="toc:collapse" />
+    <Parameter name="ParameterPDFSplitFileType" value="grouppdf" />
+    <Parameter name="ParameterType" value="pdf:group_pdf" />
+    <Parameter name="ParameterCategory" value="navigation" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:pdf/project_pdf.xsl">
+    <Parameter name="ParameterType" value="pdf:project_pdf" />
+    <Parameter name="ParameterCategory" value="merge" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Connect">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Splash" />
+   <Depends pipeline="Splits" />
+   <Depends pipeline="TOC" />
+   <Depends pipeline="Index" />
+   <Depends pipeline="Page" />
+   <Depends pipeline="Copy" />
+
+   <Stage type="xsl" action="wwformat:Transforms/parcel.xsl">
+    <Parameter name="ParameterDependsType" value="toc:resolve" />
+    <Parameter name="ParameterStandaloneParcelType" value="connect:parcel:standalone" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterLinksType" value="links:project" />
+    <Parameter name="ParameterType" value="connect:parcel" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Parcel.asp" />
+    <Parameter name="ParameterParcelInfoSplitFileType" value="parcel" />
+    <Parameter name="ParameterCategory" value="navigation" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/search.xsl">
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Search.asp" />
+    <Parameter name="ParameterType" value="connect:search" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/header.xsl">
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Header.asp" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/footer.xsl">
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Footer.asp" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/unsupported_browser.xsl">
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Unsupported_Browser.asp" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/connect.xsl">
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterProjectVariablesType" value="variables:project" />
+    <Parameter name="ParameterPageTemplateURI" value="wwformat:Pages/Connect.asp" />
+    <Parameter name="ParameterParcelType" value="connect:parcel" />
+    <Parameter name="ParameterCopyType" value="copy:files" />
+    <Parameter name="ParameterStandaloneParcelType" value="connect:parcel:standalone" />
+    <Parameter name="ParameterType" value="connect:entry" />
+    <Parameter name="ParameterCategory" value="merge" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+    <Parameter name="ParameterSplitsProjectType" value="splits:project" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/connect_view.xsl">
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterType" value="connect:view" />
+    <Parameter name="ParameterCategory" value="merge" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwformat:Transforms/api_wwhelp.xsl">
+    <Parameter name="ParameterType" value="api:wwhelp" />
+    <Parameter name="ParameterCategory" value="api" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Search">
+   <Depends pipeline="Connect" />
+
+   <Stage type="xsl" action="wwformat:Transforms/search-index.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterSearchSplitFileType" value="search" />
+    <Parameter name="ParameterType" value="search:index" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+   </Stage>
+
+   <!-- Stage for indexing the words in the baggage files -->
+   <!--                                                   -->
+   <Stage type="xsl" action="wwformat:Transforms/baggage-search-index.xsl">
+    <Parameter name="ParameterBaggageType" value="baggage:group" />
+    <Parameter name="ParameterFilteredGroupType" value="baggage:filter" />
+    <Parameter name="ParameterSearchBaggageUniqueType" value="search:baggage:unique" />
+    <Parameter name="ParameterSearchSplitFileType" value="search" />
+    <Parameter name="ParameterLocaleType" value="locale:project" />
+    <Parameter name="ParameterDependsType" value="splits:names" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterType" value="search:index" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="" />
+    <Parameter name="ParameterUse" value="" />
+    <Parameter name="ParameterDeploy" value="true" />
+    <Parameter name="ParameterXHTMLBaggageType" value="baggage:xhtml" />
+    <Parameter name="ParameterBaggageWarningsType" value="baggage:warnings" />
+    <Parameter name="ParameterInternalType" value="internal" />
+    <Parameter name="ParameterExternalType" value="external" />
+    <Parameter name="ParameterBaggageSplitFileType" value="baggage" />
+   </Stage>
+  </Pipeline>
+
+  <!-- Generates project-wide list of page and topic URLs -->
+  <!--                                          -->
+  <Pipeline name="URL-Maps">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Connect" />
+   <Depends pipeline="Links" />
+   <Depends pipeline="Copy" />
+
+   <Stage type="xsl" action="wwtransform:reverb/url_maps.xsl">
+    <Parameter name="ParameterDependsType" value="links:project" />
+    <Parameter name="ParameterType" value="maps:project" />
+    <Parameter name="ParameterEntryType" value="connect:entry" />
+    <Parameter name="ParameterCategory" value="merge" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="true" />
+    <Parameter name="ParameterCopyBaggageType" value="copy:baggage" />
+
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Report-Styles">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Segment" />
+   <Depends pipeline="Links" />
+
+   <Stage type="xsl" action="wwtransform:reports/styles/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterSegmentsType" value="segment:splits" />
+    <Parameter name="ParameterLinksType" value="links:project" />
+    <Parameter name="ParameterType" value="reports:styles:document" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/group.xsl">
+    <Parameter name="ParameterDependsType" value="reports:styles:document" />
+    <Parameter name="ParameterType" value="reports:styles:group" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+
+   <!-- Printable -->
+   <!--           -->
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:styles:document" />
+    <Parameter name="ParameterType" value="reports:styles:document:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:styles:group" />
+    <Parameter name="ParameterType" value="reports:styles:group:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Report-Links">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Segment" />
+   <Depends pipeline="Links" />
+
+   <Stage type="xsl" action="wwtransform:reports/links/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterSegmentsType" value="segment:splits" />
+    <Parameter name="ParameterLinksType" value="links:project" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterType" value="reports:links:document" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterAllowBaggage" value="true" />
+    <Parameter name="ParameterAllowGroupToGroup" value="true" />
+    <Parameter name="ParameterAllowURL" value="true" />
+    <Parameter name="ParameterBaggageSplitFileType" value="baggage" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/group.xsl">
+    <Parameter name="ParameterDependsType" value="reports:links:document" />
+    <Parameter name="ParameterType" value="reports:links:group" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+
+   <!-- Printable -->
+   <!--           -->
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:links:document" />
+    <Parameter name="ParameterType" value="reports:links:document:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:links:group" />
+    <Parameter name="ParameterType" value="reports:links:group:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Report-Accessibility">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Links" />
+
+   <Stage type="xsl" action="wwtransform:reports/accessibility/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterLinksType" value="links:project" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterType" value="reports:accessibility:document" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterAllowBaggage" value="true" />
+    <Parameter name="ParameterAllowGroupToGroup" value="true" />
+    <Parameter name="ParameterAllowURL" value="true" />
+    <Parameter name="ParameterBaggageSplitFileType" value="baggage" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/group.xsl">
+    <Parameter name="ParameterDependsType" value="reports:accessibility:document" />
+    <Parameter name="ParameterType" value="reports:accessibility:group" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+
+   <!-- Printable -->
+   <!--           -->
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:accessibility:document" />
+    <Parameter name="ParameterType" value="reports:accessibility:document:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:accessibility:group" />
+    <Parameter name="ParameterType" value="reports:accessibility:group:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Report-Filenames">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Splits" />
+   <Depends pipeline="Links" />
+
+   <Stage type="xsl" action="wwtransform:reports/filenames/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterLinksType" value="links:project" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterType" value="reports:filenames:document" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/group.xsl">
+    <Parameter name="ParameterDependsType" value="reports:filenames:document" />
+    <Parameter name="ParameterType" value="reports:filenames:group" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+
+   <!-- Printable -->
+   <!--           -->
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:filenames:document" />
+    <Parameter name="ParameterType" value="reports:filenames:document:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:filenames:group" />
+    <Parameter name="ParameterType" value="reports:filenames:group:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Report-Topics">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Links" />
+
+   <Stage type="xsl" action="wwtransform:reports/topics/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterLinksType" value="links:project" />
+    <Parameter name="ParameterType" value="reports:topics:document" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/group.xsl">
+    <Parameter name="ParameterDependsType" value="reports:topics:document" />
+    <Parameter name="ParameterType" value="reports:topics:group" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+
+   <!-- Printable -->
+   <!--           -->
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:topics:document" />
+    <Parameter name="ParameterType" value="reports:topics:document:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:topics:group" />
+    <Parameter name="ParameterType" value="reports:topics:group:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Report-Images">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Splits" />
+   <Depends pipeline="Links" />
+
+   <Stage type="xsl" action="wwtransform:reports/images/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterLinksType" value="links:project" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterType" value="reports:images:document" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/group.xsl">
+    <Parameter name="ParameterDependsType" value="reports:images:document" />
+    <Parameter name="ParameterType" value="reports:images:group" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+
+   <!-- Printable -->
+   <!--           -->
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:images:document" />
+    <Parameter name="ParameterType" value="reports:images:document:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:images:group" />
+    <Parameter name="ParameterType" value="reports:images:group:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Report-Conditions">
+   <Depends pipeline="Locale" />
+
+   <Stage type="xsl" action="wwtransform:reports/conditions/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterType" value="reports:conditions:document" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/group.xsl">
+    <Parameter name="ParameterDependsType" value="reports:conditions:document" />
+    <Parameter name="ParameterType" value="reports:conditions:group" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+
+   <!-- Printable -->
+   <!--           -->
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:conditions:document" />
+    <Parameter name="ParameterType" value="reports:conditions:document:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:conditions:group" />
+    <Parameter name="ParameterType" value="reports:conditions:group:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+  </Pipeline>
+
+  <Pipeline name="Report-Baggage-Files">
+   <Depends pipeline="Locale" />
+   <Depends pipeline="Splits" />
+   <Depends pipeline="Baggage" />
+
+   <Stage type="xsl" action="wwtransform:reports/baggagefiles/document.xsl">
+    <Parameter name="ParameterDependsType" value="engine:wif" />
+    <Parameter name="ParameterSplitsType" value="splits:uniquenames" />
+    <Parameter name="ParameterBehaviorsType" value="behaviors:minimal" />
+    <Parameter name="ParameterType" value="reports:baggagefiles:document" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+    <Parameter name="ParameterBaggageDocumentType" value="baggage:document" />
+    <Parameter name="ParameterBaggageWarningsType" value="baggage:warnings" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/baggagefiles/group.xsl">
+    <Parameter name="ParameterDependsType" value="reports:baggagefiles:document" />
+    <Parameter name="ParameterType" value="reports:baggagefiles:group" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+
+   <!-- Printable -->
+   <!--           -->
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:baggagefiles:document" />
+    <Parameter name="ParameterType" value="reports:baggagefiles:document:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+   <Stage type="xsl" action="wwtransform:reports/printable.xsl">
+    <Parameter name="ParameterDependsType" value="reports:baggagefiles:group" />
+    <Parameter name="ParameterType" value="reports:baggagefiles:group:printable" />
+    <Parameter name="ParameterBrowserXSLType" value="reports:printable:xsl" />
+    <Parameter name="ParameterUILocaleType" value="uilocale:project" />
+    <Parameter name="ParameterCategory" value="report-printable" />
+    <Parameter name="ParameterUse" value="external" />
+    <Parameter name="ParameterDeploy" value="false" />
+   </Stage>
+  </Pipeline>
+ </Pipelines>
+</Format>

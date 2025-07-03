@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="position-horizontal">
+   <Item value="left" />
+   <Item value="center" />
+   <Item value="right" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="company-info" />
+ </Groups>
+
+ <Settings>
+  <Setting name="company-link" group="company-info" default="">
+   <SettingClass name="url" />
+  </Setting>
+  <Setting name="company-logo-src" group="company-info" default="">
+   <SettingClass name="project-file-path" />
+  </Setting>
+  <Setting name="company-name" group="company-info" default="">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="company-email" group="company-info" default="">
+   <SettingClass name="email" />
+  </Setting>
+  <Setting name="company-fax" group="company-info" default="">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="company-phone" group="company-info" default="">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="company-copyright" group="company-info" default="">
+   <SettingClass name="string" />
+  </Setting>
+ </Settings>
+</FormatTraitInfo>

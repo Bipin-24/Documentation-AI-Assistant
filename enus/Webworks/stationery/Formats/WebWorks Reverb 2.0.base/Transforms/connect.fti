@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+
+ <Classes>
+  <Class name="plugins-browser-skin" match="^ *(.+\.weplugin)$" validater="plugins-browser" />
+
+  <Class name="toolbar-logo">
+   <Item value="company-name" />
+   <Item value="company-logo-src" />
+  </Class>
+  <Class name="toolbar-logo-link-address">
+   <Item value="button-home" />
+   <Item value="company-link" />
+  </Class>
+
+  <Class name="menu-initial-state">
+   <Item value="open" />
+   <Item value="close" />
+  </Class>
+
+  <Class name="connect-browser-tab-title">
+   <Item value="page-title" />
+   <Item value="merge-title" />
+  </Class>
+
+  <Class name="toc-icon-position">
+   <Item value="left" />
+   <Item value="right" />
+  </Class>
+ </Classes>
+
+
+ <Groups>
+  <Group name="reverb-2.0" />
+  <Group name="reverb-2.0-toolbar" />
+  <Group name="reverb-2.0-menu" />
+ </Groups>
+
+ <Settings>
+  <!-- Connect -->
+  <!--         -->
+  <Setting name="connect-lightbox-large-images" group="reverb-2.0" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="connect-entry" group="reverb-2.0" default="index.html">
+   <SettingClass name="filename" />
+  </Setting>
+  <Setting name="feedback-email" group="reverb-2.0" default="">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="feedback-email-message" group="reverb-2.0" default="Feedback: $Location;">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="button-print" group="reverb-2.0" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="connect-plugin-skin" group="reverb-2.0" default="">
+   <SettingClass name="plugins-browser-skin" />
+  </Setting>
+  <Setting name="connect-browser-tab-icon" group="reverb-2.0" default="">
+   <SettingClass name="project-file-path"/>
+  </Setting>
+
+  <Setting name="connect-browser-tab-title" group="reverb-2.0" default="page-title">
+   <SettingClass name="connect-browser-tab-title"/>
+  </Setting>
+
+  <!-- Toolbar -->
+  <!--         -->
+  <Setting name="button-home" group="reverb-2.0-toolbar" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="toolbar-logo" group="reverb-2.0-toolbar" default="none">
+   <SettingClass name="none" />
+   <SettingClass name="toolbar-logo" />
+  </Setting>
+  <Setting name="toolbar-logo-override" group="reverb-2.0-toolbar" default="">
+   <SettingClass name="project-file-path"/>
+  </Setting>
+  <Setting name="toolbar-logo-linked" group="reverb-2.0-toolbar" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="toolbar-logo-link-address" group="reverb-2.0-toolbar" default="">
+   <SettingClass name="toolbar-logo-link-address" />
+   <SettingClass name="url" />
+  </Setting>
+  <Setting name="google-translate" group="reverb-2.0-toolbar" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="toolbar-tabs" group="reverb-2.0-toolbar" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+
+  <!-- Menu -->
+  <!--      -->
+  <Setting name="menu-generate" group="reverb-2.0-menu" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="menu-initial-state" group="reverb-2.0-menu" default="open">
+   <SettingClass name="menu-initial-state"/>
+  </Setting>
+  <Setting name="reverb-2.0-minimum-page-width" group="reverb-2.0-menu" default="900">
+   <SettingClass name="pixels" />
+  </Setting>
+
+  <!-- TOC -->
+  <!--     -->
+  <Setting name="toc-icon-position" group="toc" default="left">
+   <SettingClass name="toc-icon-position" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

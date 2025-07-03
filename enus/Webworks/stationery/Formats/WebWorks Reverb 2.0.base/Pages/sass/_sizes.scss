@@ -1,0 +1,266 @@
+/*~~~~~ SIZING ~~~~~*/
+/*~~~~~~~~~~~~~~~~~~*/
+
+/*
+ * generation variables
+ * these are modified by the generation process according to Target Settings
+*/
+$header_generate: false;
+$button_home_generate: false;
+$button_translate_generate: false;
+$menu_generate: false;
+$index_generate: false;
+$toc_generate: false;
+$footer_generate: false;
+$footer_location: end-of-layout;
+$toolbar_tabs_generate: true;
+
+/*
+ * generic values
+*/
+$logo_generic_height: 35px;
+$logo_generic_width: auto;
+
+/*
+ * header
+*/
+$header_height: 85px;
+@if $header_generate == false {
+  $header_height: 0px;
+}
+$header_padding: 0px;
+$header_logo_height: $logo_generic_height;
+$header_logo_width: $logo_generic_width;
+$header_logo_container_padding: 10px;
+$header_connect_info_padding: 10px;
+
+/*
+ * footer
+*/
+$footer_height: 200px;
+@if $footer_generate == false {
+  $footer_height: 0px;
+}
+$footer_padding: 10px;
+$footer_logo_height: $logo_generic_height;
+$footer_logo_width: $logo_generic_width;
+$footer_logo_container_padding: 0px;
+$footer_connect_info_padding: 0px;
+$footer_connect_message_padding: 10px 0px;
+$footer_publish_date_padding: 0px;
+$footer_copyright_message_padding: 0px;
+
+/*
+ * menu
+*/
+$menu_width: 250px;
+@if $menu_generate == false {
+  $menu_width: 0px;
+}
+$menu_padding: 0px;
+$menu_frame_padding: 0px;
+$menu_frame_padding_top_offset: 0px; // needs to match the padding-top of $menu_frame_padding.
+$menu_frame_padding_bottom_offset: 0px; // needs to match the padding-bottom of $menu_frame_padding.
+$menu_nav_buttons_height: 50px;
+$menu_nav_buttons_border_thickness: 0px;
+@if $index_generate == false or $toc_generate == false {
+  $menu_nav_buttons_height: 0px;
+  $menu_nav_buttons_border_thickness: 0px;
+}
+$menu_nav_buttons_height_calculated: $menu_nav_buttons_height - $menu_nav_buttons_border_thickness;
+$menu_nav_buttons_width_calculated: ($menu_width / 2) - ($menu_nav_buttons_border_thickness / 2);
+$menu_toc_index_padding_top: 10px;
+$menu_toc_item_min_height: 30px;
+$menu_toc_item_padding: 5px;
+$menu_toc_item_padding_left: $menu_toc_item_padding; // a minimum spacing from the left of the TOC entry; indentation is added onto this on generation
+$menu_toc_item_icon_width: 1em;
+$menu_toc_item_icon_padding_right: $menu_toc_item_padding;
+$menu_toc_item_current_highlight_size: $menu_toc_item_padding;
+$menu_toc_item_indentation_amount: $menu_toc_item_icon_width;
+
+/*
+ * toolbar
+ *
+ * $toolbar-height should be equal or greater than all other
+ * values or the layout will produce unexpected results
+*/
+$toolbar_top_position: $header_height; // output will be thrown off if you have a header and this value does not match $header_height
+$toolbar_height: 50px;
+$toolbar_border_top_offset: 0px; // needs to match the border-top-width of $toolbar_border_width.
+$toolbar_border_bottom_offset: 0px; // needs to match the border-bottom-width of $toolbar_border_width.
+$toolbar_button_height: $toolbar_height - ($toolbar_border_top_offset + $toolbar_border_bottom_offset);
+$toolbar_button_width: $toolbar_button_height;
+
+/*
+ * toolbar - logo section (Menu Button & Logo)
+*/
+$toolbar_logo_spacer_height: $toolbar_height - ($toolbar_border_top_offset + $toolbar_border_bottom_offset);
+$toolbar_logo_spacer_width: 250px; // ideally should match $menu_width, must be hard-set in case it is disabled
+$toolbar_button_menu_height: $toolbar_button_height;
+$toolbar_button_menu_width: $toolbar_button_width;
+$toolbar_logo_height: $logo_generic_height;
+$toolbar_logo_width: $logo_generic_width;
+$toolbar_logo_image_padding_left: 17px;
+$toolbar_logo_text_padding: 10px;
+
+/*
+ * toolbar - search section (Search Scope Selector, Search Input, & Search Button)
+*/
+$toolbar_search_input_container_width: 99%;
+$toolbar_search_input_height: 30px;
+
+$toolbar_search_scope_selector_height: $toolbar_search_input_height;
+$toolbar_search_scope_selector_min_width: 100px;
+$toolbar_search_scope_selector_max_width: 200px;
+$toolbar_search_scope_selector_caret_width: 25px;
+
+$toolbar_search_scope_options_min_width: 200px;
+$toolbar_search_scope_options_max_width: 400px;
+$toolbar_search_scope_options_max_height: 500px;
+$toolbar_search_scope_option_min_height: 30px;
+
+$toolbar_button_search_height: $toolbar_button_height;
+$toolbar_button_search_width: $toolbar_button_width;
+
+/*
+ * toolbar - button section (Previous Button, Next Button, Home Button)
+*/
+$toolbar_button_previous_height: $toolbar_button_height;
+$toolbar_button_previous_width: $toolbar_button_width;
+$toolbar_button_next_height: $toolbar_button_height;
+$toolbar_button_next_width: $toolbar_button_width;
+$toolbar_button_home_height: $toolbar_button_height;
+$toolbar_button_home_width: $toolbar_button_width;
+$toolbar_button_translate_height: $toolbar_button_height;
+$toolbar_button_translate_width: $toolbar_button_width;
+$toolbar_button_spacer_width: $toolbar_button_previous_width + $toolbar_button_next_width + $toolbar_button_home_width + $toolbar_button_translate_width;
+@if $button_home_generate == false and $button_translate_generate == false {
+  $toolbar_button_spacer_width: $toolbar_button_previous_width + $toolbar_button_next_width;
+}
+@if $button_home_generate == true and $button_translate_generate == false {
+  $toolbar_button_spacer_width: $toolbar_button_previous_width + $toolbar_button_next_width + $toolbar_button_home_width;
+}
+@if $button_home_generate == false and $button_translate_generate == true {
+  $toolbar_button_spacer_width: $toolbar_button_previous_width + $toolbar_button_next_width + $toolbar_button_translate_width;
+}
+
+$toolbar_tab_group_height: 44px;
+$toolbar_tab_group_margin: 0 0 0 0;
+$toolbar_tab_group_padding: 0 0 0 0;
+$toolbar_tab_group_vertical_alignment: middle;
+$toolbar_tab_height: 32px;
+$toolbar_tab_margin: 0 5px 0 5px;
+$toolbar_tab_padding: 0 10px;
+$toolbar_tab_vertical_alignment: middle;
+@if ($toolbar_tabs_generate == false) {
+  $toolbar_tab_group_height: 0;
+}
+$toolbar_with_tabs_height: $toolbar_height + $toolbar_tab_group_height;
+
+
+/*
+ * was this helpful buttons & message
+*/
+$page_helpful_button_padding: 0px 5px 0px 22px;
+$page_helpful_buttons_container_padding: 0px 5px;
+
+/*
+ * page
+*/
+$page_max_width: 900px;
+$page_padding_top: 10px;
+$page_padding_right: 10px;
+$page_padding_bottom: 10px;
+$page_padding_left: 10px;
+$page_breadcrumbs_height: 0px;
+$page_breadcrumbs_padding: 10px;
+$page_toolbar_padding: 5px 0px 5px 0px;
+
+/*
+ * popup
+*/
+$popup_max_height: 500px;
+$popup_width: 400px;
+$popup_padding_top: 10px;
+$popup_padding_right: 10px;
+$popup_padding_bottom: 10px;
+$popup_padding_left: 10px;
+$popup_margin_top: 10px;
+$popup_margin_right: 0px;
+$popup_margin_bottom: 10px;
+$popup_margin_left: 0px;
+
+/*
+ * mini toc
+*/
+$mini_toc_margin: 20px;
+$mini_toc_entry_indentation_amount: 8px;
+$mini_toc_entry_padding: 5px;
+
+/*
+ * related topics
+*/
+$related_topics_padding: 40px 0px;
+$related_topics_title_padding: 10px;
+$related_topics_list_padding: 5px 0px;
+$related_topics_entry_padding: 5px 10px;
+$related_topics_entry_icon_padding: 0px 10px 0px 0px;
+
+/*
+ * search
+*/
+$search_container_padding: 0px;
+
+$search_title_padding: 20px 10px;
+
+$search_filter_message_padding: 5px 10px;
+
+$search_result_count_message_padding: 5px 10px;
+
+$search_result_min_height: 50px;
+$search_result_padding: 0px;
+$search_result_title_padding: 10px 10px 5px 10px;
+$search_result_summary_padding: 5px 10px 15px 10px;
+$search_result_group_name_padding: 5px 10px;
+
+/*
+ * lightbox
+*/
+$lightbox_button_close_height: $toolbar_button_height;
+$lightbox_button_close_width: $toolbar_button_width;
+
+/*
+ * unsupported browser
+*/
+$unsupported_browser_container_padding: 40px;
+$unsupported_browser_heading_padding: 10px 0px;
+$unsupported_browser_message_padding: 10px 0px;
+
+/*
+ * calculated sizes
+ *
+ * the values in the below section are calculated & dependent upon multiple above values.
+*/
+
+/*
+ * toolbar
+*/
+$toolbar_search_scope_selector_value_min_width: calc(#{$toolbar_search_scope_selector_min_width} - #{$toolbar_search_scope_selector_caret_width});
+$toolbar_search_scope_selector_value_max_width: calc(#{$toolbar_search_scope_selector_max_width} - #{$toolbar_search_scope_selector_caret_width});
+
+/*
+ * menu
+*/
+$menu_min_height: calc(100vh - #{$header_height} - #{$toolbar_with_tabs_height} - #{$footer_height} - (#{$menu_frame_padding_top_offset} + #{$menu_frame_padding_bottom_offset}));
+@if $footer_location == end-of-page {
+  $menu_min_height: calc(100vh - #{$header_height} - #{$toolbar_with_tabs_height} - (#{$menu_frame_padding_top_offset} + #{$menu_frame_padding_bottom_offset}));
+}
+
+/*
+ * page
+*/
+$page_min_height: calc(100vh - #{$header_height} - #{$toolbar_with_tabs_height});
+
+@if ($footer_generate == true and $footer_location == end-of-page) or $header_generate == false {
+  $page_min_height: calc(100vh - #{$header_height} - #{$toolbar_with_tabs_height} - #{$footer_height});
+}

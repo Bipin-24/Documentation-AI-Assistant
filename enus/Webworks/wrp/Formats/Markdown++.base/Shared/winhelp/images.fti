@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="image-format">
+   <Item value="bmp" />
+  </Class>
+
+  <Class name="color-depth">
+   <Item value="1" />
+   <Item value="2" />
+   <Item value="4" />
+   <Item value="8" />
+   <Item value="16" />
+   <Item value="24" />
+   <Item value="32" />
+  </Class>
+
+  <Class name="render-dpi" match="^ *([1-9][0-9]*) *$">
+   <Common value="72" />
+   <Common value="96" />
+   <Common value="150" />
+   <Common value="300" />
+   <Common value="600" />
+  </Class>
+
+  <Class name="scale-percentage" match="^ *([1-9][0-9]*) *$">
+   <Common value="25" />
+   <Common value="50" />
+   <Common value="75" />
+   <Common value="100" />
+   <Common value="125" />
+   <Common value="150" />
+   <Common value="200" />
+   <Common value="400" />
+   <Common value="800" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="options" />
+ </Groups>
+
+ <Settings />
+
+ <RuleTraitsSet>
+  <RuleTraits category="Graphic">
+   <Options>
+    <Option name="file-extension" group="options" default=".bmp">
+     <OptionClass name="file-extension" />
+    </Option>
+    <Option name="format" group="options" default="bmp">
+     <OptionClass name="image-format" />
+    </Option>
+    <Option name="color-depth" group="options" default="24">
+     <OptionClass name="color-depth" />
+    </Option>
+    <Option name="grayscale" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="render-dpi" group="options" default="96">
+     <OptionClass name="render-dpi" />
+    </Option>
+    <Option name="max-width" group="options" default="none">
+     <OptionClass name="none" />
+     <OptionClass name="pixels" />
+    </Option>
+    <Option name="max-height" group="options" default="none">
+     <OptionClass name="none" />
+     <OptionClass name="pixels" />
+    </Option>
+    <Option name="scale" group="options" default="none">
+     <OptionClass name="none" />
+     <OptionClass name="scale-percentage" />
+    </Option>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="by-reference-graphics" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+ </RuleTraitsSet>
+</FormatTraitInfo>

@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="attachment">
+   <Item value="scroll" />
+   <Item value="fixed" />
+  </Class>
+
+  <Class name="repeat">
+   <Item value="no-repeat" />
+   <Item value="repeat" />
+   <Item value="repeat-x" />
+   <Item value="repeat-y" />
+  </Class>
+
+  <Class name="layout-position">
+   <Item value="static" />
+   <Item value="relative" />
+   <Item value="absolute" />
+  </Class>
+
+  <Class name="position-horizontal">
+   <Item value="left" />
+   <Item value="center" />
+   <Item value="right" />
+  </Class>
+
+  <Class name="position-vertical">
+   <Item value="top" />
+   <Item value="center" />
+   <Item value="bottom" />
+  </Class>
+
+  <Class name="text-direction">
+   <Item value="ltr" />
+   <Item value="rtl" />
+  </Class>
+
+  <Class name="normal">
+   <Item value="normal" />
+  </Class>
+
+  <Class name="text-align-horizontal">
+   <Item value="left" />
+   <Item value="center" />
+   <Item value="right" />
+   <Item value="justify" />
+  </Class>
+
+  <Class name="text-align-vertical">
+   <Item value="baseline" />
+   <Item value="sub" />
+   <Item value="super" />
+   <Item value="top" />
+   <Item value="text-top" />
+   <Item value="middle" />
+   <Item value="bottom" />
+   <Item value="text-bottom" />
+  </Class>
+
+  <Class name="table-align-horizontal">
+   <Item value="left" />
+   <Item value="center" />
+   <Item value="right" />
+  </Class>
+
+  <Class name="cell-align-vertical">
+   <Item value="top" />
+   <Item value="middle" />
+   <Item value="bottom" />
+  </Class>
+
+  <Class name="text-decoration-lines">
+   <Item value="none" />
+   <Item value="single" />
+  </Class>
+
+  <Class name="text-transform">
+   <Item value="none" />
+   <Item value="capitalize" />
+   <Item value="uppercase" />
+   <Item value="lowercase" />
+  </Class>
+
+  <Class name="unicode-bidi">
+   <Item value="normal" />
+   <Item value="embed" />
+   <Item value="bidi-override" />
+  </Class>
+
+  <Class name="white-space">
+   <Item value="normal" />
+   <Item value="pre" />
+   <Item value="nowrap" />
+  </Class>
+
+  <Class name="font-family" match="^ *([^ \t\r\n]+) *$" validater="font-family">
+   <Common value="Arial, Verdana, sans-serif" />
+   <Common value="serif" />
+   <Common value="sans-serif" />
+   <Common value="cursive" />
+   <Common value="fantasy" />
+   <Common value="monospace" />
+  </Class>
+
+  <Class name="absolute-size">
+   <Item value="xx-small" />
+   <Item value="x-small" />
+   <Item value="small" />
+   <Item value="medium" />
+   <Item value="large" />
+   <Item value="x-large" />
+   <Item value="xx-large" />
+  </Class>
+
+  <Class name="relative-size">
+   <Item value="larger" />
+   <Item value="smaller" />
+  </Class>
+
+  <Class name="font-style">
+   <Item value="normal" />
+   <Item value="italic" />
+   <Item value="oblique" />
+  </Class>
+
+  <Class name="font-variant">
+   <Item value="normal" />
+   <Item value="small-caps" />
+  </Class>
+
+  <Class name="font-weight">
+   <Item value="normal" />
+   <Item value="bold" />
+   <Item value="bolder" />
+   <Item value="lighter" />
+   <Item value="100" />
+   <Item value="200" />
+   <Item value="300" />
+   <Item value="400" />
+   <Item value="500" />
+   <Item value="600" />
+   <Item value="700" />
+   <Item value="800" />
+   <Item value="900" />
+  </Class>
+
+  <Class name="border-style">
+   <Item value="none" />
+   <Item value="inset" />
+   <Item value="outset" />
+  </Class>
+
+  <Class name="border-width-name">
+   <Item value="thin" />
+   <Item value="medium" />
+   <Item value="thick" />
+  </Class>
+
+  <Class name="auto">
+   <Item value="auto" />
+  </Class>
+
+  <Class name="html-element" match="^ *(.+) *$" validater="html-element" />
+
+  <Class name="html-display">
+   <Item value="none" />
+   <Item value="block" />
+   <Item value="inline" />
+   <Item value="list-item" />
+  </Class>
+
+  <Class name="caption-side">
+   <Item value="top" />
+   <Item value="bottom" />
+  </Class>
+
+  <Class name="cursor-name">
+   <Item value="default" />
+   <Item value="auto" />
+   <Item value="crosshair" />
+   <Item value="pointer" />
+   <Item value="move" />
+   <Item value="e-resize" />
+   <Item value="ne-resize" />
+   <Item value="nw-resize" />
+   <Item value="n-resize" />
+   <Item value="se-resize" />
+   <Item value="sw-resize" />
+   <Item value="s-resize" />
+   <Item value="w-resize" />
+   <Item value="text" />
+   <Item value="wait" />
+   <Item value="help" />
+  </Class>
+
+  <Class name="overflow">
+   <Item value="auto" />
+   <Item value="visible" />
+   <Item value="hidden" />
+   <Item value="scroll" />
+  </Class>
+
+  <Class name="visibility">
+   <Item value="visible" />
+   <Item value="hidden" />
+  </Class>
+
+  <Class name="alternate-shading-context">
+   <Item value="row" stringid="row" />
+   <Item value="column" stringid="column" />
+  </Class>
+
+  <Class name="character-rule" />
+
+  <Class name="border-collapse">
+   <Item value="collapse" />
+   <Item value="separate" />
+  </Class>
+
+  <Class name="showhide">
+   <Item value="show" />
+   <Item value="hide" />
+  </Class>
+
+  <Class name="table-layout">
+   <Item value="auto" />
+   <Item value="fixed" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="html" />
+  <Group name="background" />
+  <Group name="text" />
+  <Group name="font" />
+  <Group name="border" />
+  <Group name="margin" />
+  <Group name="padding" />
+  <Group name="table-head" />
+  <Group name="thead-background" />
+  <Group name="table-body" />
+  <Group name="tbody-background" />
+  <Group name="table-foot" />
+  <Group name="tfoot-background" />
+  <Group name="table" />
+ </Groups>
+
+ <Settings />
+
+ <RuleTraitsSet>
+  <RuleTraits category="Paragraph">
+   <Options />
+
+   <Properties>
+    <!-- HTML -->
+    <!--      -->
+    <Property name="tag" group="html" default="div">
+     <PropertyClass name="html-element" />
+    </Property>
+    <Property name="display" group="html" default="block">
+     <PropertyClass name="html-display" />
+    </Property>
+    <Property name="float" group="html" default="none">
+     <PropertyClass name="float" />
+    </Property>
+    <Property name="position" group="html" default="static">
+     <PropertyClass name="layout-position" />
+    </Property>
+    <Property name="left" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="right" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="top" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="bottom" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="cursor" group="html" default="default">
+     <PropertyClass name="cursor-name" />
+     <PropertyClass name="url" />
+    </Property>
+    <Property name="overflow" group="html" default="visible">
+     <PropertyClass name="overflow" />
+    </Property>
+    <Property name="visibility" group="html" default="visible">
+     <PropertyClass name="visibility" />
+    </Property>
+
+    <!-- Background -->
+    <!--            -->
+    <Property name="background-attachment" group="background" default="scroll">
+     <PropertyClass name="attachment" />
+    </Property>
+    <Property name="background-color" group="background" default="transparent">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="background-image" group="background" default="none">
+     <PropertyClass name="url" />
+     <PropertyClass name="none" />
+    </Property>
+    <Property name="background-position-horizontal" group="background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-horizontal" />
+    </Property>
+    <Property name="background-position-vertical" group="background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-vertical" />
+    </Property>
+    <Property name="background-repeat" group="background" default="no-repeat">
+     <PropertyClass name="repeat" />
+    </Property>
+
+    <!-- Bullets -->
+    <!--         -->
+    <Property name="bullet-character" group="bullet" default="none">
+     <PropertyClass name="none" />
+     <PropertyClass name="string" />
+    </Property>
+    <Property name="bullet-image" group="bullet" default="none">
+     <PropertyClass name="none" />
+     <PropertyClass name="url" />
+    </Property>
+    <Property name="bullet-separator" group="bullet" default="none">
+     <PropertyClass name="none" />
+     <PropertyClass name="string" />
+    </Property>
+    <Property name="bullet-style" group="bullet" default="">
+     <PropertyClass name="character-rule" />
+    </Property>
+
+    <!-- Text -->
+    <!--      -->
+    <Property name="color" group="text" default="black">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="direction" group="text" default="ltr">
+     <PropertyClass name="text-direction" />
+    </Property>
+    <Property name="letter-spacing" group="text" default="normal">
+     <PropertyClass name="normal" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="line-height" group="text" default="normal">
+     <PropertyClass name="normal" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="text-align" group="text" default="left">
+     <PropertyClass name="text-align-horizontal" />
+    </Property>
+    <Property name="text-decoration-blink" group="text" default="false">
+     <PropertyClass name="boolean" />
+    </Property>
+    <Property name="text-decoration-underline" group="text" default="none">
+     <PropertyClass name="text-decoration-lines" />
+    </Property>
+    <Property name="text-decoration-overline" group="text" default="none">
+     <PropertyClass name="text-decoration-lines" />
+    </Property>
+    <Property name="text-decoration-line-through" group="text" default="none">
+     <PropertyClass name="text-decoration-lines" />
+    </Property>
+    <Property name="text-indent" group="text" default="0pt">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="text-transform" group="text" default="none">
+     <PropertyClass name="text-transform" />
+    </Property>
+    <Property name="unicode-bidi" group="text" default="normal">
+     <PropertyClass name="unicode-bidi" />
+    </Property>
+    <Property name="vertical-align" group="text" default="normal">
+     <PropertyClass name="text-align-vertical" />
+    </Property>
+    <Property name="white-space" group="text" default="normal">
+     <PropertyClass name="white-space" />
+    </Property>
+    <Property name="word-spacing" group="text" default="normal">
+     <PropertyClass name="normal" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Font -->
+    <!--      -->
+    <Property name="font-family" group="font" default="sans-serif">
+     <PropertyClass name="font-family" />
+    </Property>
+    <Property name="font-size" group="font" default="12pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="absolute-size" />
+     <PropertyClass name="relative-size" />
+    </Property>
+    <Property name="font-style" group="font" default="normal">
+     <PropertyClass name="font-style" />
+    </Property>
+    <Property name="font-variant" group="font" default="normal">
+     <PropertyClass name="font-variant" />
+    </Property>
+    <Property name="font-weight" group="font" default="normal">
+     <PropertyClass name="font-weight" />
+    </Property>
+
+    <!-- Borders -->
+    <!--         -->
+    <Property name="border-left-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-left-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-right-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-right-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-top-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-top-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-bottom-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-bottom-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Margins -->
+    <!--         -->
+    <Property name="margin-left" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-right" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-top" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-bottom" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Padding -->
+    <!--         -->
+    <Property name="padding-left" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-right" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-top" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-bottom" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Character">
+   <Options />
+
+   <Properties>
+    <!-- HTML -->
+    <!--      -->
+    <Property name="tag" group="html" default="dfn">
+     <PropertyClass name="html-element" />
+    </Property>
+    <Property name="display" group="html" default="inline">
+     <PropertyClass name="html-display" />
+    </Property>
+    <Property name="float" group="html" default="none">
+     <PropertyClass name="float" />
+    </Property>
+    <Property name="position" group="html" default="static">
+     <PropertyClass name="layout-position" />
+    </Property>
+    <Property name="left" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="right" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="top" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="bottom" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="cursor" group="html" default="default">
+     <PropertyClass name="cursor-name" />
+     <PropertyClass name="url" />
+    </Property>
+    <Property name="overflow" group="html" default="visible">
+     <PropertyClass name="overflow" />
+    </Property>
+    <Property name="visibility" group="html" default="visible">
+     <PropertyClass name="visibility" />
+    </Property>
+
+    <!-- Background -->
+    <!--            -->
+    <Property name="background-attachment" group="background" default="scroll">
+     <PropertyClass name="attachment" />
+    </Property>
+    <Property name="background-color" group="background" default="transparent">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="background-image" group="background" default="none">
+     <PropertyClass name="url" />
+     <PropertyClass name="none" />
+    </Property>
+    <Property name="background-position-horizontal" group="background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-horizontal" />
+    </Property>
+    <Property name="background-position-vertical" group="background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-vertical" />
+    </Property>
+    <Property name="background-repeat" group="background" default="no-repeat">
+     <PropertyClass name="repeat" />
+    </Property>
+
+    <!-- Text -->
+    <!--      -->
+    <Property name="color" group="text" default="black">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="direction" group="text" default="ltr">
+     <PropertyClass name="text-direction" />
+    </Property>
+    <Property name="letter-spacing" group="text" default="normal">
+     <PropertyClass name="normal" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="line-height" group="text" default="normal">
+     <PropertyClass name="normal" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="text-align" group="text" default="left">
+     <PropertyClass name="text-align-horizontal" />
+    </Property>
+    <Property name="text-decoration-blink" group="text" default="false">
+     <PropertyClass name="boolean" />
+    </Property>
+    <Property name="text-decoration-underline" group="text" default="none">
+     <PropertyClass name="text-decoration-lines" />
+    </Property>
+    <Property name="text-decoration-overline" group="text" default="none">
+     <PropertyClass name="text-decoration-lines" />
+    </Property>
+    <Property name="text-decoration-line-through" group="text" default="none">
+     <PropertyClass name="text-decoration-lines" />
+    </Property>
+    <Property name="text-indent" group="text" default="0pt">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="text-transform" group="text" default="none">
+     <PropertyClass name="text-transform" />
+    </Property>
+    <Property name="unicode-bidi" group="text" default="normal">
+     <PropertyClass name="unicode-bidi" />
+    </Property>
+    <Property name="vertical-align" group="text" default="normal">
+     <PropertyClass name="text-align-vertical" />
+    </Property>
+    <Property name="white-space" group="text" default="normal">
+     <PropertyClass name="white-space" />
+    </Property>
+    <Property name="word-spacing" group="text" default="normal">
+     <PropertyClass name="normal" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Font -->
+    <!--      -->
+    <Property name="font-family" group="font" default="sans-serif">
+     <PropertyClass name="font-family" />
+    </Property>
+    <Property name="font-size" group="font" default="12pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="absolute-size" />
+     <PropertyClass name="relative-size" />
+    </Property>
+    <Property name="font-style" group="font" default="normal">
+     <PropertyClass name="font-style" />
+    </Property>
+    <Property name="font-variant" group="font" default="normal">
+     <PropertyClass name="font-variant" />
+    </Property>
+    <Property name="font-weight" group="font" default="normal">
+     <PropertyClass name="font-weight" />
+    </Property>
+
+    <!-- Borders -->
+    <!--         -->
+    <Property name="border-left-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-left-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-right-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-right-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-top-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-top-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-bottom-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-bottom-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Margins -->
+    <!--         -->
+    <Property name="margin-left" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-right" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-top" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-bottom" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Padding -->
+    <!--         -->
+    <Property name="padding-left" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-right" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-top" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-bottom" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Table">
+   <Options>
+    <Option name="table-use-document-cell-widths" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="table-use-percentage-cell-widths" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="table-cell-width-first" group="options" default="">
+     <OptionClass name="units" />
+    </Option>
+    <Option name="table-cell-width-last" group="options" default="">
+     <OptionClass name="units" />
+    </Option>
+   </Options>
+
+   <Properties>
+    <!-- HTML -->
+    <!--      -->
+    <Property name="tag" group="html" default="table">
+     <PropertyClass name="html-element" />
+    </Property>
+    <Property name="float" group="html" default="none">
+     <PropertyClass name="float" />
+    </Property>
+    <Property name="clear" group="html" default="none">
+     <PropertyClass name="clear" />
+    </Property>
+    <Property name="width" group="html" default="none">
+     <PropertyClass name="none" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="height" group="html" default="none">
+     <PropertyClass name="none" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="cursor" group="html" default="default">
+     <PropertyClass name="cursor-name" />
+     <PropertyClass name="url" />
+    </Property>
+    <Property name="overflow" group="html" default="visible">
+     <PropertyClass name="overflow" />
+    </Property>
+    <Property name="visibility" group="html" default="visible">
+     <PropertyClass name="visibility" />
+    </Property>
+
+    <!-- Caption -->
+    <!--         -->
+    <Property name="caption-margin" group="html" default="none">
+     <PropertyClass name="none" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="caption-side" group="html" default="top">
+     <PropertyClass name="caption-side" />
+    </Property>
+
+    <!-- Background -->
+    <!--            -->
+    <Property name="background-attachment" group="background" default="scroll">
+     <PropertyClass name="attachment" />
+    </Property>
+    <Property name="background-color" group="background" default="transparent">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="background-image" group="background" default="none">
+     <PropertyClass name="url" />
+     <PropertyClass name="none" />
+    </Property>
+    <Property name="background-position-horizontal" group="background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-horizontal" />
+    </Property>
+    <Property name="background-position-vertical" group="background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-vertical" />
+    </Property>
+    <Property name="background-repeat" group="background" default="no-repeat">
+     <PropertyClass name="repeat" />
+    </Property>
+
+    <!-- Table -->
+    <!--       -->
+    <Property name="border" group="table" default="0">
+     <PropertyClass name="number" />
+    </Property>
+    <Property name="border-collapse" group="table" default="collapse">
+     <PropertyClass name="border-collapse" />
+    </Property>
+    <Property name="border-spacing" group="table" default="0pt">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="empty-cells" group="table" default="show">
+     <PropertyClass name="showhide" />
+    </Property>
+    <Property name="table-layout" group="table" default="auto">
+     <PropertyClass name="table-layout" />
+    </Property>
+
+    <!-- Borders -->
+    <!--         -->
+    <Property name="border-left-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-left-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-right-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-right-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-top-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-top-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-bottom-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-bottom-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Margins -->
+    <!--         -->
+    <Property name="margin-left" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-right" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-top" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-bottom" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Padding -->
+    <!--         -->
+    <Property name="padding-left" group="table" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-right" group="table" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-top" group="table" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-bottom" group="table" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Spacing -->
+    <!--         -->
+    <Property name="cell-padding" group="table" default="0">
+     <PropertyClass name="number" />
+    </Property>
+    <Property name="cell-spacing" group="table" default="0">
+     <PropertyClass name="number" />
+    </Property>
+
+    <!-- Alignment -->
+    <!--           -->
+    <Property name="text-align" group="table" default="left">
+     <PropertyClass name="table-align-horizontal" />
+    </Property>
+    <Property name="vertical-align" group="table" default="top">
+     <PropertyClass name="cell-align-vertical" />
+    </Property>
+
+    <!-- Table Head Background -->
+    <!--                       -->
+    <Property name="thead-background-attachment" group="thead-background" default="scroll">
+     <PropertyClass name="attachment" />
+    </Property>
+    <Property name="thead-background-color" group="thead-background" default="transparent">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="thead-background-image" group="thead-background" default="none">
+     <PropertyClass name="url" />
+     <PropertyClass name="none" />
+    </Property>
+    <Property name="thead-background-position-horizontal" group="thead-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-horizontal" />
+    </Property>
+    <Property name="thead-background-position-vertical" group="thead-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-vertical" />
+    </Property>
+    <Property name="thead-background-repeat" group="thead-background" default="no-repeat">
+     <PropertyClass name="repeat" />
+    </Property>
+    <Property name="thead-background-period" group="thead-background" default="infinite">
+     <PropertyClass name="infinite" />
+     <PropertyClass name="number" />
+    </Property>
+    <Property name="thead-alternate-background-attachment" group="thead-background" default="scroll">
+     <PropertyClass name="attachment" />
+    </Property>
+    <Property name="thead-alternate-background-color" group="thead-background" default="transparent">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="thead-alternate-background-context" group="thead-background" default="row">
+     <PropertyClass name="alternate-shading-context" />
+    </Property>
+    <Property name="thead-alternate-background-image" group="thead-background" default="none">
+     <PropertyClass name="url" />
+     <PropertyClass name="none" />
+    </Property>
+    <Property name="thead-alternate-background-position-horizontal" group="thead-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-horizontal" />
+    </Property>
+    <Property name="thead-alternate-background-position-vertical" group="thead-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-vertical" />
+    </Property>
+    <Property name="thead-alternate-background-repeat" group="thead-background" default="no-repeat">
+     <PropertyClass name="repeat" />
+    </Property>
+    <Property name="thead-alternate-background-period" group="thead-background" default="infinite">
+     <PropertyClass name="infinite" />
+     <PropertyClass name="number" />
+    </Property>
+
+    <!-- Table Head Borders -->
+    <!--                    -->
+    <Property name="thead-border-left-style" group="table-head" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="thead-border-left-width" group="table-head" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="thead-border-right-style" group="table-head" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="thead-border-right-width" group="table-head" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="thead-border-top-style" group="table-head" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="thead-border-top-width" group="table-head" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="thead-border-bottom-style" group="table-head" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="thead-border-bottom-width" group="table-head" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="thead-border-horizontal-style" group="table-head" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="thead-border-horizontal-width" group="table-head" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="thead-border-vertical-style" group="table-head" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="thead-border-vertical-width" group="table-head" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Table Head Padding -->
+    <!--                    -->
+    <Property name="thead-padding-left" group="table-head" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="thead-padding-right" group="table-head" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="thead-padding-top" group="table-head" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="thead-padding-bottom" group="table-head" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Table Head Vertical Alignment -->
+    <!--                               -->
+    <Property name="thead-vertical-align" group="table-head" default="top">
+     <PropertyClass name="cell-align-vertical" />
+    </Property>
+    
+    <!-- Table Body Background -->
+    <!--                       -->
+    <Property name="tbody-background-attachment" group="tbody-background" default="scroll">
+     <PropertyClass name="attachment" />
+    </Property>
+    <Property name="tbody-background-color" group="tbody-background" default="transparent">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="tbody-background-image" group="tbody-background" default="none">
+     <PropertyClass name="url" />
+     <PropertyClass name="none" />
+    </Property>
+    <Property name="tbody-background-position-horizontal" group="tbody-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-horizontal" />
+    </Property>
+    <Property name="tbody-background-position-vertical" group="tbody-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-vertical" />
+    </Property>
+    <Property name="tbody-background-repeat" group="tbody-background" default="no-repeat">
+     <PropertyClass name="repeat" />
+    </Property>
+    <Property name="tbody-background-period" group="tbody-background" default="infinite">
+     <PropertyClass name="infinite" />
+     <PropertyClass name="number" />
+    </Property>
+    <Property name="tbody-alternate-background-attachment" group="tbody-background" default="scroll">
+     <PropertyClass name="attachment" />
+    </Property>
+    <Property name="tbody-alternate-background-color" group="tbody-background" default="transparent">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="tbody-alternate-background-context" group="tbody-background" default="row">
+     <PropertyClass name="alternate-shading-context" />
+    </Property>
+    <Property name="tbody-alternate-background-image" group="tbody-background" default="none">
+     <PropertyClass name="url" />
+     <PropertyClass name="none" />
+    </Property>
+    <Property name="tbody-alternate-background-position-horizontal" group="tbody-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-horizontal" />
+    </Property>
+    <Property name="tbody-alternate-background-position-vertical" group="tbody-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-vertical" />
+    </Property>
+    <Property name="tbody-alternate-background-repeat" group="tbody-background" default="no-repeat">
+     <PropertyClass name="repeat" />
+    </Property>
+    <Property name="tbody-alternate-background-period" group="tbody-background" default="infinite">
+     <PropertyClass name="infinite" />
+     <PropertyClass name="number" />
+    </Property>
+    
+    <!-- Table Body Borders -->
+    <!--                    -->
+    <Property name="tbody-border-left-style" group="table-body" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tbody-border-left-width" group="table-body" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tbody-border-right-style" group="table-body" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tbody-border-right-width" group="table-body" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tbody-border-top-style" group="table-body" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tbody-border-top-width" group="table-body" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tbody-border-bottom-style" group="table-body" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tbody-border-bottom-width" group="table-body" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tbody-border-horizontal-style" group="table-body" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tbody-border-horizontal-width" group="table-body" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tbody-border-vertical-style" group="table-body" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tbody-border-vertical-width" group="table-body" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    
+    <!-- Table Body Padding -->
+    <!--                    -->
+    <Property name="tbody-padding-left" group="table-body" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tbody-padding-right" group="table-body" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tbody-padding-top" group="table-body" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tbody-padding-bottom" group="table-body" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    
+    <!-- Table Body Vertical Alignment -->
+    <!--                               -->
+    <Property name="tbody-vertical-align" group="table-body" default="top">
+     <PropertyClass name="cell-align-vertical" />
+    </Property>
+    
+    <!-- Table Foot Background -->
+    <!--                       -->
+    <Property name="tfoot-background-attachment" group="tfoot-background" default="scroll">
+     <PropertyClass name="attachment" />
+    </Property>
+    <Property name="tfoot-background-color" group="tfoot-background" default="transparent">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="tfoot-background-image" group="tfoot-background" default="none">
+     <PropertyClass name="url" />
+     <PropertyClass name="none" />
+    </Property>
+    <Property name="tfoot-background-position-horizontal" group="tfoot-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-horizontal" />
+    </Property>
+    <Property name="tfoot-background-position-vertical" group="tfoot-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-vertical" />
+    </Property>
+    <Property name="tfoot-background-repeat" group="tfoot-background" default="no-repeat">
+     <PropertyClass name="repeat" />
+    </Property>
+    <Property name="tfoot-background-period" group="tfoot-background" default="infinite">
+     <PropertyClass name="infinite" />
+     <PropertyClass name="number" />
+    </Property>
+    <Property name="tfoot-alternate-background-attachment" group="tfoot-background" default="scroll">
+     <PropertyClass name="attachment" />
+    </Property>
+    <Property name="tfoot-alternate-background-color" group="tfoot-background" default="transparent">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="tfoot-alternate-background-context" group="tfoot-background" default="row">
+     <PropertyClass name="alternate-shading-context" />
+    </Property>
+    <Property name="tfoot-alternate-background-image" group="tfoot-background" default="none">
+     <PropertyClass name="url" />
+     <PropertyClass name="none" />
+    </Property>
+    <Property name="tfoot-alternate-background-position-horizontal" group="tfoot-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-horizontal" />
+    </Property>
+    <Property name="tfoot-alternate-background-position-vertical" group="tfoot-background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-vertical" />
+    </Property>
+    <Property name="tfoot-alternate-background-repeat" group="tfoot-background" default="no-repeat">
+     <PropertyClass name="repeat" />
+    </Property>
+    <Property name="tfoot-alternate-background-period" group="tfoot-background" default="infinite">
+     <PropertyClass name="infinite" />
+     <PropertyClass name="number" />
+    </Property>
+
+    <!-- Table Foot Borders -->
+    <!--                    -->
+    <Property name="tfoot-border-left-style" group="table-foot" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tfoot-border-left-width" group="table-foot" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tfoot-border-right-style" group="table-foot" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tfoot-border-right-width" group="table-foot" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tfoot-border-top-style" group="table-foot" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tfoot-border-top-width" group="table-foot" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tfoot-border-bottom-style" group="table-foot" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tfoot-border-bottom-width" group="table-foot" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tfoot-border-horizontal-style" group="table-foot" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tfoot-border-horizontal-width" group="table-foot" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tfoot-border-vertical-style" group="table-foot" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="tfoot-border-vertical-width" group="table-foot" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Table Foot Padding -->
+    <!--                    -->
+    <Property name="tfoot-padding-left" group="table-foot" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tfoot-padding-right" group="table-foot" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tfoot-padding-top" group="table-foot" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="tfoot-padding-bottom" group="table-foot" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Table Foot Vertical Alignment -->
+    <!--                               -->
+    <Property name="tfoot-vertical-align" group="table-foot" default="top">
+     <PropertyClass name="cell-align-vertical" />
+    </Property>
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Page">
+   <Options />
+
+   <Properties>
+    <!-- HTML -->
+    <!--      -->
+    <Property name="width" group="html" default="none">
+     <PropertyClass name="none" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="cursor" group="html" default="default">
+     <PropertyClass name="cursor-name" />
+     <PropertyClass name="url" />
+    </Property>
+    <Property name="overflow" group="html" default="visible">
+     <PropertyClass name="overflow" />
+    </Property>
+
+    <!-- Background -->
+    <!--            -->
+    <Property name="background-attachment" group="background" default="scroll">
+     <PropertyClass name="attachment" />
+    </Property>
+    <Property name="background-color" group="background" default="transparent">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="background-image" group="background" default="none">
+     <PropertyClass name="url" />
+     <PropertyClass name="none" />
+    </Property>
+    <Property name="background-position-horizontal" group="background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-horizontal" />
+    </Property>
+    <Property name="background-position-vertical" group="background" default="0pt">
+     <PropertyClass name="units" />
+     <PropertyClass name="position-vertical" />
+    </Property>
+    <Property name="background-repeat" group="background" default="no-repeat">
+     <PropertyClass name="repeat" />
+    </Property>
+
+    <!-- Margins -->
+    <!--         -->
+    <Property name="margin-left" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-right" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-top" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-bottom" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Padding -->
+    <!--         -->
+    <Property name="padding-left" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-right" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-top" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-bottom" group="padding" default="auto">
+      <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Graphic">
+   <Options />
+
+   <Properties>
+    <!-- HTML -->
+    <!--      -->
+    <Property name="tag" group="html" default="img">
+     <PropertyClass name="html-element" />
+    </Property>
+    <Property name="display" group="html" default="inline">
+     <PropertyClass name="html-display" />
+    </Property>
+    <Property name="float" group="html" default="none">
+     <PropertyClass name="float" />
+    </Property>
+    <Property name="clear" group="html" default="none">
+     <PropertyClass name="clear" />
+    </Property>
+    <Property name="width" group="html" default="none">
+     <PropertyClass name="none" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="height" group="html" default="none">
+     <PropertyClass name="none" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="position" group="html" default="static">
+     <PropertyClass name="layout-position" />
+    </Property>
+    <Property name="left" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="right" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="top" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="bottom" group="html" default="0px">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="cursor" group="html" default="default">
+     <PropertyClass name="cursor-name" />
+     <PropertyClass name="url" />
+    </Property>
+    <Property name="overflow" group="html" default="visible">
+     <PropertyClass name="overflow" />
+    </Property>
+    <Property name="visibility" group="html" default="visible">
+     <PropertyClass name="visibility" />
+    </Property>
+
+    <!-- Borders -->
+    <!--         -->
+    <Property name="border-left-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-left-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-right-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-right-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-top-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-top-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="border-bottom-style" group="border" default="none">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-bottom-width" group="border" default="thin">
+     <PropertyClass name="border-width-name" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Margins -->
+    <!--         -->
+    <Property name="margin-left" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-right" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-top" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-bottom" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Padding -->
+    <!--         -->
+    <Property name="padding-left" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-right" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-top" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="padding-bottom" group="padding" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Text -->
+    <!--      -->
+    <Property name="text-align" group="text" default="left">
+     <PropertyClass name="text-align-horizontal" />
+    </Property>
+    <Property name="vertical-align" group="text" default="normal">
+     <PropertyClass name="text-align-vertical" />
+    </Property>
+   </Properties>
+  </RuleTraits>
+ </RuleTraitsSet>
+</FormatTraitInfo>

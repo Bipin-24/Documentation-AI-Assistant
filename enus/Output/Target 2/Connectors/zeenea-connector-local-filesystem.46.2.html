@@ -1,0 +1,110 @@
+<!DOCTYPE html ><html xml:lang="en" lang="en" data-highlight-require-whitespace="false" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>title: Local File System</title><link rel="Prev" href="zeenea-connector-local-filesystem.46.1.html" title="Previous" /><link rel="Next" href="zeenea-connector-looker.47.1.html" title="Next" /><link rel="StyleSheet" href="../css/font-awesome/css/all.min.css" type="text/css" media="all" /><link rel="StyleSheet" href="css/zeenea-connector-local-filesystem.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/skin.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/social.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/print.css" type="text/css" media="print" /><noscript><div id="noscript_padding"></div></noscript></head><body id="pjZ9xUsCjmVMXQKJTAHWyCw" class="ww_skin_page_body" style="visibility: hidden;"><input type="hidden" id="page_onload_url" value="../index.html#page/Connectors/zeenea-connector-local-filesystem.46.2.html"></input><span id="dropdown_ids" style="display:none;"></span><div id="ww_content_container"><header id="wwconnect_header"><div class="ww_skin_breadcrumbs"><a class="WebWorks_Breadcrumb_Link" href="zeenea-connectors-list.01.1.html">Connectors</a> : <span class="WebWorks_Breadcrumb_Text">title: Local File System  </span></div><div class="ww_skin_page_toolbar"><div id="dropdown_button_container" class="dropdown_container dropdown_button_container_disabled"><a id="show_hide_all" class="ww_skin ww_behavior_dropdown_toggle ww_skin_dropdown_toggle" title="Page DropDown Toggle" href="#"><i class="far"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><div id="social_links"><!-- Twitter --><!--         --><a id="social_twitter" class="ww_social ww_social_twitter" title="Twitter" target="_blank" href="#"><i class="fab"></i></a><!-- FaceBook Like --><!--               --><a id="social_facebook_like" class="ww_social ww_social_facebook" title="Facebook" target="_blank" href="#"><i class="fab"></i></a><!-- LinkedIn Share --><!--                --><a id="social_linkedin" class="ww_social ww_social_linkedin" title="LinkedIn" target="_blank" href="#"><i class="fab"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><a class="ww_behavior_print ww_skin ww_skin_print" title="Print" href="#"><i class="fa"></i></a></div><!-- was this helpful button --><!--                         --><div class="ww_skin_was_this_helpful_container"><div class="ww_skin_was_this_helpful_message">Was this helpful?</div><div class="ww_skin_was_this_helpful_buttons_container"><div id="helpful_thumbs_up" class="ww_skin_was_this_helpful_button" title="Helpful"><i class="far"></i></div><div id="helpful_thumbs_down" class="ww_skin_was_this_helpful_button" title="Unhelpful"><i class="far"></i></div></div></div></header><div id="page_content_container"><div id="page_content"><div id="wwp100018" class="Title_1">title: Local File System  </div><div class="WebWorks_MiniTOC"><div class="WebWorks_MiniTOC_Heading">&nbsp;</div><dl class="WebWorks_MiniTOC_List"><dd><div class="WebWorks_MiniTOC_Entry"><a class="WebWorks_MiniTOC_Link" href="../Connectors/zeenea-connector-local-filesystem.46.2.html#wwp100024">Adding a Local File System Connection</a></div></dd></dl></div><div id="wwp100024" class="Heading_1">Adding a Local File System Connection</div><div id="wwp100030" class="Heading_2">Prerequisites</div><ul id="wwl100063" class="UList"><li id="wwli100051" class="UList_Item" value="1"><div id="wwp100045" class="UList_Paragraph">A user with sufficient <span class="Link"><a href="../Connectors/zeenea-connector-local-filesystem.46.2.html#wwp100144" title="title: Local File System">permissions</a></span> is required to establish a connection to a local file system.</div></li><li id="wwli100060" class="UList_Item" value="2"><div id="wwp100054" class="UList_Paragraph">Zeenea traffic flows towards the data source must be open.</div></li></ul><div id="wwp100075" class="Paragraph">:::note A link to the configuration template can be found here: <span class="Link"><a href="../Connectors/zeenea-connectors-list.01.1.html#" title="Zeenea Connector Downloads">Zeenea Connector Downloads</a></span>. :::</div><div id="wwp100081" class="Heading_2">Supported Versions</div><div id="wwp100087" class="Paragraph">The local file system connector is compatible with every file system without an authentication process. </div><div id="wwp100093" class="Heading_2">Installing the Plugin</div><div id="wwp100099" class="Paragraph">From version 54 of the scanner, the local file system connector is presented as a plugin. </div><div id="wwp100114" class="Paragraph">It can be downloaded here and requires a scanner version 64 or later: <span class="Link"><a href="../Connectors/zeenea-connectors-list.01.1.html#" title="Zeenea Connector Downloads">Zeenea Connector Downloads</a></span></div><div id="wwp100129" class="Paragraph">For more information on how to install a plugin, please refer to the following article: <span class="Link"><a href="../Connectors/zeenea-connectors-install-as-plugin.02.1.html#" title="Installing and Configuring Connectors as a Plugin">Installing and Configuring Connectors as a Plugin</a></span>.</div><div id="wwp100135" class="Heading_2">Declaring the Connection</div><div id="wwp100144" class="Paragraph">Creating and configuring connectors is done through a dedicated configuration file located in the <span class="Code">/connections</span> folder of the relevant scanner.</div><div id="wwp100150" class="Paragraph">Read more: Managing Connections</div><div id="wwp100156" class="Paragraph">In order to establish a connection with a local file system, specifying the following parameters in the dedicated file is required:</div><div id="wwp100162" class="HTML"><table>
+  <tr>
+    <th>Parameter</th>
+    <th>Expected value</th>
+  </tr>
+  <tr>
+    <td>`name`</td>
+    <td>The name that will be displayed to catalog users for this connection.</td>
+  </tr>
+  <tr>
+    <td>`code`</td>
+    <td>The unique identifier of the connection on the Zeenea platform. Once registered on the platform, this code must not be modified or the connection will be considered as new and the old one removed from the scanner.</td>
+  </tr>
+  <tr>
+    <td>`connector_id`</td>
+    <td>The type of connector to be used for the connection. Here, the value must be `local-filesystem` and this value must not be modified.</td>
+  </tr>
+  <tr>
+    <td>`inventory.root`</td>
+    <td>Path of the root directory to explore</td>
+  </tr>
+  <tr>
+    <td colspan="2"> **Optional parameters for customizing dataset detection**</td>
+  </tr>
+  <tr>
+    <td>`inventory.partition`</td>
+    <td>Regex to identify partition folders</td>
+  </tr>
+  <tr>
+    <td>`inventory.skippedDirectory`</td>
+    <td>Regex on the name of the folders to ignore while keeping the content taken into account. The content will be scanned as if it were at the root of the parent folder. No folder is ignored by default.</td>
+  </tr>
+  <tr>
+    <td>`inventory.ignoredDirectory`</td>
+    <td>Regex on the name of the folders to ignore: their content will also be ignored. No folder is ignored by default.</td>
+  </tr>
+  <tr>
+    <td>`inventory.ignoredFile`</td>
+    <td>Regex in the name of the files to ignore, default value: `\..* | _.* | .*\.crc`</td>
+  </tr>
+  <tr>
+    <td>`inventory.extension.csv`</td>
+    <td>For CSV files detection. Default value: `csv, tsv, csv.gz, tsv.gz, csv.zip, tsv.zip`</td>
+  </tr>
+  <tr>
+    <td>`inventory.extension.parquet`</td>
+    <td>For Parquet files detection. Default value: `parquet`</td>
+  </tr>
+  <tr>
+    <td>`inventory.extension.avro`</td>
+    <td>For Avro files detection. Default value: `avro`</td>
+  </tr>
+  <tr>
+    <td>`inventory.extension.orc`</td>
+    <td>For Orc files detection. Default value: `orc`</td>
+  </tr>
+  <tr>
+    <td>`inventory.extension.xml`</td>
+    <td>For XML files detection. Default value: `xml, xml.gz, xml.zip`</td>
+  </tr>
+  <tr>
+    <td>`inventory.extension.json`</td>
+    <td>For JSON files detection. Default value: `json, json.gz, json.zip`</td>
+  </tr>
+  <tr>
+    <td>`inventory.csv.header`</td>
+    <td>Used for configuring csv files header detection pattern. Select `always` to force recognizing the schema on the first line of csv files. Possible values are: `never`, `always`, and `only` string.</td>
+  </tr>
+  <tr>
+    <td>`xml.namespace_identification`</td>
+    <td>Used for configuring XML fields identification. Value `uri`. **Note**: To keep the compatibility with a scanner previous to version 43, it is necessary to use the value `legacy` (default value).</td>
+  </tr>
+  <tr>
+    <td>`xml.fields_ordering`</td>
+    <td>
+      <p>Starting from **version 67**.</p>
+      <p>Allows ordering the list of retrieved fields.</p>
+      <p>Possible values are:</p>
+      <ul>
+        <li>`alphabetical`: Fields are ordered alphabetically</li>
+        <li>`""`, `legacy`, or `unordered`: Fields are ordered as they are read.</li>
+      </ul>
+    </td>
+  </tr>
+</table></div><div id="wwp100174" class="Heading_2">User Permissions</div><div id="wwp100180" class="Paragraph">In order to collect metadata, the running user's permissions must allow them to access and read folders and files that need cataloging. </div><div id="wwp100186" class="Heading_2">Data Extraction</div><div id="wwp100192" class="Paragraph">A dataset from a file system may actually be stored in multiple files. Those files can themselves be stored in different folders (partitions). </div><div id="wwp100198" class="Paragraph">When running the inventory, the local file system connector detects datasets with the usual dataset naming convention in file systems. </div><div id="wwp100204" class="Paragraph">Read more: Dataset Detection on File Systems</div><div id="wwp100210" class="Heading_2">Collected Metadata</div><div id="wwp100216" class="Heading_3">Inventory</div><div id="wwp100222" class="Paragraph">Will collect the list of tables and views accessible to the user.</div><div id="wwp100228" class="Heading_2">Dataset</div><ul id="wwl100369" class="UList"><li id="wwli100243" class="UList_Item" value="1"><div id="wwp100237" class="UList_Paragraph"><span class="Bold">Name</span></div></li><li id="wwli100255" class="UList_Item" value="2"><div id="wwp100249" class="UList_Paragraph"><span class="Bold">Source Description</span>: not supported</div></li><li id="wwli100267" class="UList_Item" value="3"><div id="wwp100261" class="UList_Paragraph"><span class="Bold">Inputs datasets</span></div></li><li id="wwli100279" class="UList_Item" value="4"><div id="wwp100273" class="UList_Paragraph"><span class="Bold">Output datasets</span></div></li><li id="wwli100294" class="UList_Item" value="5"><div id="wwp100288" class="UList_Paragraph"><span class="Bold">Multivalued</span>: <span class="Code">false</span></div></li><li id="wwli100306" class="UList_Item" value="6"><div id="wwp100300" class="UList_Paragraph"><span class="Bold">Primary Key</span>: Tags are considered to be part of the primary key.</div></li><li id="wwli100366" class="UList_Item" value="7"><div id="wwp100312" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100363" class="UList"><li id="wwli100324" class="UList_Item" value="1"><div id="wwp100318" class="UList_Paragraph">File path</div></li><li id="wwli100333" class="UList_Item" value="2"><div id="wwp100327" class="UList_Paragraph">File Format</div></li><li id="wwli100342" class="UList_Item" value="3"><div id="wwp100336" class="UList_Paragraph">Created</div></li><li id="wwli100351" class="UList_Item" value="4"><div id="wwp100345" class="UList_Paragraph">Updated</div></li><li id="wwli100360" class="UList_Item" value="5"><div id="wwp100354" class="UList_Paragraph">Owner</div></li></ul></li></ul><div id="wwp100372" class="Heading_3">Field</div><div id="wwp100378" class="Paragraph">Dataset field. </div><ul id="wwl100498" class="UList"><li id="wwli100393" class="UList_Item" value="1"><div id="wwp100387" class="UList_Paragraph"><span class="Bold">Name</span></div></li><li id="wwli100405" class="UList_Item" value="2"><div id="wwp100399" class="UList_Paragraph"><span class="Bold">Source Description</span></div></li><li id="wwli100417" class="UList_Item" value="3"><div id="wwp100411" class="UList_Paragraph"><span class="Bold">Type</span></div></li><li id="wwli100432" class="UList_Item" value="4"><div id="wwp100426" class="UList_Paragraph"><span class="Bold">Can be null</span>: not supported, <span class="Code">false</span> by default</div></li><li id="wwli100447" class="UList_Item" value="5"><div id="wwp100441" class="UList_Paragraph"><span class="Bold">Multivalued</span>: not supported, <span class="Code">false</span> by default</div></li><li id="wwli100462" class="UList_Item" value="6"><div id="wwp100456" class="UList_Paragraph"><span class="Bold">Primary Key</span>: not supported, <span class="Code">false</span> by default</div></li><li id="wwli100495" class="UList_Item" value="7"><div id="wwp100468" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100492" class="UList"><li id="wwli100480" class="UList_Item" value="1"><div id="wwp100474" class="UList_Paragraph">Technical Name</div></li><li id="wwli100489" class="UList_Item" value="2"><div id="wwp100483" class="UList_Paragraph">Native type</div></li></ul></li></ul><div id="wwp100501" class="Heading_2">Unique Identifier Keys</div><div id="wwp100507" class="Paragraph"> A key is associated with each item of the catalog. When the object comes from an external system, the key is built and provided by the connector.</div><div id="wwp100513" class="Paragraph"> More information about unique identification keys in this documentation: Identification Keys.</div><div id="wwp100519" class="HTML"> <table>
+   <tr><th>Object</th><th>Identifier Key</th><th>Description</th></tr>
+   <tr>
+     <td>Dataset</td>
+     <td>code/path/dataset name</td>
+     <td>
+       <ul>
+         <li>**code**:  Unique identifier of the connection noted in the configuration file</li>
+         <li>**path**: Full path</li>
+         <li>**dataset name**</li>
+       </ul>
+     </td>
+   </tr>
+   <tr>
+     <td>Field</td>
+     <td>code/path/dataset name/field name</td>
+     <td>
+       <ul>
+         <li>**code**:  Unique identifier of the connection noted in the configuration file</li>
+         <li>**path**: Full path</li>
+         <li>**dataset name**</li>
+         <li>**field name**</li>
+       </ul>
+     </td>
+   </tr>
+ </table></div></div><div id="page_dates"><div class="ww_skin_document_last_modified_date">Last modified date: 03/19/2025</div></div><!-- Related Topics --><!--                --><footer><!-- Disqus --><!--        --><!-- Google Translation --><!--                    --><br /></footer></div></div><input type="hidden" id="preserve_unknown_file_links" value="false"></input><noscript><div id="noscript_warning">This site works best with JavaScript enabled</div></noscript><script type="text/javascript" src="../scripts/common.js"></script><script type="text/javascript" src="../scripts/page.js"></script></body></html>

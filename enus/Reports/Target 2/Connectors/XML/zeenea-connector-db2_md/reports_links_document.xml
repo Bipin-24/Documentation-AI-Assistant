@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUgn0&amp;amp;d=%2Fa%2FNu000002lgXJ%2F6VSKC7Vn219eTbByKQkbOwWSTAHiUQPlVAHb8tLMiBI&amp;amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connector-db2.md" />
+        <Data key="DocumentID" value="wF8zraN9gP4" />
+        <Data key="ID" value="p100087" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connector-db2.26.2.html#wwp100087" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUgn0&amp;amp;d=%2Fa%2FNu000002lgXJ%2F6VSKC7Vn219eTbByKQkbOwWSTAHiUQPlVAHb8tLMiBI&amp;amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

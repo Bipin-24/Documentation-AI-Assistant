@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUgF8&amp;d=%2Fa%2FNu000002lf09%2FtEQr1W0phzg21nSQpzd3Z2LL9n9wdK4FEO3VD3Ful_k&amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-zdf.md" />
+        <Data key="DocumentID" value="lYAPKlF7R5w" />
+        <Data key="ID" value="p100123" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-zdf.html#wwp100123" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUgF8&amp;d=%2Fa%2FNu000002lf09%2FtEQr1W0phzg21nSQpzd3Z2LL9n9wdK4FEO3VD3Ful_k&amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUgIL&amp;d=%2Fa%2FNu000002lf1l%2Fsz0GVeVhOCGVWrGgW0j8T3hUw2igFa85jxkzmS4Hs.Y&amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-zdf.md" />
+        <Data key="DocumentID" value="lYAPKlF7R5w" />
+        <Data key="ID" value="p100135" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-zdf.html#wwp100135" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUgIL&amp;d=%2Fa%2FNu000002lf1l%2Fsz0GVeVhOCGVWrGgW0j8T3hUw2igFa85jxkzmS4Hs.Y&amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUgJx&amp;d=%2Fa%2FNu000002lf3N%2FUlWOzC3GcEgFUkW8O3NGJuquSoVw6f44nocTd0yvFgs&amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-zdf.md" />
+        <Data key="DocumentID" value="lYAPKlF7R5w" />
+        <Data key="ID" value="p100147" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-zdf.html#wwp100147" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUgJx&amp;d=%2Fa%2FNu000002lf3N%2FUlWOzC3GcEgFUkW8O3NGJuquSoVw6f44nocTd0yvFgs&amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUfit&amp;d=%2Fa%2FNu000002lf4z%2Fdt8mFO7tuHk.0ooicZNgT31A.LNQqWPFcADrsBvG6Fk&amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-zdf.md" />
+        <Data key="DocumentID" value="lYAPKlF7R5w" />
+        <Data key="ID" value="p100162" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-zdf.html#wwp100162" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUfit&amp;d=%2Fa%2FNu000002lf4z%2Fdt8mFO7tuHk.0ooicZNgT31A.LNQqWPFcADrsBvG6Fk&amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUgLZ&amp;d=%2Fa%2FNu000002lf6b%2Fz4jLoeVL1zmw0wI6wSvN84do7byKhfPt.2jdDLDme8g&amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-zdf.md" />
+        <Data key="DocumentID" value="lYAPKlF7R5w" />
+        <Data key="ID" value="p100177" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-zdf.html#wwp100177" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUgLZ&amp;d=%2Fa%2FNu000002lf6b%2Fz4jLoeVL1zmw0wI6wSvN84do7byKhfPt.2jdDLDme8g&amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUbKL&amp;d=%2Fa%2FNu000002lf8D%2F70sgTuXPSUK9jX3JbeFdVFmxV63xry3ISEbEqJseyNs&amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-zdf.md" />
+        <Data key="DocumentID" value="lYAPKlF7R5w" />
+        <Data key="ID" value="p100192" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-zdf.html#wwp100192" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUbKL&amp;d=%2Fa%2FNu000002lf8D%2F70sgTuXPSUK9jX3JbeFdVFmxV63xry3ISEbEqJseyNs&amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUYuM&amp;d=%2Fa%2FNu000002ldXr%2FhSvnsS0Gz4hj5yjjtXexDXIKO4eEP9p6JAy3nZgthPM&amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-zdf.md" />
+        <Data key="DocumentID" value="lYAPKlF7R5w" />
+        <Data key="ID" value="p100207" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-zdf.html#wwp100207" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUYuM&amp;d=%2Fa%2FNu000002ldXr%2FhSvnsS0Gz4hj5yjjtXexDXIKO4eEP9p6JAy3nZgthPM&amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUe5J&amp;d=%2Fa%2FNu000002lf9p%2FhJuTKF9YdDxLF6yEwgnRJw9Zd.qaaeL0gFCB3alppBo&amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-zdf.md" />
+        <Data key="DocumentID" value="lYAPKlF7R5w" />
+        <Data key="ID" value="p100222" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-zdf.html#wwp100222" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUe5J&amp;d=%2Fa%2FNu000002lf9p%2FhJuTKF9YdDxLF6yEwgnRJw9Zd.qaaeL0gFCB3alppBo&amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUPr6&amp;d=%2Fa%2FNu000002lfBR%2FA49pkIUsaja4qRMCu87JESPPHSuO847kIXOXe63nWHI&amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-zdf.md" />
+        <Data key="DocumentID" value="lYAPKlF7R5w" />
+        <Data key="ID" value="p100237" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-zdf.html#wwp100237" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;ids=068Nu00000GUPr6&amp;d=%2Fa%2FNu000002lfBR%2FA49pkIUsaja4qRMCu87JESPPHSuO847kIXOXe63nWHI&amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-connector-zdf.md' to document 'zeenea-identification-keys.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-zdf.md" />
+        <Data key="DocumentID" value="lYAPKlF7R5w" />
+        <Data key="ID" value="p103060" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-zdf.html#wwt103144" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

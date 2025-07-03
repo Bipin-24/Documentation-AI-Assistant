@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes />
+
+ <Groups />
+
+ <Settings />
+
+ <RuleTraitsSet>
+  <RuleTraits category="Paragraph">
+   <Options>
+    <Option name="variable" group="options" default="">
+     <OptionClass name="string" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+  <RuleTraits category="Character">
+   <Options>
+    <Option name="variable" group="options" default="">
+     <OptionClass name="string" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+  <RuleTraits category="Marker">
+   <Options>
+    <Option name="variable" group="options" default="">
+     <OptionClass name="string" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+ </RuleTraitsSet>
+</FormatTraitInfo>

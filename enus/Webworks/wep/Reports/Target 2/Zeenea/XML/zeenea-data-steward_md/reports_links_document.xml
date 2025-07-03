@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-data-steward.md' to document 'zeenea-editing-items-in-bulk.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Your_First_Step\zeenea-data-steward.md" />
+        <Data key="DocumentID" value="8QHI4NGnaG0" />
+        <Data key="ID" value="p100228" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wep/Output/Target%202/Zeenea/zeenea-data-steward.html#wwp100228" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-data-steward.md' to document 'zeenea-studio-search.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Your_First_Step\zeenea-data-steward.md" />
+        <Data key="DocumentID" value="8QHI4NGnaG0" />
+        <Data key="ID" value="p100240" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wep/Output/Target%202/Zeenea/zeenea-data-steward.html#wwp100240" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-data-steward.md' to document 'zeenea-item-documentation.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Your_First_Step\zeenea-data-steward.md" />
+        <Data key="DocumentID" value="8QHI4NGnaG0" />
+        <Data key="ID" value="p100267" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wep/Output/Target%202/Zeenea/zeenea-data-steward.html#wwp100267" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="pdf-target" validater="string">
+   <Common value="_blank" />
+   <Common value="_self" />
+   <Common value="_parent" />
+   <Common value="_top" />
+   <Common value="ww_connect_pdf" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="pdf" />
+ </Groups>
+
+ <Settings>
+  <Setting name="pdf-per-document" group="pdf" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="pdf-per-group" group="pdf" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="pdf-target" group="pdf" default="ww_connect_pdf">
+   <SettingClass name="pdf-target" />
+  </Setting>
+  <Setting name="pdf-force-download" group="pdf" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

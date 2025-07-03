@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes />
+
+ <Groups />
+
+ <Settings />
+
+ <RuleTraitsSet>
+  <RuleTraits category="Paragraph">
+   <Options>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="toc-level" group="options" default="auto-detect">
+     <OptionClass name="auto-detect" />
+     <OptionClass name="none" />
+     <OptionClass name="number" />
+    </Option>
+    <Option name="use-numbering-toc" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+     <Option name="toc-display" group="options" default="true">
+       <OptionClass name="boolean" />
+     </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+  <RuleTraits category="Marker">
+   <Options>
+    <Option name="alternate-toc-title" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+ </RuleTraitsSet>
+</FormatTraitInfo>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-concepts-and-definitions.md' to document 'zeenea-connectors-list.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\Zeenea\source\Getting Started\zeenea-concepts-and-definitions.md" />
+        <Data key="DocumentID" value="KxhIGJA7ZtU" />
+        <Data key="ID" value="p100141" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/Zeenea/Output/Target%202/Getting%20Started/zeenea-concepts-and-definitions.html#wwp100132" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-concepts-and-definitions.md' to document 'zeenea-studio-create-edit-delete-property.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\Zeenea\source\Getting Started\zeenea-concepts-and-definitions.md" />
+        <Data key="DocumentID" value="KxhIGJA7ZtU" />
+        <Data key="ID" value="p100813" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/Zeenea/Output/Target%202/Getting%20Started/zeenea-concepts-and-definitions.html#wwp100765" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-concepts-and-definitions.md' to document 'zeenea-impoting-datasets-or-visualizations.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\Zeenea\source\Getting Started\zeenea-concepts-and-definitions.md" />
+        <Data key="DocumentID" value="KxhIGJA7ZtU" />
+        <Data key="ID" value="p101062" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/Zeenea/Output/Target%202/Getting%20Started/zeenea-concepts-and-definitions.html#wwp101062" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

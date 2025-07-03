@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Groups>
+  <Group name="report-conditions" />
+ </Groups>
+ 
+ <Settings>
+  <Setting name="report-conditions-generate" group="report-conditions" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="report-conditions-unknown-condition" group="report-conditions" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

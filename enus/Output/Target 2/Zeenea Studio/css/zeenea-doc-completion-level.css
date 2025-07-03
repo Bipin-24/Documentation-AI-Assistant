@@ -1,0 +1,81 @@
+div.Heading_1, caption.Heading_1
+{
+  color: #0056B3;
+  font-family: Sans-Serif, 'Segoe UI';
+  font-size: 26pt;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 10px;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+div.Heading_2, caption.Heading_2
+{
+  color: #0056B3;
+  font-family: 'Segoe UI';
+  font-size: 22pt;
+  font-weight: 400;
+  letter-spacing: 140%;
+  line-height: 1.2em;
+  margin-top: 10px;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+div.Paragraph, caption.Paragraph
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+
+div.Title_1, caption.Title_1
+{
+  color: #0056B3;
+  font-family: Sans-Serif, 'Segoe UI';
+  font-size: 28pt;
+  font-weight: 400;
+  letter-spacing: 140%;
+  line-height: 1.2em;
+  margin-bottom: 12pt;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+ul.UList, div.UList, caption.UList
+{
+  margin-bottom: 0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  padding-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+}
+
+li.UList_Item, div.UList_Item, caption.UList_Item
+{
+  margin-bottom: 0pt;
+  margin-left: 36pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  padding-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+}
+
+div.UList_Paragraph, caption.UList_Paragraph
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Properties version="1.0" xmlns="urn:WebWorks-Properties-Schema">
+ <Property name="disc" />
+ <Property name="armenian" />
+ <Property name="circle" />
+ <Property name="cjk-ideographic" />
+ <Property name="decimal" />
+ <Property name="decimal-leading-zero" />
+ <Property name="georgian" />
+ <Property name="hebrew" />
+ <Property name="hiragana" />
+ <Property name="hiragana-iroha" />
+ <Property name="katakana" />
+ <Property name="katakana-iroha" />
+ <Property name="lower-alpha" />
+ <Property name="lower-greek" />
+ <Property name="lower-latin" />
+ <Property name="lower-roman" />
+ <Property name="none" />
+ <Property name="square" />
+ <Property name="upper-alpha" />
+ <Property name="upper-greek" />
+ <Property name="upper-latin" />
+ <Property name="upper-roman" />
+ <Property name="initial" />
+ <Property name="inherit" />
+</Properties>

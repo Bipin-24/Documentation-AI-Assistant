@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="pdf-job-settings">
+   <Item value="default" />
+   <Item value="screen" />
+   <Item value="ebook" />
+   <Item value="print" />
+   <Item value="prepress" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="options" />
+  <Group name="pdf" />
+ </Groups>
+
+ <Settings>
+  <Setting name="pdf-job-settings" group="pdf" default="default">
+   <SettingClass name="pdf-job-settings" />
+  </Setting>
+  <Setting name="pdf-acrobat-distiller-extensions" group="pdf" default="">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="pdf-acrobat-distiller-job-settings" group="pdf" default="Standard">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="pdf-save-as-pdf-extensions" group="pdf" default=".fm">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="pdf-save-as-pdf-job-settings" group="pdf" default="">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="pdf-target-dependency" group="pdf" default="">
+   <SettingClass name="target-dependency-rule" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet>
+ </RuleTraitsSet>
+</FormatTraitInfo>

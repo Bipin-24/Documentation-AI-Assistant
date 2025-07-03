@@ -1,0 +1,218 @@
+@import "colors";
+@import "icons";
+@import "fonts";
+@import "sizes";
+@import "borders";
+
+
+body {
+  font-family: $search_font;
+  font-size: $search_font_size;
+  color: $search_plain_text_color;
+  background-color: $search_background_color;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+a {
+  color: $search_link_text_color;
+}
+
+.ww_skin_search_background {
+  border-style: $search_border_style;
+  border-width: $search_border_width;
+  border-color: $search_border_color;
+  border-radius: $search_border_radius;
+}
+
+.ww_search_container {
+  background-color: $search_background_color;
+  padding: $search_container_padding;
+  text-align: center;
+}
+
+.ww_search_content {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  max-width: $page_max_width;
+}
+
+.search_title {
+  margin: 0px;
+  font-family: $search_title_font;
+  font-size: $search_title_font_size;
+  color: $search_title_text_color;
+  padding: $search_title_padding;
+  border-style: $search_title_border_style;
+  border-width: $search_title_border_width;
+  border-color: $search_title_border_color;
+  border-radius: $search_title_border_radius;
+}
+
+#search_filter_message_container {
+  font-family: $search_filter_message_font;
+  font-size: $search_filter_message_font_size;
+  color: $search_filter_message_text_color;
+  padding: $search_filter_message_padding;
+
+  #search_filter_by_message {
+    font-weight: bold;
+  }
+}
+
+#search_results_count_container {
+  display: none;
+  font-family: $search_result_count_message_font;
+  font-size: $search_result_count_message_font_size;
+  color: $search_result_count_message_text_color;
+  padding: $search_result_count_message_padding;
+
+  #search_results_count_message {
+    font-weight: bold;
+  }
+}
+
+#search_results_loading_container {
+  display: none;
+  font-family: $search_result_count_message_font;
+  font-size: $search_result_count_message_font_size;
+  color: $search_result_count_message_text_color;
+  padding: $search_result_count_message_padding;
+
+  #search_results_loading_message {
+    font-weight: bold;
+  }
+}
+
+#search_results_container {
+  padding: 0.5em 0;
+}
+
+.search_result {
+  box-sizing: border-box;
+  padding: $search_result_padding;
+  min-height: $search_result_min_height;
+  background-color: $search_result_background_color;
+  border-style: $search_result_border_style;
+  border-width: $search_result_border_width;
+  border-color: $search_result_border_color;
+  border-radius: $search_result_border_radius;
+
+  &:hover {
+    background-color: $search_result_background_color_hover;
+    border-style: $search_result_border_style_hover;
+    border-width: $search_result_border_width_hover;
+    border-color: $search_result_border_color_hover;
+    border-radius: $search_result_border_radius_hover;
+  }
+
+  .search_result_title {
+    padding: $search_result_title_padding;
+    font-family: $search_result_title_font;
+    font-size: $search_result_title_font_size;
+    border-style: $search_result_title_border_style;
+    border-width: $search_result_title_border_width;
+    border-color: $search_result_title_border_color;
+    border-radius: $search_result_title_border_radius;
+
+    &:hover {
+      border-style: $search_result_title_border_style_hover;
+      border-width: $search_result_title_border_width_hover;
+      border-color: $search_result_title_border_color_hover;
+      border-radius: $search_result_title_border_radius_hover;
+    }
+
+    .search_result_highlight {
+      background-color: $search_result_summary_highlight_background_color;
+      color: $search_result_summary_highlight_text_color;
+    }
+
+    > a {
+      color: $search_result_title_text_color;
+      font-weight: bold;
+      text-decoration: none;
+
+      &:active {
+        color: $search_result_title_text_color_click;
+      }
+
+      &:visited {
+        color: $search_result_title_text_color_visited;
+      }
+
+      &:hover {
+        color: $search_result_title_text_color_hover;
+      }
+    }
+
+    i {
+      font-size: $search_result_icon_size;
+      margin-right: 2px;
+      color: $search_result_icon_color;
+
+      &.search_result_icon_external {
+        &:before {
+          content: $search_result_external_icon;
+        }
+      }
+
+      &.search_result_icon_html {
+        &:before {
+          content: $search_result_html_icon;
+        }
+      }
+
+      &.search_result_icon_pdf {
+        &:before {
+          content: $search_result_pdf_icon;
+        }
+      }
+    }
+  }
+
+  .search_result_summary {
+    font-family: $search_result_summary_font;
+    font-size: $search_result_summary_font_size;
+    padding: $search_result_summary_padding;
+    color: $search_result_summary_text_color;
+    border-style: $search_result_summary_border_style;
+    border-width: $search_result_summary_border_width;
+    border-color: $search_result_summary_border_color;
+    border-radius: $search_result_summary_border_radius;
+
+    &:hover {
+      border-style: $search_result_summary_border_style_hover;
+      border-width: $search_result_summary_border_width_hover;
+      border-color: $search_result_summary_border_color_hover;
+      border-radius: $search_result_summary_border_radius_hover;
+    }
+
+    .search_result_highlight {
+      background-color: $search_result_summary_highlight_background_color;
+      color: $search_result_summary_highlight_text_color;
+    }
+  }
+
+  .search_result_group_name {
+    font-family: $search_result_group_name_font;
+    font-size: $search_result_group_name_font_size;
+    padding: $search_result_group_name_padding;
+    color: $search_result_group_name_text_color;
+    background-color: $search_result_group_name_background_color;
+    text-align: $search_result_group_name_text_alignment;
+    border-style: $search_result_group_name_border_style;
+    border-width: $search_result_group_name_border_width;
+    border-color: $search_result_group_name_border_color;
+    border-radius: $search_result_group_name_border_radius;
+
+    &:hover {
+      border-style: $search_result_group_name_border_style_hover;
+      border-width: $search_result_group_name_border_width_hover;
+      border-color: $search_result_group_name_border_color_hover;
+      border-radius: $search_result_group_name_border_radius_hover;
+    }
+  }
+}

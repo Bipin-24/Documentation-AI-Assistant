@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="toc-collapse">
+   <Item value="none" stringid="toc-collapse-none" />
+   <Item value="relabel" stringid="toc-collapse-relabel" />
+   <Item value="full" stringid="toc-collapse-full" />
+   <Item value="smart" stringid="toc-collapse-smart" />
+  </Class>
+ </Classes>
+
+ <Groups />
+
+ <Settings>
+  <Setting name="toc-collapse" group="toc" default="smart">
+   <SettingClass name="toc-collapse" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

@@ -1,0 +1,98 @@
+﻿Generation started at 12:02:32 PM, 2025-03-26.
+Running WebWorks ePublisher Express version 2024.1.4577.0.
+Using base format version 2024.1.
+Pre-flighting pipeline stages.
+Pre-flighting pipeline stages.
+Document conversion in progress...
+Initializing file information
+Initializing file information
+Document conversion in progress...
+Updating documents.
+Updating documents.
+Applying settings to 'zeenea-public-apis.md', 1 of 6.
+Applying settings to 'zeenea-public-apis.md', 1 of 6.
+Updating documents.
+Preparing 'zeenea-public-apis.md', 1 of 6.
+Preparing 'zeenea-public-apis.md', 1 of 6.
+Updating documents.
+Applying settings to 'zeenea-audit-trail-apis.md', 2 of 6.
+Applying settings to 'zeenea-audit-trail-apis.md', 2 of 6.
+Updating documents.
+Preparing 'zeenea-audit-trail-apis.md', 2 of 6.
+Preparing 'zeenea-audit-trail-apis.md', 2 of 6.
+Updating documents.
+Applying settings to 'zeenea-catalog-api-v2.md', 3 of 6.
+Applying settings to 'zeenea-catalog-api-v2.md', 3 of 6.
+Updating documents.
+Preparing 'zeenea-catalog-api-v2.md', 3 of 6.
+Preparing 'zeenea-catalog-api-v2.md', 3 of 6.
+Updating documents.
+Applying settings to 'zeenea-catalog-design-api.md', 4 of 6.
+Applying settings to 'zeenea-catalog-design-api.md', 4 of 6.
+Updating documents.
+Preparing 'zeenea-catalog-design-api.md', 4 of 6.
+Preparing 'zeenea-catalog-design-api.md', 4 of 6.
+Updating documents.
+Applying settings to 'zeenea-scim-api.md', 5 of 6.
+Applying settings to 'zeenea-scim-api.md', 5 of 6.
+Updating documents.
+Preparing 'zeenea-scim-api.md', 5 of 6.
+Preparing 'zeenea-scim-api.md', 5 of 6.
+Updating documents.
+Applying settings to 'zeenea-user-management-api.md', 6 of 6.
+Applying settings to 'zeenea-user-management-api.md', 6 of 6.
+Updating documents.
+Preparing 'zeenea-user-management-api.md', 6 of 6.
+Preparing 'zeenea-user-management-api.md', 6 of 6.
+Updating documents.
+Document conversion in progress...
+Generating output
+Generating output
+Processing pipeline 'Locale', 1 of 20.
+Processing pipeline 'Markdown', 2 of 20.
+Processing pipeline 'DocumentBehaviors', 3 of 20.
+Processing pipeline 'DocumentSplits', 4 of 20.
+Processing pipeline 'Behaviors', 5 of 20.
+Processing pipeline 'Baggage', 6 of 20.
+[WARN] Invalid URI 'https://.zeenea.app/api/catalog' specified.
+[WARN] Invalid URI: The hostname could not be parsed.
+Processing pipeline 'ImageTypes', 7 of 20.
+Processing pipeline 'Splits', 8 of 20.
+Processing pipeline 'Copy', 9 of 20.
+Processing pipeline 'Segment', 10 of 20.
+Processing pipeline 'Links', 11 of 20.
+Processing pipeline 'Variables', 12 of 20.
+Processing pipeline 'Image', 13 of 20.
+[WARN] Image not found. Skipping postscript generation for: img\zeenea-voyager.png
+[WARN] Unable to create PostScript file 'C:\Users\bpandey\AppData\Local\Temp\WebWorks\ePublisher\uMBc9qbN4rry0g\Data\P9FC3yv8ayY\slxGOGubtbU\LFYa9XpRB0Y\image_output_fr100186.ps'.
+[WARN] Image not found. Skipping postscript generation for: img\zeenea-playground-key.png
+[WARN] Unable to create PostScript file 'C:\Users\bpandey\AppData\Local\Temp\WebWorks\ePublisher\uMBc9qbN4rry0g\Data\P9FC3yv8ayY\slxGOGubtbU\LFYa9XpRB0Y\image_output_fr100228.ps'.
+Processing pipeline 'Page', 14 of 20.
+[WARN] Invalid URI 'https://.zeenea.app/api/catalog' specified.
+[WARN] Invalid URI: The hostname could not be parsed.
+[WARN] Invalid URI 'https://.zeenea.app/api/catalog' specified.
+[WARN] Invalid URI: The hostname could not be parsed.
+[WARN] Image file not found 'C:\Users\bpandey\zeenea.doc\Webworks\wrp\Output\Reverb\APIs\images\zeenea-catalog-design-api.4.1.1.png'.
+[WARN] Image file not found 'C:\Users\bpandey\zeenea.doc\Webworks\wrp\Output\Reverb\APIs\images\zeenea-catalog-design-api.4.1.2.png'.
+Processing pipeline 'Report-Styles', 15 of 20.
+Report 'Report-Styles' for group 'APIs' contains 0 errors and 0 warnings.
+Processing pipeline 'Report-Links', 16 of 20.
+[WARN] Invalid URI 'https://.zeenea.app/api/catalog' specified.
+[WARN] Invalid URI: The hostname could not be parsed.
+[WARN] Report 'Report-Links' for group 'APIs' contains 0 errors and 2 warnings.
+[WARN] Invalid URI 'https://.zeenea.app/api/catalog' specified.
+[WARN] Invalid URI: The hostname could not be parsed.
+[WARN] Invalid URI 'https://.zeenea.app/api/catalog' specified.
+[WARN] Invalid URI: The hostname could not be parsed.
+Processing pipeline 'Report-Accessibility', 17 of 20.
+Processing pipeline 'Report-Filenames', 18 of 20.
+Report 'Report-Filenames' for group 'APIs' contains 0 errors and 0 warnings.
+Processing pipeline 'Report-Images', 19 of 20.
+[WARN] Report 'Report-Images' for group 'APIs' contains 0 errors and 2 warnings.
+Processing pipeline 'Report-Conditions', 20 of 20.
+Document conversion in progress...
+Generating output
+Generating output
+Document conversion in progress...
+Generation finished at 12:03:11 PM, 2025-03-26.
+Total time: 00:00:39.

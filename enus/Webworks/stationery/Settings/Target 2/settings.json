@@ -1,0 +1,191 @@
+{
+    "reverb_2.0_page": {
+        "splash_page_style": "",
+        "document_last_modified_date": "false",
+        "page_dropdown_toggle": "true",
+        "reverb_2.0_page_style": "",
+        "not_found_page_enabled": "true",
+        "not_found_page_style": "",
+        "page_related_topic_icon_position": "right",
+        "page_publish_date": "false",
+        "page_related_topic_use_dropdown": "true",
+        "page_related_topic_dropdown_start_behavior": "start-open"
+    },
+    "report_accessibility": {
+        "report_accessibility_generate": "false",
+        "report_accessibility_image_map_alt_tags": "warning",
+        "report_accessibility_table_summaries": "warning",
+        "report_accessibility_image_long_descriptions": "warning",
+        "report_accessibility_image_alt_tags": "warning"
+    },
+    "reverb_2.0_toolbar": {
+        "toolbar_logo_override": "",
+        "toolbar_tabs": "false",
+        "google_translate": "false",
+        "toolbar_logo_link_address": "",
+        "toolbar_logo": "none",
+        "toolbar_logo_linked": "false",
+        "button_home": "true"
+    },
+    "reverb_2.0_footer": {
+        "footer_logo": "none",
+        "footer_location": "end-of-layout",
+        "footer_logo_linked": "false",
+        "footer_logo_override": "",
+        "footer_logo_link_address": "",
+        "footer_generate": "false",
+        "footer_publish_date": "true"
+    },
+    "file_processing": {
+        "file_processing_mark_of_the_web": "false",
+        "file_processing_pretty_print": "false",
+        "file_processing_front_matter": "output",
+        "file_processing_back_to_top_link": "true",
+        "file_processing_toc": "ignore",
+        "file_processing_index": "ignore"
+    },
+    "reverb_2.0": {
+        "connect_plugin_skin": "",
+        "feedback_email_message": "Feedback: $Location;",
+        "connect_browser_tab_icon": "",
+        "connect_browser_tab_title": "page-title",
+        "feedback_email": "",
+        "connect_lightbox_large_images": "true",
+        "connect_api_wwhelp": "false",
+        "button_print": "true",
+        "connect_entry": "index.html",
+        "show_first_document": "false"
+    },
+    "report_filenames": {
+        "report_filenames_used": "message",
+        "report_filenames_renamed": "warning",
+        "report_filenames_ignored": "warning",
+        "report_filenames_generate": "true"
+    },
+    "reverb_2.0_header": {
+        "header_logo_override": "",
+        "header_generate": "false",
+        "header_logo_linked": "false",
+        "header_logo_link_address": "",
+        "header_logo": "none"
+    },
+    "pdf": {
+        "pdf_per_group": "false",
+        "pdf_job_settings": "default",
+        "pdf_target_dependency": "",
+        "pdf_force_download": "false",
+        "pdf_save_as_pdf_job_settings": "",
+        "pdf_target": "ww_connect_pdf",
+        "pdf_per_document": "false",
+        "pdf_acrobat_distiller_job_settings": "Standard",
+        "pdf_save_as_pdf_extensions": ".fm",
+        "pdf_acrobat_distiller_extensions": ""
+    },
+    "report_images": {
+        "report_images_byref_source_missing": "warning",
+        "report_images_in_table_cells": "ignore",
+        "report_images_generate": "true"
+    },
+    "report_links": {
+        "report_links_unsupported_external_url": "warning",
+        "report_links_unresolved_to_document": "warning",
+        "report_links_unsupported_group_to_group": "warning",
+        "report_links_unsupported_baggage_file": "warning",
+        "report_links_generate": "true",
+        "report_links_baggage_file": "message",
+        "report_links_external_url": "validate",
+        "report_links_unresolved_to_anchor_in_document": "warning",
+        "report_links_unresolved_to_file": "warning",
+        "report_links_unresolved_to_anchor": "warning"
+    },
+    "company_info": {
+        "company_link": "",
+        "company_fax": "",
+        "company_email": "",
+        "company_copyright": "",
+        "company_name": "",
+        "company_phone": "",
+        "company_logo_src": ""
+    },
+    "files": {
+        "filename_split_pattern": "$D;.$DN;.$PN;",
+        "connect_url_maps_name": "url_maps.xml",
+        "groupname_convert_spaces": "false",
+        "filename_frame_pattern": "$D;.$DN;.$PN;.$GN;",
+        "file_split_handling": "combine",
+        "filename_replace_spaces_with": "_",
+        "filename_convert_name_to": "normal",
+        "connect_url_maps": "true",
+        "filename_spaces_to_underscores": "false"
+    },
+    "social": {
+        "social_disqus_id": "",
+        "social_disqus_developer": "false",
+        "social_facebook_like": "true",
+        "social_twitter": "true",
+        "social_linkedin": "true"
+    },
+    "reverb_2.0_search": {
+        "progressive_search_enabled": "true",
+        "search_scope_enabled": "true",
+        "search_result_count": "true",
+        "search_query_minimum_character_amount": "4"
+    },
+    "report_topics": {
+        "report_topics_link": "message",
+        "report_topics_duplicate": "warning",
+        "report_topics_generate": "true"
+    },
+    "toc": {
+        "toc_collapse": "smart",
+        "toc_icon_position": "left",
+        "toc_generate": "true"
+    },
+    "report_styles": {
+        "report_styles_non_standard_style": "warning",
+        "report_styles_generate": "true",
+        "report_styles_override": "warning"
+    },
+    "analytics": {
+        "page_helpful_buttons": "false",
+        "search_helpful_buttons": "false",
+        "google_analytics_id": "",
+        "google_analytics_default_url": ""
+    },
+    "report_conditions": {
+        "report_conditions_unknown_condition": "warning",
+        "report_conditions_generate": "true"
+    },
+    "links": {
+        "external_url_target": "external_window",
+        "baggage_file_target": "external_window",
+        "preserve_unknown_file_links": "false"
+    },
+    "report_baggagefiles": {
+        "report_baggagefiles_without_summary": "warning",
+        "report_baggagefiles_generate": "true",
+        "report_baggagefiles_without_title": "warning"
+    },
+    "index": {
+        "index_generate": "false",
+        "index_combined_enabled": "true"
+    },
+    "reverb_2.0_menu": {
+        "reverb_2.0_minimum_page_width": "900",
+        "menu_initial_state": "open",
+        "menu_generate": "true"
+    },
+    "baggage": {
+        "baggage_files_list": "baggage_list.xml",
+        "index_baggage_files": "false",
+        "index_external_baggage_files": "false",
+        "copy_baggage_file_dependents": "true"
+    },
+    "locale": {
+        "locale": "en"
+    },
+    "accessibility": {
+        "accessibility_image_d_links": "false",
+        "accessibility_skip_navigation_link": "false"
+    }
+}

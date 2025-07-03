@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Groups>
+  <Group name="report-filenames" />
+ </Groups>
+
+ <Settings>
+  <Setting name="report-filenames-generate" group="report-filenames" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="report-filenames-used" group="report-filenames" default="message">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-filenames-ignored" group="report-filenames" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-filenames-renamed" group="report-filenames" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

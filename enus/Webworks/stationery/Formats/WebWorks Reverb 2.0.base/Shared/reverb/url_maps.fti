@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes />
+
+ <Groups>
+  <Group name="files" />
+ </Groups>
+
+ <Settings>
+  <!-- URL Entry Maps -->
+  <!--       -->
+  <Setting name="connect-url-maps" group="files" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="connect-url-maps-name" group="files" default="url_maps.xml">
+   <SettingClass name="filename" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

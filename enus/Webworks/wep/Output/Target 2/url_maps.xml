@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Project projectID="EifmldnGvu0" formatVersion="2024.1" runtimeVersion="2024.1">
+    <Entry name="default" href="index.html" />
+    <TopicMap />
+    <PageMap>
+      <Page basename="zeenea-intro.html" path="Zeenea\zeenea-intro.html" title="Actian Zeenea Data Discovery Platform" href="index.html#page/Zeenea/zeenea-intro.html" groupID="ZjRXuIIZp1s" documentID="MZZqW_vtyBQ" />
+      <Page basename="zeenea-data-explorer.html" path="Zeenea\zeenea-data-explorer.html" title="As a Data Explorer" href="index.html#page/Zeenea/zeenea-data-explorer.html" groupID="ZjRXuIIZp1s" documentID="xvNF1_CcraQ" />
+      <Page basename="zeenea-data-steward.html" path="Zeenea\zeenea-data-steward.html" title="As a Data Steward" href="index.html#page/Zeenea/zeenea-data-steward.html" groupID="ZjRXuIIZp1s" documentID="8QHI4NGnaG0" />
+      <Page basename="zeenea-superadmin.html" path="Zeenea\zeenea-superadmin.html" title="As a Super Admin" href="index.html#page/Zeenea/zeenea-superadmin.html" groupID="ZjRXuIIZp1s" documentID="Nb6IFTNgX9E" />
+    </PageMap>
+    <BaggageMap />
+  </Project>
+</Report>

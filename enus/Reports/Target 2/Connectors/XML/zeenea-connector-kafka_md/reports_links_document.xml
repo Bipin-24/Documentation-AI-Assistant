@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://github.com/zeenea/connector-conf-templates/tree/main/templates'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connector-kafka.md" />
+        <Data key="DocumentID" value="UQut3p1ttQs" />
+        <Data key="ID" value="p100270" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connector-kafka.45.2.html#wwp100270" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://github.com/zeenea/connector-conf-templates/tree/main/templates" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

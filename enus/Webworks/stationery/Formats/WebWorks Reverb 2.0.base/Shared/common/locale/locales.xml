@@ -1,0 +1,3944 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Locales version="1.0" xmlns="urn:WebWorks-Locale-Schema">
+ <Locale name="en" culture="en" lcid="0x0409" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Cover" />
+   <String name="TOCTitle" value="Table of Contents" />
+   <String name="IXTitle" value="Index" />
+   <String name="HomeTabLabel" value="Home" />
+   <String name="TOCTabLabel" value="Contents" />
+   <String name="IXTabLabel" value="Index" />
+   <String name="SearchTabLabel" value="Search" />
+   <String name="FavoritesTabLabel" value="Favorites" />
+   <String name="GlossaryTabLabel" value="Glossary" />
+   <String name="MenuTabLabel" value="Menu" />
+   <String name="Previous" value="Previous" />
+   <String name="Next" value="Next" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Print" />
+   <String name="ConnectWithUsLabel" value="Connect with us" />
+   <String name="EmailLabel" value="E-Mail" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Phone" />
+   <String name="PageDropDownToggleLabel" value="Page DropDown Toggle" />
+   <String name="RelatedTopics" value="Related Topics" />
+   <String name="LinkToThumbnail" value="Link to {0}" />
+   <String name="SeeAlso" value="See Also" />
+   <String name="RequiredIndexEntry" value="Manifest" />
+   <String name="MapTOCStyles" value="Please map TOC styles!" />
+   <String name="IndexSeePrefix" value="See " />
+   <String name="IndexSeeAlsoPrefix" value="See also " />
+   <String name="SearchButtonLabel" value="Go!" />
+   <String name="SearchNoResultsMessage" value="(no results)" />
+   <String name="SearchSearchingStatus" value="(searching)" />
+   <String name="SearchResultsFound" value="Search results found: " />
+   <String name="SearchResultsLoading" value="Searching..." />
+   <String name="TranslateLabel" value="Translate" />
+   <String name="BackToTopTitle" value="Back to top" />
+   <String name="SearchTitle" value="Search Results" />
+   <String name="SearchFilterMessage" value="Applied Filter: " />
+   <String name="SearchScopeAllLabel" value="All" />
+   <String name="SearchInputPlaceholder" value="Enter search term or phrase" />
+   <String name="NoCookiesTitle" value="DOM storage is disabled" />
+   <String name="NoCookiesBody" value="Your browser has DOM storage disabled. Make sure DOM storage is enabled and try again." />
+   <String name="NoCookiesButton" value="Retry" />
+   <String name="NoJavaScriptMessage" value="This site works best with JavaScript enabled" />
+   <String name="UnsupportedBrowserHeading" value="It looks like you're using an unsupported browser." />
+   <String name="UnsupportedBrowserMessage" value="A newer browser is required in order to use the features of this help set. In order to enjoy the full experience of this help set, please upgrade to a supported browser." />
+   <String name="DocumentLastModifiedDateFormat" value="MM/dd/yyyy" />
+   <String name="DocumentLastModifiedDateLabel" value="Last modified date: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="Published date: {0}" />
+   <String name="HelpfulButton" value="Helpful" />
+   <String name="UnhelpfulButton" value="Unhelpful" />
+   <String name="PageHelpfulMessage" value="Was this helpful?" />
+   <String name="SearchHelpfulMessage" value="Was this search helpful?" />
+   <String name="FileNotFoundMessage" value="File not found." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="See " />
+    <SeeAlsoPrefix value="See also " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Numerics" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Symbols" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    a about after all also am an and another any are as at
+    be because been before being between both but by
+    came can come copyright corp corporation could
+    did do does
+    each etc
+    for from
+    get goes got
+    had has have he her here him himself his how
+    if in inc into is it its
+    let like
+    make many me might more most much must my
+    never nor not now
+    of off on one only or other our out over own
+    reserved rights
+    said same see set shall she should since so some still such
+    take than that the their them then there these they this those though through to too
+    under us use
+    very
+    was way we well were what when where which while who why will with would
+    yes yet you your
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="de" culture="de" lcid="0x0407" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Deckel" />
+   <String name="TOCTitle" value="Inhaltsverzeichnis" />
+   <String name="IXTitle" value="Index" />
+   <String name="HomeTabLabel" value="Zuhause" />
+   <String name="TOCTabLabel" value="Inhalt" />
+   <String name="IXTabLabel" value="Index" />
+   <String name="SearchTabLabel" value="Suche" />
+   <String name="FavoritesTabLabel" value="Favorites" />
+   <String name="GlossaryTabLabel" value="Glossary" />
+   <String name="MenuTabLabel" value="Menü" />
+   <String name="Previous" value="Zurück" />
+   <String name="Next" value="Weiter" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Drucken" />
+   <String name="ConnectWithUsLabel" value="Kontaktieren Sie uns" />
+   <String name="EmailLabel" value="E-Mail" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Telefon" />
+   <String name="PageDropDownToggleLabel" value="Seite DropDown-Steuerelement" />
+   <String name="RelatedTopics" value="Ähnliche Themen" />
+   <String name="LinkToThumbnail" value="Link zu {0}" />
+   <String name="SeeAlso" value="Siehe auch" />
+   <String name="RequiredIndexEntry" value="Manifest" />
+   <String name="MapTOCStyles" value="Ordnen Sie die Formate für das Inhaltsverzeichnis zu!" />
+   <String name="IndexSeePrefix" value="Siehe " />
+   <String name="IndexSeeAlsoPrefix" value="Siehe auch " />
+   <String name="SearchButtonLabel" value="Suchen" />
+   <String name="SearchNoResultsMessage" value="(keine Ergebnisse)" />
+   <String name="SearchSearchingStatus" value="(Suchen)" />
+   <String name="SearchResultsFound" value="Suchergebnisse gefunden: " />
+   <String name="SearchResultsLoading" value="Suchen..." />
+   <String name="TranslateLabel" value="Übersetzen" />
+   <String name="BackToTopTitle" value="Zurück nach oben" />
+   <String name="SearchTitle" value="Suchergebnisse" />
+   <String name="SearchFilterMessage" value="Angewandter Filter: " />
+   <String name="SearchScopeAllLabel" value="Alle" />
+   <String name="SearchInputPlaceholder" value="Geben Sie einen Suchbegriff oder eine Wortgruppe ein" />
+   <String name="NoCookiesTitle" value="DOM Lagerung deaktiviert" />
+   <String name="NoCookiesBody" value="Ihr Browser hat DOM-Speicher deaktiviert. Stellen Sie sicher, dass der DOM-Speicher aktiviert ist, und versuchen Sie es erneut." />
+   <String name="NoCookiesButton" value="Wiederholen" />
+   <String name="NoJavaScriptMessage" value="Diese Seite funktioniert am besten mit aktiviertem JavaScript" />
+   <String name="UnsupportedBrowserHeading" value="Es sieht so aus, als ob Sie einen nicht unterstützten Browser verwenden." />
+   <String name="UnsupportedBrowserMessage" value="Ein neuerer Browser ist erforderlich, um die Funktionen dieser Hilfe nutzen zu können. Um die volle Erfahrung dieses Hilfesets zu genießen, aktualisieren Sie bitte auf einen unterstützten Browser." />
+   <String name="DocumentLastModifiedDateFormat" value="dd.MM.yyyy" />
+   <String name="DocumentLastModifiedDateLabel" value="Zuletzt geändertes Datum: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="Veröffentlichungsdatum: {0}" />
+   <String name="HelpfulButton" value="Hilfreich" />
+   <String name="UnhelpfulButton" value="Nicht Hilfreich" />
+   <String name="PageHelpfulMessage" value="War dies hilfreich?" />
+   <String name="SearchHelpfulMessage" value="War diese Suche hilfreich?" />
+   <String name="FileNotFoundMessage" value="Datei nicht gefunden." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Siehe" />
+    <SeeAlsoPrefix value="Siehe auch" />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Zahlen" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Symbole" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    aber als am an auch auf aus bei bin bis bist
+    da das dass dein deine dem den der des deshalb die dies dieser dieses
+    doch dort du durch
+    ein eine einem einen einer eines er es etwas euch
+    für
+    hatte hatten hattest hattet hast hatte haben habe
+    hier hin hinter
+    ich ihm ihn ihnen ihr ihre im in ist ja jede jedem jeden jeder jedes
+    kann kein keine
+    mehr mein meine mit mir mich
+    nach nicht noch nun
+    oder ohne
+    seid sein seine selbst sich sie sind so soll solche sondern sollst
+    um und uns unser unsere unter
+    vom von vor
+    war waren warst was weil weiter welche welchem welchen welcher welches wenn wer werde werden werdet wie wieder
+    wir wird wirst wo wollen wollte
+    zu zum zur zwar zwischen
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="es" culture="es" lcid="0x0C0A" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Cubierta" />
+   <String name="TOCTitle" value="Índice" />
+   <String name="IXTitle" value="Índice alfabético" />
+   <String name="HomeTabLabel" value="Casa" />
+   <String name="TOCTabLabel" value="Contenido" />
+   <String name="IXTabLabel" value="Índice alfabético" />
+   <String name="SearchTabLabel" value="Buscar" />
+   <String name="FavoritesTabLabel" value="Favorites" />
+   <String name="GlossaryTabLabel" value="Glossary" />
+   <String name="MenuTabLabel" value="Menú" />
+   <String name="Previous" value="Anterior" />
+   <String name="Next" value="Siguiente" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Imprimir" />
+   <String name="ConnectWithUsLabel" value="Conectate con nosotros" />
+   <String name="EmailLabel" value="E-Mail" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Teléfono" />
+   <String name="PageDropDownToggleLabel" value="Control DropDown de página" />
+   <String name="RelatedTopics" value="Temas relacionados" />
+   <String name="LinkToThumbnail" value="Enlace con {0}" />
+   <String name="SeeAlso" value="Consulte también" />
+   <String name="RequiredIndexEntry" value="Manifiesto" />
+   <String name="MapTOCStyles" value="Asigne los estilos del índice" />
+   <String name="IndexSeePrefix" value="Consulte " />
+   <String name="IndexSeeAlsoPrefix" value="Consulte también " />
+   <String name="SearchButtonLabel" value="Ir" />
+   <String name="SearchNoResultsMessage" value="(ningún resultado)" />
+   <String name="SearchSearchingStatus" value="(buscando)" />
+   <String name="SearchResultsFound" value="Resultados de búsqueda encontrados: " />
+   <String name="SearchResultsLoading" value="Buscando..." />
+   <String name="TranslateLabel" value="Traducir" />
+   <String name="BackToTopTitle" value="Volver arriba" />
+   <String name="SearchTitle" value="Resultados de la búsqueda" />
+   <String name="SearchFilterMessage" value="Filtro aplicado: " />
+   <String name="SearchScopeAllLabel" value="Todas" />
+   <String name="SearchInputPlaceholder" value="Ingrese el término o frase de búsqueda" />
+   <String name="NoCookiesTitle" value="El almacenamiento DOM está deshabilitado" />
+   <String name="NoCookiesBody" value="Su navegador tiene el almacenamiento DOM deshabilitado. Asegúrese de que el almacenamiento DOM esté habilitado y vuelva a intentarlo." />
+   <String name="NoCookiesButton" value="Reintentar" />
+   <String name="NoJavaScriptMessage" value="Este sitio funciona mejor con JavaScript habilitado" />
+   <String name="UnsupportedBrowserHeading" value="Parece que estás usando un navegador no compatible." />
+   <String name="UnsupportedBrowserMessage" value="Se necesita un navegador más nuevo para usar las funciones de este conjunto de ayuda. Para disfrutar de la experiencia completa de este conjunto de ayuda, actualice a un navegador compatible." />
+   <String name="DocumentLastModifiedDateFormat" value="dd/MM/yyyy" />
+   <String name="DocumentLastModifiedDateLabel" value="Última fecha de modificación: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="Fecha de Publicación: {0}" />
+   <String name="HelpfulButton" value="Servicial" />
+   <String name="UnhelpfulButton" value="Inútil" />
+   <String name="PageHelpfulMessage" value="Fue esto útil?" />
+   <String name="SearchHelpfulMessage" value="¿Fue útil esta búsqueda?" />
+   <String name="FileNotFoundMessage" value="Archivo no encontrado." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Consulte " />
+    <SeeAlsoPrefix value="Consulte también" />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Números" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="Ñ" sort="Ñ" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="¡" />
+      <Member match="!" />
+      <Member match="¿" />
+      <Member match="?" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Símbolos" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    un uno una unos unas acerca de después todo toda todos todas también soy estoy y otro otra otros otras cualquier cualquiera cualesquiera eres somos sois son estás estamos están como a en
+    ser estar porque sido estado antes siendo estando entre ambos pero por
+    vine viniste vino vinimos vinisteis vinieron quizá quizás venir copyright corporación
+    cada etc.
+    para desde
+    tuve tuviste tuvo tuvimos tuvisteis tuvieron tiene tener tengo tienes tenemos tenéis tienen él ella aquí su suyo suya suyos suyas cómo
+    si en inc dentro es está sus
+    tan tanto
+    hacer hago haces hace hacemos hacéis hacen muchos muchas mí puede más máximo mucho mucha mi mis
+    nunca ni no ahora
+    de fuera sobre único sólo solamente o nuestro nuestra nuestros nuestras afuera encima
+    derechos reservados
+    decir dije dijiste dijo dijimos dijisteis dijeron mismo misma mismos mismas igual ver veo ves vemos veis ven así algún alguno alguna algunos algunas aún tal
+    que el la los las ellos ellas entonces estos estas esos esas ahí allí allá este esta esto ese esa eso esos aunque a través asimismo
+    bajo debajo nosotros uso usar
+    muy
+    era eras era éramos erais eran estaba estabas estaba estábamos estabais estaban fui fuiste fue fuimos fuisteis fueron estuve estuviste estuvo estuvimos estuvisteis estuvieron forma manera bien bueno qué cuándo dónde cuál cuáles mientras mientrastanto entretanto quién quiénes por qué con podría
+    sí todavía tú tu tus tuyo tuya tuyos tuyas
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="fr" culture="fr" lcid="0x040C" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Couverture" />
+   <String name="TOCTitle" value="Table des matières" />
+   <String name="IXTitle" value="Index" />
+   <String name="HomeTabLabel" value="Accueil" />
+   <String name="TOCTabLabel" value="Sommaire" />
+   <String name="IXTabLabel" value="Index" />
+   <String name="SearchTabLabel" value="Recherche" />
+   <String name="FavoritesTabLabel" value="Favoris" />
+   <String name="GlossaryTabLabel" value="Glossaire" />
+   <String name="MenuTabLabel" value="Menu" />
+   <String name="Previous" value="Précédent" />
+   <String name="Next" value="Suivant" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Imprimer" />
+   <String name="ConnectWithUsLabel" value="Connecte-toi avec nous" />
+   <String name="EmailLabel" value="Courrier électronique" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Téléphone" />
+   <String name="PageDropDownToggleLabel" value="Contrôle DropDown de la page" />
+   <String name="RelatedTopics" value="Rubriques connexes" />
+   <String name="LinkToThumbnail" value="Lien vers {0}" />
+   <String name="SeeAlso" value="Voir aussi" />
+   <String name="RequiredIndexEntry" value="Manifeste" />
+   <String name="MapTOCStyles" value="Associez les styles de table des matières !" />
+   <String name="IndexSeePrefix" value="Voir " />
+   <String name="IndexSeeAlsoPrefix" value="Voir aussi " />
+   <String name="SearchButtonLabel" value="Lancer" />
+   <String name="SearchNoResultsMessage" value="(aucun résultat)" />
+   <String name="SearchSearchingStatus" value="(recherche en cours)" />
+   <String name="SearchResultsFound" value="Résultats trouvés: " />
+   <String name="SearchResultsLoading" value="Recherche en cours..." />
+   <String name="TranslateLabel" value="Traduire" />
+   <String name="BackToTopTitle" value="Retour en haut de page" />
+   <String name="SearchTitle" value="Résultats de recherche" />
+   <String name="SearchFilterMessage" value="Filtre appliqué: " />
+   <String name="SearchScopeAllLabel" value="Tout" />
+   <String name="SearchInputPlaceholder" value="Entrez un terme de recherche ou une expression" />
+   <String name="NoCookiesTitle" value="Le stockage DOM est désactivé" />
+   <String name="NoCookiesBody" value="Votre navigateur a le stockage DOM désactivé. Assurez-vous que le stockage DOM est activé et réessayez." />
+   <String name="NoCookiesButton" value="Recommencez" />
+   <String name="NoJavaScriptMessage" value="Ce site fonctionne mieux avec JavaScript activé" />
+   <String name="UnsupportedBrowserHeading" value="Il semble que vous utilisiez un navigateur non pris en charge." />
+   <String name="UnsupportedBrowserMessage" value="Un navigateur plus récent est nécessaire pour utiliser les fonctionnalités de cette aide en ligne. Afin de profiter pleinement de l’expérience, veuillez mettre à jour votre navigateur." />
+   <String name="DocumentLastModifiedDateFormat" value="dd/MM/yyyy" />
+   <String name="DocumentLastModifiedDateLabel" value="Dernière date de modification: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="Date de publication: {0}" />
+   <String name="HelpfulButton" value="Utile" />
+   <String name="UnhelpfulButton" value="Inutile" />
+   <String name="PageHelpfulMessage" value="Est-ce que cela a été utile?" />
+   <String name="SearchHelpfulMessage" value="Cette recherche était-elle utile?" />
+   <String name="FileNotFoundMessage" value="Fichier introuvable." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Voir " />
+    <SeeAlsoPrefix value="Voir aussi " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Chiffres" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="Æ" sort="Æ" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="Œ" sort="Œ" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Symboles" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    a à ai allez allons alors après as aussi autre autres avaient avais avait avant avec avez aviez avions avons
+    beaucoup bien
+    car ceci cela celles-ci celles-là ces ceux-ci ceux-là chacun chacune chaque comme comment copyright corporation
+    dans de dedans définir depuis devez devons devraient devrais devrait devriez devrions dîmes dirent dis dit dîtes dois doit doivent donc droits
+    elle elles en encore entre es est et étaient étais était étant etc été êtes étiez étions être eu eux
+    faire fais faisons fait faites fîmes firent fis fit fîtes font
+    ici il ils
+    jamais
+    la là le les leur leurs lui lui-même
+    ma maintenant mais me même mêmes mes moi mon
+    ni nombreuses nombreux nos notre nous
+    on ont ou où oui
+    par pas pendant peut peuvent peux plus pour pourquoi pourraient pourrais pourrait pourriez pourrions pouvez pouvons prendre
+    quand que quel quelle quelles quelque quelques quels qui
+    réservé réservée réservées réservés
+    sa ses seulement si sien sienne siennes siens sommes son sont sous suis sur
+    tel telle telles tels tes ton toujours tous tout toute toutes très tu
+    un une utiliser
+    va vais vas venez venons via viennent viens vient vînmes vinrent vins vint vîntes voir vont vos votre vous
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="it" culture="it" lcid="0x0410" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Copertura" />
+   <String name="TOCTitle" value="Sommario" />
+   <String name="IXTitle" value="Indice" />
+   <String name="HomeTabLabel" value="Domestico" />
+   <String name="TOCTabLabel" value="Contenuto" />
+   <String name="IXTabLabel" value="Indice" />
+   <String name="SearchTabLabel" value="Ricerca" />
+   <String name="FavoritesTabLabel" value="Favorites" />
+   <String name="GlossaryTabLabel" value="Glossary" />
+   <String name="MenuTabLabel" value="Menu" />
+   <String name="Previous" value="Precedente" />
+   <String name="Next" value="Avanti" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Stampa" />
+   <String name="ConnectWithUsLabel" value="Mettiti in comunicazione con noi" />
+   <String name="EmailLabel" value="E-mail" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Telefono" />
+   <String name="PageDropDownToggleLabel" value="Controllo DropDown della pagina" />
+   <String name="RelatedTopics" value="Argomenti correlati" />
+   <String name="LinkToThumbnail" value="Collegamento a {0}" />
+   <String name="SeeAlso" value="Vedere anche" />
+   <String name="RequiredIndexEntry" value="Manifest" />
+   <String name="MapTOCStyles" value="Mappa stili sommario" />
+   <String name="IndexSeePrefix" value="Vedere " />
+   <String name="IndexSeeAlsoPrefix" value="Vedere anche " />
+   <String name="SearchButtonLabel" value="Vai!" />
+   <String name="SearchNoResultsMessage" value="(nessun risultato)" />
+   <String name="SearchSearchingStatus" value="(ricerca in corso)" />
+   <String name="SearchResultsFound" value="Risultati della ricerca trovati: " />
+   <String name="SearchResultsLoading" value="Ricerca in corso..." />
+   <String name="TranslateLabel" value="Traduci" />
+   <String name="BackToTopTitle" value="Torna all'inizio" />
+   <String name="SearchTitle" value="Risultati di ricerca" />
+   <String name="SearchFilterMessage" value="Filtro applicato: " />
+   <String name="SearchScopeAllLabel" value="Tutti" />
+   <String name="SearchInputPlaceholder" value="Inserisci il termine o la frase di ricerca" />
+   <String name="NoCookiesTitle" value="La memoria DOM è disabilitata" />
+   <String name="NoCookiesBody" value="Il tuo browser ha disabilitato la memoria DOM. Assicurati che la memoria DOM sia abilitata e riprova." />
+   <String name="NoCookiesButton" value="Riprova" />
+   <String name="NoJavaScriptMessage" value="Questo sito funziona meglio se JavaScript è abilitato" />
+   <String name="UnsupportedBrowserHeading" value="Sembra che tu stia utilizzando un browser non supportato." />
+   <String name="UnsupportedBrowserMessage" value="È necessario un browser più recente per utilizzare le funzionalità di questo set di guida. Per godere appieno dell'esperienza di questo set di assistenza, eseguire l'aggiornamento a un browser supportato." />
+   <String name="DocumentLastModifiedDateFormat" value="dd/MM/yyyy" />
+   <String name="DocumentLastModifiedDateLabel" value="Ultima data di modifica: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="Data di pubblicazione: {0}" />
+   <String name="HelpfulButton" value="Utile" />
+   <String name="UnhelpfulButton" value="Inutile" />
+   <String name="PageHelpfulMessage" value="È stato utile?" />
+   <String name="SearchHelpfulMessage" value="Questa ricerca è stata utile?" />
+   <String name="FileNotFoundMessage" value="File non trovato." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Vedere " />
+    <SeeAlsoPrefix value="Vedere anche " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Cifre" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Simboli" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    un uno una su dopo tutto tutti tutta tutto anche sono e altro altra altri qualsiasi qualunque
+    sono sei è siamo siete mentre come a al alla allo agli alle ai in essere perché stato stata state
+    stati prima essendo tra fra entrambi sia ma per da posso puoi può possiamo potete potere possono
+    venire veniamo vengono copyright azienda ditta potrebbe fare fa fanno ogni ognuno ognuna ciascuno
+    ciascuna etc. eccetera ecc. per da va vanno avuto avuta avute avuti ho hai ha abbiamo avete hanno
+    egli essa essi lui lei qui lui stesso suo sua sue suoi come se in nel nei nelle negli inc è esso
+    ciò come faccio fai fa facciamo fate fare fanno molto molta molte molti tanto tanta tante tanti
+    io me mi potrei potresti potrebbe potremmo potrebbero più devo dei deve dobbiamo dovete dovere
+    devono mio mia mie miei mai né non ora adesso di su uno una solo soltanto o oppure altro altra
+    altre altri nostro nostre nostra nostri fuori sopra proprio diritti riservati detto detta detti
+    stesso stessa stessi stesse alla allora vedere vedono lei da per così alcuno alcuna alcune alcuni
+    ancora così quello quella quelli quelle come prendere prendono di che il lo la i gli le loro l'
+    essi quindi poi dopo là questi questo questa sebbene nonostante però attraverso tramite mediante
+    a anche verso sotto noi usare usano era modo via noi bene fossi ero era erano eravate eravamo
+    erano cosa quando dove che mentre intanto chi perché con sì ancora tu tuo tua tuoi sarò sarai
+    sarà saremo sarete saranno avrò avrai avranno avrete
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="ja" culture="ja" lcid="0x0411" codepage="932">
+  <Strings>
+   <String name="CoverTitle" value="カバー" />
+   <String name="TOCTitle" value="目次" />
+   <String name="IXTitle" value="索引" />
+   <String name="HomeTabLabel" value="ホーム" />
+   <String name="TOCTabLabel" value="目次" />
+   <String name="IXTabLabel" value="索引" />
+   <String name="SearchTabLabel" value="検索" />
+   <String name="FavoritesTabLabel" value="Favorites" />
+   <String name="GlossaryTabLabel" value="Glossary" />
+   <String name="MenuTabLabel" value="メニュー" />
+   <String name="Previous" value="前へ" />
+   <String name="Next" value="次へ" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="印刷" />
+   <String name="ConnectWithUsLabel" value="私たちとつながる" />
+   <String name="EmailLabel" value="電子メール" />
+   <String name="FaxLabel" value="ファックス" />
+   <String name="PhoneLabel" value="電話" />
+   <String name="PageDropDownToggleLabel" value="ページドロップダウンコントロール" />
+   <String name="RelatedTopics" value="関連トピック" />
+   <String name="LinkToThumbnail" value="{0} へのリンク" />
+   <String name="SeeAlso" value="関連項目" />
+   <String name="RequiredIndexEntry" value="マニフェスト" />
+   <String name="MapTOCStyles" value="TOC スタイルをマッピングしてください!" />
+   <String name="IndexSeePrefix" value="参照 " />
+   <String name="IndexSeeAlsoPrefix" value="関連項目 " />
+   <String name="SearchButtonLabel" value="移動" />
+   <String name="SearchNoResultsMessage" value="(結果なし)" />
+   <String name="SearchSearchingStatus" value="(検索中)" />
+   <String name="SearchResultsFound" value="見つかった検索結果： " />
+   <String name="SearchResultsLoading" value="検索中" />
+   <String name="TranslateLabel" value="翻訳" />
+   <String name="BackToTopTitle" value="トップに戻る" />
+   <String name="SearchTitle" value="の検索結果" />
+   <String name="SearchFilterMessage" value="適用されるフィルタ： " />
+   <String name="SearchScopeAllLabel" value="すべて" />
+   <String name="SearchInputPlaceholder" value="検索語句を入力する" />
+   <String name="NoCookiesTitle" value="DOMストレージが無効になっています" />
+   <String name="NoCookiesBody" value="ブラウザにDOMストレージが無効になっています。 DOMストレージが有効になっていることを確認して、もう一度お試しください。" />
+   <String name="NoCookiesButton" value="リトライ" />
+   <String name="NoJavaScriptMessage" value="このサイトは、JavaScriptを有効にして最適に動作します" />
+   <String name="UnsupportedBrowserHeading" value="サポートされていないブラウザを使用しているようです。" />
+   <String name="UnsupportedBrowserMessage" value="このヘルプセットの機能を使用するには、新しいブラウザが必要です。 このヘルプセットを十分にご活用いただくには、サポートされているブラウザにアップグレードしてください。" />
+   <String name="DocumentLastModifiedDateFormat" value="yyyy年MM月dd日" />
+   <String name="DocumentLastModifiedDateLabel" value="最終更新日: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="公開日: {0}" />
+   <String name="HelpfulButton" value="役に立つ" />
+   <String name="UnhelpfulButton" value="役に立たない" />
+   <String name="PageHelpfulMessage" value="これは役に立ちましたか？" />
+   <String name="SearchHelpfulMessage" value="この検索は役に立ちましたか？" />
+   <String name="FileNotFoundMessage" value="ファイルが見つかりません。" />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="参照 " />
+    <SeeAlsoPrefix value="関連項目" />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="数値" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+     <Group name="あ" sort="あ" />
+     <Group name="い" sort="い" />
+     <Group name="う" sort="う" />
+     <Group name="え" sort="え" />
+     <Group name="お" sort="お" />
+     <Group name="か" sort="か" />
+     <Group name="き" sort="き" />
+     <Group name="く" sort="く" />
+     <Group name="け" sort="け" />
+     <Group name="こ" sort="こ" />
+     <Group name="さ" sort="さ" />
+     <Group name="し" sort="し" />
+     <Group name="す" sort="す" />
+     <Group name="せ" sort="せ" />
+     <Group name="そ" sort="そ" />
+     <Group name="た" sort="た" />
+     <Group name="ち" sort="ち" />
+     <Group name="つ" sort="つ" />
+     <Group name="て" sort="て" />
+     <Group name="と" sort="と" />
+     <Group name="な" sort="な" />
+     <Group name="に" sort="に" />
+     <Group name="ぬ" sort="ぬ" />
+     <Group name="ね" sort="ね" />
+     <Group name="の" sort="の" />
+     <Group name="は" sort="は" />
+     <Group name="ひ" sort="ひ" />
+     <Group name="ふ" sort="ふ" />
+     <Group name="へ" sort="へ" />
+     <Group name="ほ" sort="ほ" />
+     <Group name="ま" sort="ま" />
+     <Group name="み" sort="み" />
+     <Group name="む" sort="む" />
+     <Group name="め" sort="め" />
+     <Group name="も" sort="も" />
+     <Group name="や" sort="や" />
+     <Group name="ゆ" sort="ゆ" />
+     <Group name="よ" sort="よ" />
+     <Group name="ら" sort="ら" />
+     <Group name="り" sort="り" />
+     <Group name="る" sort="る" />
+     <Group name="れ" sort="れ" />
+     <Group name="ろ" sort="ろ" />
+     <Group name="わ" sort="わ" />
+     <Group name="を" sort="を" />
+     <Group name="ん" sort="ん" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="記号" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="1" />
+   <StopWords>
+    あそこ あなた あの あの人 あの時
+    ある いくつ いつ いつか いま いい
+    え ええ
+    お および おり おん
+    か かつ かつて から が
+    きみ くる
+    けど ここ こちら こと これ これら ご
+    さ さらに し しかし すでに そこ そして その その後 それ それぞれ それで それに
+    だ だけ だれ だろう
+    つ てん と として とともに とも ともに どう どうして どこ どちら どれ
+    な ない ながら なく なら なん なに なんで など
+    に にて によって により の ので ほか
+    は ば へ ほら
+    ます また または まで も もの
+    や よ ら られる
+    れ ろ
+    わ 私 私たち
+    を
+    ん
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="ko" culture="ko" lcid="0x0412" codepage="949">
+  <Strings>
+   <String name="CoverTitle" value="표지" />
+   <String name="TOCTitle" value="목차" />
+   <String name="IXTitle" value="색인" />
+   <String name="HomeTabLabel" value="홈" />
+   <String name="TOCTabLabel" value="컨텐츠" />
+   <String name="IXTabLabel" value="색인" />
+   <String name="SearchTabLabel" value="검색" />
+   <String name="FavoritesTabLabel" value="Favorites" />
+   <String name="GlossaryTabLabel" value="Glossary" />
+   <String name="MenuTabLabel" value="메뉴" />
+   <String name="Previous" value="이전" />
+   <String name="Next" value="다음" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="인쇄" />
+   <String name="ConnectWithUsLabel" value="우리와 접촉" />
+   <String name="EmailLabel" value="메일" />
+   <String name="FaxLabel" value="팩스" />
+   <String name="PhoneLabel" value="전화" />
+   <String name="PageDropDownToggleLabel" value="페이지 드롭 다운 컨트롤" />
+   <String name="RelatedTopics" value="관련 항목" />
+   <String name="LinkToThumbnail" value="{0} 링크" />
+   <String name="SeeAlso" value="참조" />
+   <String name="RequiredIndexEntry" value="목록" />
+   <String name="MapTOCStyles" value="목차 스타일을 작성하십시오." />
+   <String name="IndexSeePrefix" value="참조 " />
+   <String name="IndexSeeAlsoPrefix" value="참조 " />
+   <String name="SearchButtonLabel" value="검색" />
+   <String name="SearchNoResultsMessage" value="(결과 없음)" />
+   <String name="SearchSearchingStatus" value="(검색 중)" />
+   <String name="SearchResultsFound" value="발견 된 검색 결과 : " />
+   <String name="SearchResultsLoading" value="검색 중" />
+   <String name="TranslateLabel" value="직동시키다" />
+   <String name="BackToTopTitle" value="맨 위로" />
+   <String name="SearchTitle" value="검색 결과" />
+   <String name="SearchFilterMessage" value="적용된 필터 : " />
+   <String name="SearchScopeAllLabel" value="모든" />
+   <String name="SearchInputPlaceholder" value="검색어 또는 구문 입력" />
+   <String name="NoCookiesTitle" value="DOM 저장소가 사용 중지되었습니다." />
+   <String name="NoCookiesBody" value="브라우저에 DOM 저장소가 사용 중지되었습니다. DOM 저장소가 사용 가능한지 확인한 다음 다시 시도하십시오." />
+   <String name="NoCookiesButton" value="다시 해 보다" />
+   <String name="NoJavaScriptMessage" value="이 사이트는 자바 스크립트가 활성화 된 상태에서 가장 잘 작동합니다" />
+   <String name="UnsupportedBrowserHeading" value="지원되지 않는 브라우저를 사용하고있는 것 같습니다." />
+   <String name="UnsupportedBrowserMessage" value="이 도움말 세트의 기능을 사용하려면 최신 브라우저가 필요합니다. 이 도움말 세트의 모든 경험을 즐기려면 지원되는 브라우저로 업그레이드하십시오." />
+   <String name="DocumentLastModifiedDateFormat" value="yyyy-MM-dd" />
+   <String name="DocumentLastModifiedDateLabel" value="최종 수정 날짜: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="게시 날짜: {0}" />
+   <String name="HelpfulButton" value="도움이되는" />
+   <String name="UnhelpfulButton" value="도움이되지 않는" />
+   <String name="PageHelpfulMessage" value="이게 도움이 되었습니까?" />
+   <String name="SearchHelpfulMessage" value="이 검색이 도움이 되었습니까?" />
+   <String name="FileNotFoundMessage" value="파일을 찾을 수 없습니다." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="참조 " />
+    <SeeAlsoPrefix value="참조" />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="숫자" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+     <Group name="ㄱ" sort="가" />
+     <Group name="ㄴ" sort="나" />
+     <Group name="ㄷ" sort="다" />
+     <Group name="ㄹ" sort="라" />
+     <Group name="ㅁ" sort="마" />
+     <Group name="ㅂ" sort="바" />
+     <Group name="ㅅ" sort="사" />
+     <Group name="ㅇ" sort="아" />
+     <Group name="ㅈ" sort="자" />
+     <Group name="ㅊ" sort="차" />
+     <Group name="ㅋ" sort="카" />
+     <Group name="ㅌ" sort="타" />
+     <Group name="ㅍ" sort="파" />
+     <Group name="ㅎ" sort="하" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="기호" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="2" />
+   <StopWords>
+    가 각 같은 거 것 결과 경우 거의 결코 결국
+    그리고 그 그들 그때 그래서 그러나 그러면 그런 그렇게 그리
+    기타 끝 나 내 내가 내게 너 너무 네 내가 너희
+    다 다시 다음 다른 더욱 더
+    대단히 때문에 또 또한 똑같이
+    매우 많이 만약 모든 무슨 무엇 뭐
+    바로 반드시 벌써 보다 보통 부터
+    비록 뿐 사실 상대적으로 새 서로 스스로 시 시각 시간 시작 시키다 실제로 심지어 싫어
+    아 안 아니 아무 아주 아직 안 그러면 않다
+    알 알다 아무리 앞에 약 약간 양 양쪽 어 다시 어찌 어쩌면 없고 없다 역시 여기 여기서 어떤 어떻게 언제 언젠가 얼마 얼마든지 없다 오 어디 어느 얼마나 어떤
+    이 이다 이것 이건 이런 이래 이렇게 이르다 이루
+    저 전 지금 중 주 주로 좀
+    지 항상 했던 하고 하나 하나는 한 이유
+    등
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="pt" culture="pt" lcid="0x0816" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Cobertura" />
+   <String name="TOCTitle" value="Sumário" />
+   <String name="IXTitle" value="Índice" />
+   <String name="HomeTabLabel" value="Casa" />
+   <String name="TOCTabLabel" value="Conteúdo" />
+   <String name="IXTabLabel" value="Índice" />
+   <String name="SearchTabLabel" value="Pesquisar" />
+   <String name="FavoritesTabLabel" value="Favorites" />
+   <String name="GlossaryTabLabel" value="Glossary" />
+   <String name="MenuTabLabel" value="Cardápio" />
+   <String name="Previous" value="Anterior" />
+   <String name="Next" value="Avançar" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Imprimir" />
+   <String name="ConnectWithUsLabel" value="conecte-se conosco" />
+   <String name="EmailLabel" value="E-mail" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="telefone" />
+   <String name="PageDropDownToggleLabel" value="Controle DropDown de Página" />
+   <String name="RelatedTopics" value="Tópicos relacionados" />
+   <String name="LinkToThumbnail" value="Link para {0}" />
+   <String name="SeeAlso" value="Ver também" />
+   <String name="RequiredIndexEntry" value="Manifesto" />
+   <String name="MapTOCStyles" value="Mapeie estilos de sumário!" />
+   <String name="IndexSeePrefix" value="Ver " />
+   <String name="IndexSeeAlsoPrefix" value="Ver também " />
+   <String name="SearchButtonLabel" value="Prosseguir" />
+   <String name="SearchNoResultsMessage" value="(nenhum resultado)" />
+   <String name="SearchSearchingStatus" value="(procurando)" />
+   <String name="SearchResultsFound" value="Resultados da pesquisa encontrados: " />
+   <String name="SearchResultsLoading" value="Procurando" />
+   <String name="TranslateLabel" value="Traduzir" />
+   <String name="BackToTopTitle" value="Voltar ao topo" />
+   <String name="SearchTitle" value="Procurar Resultados" />
+   <String name="SearchFilterMessage" value="Filtro Aplicado: " />
+   <String name="SearchScopeAllLabel" value="Todos" />
+   <String name="SearchInputPlaceholder" value="Digite o termo de pesquisa ou frase" />
+   <String name="NoCookiesTitle" value="O armazenamento do DOM está desativado" />
+   <String name="NoCookiesBody" value="Seu navegador tem armazenamento DOM desativado. Verifique se o armazenamento DOM está ativado e tente novamente." />
+   <String name="NoCookiesButton" value="Repetir" />
+   <String name="NoJavaScriptMessage" value="Este site funciona melhor com o JavaScript ativado" />
+   <String name="UnsupportedBrowserHeading" value="Parece que você está usando um navegador não suportado." />
+   <String name="UnsupportedBrowserMessage" value="Um navegador mais recente é necessário para usar os recursos desse conjunto de ajuda. Para aproveitar a experiência completa desse conjunto de ajuda, faça upgrade para um navegador compatível." />
+   <String name="DocumentLastModifiedDateFormat" value="dd/MM/yyyy" />
+   <String name="DocumentLastModifiedDateLabel" value="Data da última modificação: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="Data de publicação: {0}" />
+   <String name="HelpfulButton" value="Útil" />
+   <String name="UnhelpfulButton" value="Inútil" />
+   <String name="PageHelpfulMessage" value="Isto foi útil?" />
+   <String name="SearchHelpfulMessage" value="Esta pesquisa foi útil?" />
+   <String name="FileNotFoundMessage" value="Arquivo não encontrado." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Ver " />
+    <SeeAlsoPrefix value="Ver também" />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Numéricos" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Símbolos" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    um uma sobre após tudo todo toda todos todas também sou um uma e outro outra outros outras qualquer algum alguma alguns algumas são tão como em no na às
+    ser porque sido antes sendo entre ambos ambas tanto mas por pelo pela pelos pelas
+    veio pode vir vem copyright direitos autorais empresa organização poderia pôde
+    fez fazer faz
+    cada etc
+    para
+    obter obtém vai obteve
+    teve tem ele dela aqui ele próprio própria próprios próprias dele como
+    se em no na nos nas é isso disso
+    deixar deixa gostar gosta
+    criar cria muitos muitas mim possa mais maioria muito muita deve meu minha meus minhas
+    nunca nem não agora
+    de do da dos das em no na nos nas sobre um uma apenas somente ou outro outra outros outras nosso nossa nossos nossas fora acima possui possuir
+    reservados
+    disse mesmo mesma mesmos mesmas ver vê definir define devo devemos ela deve desde portanto algum alguma alguns algumas ainda tal
+    tomar toma que o a os as deles delas eles elas então lá aí estes estas eles isto este esta esses essas aqueles aquelas embora apesar através a ao aos para também
+    sob nós usar usa
+    muito
+    era estava caminho maneira bem eram estavam qual quais quando onde enquanto quem vai com iria
+    sim ainda já você seu sua seus suas
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="ru" culture="ru" lcid="0x0419" codepage="1251">
+  <Strings>
+   <String name="CoverTitle" value="Охватывать" />
+   <String name="TOCTitle" value="Оглавление" />
+   <String name="IXTitle" value="Указатель" />
+   <String name="HomeTabLabel" value="дома" />
+   <String name="TOCTabLabel" value="Содержание" />
+   <String name="IXTabLabel" value="Указатель" />
+   <String name="SearchTabLabel" value="Поиск" />
+   <String name="FavoritesTabLabel" value="Фавориты" />
+   <String name="GlossaryTabLabel" value="Глоссарий" />
+   <String name="MenuTabLabel" value="Меню" />
+   <String name="Previous" value="Назад" />
+   <String name="Next" value="Далее" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Печать" />
+   <String name="ConnectWithUsLabel" value="связаться с нами" />
+   <String name="EmailLabel" value="Электронная почта" />
+   <String name="FaxLabel" value="факс" />
+   <String name="PhoneLabel" value="Телефон" />
+   <String name="PageDropDownToggleLabel" value="Блокировка страницы DropDown" />
+   <String name="RelatedTopics" value="Дополнительная информация" />
+   <String name="LinkToThumbnail" value="Ссылка на {0}" />
+   <String name="SeeAlso" value="См. также" />
+   <String name="RequiredIndexEntry" value="Явный" />
+   <String name="MapTOCStyles" value="Выполните отображение стилей содержания!" />
+   <String name="IndexSeePrefix" value="См. " />
+   <String name="IndexSeeAlsoPrefix" value="См. также " />
+   <String name="SearchButtonLabel" value="Начать" />
+   <String name="SearchNoResultsMessage" value="(нет результатов)" />
+   <String name="SearchSearchingStatus" value="(поиск)" />
+   <String name="SearchResultsFound" value="Результаты поиска: " />
+   <String name="SearchResultsLoading" value="Поиск" />
+   <String name="TranslateLabel" value="Переводчик" />
+   <String name="BackToTopTitle" value="Наверх" />
+   <String name="SearchTitle" value="Результаты поиска" />
+   <String name="SearchFilterMessage" value="Прикладной фильтр: " />
+   <String name="SearchScopeAllLabel" value="Все" />
+   <String name="SearchInputPlaceholder" value="Введите поисковый запрос или фразу" />
+   <String name="NoCookiesTitle" value="Хранилище DOM отключено" />
+   <String name="NoCookiesBody" value="В вашем браузере DOM-хранилище отключено. Убедитесь, что хранилище DOM включено и повторите попытку." />
+   <String name="NoCookiesButton" value="Попробуйте снова" />
+   <String name="NoJavaScriptMessage" value="Этот сайт лучше всего работает с включенным JavaScript" />
+   <String name="UnsupportedBrowserHeading" value="Похоже, вы используете неподдерживаемый браузер." />
+   <String name="UnsupportedBrowserMessage" value="Для использования функций этого набора справок требуется новый браузер. Чтобы получить полный опыт в этом наборе справок, обновите его до поддерживаемого браузера." />
+   <String name="DocumentLastModifiedDateFormat" value="dd.MM.yyyy" />
+   <String name="DocumentLastModifiedDateLabel" value="Дата последнего изменения: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="Дата публикации: {0}" />
+   <String name="HelpfulButton" value="полезный" />
+   <String name="UnhelpfulButton" value="Бесполезный" />
+   <String name="PageHelpfulMessage" value="Было ли это полезно?" />
+   <String name="SearchHelpfulMessage" value="Был ли этот поиск полезным?" />
+   <String name="FileNotFoundMessage" value="Файл не найден." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="См." />
+    <SeeAlsoPrefix value="См. также " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Cifre" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+     <Group name="A" sort="A" />
+     <Group name="Б" sort="Б" />
+     <Group name="B" sort="B" />
+     <Group name="Г" sort="Г" />
+     <Group name="Д" sort="Д" />
+     <Group name="E" sort="E" />
+     <Group name="Ж" sort="Ж" />
+     <Group name="З" sort="З" />
+     <Group name="И" sort="И" />
+     <Group name="Й" sort="Й" />
+     <Group name="K" sort="K" />
+     <Group name="Л" sort="Л" />
+     <Group name="М" sort="М" />
+     <Group name="Н" sort="Н" />
+     <Group name="O" sort="O" />
+     <Group name="П" sort="П" />
+     <Group name="Р" sort="Р" />
+     <Group name="С" sort="С" />
+     <Group name="Т" sort="Т" />
+     <Group name="У" sort="У" />
+     <Group name="Ф" sort="Ф" />
+     <Group name="Х" sort="Х" />
+     <Group name="Ц" sort="Ц" />
+     <Group name="Ч" sort="Ч" />
+     <Group name="Ш" sort="Ш" />
+     <Group name="Щ" sort="Щ" />
+     <Group name="Э" sort="Э" />
+     <Group name="Э" sort="Э" />
+     <Group name="Ю" sort="Ю" />
+     <Group name="Я" sort="Я" />
+     <Group name="C" sort="C" />
+     <Group name="W" sort="W" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Simboli" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    о после все также     и другой любой   как при
+    так как   до   между оба но посредством
+    поступил может поступить авторские права корпорация корпорация мог
+    каждый и др.
+    для от
+    получить переходит получил
+    имел имеет иметь он ее здесь его себя его как
+    если	 в корпорация в   это его
+    позволить аналогично
+    сделать много меня мог бы больше наиболее много должен он
+    никогда ни не теперь
+    из выкл. вкл. один только или другой наш из над собственный
+    зарезервированный права
+    сказал тот же см.  установить   она должен поскольку так что некоторый еще такой
+    взять чем тот   их их затем там эти они это те хотя через к слишком
+    под нас использовать
+    очень
+    был способ мы хорошо были что когда где который в то время, как кто почему   с бы
+    да еще вы ваш
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="sv" culture="sv" lcid="0x041D" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Omslag" />
+   <String name="TOCTitle" value="Innehållsförteckning" />
+   <String name="IXTitle" value="Index" />
+   <String name="HomeTabLabel" value="Hem" />
+   <String name="TOCTabLabel" value="Innehåll" />
+   <String name="IXTabLabel" value="Index" />
+   <String name="SearchTabLabel" value="Sök" />
+   <String name="FavoritesTabLabel" value="Favorites" />
+   <String name="GlossaryTabLabel" value="Glossary" />
+   <String name="MenuTabLabel" value="Meny" />
+   <String name="Previous" value="Föregående" />
+   <String name="Next" value="Nästa" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Skriv ut" />
+   <String name="ConnectWithUsLabel" value="Anslut med oss" />
+   <String name="EmailLabel" value="E-post" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Telefon" />
+   <String name="PageDropDownToggleLabel" value="Sidan DropDown kontroll" />
+   <String name="RelatedTopics" value="Närliggande information" />
+   <String name="LinkToThumbnail" value="Länk till {0}" />
+   <String name="SeeAlso" value="Se även" />
+   <String name="RequiredIndexEntry" value="Manifest" />
+   <String name="MapTOCStyles" value="Avbilda innehållsförteckningsformat" />
+   <String name="IndexSeePrefix" value="Se " />
+   <String name="IndexSeeAlsoPrefix" value="Se även " />
+   <String name="SearchButtonLabel" value="Visa" />
+   <String name="SearchNoResultsMessage" value="(inga resultat)" />
+   <String name="SearchSearchingStatus" value="(söker)" />
+   <String name="SearchResultsFound" value="Sökresultat: " />
+   <String name="SearchResultsLoading" value="Söker..." />
+   <String name="TranslateLabel" value="Översätt" />
+   <String name="BackToTopTitle" value="Tillbaka till toppen" />
+   <String name="SearchTitle" value="Sökresultat" />
+   <String name="SearchFilterMessage" value="Tillämpat filter: " />
+   <String name="SearchScopeAllLabel" value="Allt" />
+   <String name="SearchInputPlaceholder" value="Ange sökord eller fras" />
+   <String name="NoCookiesTitle" value="DOM-lagring är inaktiverad" />
+   <String name="NoCookiesBody" value="Din webbläsare har DOM-lagring inaktiverad. Kontrollera att DOM-lagring är aktiverad och försök igen.." />
+   <String name="NoCookiesButton" value="Försök igen" />
+   <String name="NoJavaScriptMessage" value="Den här webbplatsen fungerar bäst med JavaScript aktiverat" />
+   <String name="UnsupportedBrowserHeading" value="Det verkar som om du använder en icke-stödd webbläsare." />
+   <String name="UnsupportedBrowserMessage" value="En nyare webbläsare behövs för att kunna använda funktionerna i den här hjälpsatsen. För att kunna njuta av den fullständiga erfarenheten av den här hjälpen, uppgradera till en webbläsare som stöds." />
+   <String name="DocumentLastModifiedDateFormat" value="yyyy-MM-dd" />
+   <String name="DocumentLastModifiedDateLabel" value="Senast ändrat datum: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="Publicerat datum: {0}" />
+   <String name="HelpfulButton" value="Hjälpsam" />
+   <String name="UnhelpfulButton" value="Ohjälpsam" />
+   <String name="PageHelpfulMessage" value="Var det här till hjälp?" />
+   <String name="SearchHelpfulMessage" value="Var denna sökning till hjälp?" />
+   <String name="FileNotFoundMessage" value="Det gick inte att hitta filen." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Se " />
+    <SeeAlsoPrefix value="Se även" />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Siffror" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+     <Group name="Å" sort="Å" />
+     <Group name="Ä" sort="Ä" />
+     <Group name="Ö" sort="Ö" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Symboler" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    aldrig alla alldeles alls allt alltför alltid alltså annars att av
+    bakom bara bland blev bli blir blivit borde brukar bör
+    cirka
+    de dem den denna deras dess det detta dig dit du då där därefter däremot därför
+    eftersom egen egentligen eget egna eller en enda endast ens ett
+    faktiskt fanns fast finns fram för före förstås
+    ganska
+    ha hade hans har helst henne hennes hittills hon honom hos hur här
+    i ibland in inför inte
+    ja jag ju just
+    kan knappt
+    mig min mitt mot
+    nej nästan
+    och också om omkring oss
+    per precis på
+    sa sade sagt samt se sen sig sin sina sitt själv själva skulle som så
+    ta tagit
+    vad var varför varit varje vars vem verkar vi via vilken vilket vilka vår våra vårt
+    ytterligare
+    än är även
+    över övriga övrigt
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="zh" culture="zh-CHS" lcid="0x0804" codepage="936">
+  <Strings>
+   <String name="CoverTitle" value="盖" />
+   <String name="TOCTitle" value="目录" />
+   <String name="IXTitle" value="索引" />
+   <String name="HomeTabLabel" value="家" />
+   <String name="TOCTabLabel" value="目录" />
+   <String name="IXTabLabel" value="索引" />
+   <String name="SearchTabLabel" value="搜索" />
+   <String name="FavoritesTabLabel" value="Favorites" />
+   <String name="GlossaryTabLabel" value="Glossary" />
+   <String name="MenuTabLabel" value="菜单" />
+   <String name="Previous" value="上一个" />
+   <String name="Next" value="下一个" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="打印" />
+   <String name="ConnectWithUsLabel" value="联系我们" />
+   <String name="EmailLabel" value="电子邮件" />
+   <String name="FaxLabel" value="传真" />
+   <String name="PhoneLabel" value="电话" />
+   <String name="PageDropDownToggleLabel" value="页面DropDown控件" />
+   <String name="RelatedTopics" value="相关主题" />
+   <String name="LinkToThumbnail" value="链接至 {0}" />
+   <String name="SeeAlso" value="另请参阅" />
+   <String name="RequiredIndexEntry" value="清单" />
+   <String name="MapTOCStyles" value="请映射目录样式！" />
+   <String name="IndexSeePrefix" value="参阅 " />
+   <String name="IndexSeeAlsoPrefix" value="另请参阅 " />
+   <String name="SearchButtonLabel" value="开始！" />
+   <String name="SearchNoResultsMessage" value="（无结果）" />
+   <String name="SearchSearchingStatus" value="（搜索）" />
+   <String name="SearchResultsFound" value="搜索结果： " />
+   <String name="SearchResultsLoading" value="搜索" />
+   <String name="TranslateLabel" value="翻译" />
+   <String name="BackToTopTitle" value="返回顶部" />
+   <String name="SearchTitle" value="搜索结果" />
+   <String name="SearchFilterMessage" value="应用过滤器： " />
+   <String name="SearchScopeAllLabel" value="所有" />
+   <String name="SearchInputPlaceholder" value="输入搜索词或短语" />
+   <String name="NoCookiesTitle" value="DOM存储已禁用" />
+   <String name="NoCookiesBody" value="您的浏览器禁用了DOM存储。 确保已启用DOM存储，然后重试。" />
+   <String name="NoCookiesButton" value="重试" />
+   <String name="NoJavaScriptMessage" value="本网站最适合启用JavaScript" />
+   <String name="UnsupportedBrowserHeading" value="它看起来像你正在使用不受支持的浏览器。" />
+   <String name="UnsupportedBrowserMessage" value="需要更新的浏览器才能使用此帮助集的功能。 为了享受此帮助套件的完整体验，请升级到支持的浏览器。" />
+   <String name="DocumentLastModifiedDateFormat" value="yyyy年MM月dd日" />
+   <String name="DocumentLastModifiedDateLabel" value="上次修改日期: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="发布日期: {0}" />
+   <String name="HelpfulButton" value="有帮助" />
+   <String name="UnhelpfulButton" value="无益" />
+   <String name="PageHelpfulMessage" value="这个有帮助吗？" />
+   <String name="SearchHelpfulMessage" value="这个搜索有用吗？" />
+   <String name="FileNotFoundMessage" value="找不到文件。" />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="参阅 " />
+    <SeeAlsoPrefix value="另请参阅" />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="数字" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="符号" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="1" />
+   <StopWords>
+    的 了 在 是 我 有 和 也 不 你 他 她 它 我们 你们 他们 她们
+    就 还 很 要 会 能 没 没有 因为 所以 如果 但是 还是 而且 虽然 并且
+    吗 呢 吧 啊 这 那 这里 那里 怎么 什么 怎么样 谁 哪个 哪儿 多少
+    个 各 每 几 些 所 有 让 被 以 而 及 或 及其 以及 与
+    从 对 向 朝 跟 自己 都 总是 只有 只要 应该
+    还 已 已经 正在 并 其中
+    其 此 此外 另外
+    么 之 使 得 么 此时
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="zh_TW" culture="zh-CHT" lcid="0x0404" codepage="950">
+  <Strings>
+   <String name="CoverTitle" value="蓋" />
+   <String name="TOCTitle" value="目錄" />
+   <String name="IXTitle" value="索引" />
+   <String name="HomeTabLabel" value="家" />
+   <String name="TOCTabLabel" value="內容" />
+   <String name="IXTabLabel" value="索引" />
+   <String name="SearchTabLabel" value="搜尋" />
+   <String name="FavoritesTabLabel" value="Favorites" />
+   <String name="GlossaryTabLabel" value="Glossary" />
+   <String name="MenuTabLabel" value="菜單" />
+   <String name="Previous" value="上一頁" />
+   <String name="Next" value="下一頁" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="列印" />
+   <String name="ConnectWithUsLabel" value="聯繫我們" />
+   <String name="EmailLabel" value="電子郵件" />
+   <String name="FaxLabel" value="傳真" />
+   <String name="PhoneLabel" value="電話" />
+   <String name="PageDropDownToggleLabel" value="頁面DropDown控件" />
+   <String name="RelatedTopics" value="相關主題" />
+   <String name="LinkToThumbnail" value="連結到 {0}" />
+   <String name="SeeAlso" value="另請參閱" />
+   <String name="RequiredIndexEntry" value="資訊清單" />
+   <String name="MapTOCStyles" value="請對應目錄樣式！" />
+   <String name="IndexSeePrefix" value="請參閱 " />
+   <String name="IndexSeeAlsoPrefix" value="另請參閱 " />
+   <String name="SearchButtonLabel" value="開始！" />
+   <String name="SearchNoResultsMessage" value="(沒有結果)" />
+   <String name="SearchSearchingStatus" value="(搜尋中)" />
+   <String name="SearchResultsFound" value="搜索結果： " />
+   <String name="SearchResultsLoading" value="搜尋中" />
+   <String name="TranslateLabel" value="翻譯" />
+   <String name="BackToTopTitle" value="返回頂部" />
+   <String name="SearchTitle" value="搜索結果" />
+   <String name="SearchFilterMessage" value="應用過濾器： " />
+   <String name="SearchScopeAllLabel" value="所有" />
+   <String name="SearchInputPlaceholder" value="輸入搜索詞或短語" />
+   <String name="NoCookiesTitle" value="DOM存儲已禁用" />
+   <String name="NoCookiesBody" value="您的瀏覽器禁用了DOM存儲。 確保已啟用DOM存儲，然後重試。" />
+   <String name="NoCookiesButton" value="重試" />
+   <String name="NoJavaScriptMessage" value="本網站最適合啟用JavaScript" />
+   <String name="UnsupportedBrowserHeading" value="它看起來像你正在使用不受支持的瀏覽器。" />
+   <String name="UnsupportedBrowserMessage" value="需要更新的瀏覽器才能使用此幫助集的功能。 為了享受此幫助套件的完整體驗，請升級到支持的瀏覽器。" />
+   <String name="DocumentLastModifiedDateFormat" value="yyyy年M月d日" />
+   <String name="DocumentLastModifiedDateLabel" value="上次修改日期: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="發布日期: {0}" />
+   <String name="HelpfulButton" value="有幫助" />
+   <String name="UnhelpfulButton" value="無益" />
+   <String name="PageHelpfulMessage" value="這個有幫助嗎？" />
+   <String name="SearchHelpfulMessage" value="這個搜索有用嗎？" />
+   <String name="FileNotFoundMessage" value="找不到檔。" />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="請參閱 " />
+    <SeeAlsoPrefix value="另請參閱" />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="數字" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+     <Group name="一畫" sort="一" />
+     <Group name="二畫" sort="丁" />
+     <Group name="三畫" sort="三" />
+     <Group name="四畫" sort="丑" />
+     <Group name="五畫" sort="丙" />
+     <Group name="六畫" sort="丞" />
+     <Group name="七畫" sort="串" />
+     <Group name="八畫" sort="並" />
+     <Group name="九畫" sort="亭" />
+     <Group name="十畫" sort="乘" />
+     <Group name="十一畫" sort="乾" />
+     <Group name="十二畫" sort="傢" />
+     <Group name="十三畫" sort="亂" />
+     <Group name="十四畫" sort="僧" />
+     <Group name="十五畫" sort="億" />
+     <Group name="十六畫" sort="儒" />
+     <Group name="十七畫" sort="優" />
+     <Group name="十八畫" sort="叢" />
+     <Group name="十九畫" sort="儳" />
+     <Group name="二十畫" sort="嚷" />
+     <Group name="二十一畫" sort="儷" />
+     <Group name="二十二畫" sort="儼" />
+     <Group name="二十三畫" sort="囌" />
+     <Group name="二十四畫" sort="囑" />
+     <Group name="二十五畫以上" sort="廳" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="符號" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="1" />
+   <StopWords>
+    的 了 在 是 我 有 和 也 不 你 他 她 它 我們 你們 他們 她們
+    就 還 很 要 會 能 沒 沒有 因為 所以 如果 但是 還是 而且 雖然 並且
+    嗎 呢 吧 啊 這 那 這裡 那裡 怎麼 什麼 怎麼樣 誰 哪個 哪兒 多少
+    個 各 每 幾 些 所 有 讓 被 以 而 及 或 及其 以及 與
+    從 對 向 朝 跟 自己 都 總是 只有 只要 應該
+    還 已 已經 正在 並 其中
+    其 此 此外 另外
+    麼 之 使 得 麼 此時
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="cs" culture="cs" lcid="0x0405" codepage="1250">
+  <Strings>
+   <String name="CoverTitle" value="Přebal" />
+   <String name="TOCTitle" value="Obsah" />
+   <String name="IXTitle" value="Index" />
+   <String name="HomeTabLabel" value="Domácí stránka" />
+   <String name="TOCTabLabel" value="Obsah stránek" />
+   <String name="IXTabLabel" value="Index" />
+   <String name="SearchTabLabel" value="Hledat" />
+   <String name="FavoritesTabLabel" value="Oblíbené" />
+   <String name="GlossaryTabLabel" value="Slovníček pojmů" />
+   <String name="MenuTabLabel" value="Nabídka" />
+   <String name="Previous" value="Předchozí" />
+   <String name="Next" value="Další" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Tisknout" />
+   <String name="ConnectWithUsLabel" value="Kontaktujte nás" />
+   <String name="EmailLabel" value="E-mail" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Telefon" />
+   <String name="PageDropDownToggleLabel" value="Přepínač rozevírací nabídky stránky" />
+   <String name="RelatedTopics" value="Podobná témata" />
+   <String name="LinkToThumbnail" value="Odkaz na {0}" />
+   <String name="SeeAlso" value="Podívejte se také" />
+   <String name="RequiredIndexEntry" value="Manifest" />
+   <String name="MapTOCStyles" value="Mapujte prosím styly obsahu!" />
+   <String name="IndexSeePrefix" value="Podívejte se " />
+   <String name="IndexSeeAlsoPrefix" value="Podívejte se také " />
+   <String name="SearchButtonLabel" value="Spustit!" />
+   <String name="SearchNoResultsMessage" value="(žádné výsledky)" />
+   <String name="SearchSearchingStatus" value="(vyhledávání)" />
+   <String name="SearchResultsFound" value="Nalezené výsledky hledání: " />
+   <String name="SearchResultsLoading" value="Vyhledávání…" />
+   <String name="TranslateLabel" value="Přeložit" />
+   <String name="BackToTopTitle" value="Zpět nahoru" />
+   <String name="SearchTitle" value="Hledat" />
+   <String name="SearchFilterMessage" value="Aplikované filtry: " />
+   <String name="SearchScopeAllLabel" value="Vše" />
+   <String name="SearchInputPlaceholder" value="Zadejte hledaný výraz nebo frázi" />
+   <String name="NoCookiesTitle" value="Ukládání modelu DOM je neaktivní" />
+   <String name="NoCookiesBody" value="Úložiště modelu DOM je ve vašem prohlížeči deaktivované. Ujistěte se, že je úložiště modelu DOM aktivované a zkuste to znovu." />
+   <String name="NoCookiesButton" value="Zkusit znovu" />
+   <String name="NoJavaScriptMessage" value="Pro optimální funkci tohoto webu doporučujeme povolit JavaScript" />
+   <String name="UnsupportedBrowserHeading" value="Vypadá to, že používáte nepodporovaný prohlížeč." />
+   <String name="UnsupportedBrowserMessage" value="Pokud chcete použít funkce této sady nápovědy, je zapotřebí novější prohlížeč. Pokud chcete naplno využívat tuto sadu nápovědy, upgradujte na podporovaný prohlížeč." />
+   <String name="DocumentLastModifiedDateFormat" value="MM/dd/rrrr" />
+   <String name="DocumentLastModifiedDateLabel" value="Datum poslední změny: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/rrrr" />
+   <String name="PublishDateLabel" value="Datum zveřejnění: {0}" />
+   <String name="HelpfulButton" value="Ano, pomohlo" />
+   <String name="UnhelpfulButton" value="Ne, nepomohlo" />
+   <String name="PageHelpfulMessage" value="Pomohlo vám to?" />
+   <String name="SearchHelpfulMessage" value="Pomohlo vám toto vyhledávání?" />
+   <String name="FileNotFoundMessage" value="Soubor nenalezen." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Podívejte se " />
+    <SeeAlsoPrefix value="Podívejte se také " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Čísla" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Symboly" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    a ale anebo ani až bez byla byli bylo být co celý 
+    další den dva dnes do kdy každý k kým kde kdo kdož ke
+    já jak nějaký jeho její je jest již ještě jim jimi
+    jí jím jinak jejich jsi jsme jste mezi mimo mi
+    můj může my na nad nám námi náš než nebo nebyl nebyla
+    nebyli nebyly nebude nebudou ně byla nejen nelze
+    není nepříliš než ni nic nich někdo někdy někdo němu němuž němž němuž nim
+    o od okolo on ona oni ono ony osm po pokud pro proč proti přes
+    při před přesto předtím přesně přičemž přičemž
+    rok s sa samozřejmě se sebou si své svého svému svémi svými své svém
+    tam tady teď tento také ti tím tímto tisíc to toho tohož téhož tobě tohle tom tohož téhož tomto tří tři
+    u už u v ve vás vám včas vše všechna všechno všech který kde kdo že z za zda ze jeho
+    jeho její jí však mezi příliš když velmi stejně
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="et" culture="et" lcid="0x0425" codepage="1257">
+  <Strings>
+   <String name="CoverTitle" value="Kaas" />
+   <String name="TOCTitle" value="Sisukord" />
+   <String name="IXTitle" value="Indeks" />
+   <String name="HomeTabLabel" value="Avaleht" />
+   <String name="TOCTabLabel" value="Sisu" />
+   <String name="IXTabLabel" value="Indeks" />
+   <String name="SearchTabLabel" value="Otsing" />
+   <String name="FavoritesTabLabel" value="Lemmikud" />
+   <String name="GlossaryTabLabel" value="Sõnastik" />
+   <String name="MenuTabLabel" value="Menüü" />
+   <String name="Previous" value="Eelmine" />
+   <String name="Next" value="Järgmine" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Prindi" />
+   <String name="ConnectWithUsLabel" value="Võta meiega ühendust" />
+   <String name="EmailLabel" value="E-post" />
+   <String name="FaxLabel" value="Faks" />
+   <String name="PhoneLabel" value="Telefon" />
+   <String name="PageDropDownToggleLabel" value="Lehekülje rippmenüünupp" />
+   <String name="RelatedTopics" value="Seotud teemad" />
+   <String name="LinkToThumbnail" value="Lingi: {0}" />
+   <String name="SeeAlso" value="Vaata ka" />
+   <String name="RequiredIndexEntry" value="Manifest" />
+   <String name="MapTOCStyles" value="Palun kaardista sisukorrastiilid!" />
+   <String name="IndexSeePrefix" value="Vaata " />
+   <String name="IndexSeeAlsoPrefix" value="Vaata ka " />
+   <String name="SearchButtonLabel" value="Lähme!" />
+   <String name="SearchNoResultsMessage" value="(tulemusi ei ole)" />
+   <String name="SearchSearchingStatus" value="(otsing)" />
+   <String name="SearchResultsFound" value="Leitud otsingutulemused: " />
+   <String name="SearchResultsLoading" value="Otsing..." />
+   <String name="TranslateLabel" value="Tõlgi" />
+   <String name="BackToTopTitle" value="Tagasi üles" />
+   <String name="SearchTitle" value="Otsing" />
+   <String name="SearchFilterMessage" value="Rakendatud filter: " />
+   <String name="SearchScopeAllLabel" value="Kõik" />
+   <String name="SearchInputPlaceholder" value="Sisesta otsingusõna või fraas" />
+   <String name="NoCookiesTitle" value="DOM-salvestus on välja lülitatud" />
+   <String name="NoCookiesBody" value="Teie brauseris on DOM-salvestus välja lülitatud. Veendu, et DOM-salvestus on lubatud, ja proovi uuesti." />
+   <String name="NoCookiesButton" value="Proovi uuesti" />
+   <String name="NoJavaScriptMessage" value="Veebileht toimib kõige paremini, kui JavaScript on lubatud" />
+   <String name="UnsupportedBrowserHeading" value="Tundub, et kasutad toetamata brauserit." />
+   <String name="UnsupportedBrowserMessage" value="Selle abipaketi funktsioonide kasutamiseks on vaja uuemat brauserit. Et abipaketi kõiki võimalusi kasutada, uuenda toetatud brauserile." />
+   <String name="DocumentLastModifiedDateFormat" value="KK/pp/aaaa" />
+   <String name="DocumentLastModifiedDateLabel" value="Viimase muutmise kuupäev: {0}" />
+   <String name="PublishDateFormat" value="KK/pp/aaaa" />
+   <String name="PublishDateLabel" value="Avaldamiskuupäev: {0}" />
+   <String name="HelpfulButton" value="Kasulik" />
+   <String name="UnhelpfulButton" value="Ei olnud kasulik" />
+   <String name="PageHelpfulMessage" value="Kas sellest oli abi?" />
+   <String name="SearchHelpfulMessage" value="Kas see otsing oli abiks?" />
+   <String name="FileNotFoundMessage" value="Faili ei leitud." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Vaata " />
+    <SeeAlsoPrefix value="Vaata ka " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Numbrid" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Sümbolid" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    aga ainult alla alates alla andma ainult ajal alla
+    ega ei enam et eesti ehk eile enne eriti eest ei enam edasi ega ega
+    siis siis ise ikka iga ilmselt ikka ilma ise ja jah juba jälle ju juurde juhul järele jäänud
+    kas ka ka kõik kui kui kaugele kõik kus kas keegi kelle kes kõige kogu kohe kokku
+    kuid kui kuigi küll kus kuidas kuskilt kuskil kunagi kuni küll
+    läbi läks ligikaudu lihtsalt ma maha me meelest meie minu mis mida miks mitte
+    nad nagu natuke neile nende nii ning nüüd oli olen oleme olid olime olla oma on ainult
+    pole peal peale pärast pidi pidid pidime pidanud palju pole peaaegu poolt
+    said see seda see sest sest siis sinna siin sinna sisse siiski siiski sulle siiski
+    talle tema te peate te peate teda tihti tunda tahaks taha tahtis tahan tahtsid
+    väga vaid veel vist välja vahel veidi või võib võibolla
+    öelda üle ümber üks ükski ükskõik
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="fi" culture="fi" lcid="0x040b" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Kansi" />
+   <String name="TOCTitle" value="Sisällysluettelo" />
+   <String name="IXTitle" value="Hakemisto" />
+   <String name="HomeTabLabel" value="Kotisivu" />
+   <String name="TOCTabLabel" value="Sisältö" />
+   <String name="IXTabLabel" value="Hakemisto" />
+   <String name="SearchTabLabel" value="Haku" />
+   <String name="FavoritesTabLabel" value="Suosikit" />
+   <String name="GlossaryTabLabel" value="Sanasto" />
+   <String name="MenuTabLabel" value="Valikko" />
+   <String name="Previous" value="Edellinen" />
+   <String name="Next" value="Seuraava" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Tulosta" />
+   <String name="ConnectWithUsLabel" value="Ota yhteyttä" />
+   <String name="EmailLabel" value="Sähköposti" />
+   <String name="FaxLabel" value="Faksi" />
+   <String name="PhoneLabel" value="Puhelin" />
+   <String name="PageDropDownToggleLabel" value="Sivun pudotusvalikon vaihto" />
+   <String name="RelatedTopics" value="Liittyvät aiheet" />
+   <String name="LinkToThumbnail" value="Linkki kohteeseen {0}" />
+   <String name="SeeAlso" value="Katso myös" />
+   <String name="RequiredIndexEntry" value="Luettelo" />
+   <String name="MapTOCStyles" value="Kartoita TOC-tyylit!" />
+   <String name="IndexSeePrefix" value="Katso " />
+   <String name="IndexSeeAlsoPrefix" value="Katso myös " />
+   <String name="SearchButtonLabel" value="Mene!" />
+   <String name="SearchNoResultsMessage" value="(ei tuloksia)" />
+   <String name="SearchSearchingStatus" value="(etsii)" />
+   <String name="SearchResultsFound" value="Hakutuloksia löytyi: " />
+   <String name="SearchResultsLoading" value="Etsii..." />
+   <String name="TranslateLabel" value="Käännä" />
+   <String name="BackToTopTitle" value="Takaisin ylös" />
+   <String name="SearchTitle" value="Haku" />
+   <String name="SearchFilterMessage" value="Käytetty suodatin: " />
+   <String name="SearchScopeAllLabel" value="Kaikki" />
+   <String name="SearchInputPlaceholder" value="Syötä hakusana tai -lause" />
+   <String name="NoCookiesTitle" value="DOM-tallennus on poistettu käytöstä" />
+   <String name="NoCookiesBody" value="Selaimesi DOM-tallennustila on poistettu käytöstä. Varmista, että DOM-tallennustila on käytössä ja yritä uudelleen." />
+   <String name="NoCookiesButton" value="Yritä uudelleen" />
+   <String name="NoJavaScriptMessage" value="Tämä sivusto toimii parhaiten kun JavaScript on käytössä" />
+   <String name="UnsupportedBrowserHeading" value="Näyttää siltä, että käytät selainta, jota ei tueta." />
+   <String name="UnsupportedBrowserMessage" value="Tämän ohjejoukon ominaisuuksien käyttäminen vaatii uudemman selaimen. Päivitä tuettuun selaimeen, jotta saat täyden hyödyn tästä ohjejoukosta." />
+   <String name="DocumentLastModifiedDateFormat" value="KK/pp/vvvv" />
+   <String name="DocumentLastModifiedDateLabel" value="Muokattu viimeksi: {0}" />
+   <String name="PublishDateFormat" value="KK/pp/vvvv" />
+   <String name="PublishDateLabel" value="Julkaisupäivä: {0}" />
+   <String name="HelpfulButton" value="Hyödyllinen" />
+   <String name="UnhelpfulButton" value="Hyödytön" />
+   <String name="PageHelpfulMessage" value="Oliko tämä hyödyllinen?" />
+   <String name="SearchHelpfulMessage" value="Oliko tämä haku hyödyllinen?" />
+   <String name="FileNotFoundMessage" value="Tiedostoa ei löytynyt." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Katso " />
+    <SeeAlsoPrefix value="Katso myös " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Numerot" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Symbolit" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    aiemmin aina ainakin alas alla alle antavat antaa asti avoin
+    edelle edelleen edellä eikä eilen ei eipä ellei ellei enemmän eniten ennen ensi ensin entä eri erityisesti
+    esiin eteen etenkin ettei 
+    hae haen hakee hakevat hakivat haki hakivat halki haluaa haluavat halusi halusivat hän häneen hänen hänet hänestä hänellä
+    ihan ilman itse itsensä ja jo johan jopa jos jossa joskus jotkut jotain joten
+    kaikki kaiken kaikille kaikkia kaliiksi kuinka kukaan kuka kuitenkin kun kunhan kunnes
+    kuusi kuutta kyllä kymmenen kuinka käsin kanssa kuinka
+    lisää liene lienevät lopulta luvulla
+    me meidät meihin meistä meillä melkein melko menee menemme menevät meni menet menivät menevät mukaan
+    näin näinpä nämä enää nyt näyttää näytti
+    ole olimme ollut olla olen olet olemme olivat olisimme olisit olkaa ollaan
+    oletko olin olivat olla opitaan osaa oikein olisi ovat
+    pari peräti pian pitkä pitää poikki puoli päälle päälle
+    saa saamme saan saaneet saattaa saavumme saattoi samoin
+    samalla saman samanlainen sanoi sanoivat sata sitä sitten sivu
+    tahansa taas tämä tänään tämän tai takia takana
+    vaikka vaan vai varsin varmasti vasta vastaan vielä viisi viime viimeinen
+    yli yleensä yhdessä kuitenkin
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="hr" culture="hr" lcid="0x041a" codepage="1250">
+  <Strings>
+   <String name="CoverTitle" value="Naslovnica" />
+   <String name="TOCTitle" value="Sadržaj" />
+   <String name="IXTitle" value="Indeks" />
+   <String name="HomeTabLabel" value="Početna" />
+   <String name="TOCTabLabel" value="Sadržaj" />
+   <String name="IXTabLabel" value="Indeks" />
+   <String name="SearchTabLabel" value="Traži" />
+   <String name="FavoritesTabLabel" value="Omiljeni" />
+   <String name="GlossaryTabLabel" value="Glosar" />
+   <String name="MenuTabLabel" value="Izbornik" />
+   <String name="Previous" value="Prethodno" />
+   <String name="Next" value="Sljedeće" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Ispis" />
+   <String name="ConnectWithUsLabel" value="Javite nam se" />
+   <String name="EmailLabel" value="E-mail" />
+   <String name="FaxLabel" value="Faks" />
+   <String name="PhoneLabel" value="Telefon" />
+   <String name="PageDropDownToggleLabel" value="Prebacivanje padajućeg izbornika stranice" />
+   <String name="RelatedTopics" value="Povezane teme" />
+   <String name="LinkToThumbnail" value="Povežite s {0}" />
+   <String name="SeeAlso" value="Pogledajte isto" />
+   <String name="RequiredIndexEntry" value="Proglas" />
+   <String name="MapTOCStyles" value="Mapirajte stilove sadržaja!" />
+   <String name="IndexSeePrefix" value="Pogledajte " />
+   <String name="IndexSeeAlsoPrefix" value="Pogledajte isto " />
+   <String name="SearchButtonLabel" value="Kreni!" />
+   <String name="SearchNoResultsMessage" value="(nema rezultata)" />
+   <String name="SearchSearchingStatus" value="(pretraživanje)" />
+   <String name="SearchResultsFound" value="Rezultati pretraživanja pronašli su: " />
+   <String name="SearchResultsLoading" value="Pretraga..." />
+   <String name="TranslateLabel" value="Prevedi" />
+   <String name="BackToTopTitle" value="Povratak na vrh" />
+   <String name="SearchTitle" value="Traži" />
+   <String name="SearchFilterMessage" value="Primijenjeni filtar: " />
+   <String name="SearchScopeAllLabel" value="Svi" />
+   <String name="SearchInputPlaceholder" value="Unesite pojam ili frazu za pretraživanje" />
+   <String name="NoCookiesTitle" value="DOM pohrana je onemogućena" />
+   <String name="NoCookiesBody" value="DOM pohrana je onemogućena na vašem pregledniku. Pobrinite se da DOM pohrana bude omogućena i pokušajte ponovno." />
+   <String name="NoCookiesButton" value="Pokušaj ponovno" />
+   <String name="NoJavaScriptMessage" value="Stranica najbolje radi s omogućenim JavaScriptom" />
+   <String name="UnsupportedBrowserHeading" value="Čini se da koristite preglednik koji nije podržan." />
+   <String name="UnsupportedBrowserMessage" value="Potreban je noviji preglednik kako biste koristili značajke ovog kompleta pomoći. Kako biste uživali u punom iskustvu ovog kompleta pomoći, ažurirajte na podržani preglednik." />
+   <String name="DocumentLastModifiedDateFormat" value="dd/MM/gggg" />
+   <String name="DocumentLastModifiedDateLabel" value="Datum posljednje promjene: {0}" />
+   <String name="PublishDateFormat" value="dd/MM/gggg" />
+   <String name="PublishDateLabel" value="Datum objave: {0}" />
+   <String name="HelpfulButton" value="Korisno" />
+   <String name="UnhelpfulButton" value="Nije bilo korisno" />
+   <String name="PageHelpfulMessage" value="Je li ovo bilo korisno?" />
+   <String name="SearchHelpfulMessage" value="Je li ovo pretraživanje korisno?" />
+   <String name="FileNotFoundMessage" value="Datoteka nije pronađena." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Pogledajte " />
+    <SeeAlsoPrefix value="Pogledajte isto " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Brojevi" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Simboli" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    ali ako još ja je već jer gdje za prema iz među
+    kao kada kad koji koja koje kojem kojeg koju kroz
+    li mi moje moj mene mene mu na nad nakon nam nas naš
+    ne neka nego nije njih njihova njihove njihov njihovi njemu
+    o od oko osim ovaj ona one oni ono opet ove ovaj
+    po pod prema protiv sa sam samo se si su sve svi svaki svaka svako
+    tada te ti to tog tog tog tom tome tu također tim u uz
+    vam vas vaš vi više vrlo što što će ćeš čim da dok do
+    ga hoće hoćemo hoćete hoćeš
+    i ili iz ispod između je jer jesam jeste jesu kao kad kada kod koga kojeg kojeg koju kojeg
+    mi mora moraju moramo možda mu ne nego netko ništa no ona one ono oni onaj osim
+    ovaj pa po pod prema protiv samo se su što su svi svaka svaki također te ti to tvoje tvoji
+    već za zar zašto
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="hu" culture="hu" lcid="0x040e" codepage="1250">
+  <Strings>
+   <String name="CoverTitle" value="Borító" />
+   <String name="TOCTitle" value="Tartalomjegyzék" />
+   <String name="IXTitle" value="Tárgymutató" />
+   <String name="HomeTabLabel" value="Kezdőlap" />
+   <String name="TOCTabLabel" value="Tartalom" />
+   <String name="IXTabLabel" value="Tárgymutató" />
+   <String name="SearchTabLabel" value="Keresés" />
+   <String name="FavoritesTabLabel" value="Kedvencek" />
+   <String name="GlossaryTabLabel" value="Szószedet" />
+   <String name="MenuTabLabel" value="Menü" />
+   <String name="Previous" value="Előző" />
+   <String name="Next" value="Következő" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Nyomtatás" />
+   <String name="ConnectWithUsLabel" value="Kapcsolatfelvétel" />
+   <String name="EmailLabel" value="E-mail" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Telefon" />
+   <String name="PageDropDownToggleLabel" value="Legördülő lista kapcsoló" />
+   <String name="RelatedTopics" value="Kapcsolódó témák" />
+   <String name="LinkToThumbnail" value="Link a következőhöz: {0}" />
+   <String name="SeeAlso" value="Ez is érdekelheti" />
+   <String name="RequiredIndexEntry" value="Nyilatkozat" />
+   <String name="MapTOCStyles" value="Kérjük, jelenítse meg a tartalomjegyzék-stílusokat!" />
+   <String name="IndexSeePrefix" value="Megtekintés " />
+   <String name="IndexSeeAlsoPrefix" value="Ez is érdekelheti " />
+   <String name="SearchButtonLabel" value="Mehet!" />
+   <String name="SearchNoResultsMessage" value="(nincs eredmény)" />
+   <String name="SearchSearchingStatus" value="(keresés)" />
+   <String name="SearchResultsFound" value="A keresés eredménye: " />
+   <String name="SearchResultsLoading" value="Keresés...." />
+   <String name="TranslateLabel" value="Fordítás" />
+   <String name="BackToTopTitle" value="Vissza a tetejére" />
+   <String name="SearchTitle" value="Keresés" />
+   <String name="SearchFilterMessage" value="Alkalmazott szűrő: " />
+   <String name="SearchScopeAllLabel" value="Mind" />
+   <String name="SearchInputPlaceholder" value="Adja meg a keresőkifejezést" />
+   <String name="NoCookiesTitle" value="A DOM tárolás nincs engedélyezve" />
+   <String name="NoCookiesBody" value="A böngészőben nincs engedélyezve a DOM tárolás. Győződjön meg róla, hogy a DOM tárolás engedélyezve van, és próbálja újra." />
+   <String name="NoCookiesButton" value="Próbálja újra" />
+   <String name="NoJavaScriptMessage" value="Az oldal megfelelő működéséhez a JavaScript engedélyezésére van szükség" />
+   <String name="UnsupportedBrowserHeading" value="Úgy tűnik, hogy nem támogatott böngészőt használ." />
+   <String name="UnsupportedBrowserMessage" value="A segédletgyűjtemèny megfelelő használatához a böngésző újabb verziójára van szükség. Annak érdekében, hogy a segédletgyűjtemény használatakor a lehető legjobb felhasználói élményben legyen része, használjon támogatott böngészőt." />
+   <String name="DocumentLastModifiedDateFormat" value="HH/nn/éééé" />
+   <String name="DocumentLastModifiedDateLabel" value="Legutóbbi módosítás dátuma:{0}" />
+   <String name="PublishDateFormat" value="HH/nn/éééé" />
+   <String name="PublishDateLabel" value="Megjelenés dátuma:{0}" />
+   <String name="HelpfulButton" value="Hasznos" />
+   <String name="UnhelpfulButton" value="Nem hasznos" />
+   <String name="PageHelpfulMessage" value="Hasznosnak találta?" />
+   <String name="SearchHelpfulMessage" value="Hasznos volt a keresés?" />
+   <String name="FileNotFoundMessage" value="A fájl nem található." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Megtekintés " />
+    <SeeAlsoPrefix value="Ez is érdekelheti " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Számok" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Szimbólumok" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    a az alatt által alapból előtt elég éppen és ebben egy másik
+    ebben ezen ebből ezért ehhez ellen általában el mind még meg kell
+    fel felé fogja fogják fogom főleg ha hanem hiszen hol hogyan hát
+    igen így ilyenkor is itt jó jól jobb jobban kap kell kellene kellett
+    között közé legyen lehet lehetett lehetne leginkább lehetősége lehetett
+    majd már máris más másik mert mi mit mikor miért mind mindig minket
+    minden mindenki mindenhol mindenféle mindenekelőtt most már
+    nagyon nagyobb nap nem nemcsak nehéz nincs nél nemcsak nincs nemrég
+    néha néhány nekem neki neked neki nekünk nál nálam nálatok nekem
+    oda onnan ott vagy valamit valami valamikor valamiért vele nagyon
+    szinte saját sem sosem semmi semmilyen sok sokkal sőt 
+    talán tehát teljesen túl több tovább úgy ugyanúgy ugyanis új újra
+    utána általában után vele velük van volt voltak voltam voltál voltunk
+    hogy azonban vagy végre végig vagyok vagyunk valamint valaki valami valamikor
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="lt" culture="lt" lcid="0x0427" codepage="1257">
+  <Strings>
+   <String name="CoverTitle" value="Copertina" />
+   <String name="TOCTitle" value="Indice dei Contenuti" />
+   <String name="IXTitle" value="Indice" />
+   <String name="HomeTabLabel" value="Pagina principale" />
+   <String name="TOCTabLabel" value="Contenuti" />
+   <String name="IXTabLabel" value="Indice" />
+   <String name="SearchTabLabel" value="Ricerca" />
+   <String name="FavoritesTabLabel" value="Preferiti" />
+   <String name="GlossaryTabLabel" value="Glossario" />
+   <String name="MenuTabLabel" value="Menu" />
+   <String name="Previous" value="Precedente" />
+   <String name="Next" value="Prossimo" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Stampa" />
+   <String name="ConnectWithUsLabel" value="Contattaci" />
+   <String name="EmailLabel" value="Posta elettronica" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Telefono" />
+   <String name="PageDropDownToggleLabel" value="Menu a Tendina della Pagina" />
+   <String name="RelatedTopics" value="Argomenti Correlati" />
+   <String name="LinkToThumbnail" value="Collegamento a {0}" />
+   <String name="SeeAlso" value="Guarda Anche" />
+   <String name="RequiredIndexEntry" value="Manifesto" />
+   <String name="MapTOCStyles" value="Cortesemente fai una mappa degli stili IdC!" />
+   <String name="IndexSeePrefix" value="Guarda " />
+   <String name="IndexSeeAlsoPrefix" value="Guarda anche " />
+   <String name="SearchButtonLabel" value="Vai!" />
+   <String name="SearchNoResultsMessage" value="(nessun risultato)" />
+   <String name="SearchSearchingStatus" value="(in ricerca)" />
+   <String name="SearchResultsFound" value="Ricerca tra i risultati ottenuti: " />
+   <String name="SearchResultsLoading" value="Ricerca..." />
+   <String name="TranslateLabel" value="Traduci" />
+   <String name="BackToTopTitle" value="Torna in cima" />
+   <String name="SearchTitle" value="Ricerca" />
+   <String name="SearchFilterMessage" value="Filtro applicato: " />
+   <String name="SearchScopeAllLabel" value="Tutto" />
+   <String name="SearchInputPlaceholder" value="Inserisci un termine o una frase per la ricerca" />
+   <String name="NoCookiesTitle" value="L'archiviazione DOM é disabilitata" />
+   <String name="NoCookiesBody" value="Il tuo browser ha l'archiviazione DOM disabilitata. Assicurati che l'archiviazione DOM sia abilitata e prova di nuovo." />
+   <String name="NoCookiesButton" value="Riprova" />
+   <String name="NoJavaScriptMessage" value="Questo sito funziona bene se é abilitato JavaScript" />
+   <String name="UnsupportedBrowserHeading" value="Sembra che tu sia usando un browser non supportato." />
+   <String name="UnsupportedBrowserMessage" value="È richiesto un browser piú aggiornato per utilizzare le funzioni di questa guida. Per godere in pieno dell'esperienza di questa guida, ti chiediamo cortesemente di fare un aggiornamento ad un browser supportato." />
+   <String name="DocumentLastModifiedDateFormat" value="GG/mm/aaaa" />
+   <String name="DocumentLastModifiedDateLabel" value="Ultima modifica: {0}" />
+   <String name="PublishDateFormat" value="GG/mm/aaaa" />
+   <String name="PublishDateLabel" value="Pubblicato in data: {0}" />
+   <String name="HelpfulButton" value="Utile" />
+   <String name="UnhelpfulButton" value="Inutile" />
+   <String name="PageHelpfulMessage" value="È stato utile?" />
+   <String name="SearchHelpfulMessage" value="Ti é stata utile questa ricerca?" />
+   <String name="FileNotFoundMessage" value="Non abbiamo trovato cartelle." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="See " />
+    <SeeAlsoPrefix value="See also " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Numerics" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Symbols" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    aš apie ar asmenų aukštyn labai daugiau tačiau bet be bei bendro būna būti
+    į įkvepia iš įveikia jų jį ją jie jau jums jo ją jie juk kad kai kas kuris kuri kurie kurių 
+    kokia koks kurie kurio kuriais kurios kuo kuriame kokiuose kokiuose kurį kitą kiek
+    kol koks kuriems kiekvienas ką ką kiti kitą kodėl kuo kurios kol kurie kurie
+    man mano mane mat mes mes manęs mes mūsų mato mažai maždaug
+    ne negali niekas net nėra net nes nesu neturime niekas nors nebuvo nebuvo nors
+    o oi už nuo nuo jų labai per prieš pirmas po po prie tačiau savo taip tarp tuo taip to toje
+    turi turime tu tu turi turėjo turėtume tų turėtų turėsime turėsite tuomet tą tik turiu turėti taip
+    vis visi viskas visos visų visada vietos vėl vis tiek visi vis tiek viskas vėl visa
+    ypač yra labai jog iš jei jau į kai ką ką kaip ką kas kas nors kokios kuriais kuriems kuo kurį kurie
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="nl" culture="nl" lcid="0x0413" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Omslag" />
+   <String name="TOCTitle" value="Inhoudsopgave" />
+   <String name="IXTitle" value="Index" />
+   <String name="HomeTabLabel" value="Startpagina" />
+   <String name="TOCTabLabel" value="Inhoud" />
+   <String name="IXTabLabel" value="Index" />
+   <String name="SearchTabLabel" value="Zoeken" />
+   <String name="FavoritesTabLabel" value="Favorieten" />
+   <String name="GlossaryTabLabel" value="Woordenlijst" />
+   <String name="MenuTabLabel" value="Menu" />
+   <String name="Previous" value="Vorige" />
+   <String name="Next" value="Volgende" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Afdrukken" />
+   <String name="ConnectWithUsLabel" value="Neem contact met ons op" />
+   <String name="EmailLabel" value="E-mail" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Telefoon" />
+   <String name="PageDropDownToggleLabel" value="Pagina naar beneden" />
+   <String name="RelatedTopics" value="Gerelateerde onderwerpen" />
+   <String name="LinkToThumbnail" value="Link naar {0}" />
+   <String name="SeeAlso" value="Zie ook" />
+   <String name="RequiredIndexEntry" value="Manifest" />
+   <String name="MapTOCStyles" value="Breng de stijlen van de inhoudsopgave in kaart!" />
+   <String name="IndexSeePrefix" value="Bekijk " />
+   <String name="IndexSeeAlsoPrefix" value="Zie ook " />
+   <String name="SearchButtonLabel" value="Start!" />
+   <String name="SearchNoResultsMessage" value="(geen resultaten)" />
+   <String name="SearchSearchingStatus" value="(zoeken)" />
+   <String name="SearchResultsFound" value="Gevonden zoekresultaten: " />
+   <String name="SearchResultsLoading" value="Zoeken..." />
+   <String name="TranslateLabel" value="Vertaal" />
+   <String name="BackToTopTitle" value="Terug naar het begin" />
+   <String name="SearchTitle" value="Zoeken" />
+   <String name="SearchFilterMessage" value="Toegepast filter: " />
+   <String name="SearchScopeAllLabel" value="Alles" />
+   <String name="SearchInputPlaceholder" value="Voer zoekterm of -zin in" />
+   <String name="NoCookiesTitle" value="DOM-opslag is uitgeschakeld" />
+   <String name="NoCookiesBody" value="Uw browser heeft DOM-opslag uitgeschakeld. Zorg ervoor dat DOM-opslag is ingeschakeld en probeer het opnieuw." />
+   <String name="NoCookiesButton" value="Opnieuw proberen" />
+   <String name="NoJavaScriptMessage" value="Deze site werkt het best als JavaScript is ingeschakeld" />
+   <String name="UnsupportedBrowserHeading" value="Het lijkt erop dat u een niet ondersteunde browser gebruikt." />
+   <String name="UnsupportedBrowserMessage" value="U hebt een nieuwere browser nodig om de functies van deze helpset te kunnen gebruiken. Om deze helpset optimaal te kunnen gebruiken, moet u upgraden naar een ondersteunde browser." />
+   <String name="DocumentLastModifiedDateFormat" value="MM/dd/jjjj" />
+   <String name="DocumentLastModifiedDateLabel" value="Laatst gewijzigd op datum: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/jjjj" />
+   <String name="PublishDateLabel" value="Publicatiedatum: {0}" />
+   <String name="HelpfulButton" value="Nuttig" />
+   <String name="UnhelpfulButton" value="Niet nuttig" />
+   <String name="PageHelpfulMessage" value="Heeft dit geholpen?" />
+   <String name="SearchHelpfulMessage" value="Heeft deze zoekopdracht geholpen?" />
+   <String name="FileNotFoundMessage" value="Bestand niet gevonden." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Žiūrėkite " />
+    <SeeAlsoPrefix value="Žiūrėkite taip pat " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Skaičiai" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Simboliai" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    aan af al als altijd ander andere anders ben bij binnen boven bijna
+    daar dan dat de die dit doch doen door dus een eens en er eerst even
+    gaan gaat geen geweest haar had heb hebben heeft hem het hij hoe hun
+    ik in is ja je kan kon kunnen maar me meer meest mijn moet na naar niet
+    nog nu of om omdat onder ons onze ook op overreeds te tegen toch toen tot
+    uit uw van veel voor want waren was wat we wel werd werden wie wij wil worden
+    wordt zal ze zelf zich zij zijn zo zonder zou
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="no" culture="no" lcid="0x0414" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Forside" />
+   <String name="TOCTitle" value="Innholdsfortegnelse" />
+   <String name="IXTitle" value="Indeks" />
+   <String name="HomeTabLabel" value="Hjemmeside" />
+   <String name="TOCTabLabel" value="Innhold" />
+   <String name="IXTabLabel" value="Indeks" />
+   <String name="SearchTabLabel" value="Søk" />
+   <String name="FavoritesTabLabel" value="Favoritter" />
+   <String name="GlossaryTabLabel" value="Ordliste" />
+   <String name="MenuTabLabel" value="Meny" />
+   <String name="Previous" value="Forrige" />
+   <String name="Next" value="Neste" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Skrive ut" />
+   <String name="ConnectWithUsLabel" value="Ta kontakt med oss" />
+   <String name="EmailLabel" value="E-post" />
+   <String name="FaxLabel" value="Faks" />
+   <String name="PhoneLabel" value="Telefon" />
+   <String name="PageDropDownToggleLabel" value="Side DropDown Veksle" />
+   <String name="RelatedTopics" value="Relaterte temaer" />
+   <String name="LinkToThumbnail" value="Lenke til {0}" />
+   <String name="SeeAlso" value="Se også" />
+   <String name="RequiredIndexEntry" value="Manifest" />
+   <String name="MapTOCStyles" value="Vennligst kartlegg TOC-stiler!" />
+   <String name="IndexSeePrefix" value="Se " />
+   <String name="IndexSeeAlsoPrefix" value="Se også " />
+   <String name="SearchButtonLabel" value="Gå!" />
+   <String name="SearchNoResultsMessage" value="(ingen resultater)" />
+   <String name="SearchSearchingStatus" value="(søker)" />
+   <String name="SearchResultsFound" value="Søkeresultater funnet: " />
+   <String name="SearchResultsLoading" value="Søker..." />
+   <String name="TranslateLabel" value="Oversett" />
+   <String name="BackToTopTitle" value="Tilbake til toppen" />
+   <String name="SearchTitle" value="Søk" />
+   <String name="SearchFilterMessage" value="Brukt filter: " />
+   <String name="SearchScopeAllLabel" value="Alt" />
+   <String name="SearchInputPlaceholder" value="Skriv inn søkeord eller frase" />
+   <String name="NoCookiesTitle" value="DOM-lagring er deaktivert" />
+   <String name="NoCookiesBody" value="Nettleseren din har DOM-lagring deaktivert. Sørg for at DOM-lagring er aktivert og prøv på nytt." />
+   <String name="NoCookiesButton" value="Prøv på nytt" />
+   <String name="NoJavaScriptMessage" value="Denne siden fungerer best med JavaScript aktivert" />
+   <String name="UnsupportedBrowserHeading" value="Det ser ut til at du bruker en nettleser som ikke støttes." />
+   <String name="UnsupportedBrowserMessage" value="En nyere nettleser kreves for å bruke funksjonene i dette hjelpesettet. For å få full opplevelse av dette hjelpesettet, oppgrader til en støttet nettleser." />
+   <String name="DocumentLastModifiedDateFormat" value="MM/dd/åååå" />
+   <String name="DocumentLastModifiedDateLabel" value="Sist endret dato: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/åååå" />
+   <String name="PublishDateLabel" value="Publiseringsdato:: {0}" />
+   <String name="HelpfulButton" value="Nyttig" />
+   <String name="UnhelpfulButton" value="Unyttig" />
+   <String name="PageHelpfulMessage" value="Var dette til hjelp?" />
+   <String name="SearchHelpfulMessage" value="Var dette søket nyttig?" />
+   <String name="FileNotFoundMessage" value="Fil ikke funnet." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Se " />
+    <SeeAlsoPrefix value="Se også " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Tall" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Symboler" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    alle andre arbeid av bare begge ble bli blir blitt både da de deg den denne der deres det dette din disse du ei eller en enn er et ett etter for fordi før fra fikk finnes folk får ha hadde han hans har hennes her hos hvordan hva hver hvem hvilke hvis hvor i ikke inn isteden jeg jo kan kunne komme kommer langs man mange med meg mellom men mens mot mye må nå når noen noe oss på samme seg selv si siden sin sine sitt skal skulle slik så som til tilbake under uten vår være vært vi vil ville hvorfor hvordan
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="pl" culture="pl" lcid="0x0415" codepage="1250">
+  <Strings>
+   <String name="CoverTitle" value="Okładka" />
+   <String name="TOCTitle" value="Spis treści" />
+   <String name="IXTitle" value="Indeks" />
+   <String name="HomeTabLabel" value="Strona główna" />
+   <String name="TOCTabLabel" value="Zawartość" />
+   <String name="IXTabLabel" value="Indeks" />
+   <String name="SearchTabLabel" value="Szukaj" />
+   <String name="FavoritesTabLabel" value="Ulubione" />
+   <String name="GlossaryTabLabel" value="Glosariusz" />
+   <String name="MenuTabLabel" value="Menu" />
+   <String name="Previous" value="Wstecz" />
+   <String name="Next" value="Dalej" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Drukuj" />
+   <String name="ConnectWithUsLabel" value="Skontaktuj się z nami" />
+   <String name="EmailLabel" value="E-mail" />
+   <String name="FaxLabel" value="Faks" />
+   <String name="PhoneLabel" value="Telefon" />
+   <String name="PageDropDownToggleLabel" value="Przełącznik rozwijanego menu strony" />
+   <String name="RelatedTopics" value="Powiązane tematy" />
+   <String name="LinkToThumbnail" value="Link do {0}" />
+   <String name="SeeAlso" value="Zobacz również" />
+   <String name="RequiredIndexEntry" value="Manifest" />
+   <String name="MapTOCStyles" value="Mapuj style spisu treści!" />
+   <String name="IndexSeePrefix" value="Zobacz " />
+   <String name="IndexSeeAlsoPrefix" value="Zobacz również " />
+   <String name="SearchButtonLabel" value="Przejdź!" />
+   <String name="SearchNoResultsMessage" value="(brak wyników)" />
+   <String name="SearchSearchingStatus" value="(wyszukiwanie)" />
+   <String name="SearchResultsFound" value="Znaleziono wyniki: " />
+   <String name="SearchResultsLoading" value="Wyszukiwanie..." />
+   <String name="TranslateLabel" value="Tłumacz" />
+   <String name="BackToTopTitle" value="Powrót do góry" />
+   <String name="SearchTitle" value="Szukaj" />
+   <String name="SearchFilterMessage" value="Zastosowany filtr: " />
+   <String name="SearchScopeAllLabel" value="Wszystkie" />
+   <String name="SearchInputPlaceholder" value="Wpisz szukane słowo lub frazę" />
+   <String name="NoCookiesTitle" value="Magazyn sieciowy jest wyłączony" />
+   <String name="NoCookiesBody" value="Twoja przeglądarka ma wyłączony magazyn sieciowy. Upewnij się, że magazyn sieciowy jest włączony i spróbuj ponownie." />
+   <String name="NoCookiesButton" value="Ponów" />
+   <String name="NoJavaScriptMessage" value="Ta strona działa najlepiej z włączoną obsługą JavaScript" />
+   <String name="UnsupportedBrowserHeading" value="Wygląda na to, że używasz nieobsługiwanej przeglądarki." />
+   <String name="UnsupportedBrowserMessage" value="Do korzystania z funkcji tego pakietu pomocy wymagana jest nowsza przeglądarka. Aby w pełni korzystać z tego pakietu pomocy uaktualnij przeglądarkę do obsługiwanej wersji." />
+   <String name="DocumentLastModifiedDateFormat" value="MM/dd/rrrr" />
+   <String name="DocumentLastModifiedDateLabel" value="Data ostatniej modyfikacji: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/rrrr" />
+   <String name="PublishDateLabel" value="Data opublikowania: {0}" />
+   <String name="HelpfulButton" value="Pomocne" />
+   <String name="UnhelpfulButton" value="Niepomocne" />
+   <String name="PageHelpfulMessage" value="Czy te informacje były pomocne?" />
+   <String name="SearchHelpfulMessage" value="Czy to wyszukiwanie było pomocne?" />
+   <String name="FileNotFoundMessage" value="Nie znaleziono pliku." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Zobacz " />
+    <SeeAlsoPrefix value="Zobacz również " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Liczby" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Symbole" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    aby ach ale albo ani aż bardzo był była było byli być ci cię ciebie co coś czas czemu czy czyli daleko dla do dobrze dlaczego dlatego dość dwa dwaj dwie dwoje dziś dzisiaj gdy gdyby gdyż go ich ile im inna inne inny innych iż ja ją jak jakaś jakby jakiś jakie jaki jakkolwiek jako że je jeden jedna jedno jego jej jemu jest jestem jeszcze jeśli jeżeli już każda każdemu każdy kiedy kto ktokolwiek któż który którą którzy któż ku lat lecz lub ma mają mało mam mi między mną mnie mimo moi moim moi moi mą musimy musisz my na nad nam nami nas nasi nasz nasza nasze naszego naszych natomiast nawet nią nic nich niej niemu nigdy nim nimi niż o obok od około on ona one oni ono oraz po pod podczas pomiędzy ponad ponieważ powinien powinna powinni powinno poza prawie przed przez przy roku również się sam sama są sobie sobą sposób swoje ta tak taka taki takie także tam te tego tej ten teraz tego tamto te tego tej tej tymi też to tobie toż tutaj twoi twoim twym ty tylko tych tym ten tych tymi u w wam was wasz we według wiele wielu więc więcej wśród wszystko wtedy wy właśnie z za zapewne zawsze ze zł oto zażął jakiegoś ten tylko na pewno
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="tr" culture="tr" lcid="0x041f" codepage="1254">
+  <Strings>
+   <String name="CoverTitle" value="Kapak" />
+   <String name="TOCTitle" value="İçindekiler" />
+   <String name="IXTitle" value="Dizin" />
+   <String name="HomeTabLabel" value="Ana Sayfa" />
+   <String name="TOCTabLabel" value="İçindekiler" />
+   <String name="IXTabLabel" value="Dizin" />
+   <String name="SearchTabLabel" value="Arama" />
+   <String name="FavoritesTabLabel" value="Favoriler" />
+   <String name="GlossaryTabLabel" value="Sözlük" />
+   <String name="MenuTabLabel" value="Menü" />
+   <String name="Previous" value="Önceki" />
+   <String name="Next" value="Sonraki" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Yazdır" />
+   <String name="ConnectWithUsLabel" value="Bizimle iletişime geçin" />
+   <String name="EmailLabel" value="E-Posta" />
+   <String name="FaxLabel" value="Faks" />
+   <String name="PhoneLabel" value="Telefon" />
+   <String name="PageDropDownToggleLabel" value="Sayfa Açılır Menü Anahtarı" />
+   <String name="RelatedTopics" value="İlgili Konular" />
+   <String name="LinkToThumbnail" value="{0} bağlantısı" />
+   <String name="SeeAlso" value="Ayrıca bk." />
+   <String name="RequiredIndexEntry" value="Manifesto" />
+   <String name="MapTOCStyles" value="Lütfen İçindekiler stillerini eşleyin!" />
+   <String name="IndexSeePrefix" value="Bk. " />
+   <String name="IndexSeeAlsoPrefix" value="Ayrıca bk. " />
+   <String name="SearchButtonLabel" value="Git!" />
+   <String name="SearchNoResultsMessage" value="(sonuç yok)" />
+   <String name="SearchSearchingStatus" value="(aranıyor)" />
+   <String name="SearchResultsFound" value="Bulunan arama sonuçları: " />
+   <String name="SearchResultsLoading" value="Aranıyor..." />
+   <String name="TranslateLabel" value="Çevir" />
+   <String name="BackToTopTitle" value="Başa dön" />
+   <String name="SearchTitle" value="Arama" />
+   <String name="SearchFilterMessage" value="Uygulanan Filtre: " />
+   <String name="SearchScopeAllLabel" value="Tümü" />
+   <String name="SearchInputPlaceholder" value="Arama terimini veya kelime öbeğini girin" />
+   <String name="NoCookiesTitle" value="DOM depolama devre dışı" />
+   <String name="NoCookiesBody" value="Tarayıcınızda DOM depolama devre dışı bırakılmış. DOM depolama alanının etkinleştirildiğinden emin olun ve tekrar deneyin." />
+   <String name="NoCookiesButton" value="Yeniden dene" />
+   <String name="NoJavaScriptMessage" value="Bu site, JavaScript etkinken en iyi şekilde çalışır" />
+   <String name="UnsupportedBrowserHeading" value="Desteklenmeyen bir tarayıcı kullanıyorsunuz." />
+   <String name="UnsupportedBrowserMessage" value="Bu yardım setinin özelliklerini kullanmak için daha yeni bir tarayıcı gereklidir. Bu yardım setinin tam deneyiminden yararlanmak için lütfen desteklenen bir tarayıcıya geçiş yapın." />
+   <String name="DocumentLastModifiedDateFormat" value="AA/gg/yyyy" />
+   <String name="DocumentLastModifiedDateLabel" value="Son değiştirilme tarihi: {0}" />
+   <String name="PublishDateFormat" value="AA/gg/yyyy" />
+   <String name="PublishDateLabel" value="Yayınlanma tarihi: {0}" />
+   <String name="HelpfulButton" value="Yardımcı oldu" />
+   <String name="UnhelpfulButton" value="Yardımcı olmadı" />
+   <String name="PageHelpfulMessage" value="Bu size yardımcı oldu mu?" />
+   <String name="SearchHelpfulMessage" value="Bu arama size yardımcı oldu mu?" />
+   <String name="FileNotFoundMessage" value="Dosya bulunamadı." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="Bk. " />
+    <SeeAlsoPrefix value="Ayrıca bk. " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Sayısal" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Semboller" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    acaba ancak ama aslında az bazı belki ben bir çok çünkü da daha de defa diye değil dolayısıyla eğer en hiç ile hatta hem hep hepsi her herkes herşey hiç hiç kimse için işte ile ise kez ki kim kime kimi mu muğla mı mı ki ne neden nedenle nerde nerede nereye nasıl niçin o öyle çünkü sanki sadece şayet şey şu şuna şunu sonra siz sizden size sizin şu kadar tabii tamam tam tıpkı tüm tümüne tümünü tümü ya yani yapı çok çok kez tarafından tek var ve veya ya ya da yani yok yoksa zaman zaten sonra siz şu
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="da" culture="da" lcid="0x0406" codepage="1252">
+  <Strings>
+   <String name="CoverTitle" value="Omslag" />
+   <String name="TOCTitle" value="Indholdsfortegnelse" />
+   <String name="IXTitle" value="Indeks" />
+   <String name="HomeTabLabel" value="Startside" />
+   <String name="TOCTabLabel" value="Indhold" />
+   <String name="IXTabLabel" value="Indeks" />
+   <String name="SearchTabLabel" value="Søg" />
+   <String name="FavoritesTabLabel" value="Favoritter" />
+   <String name="GlossaryTabLabel" value="Ordliste" />
+   <String name="MenuTabLabel" value="Menu" />
+   <String name="Previous" value="Forrige" />
+   <String name="Next" value="Næste" />
+   <String name="PDF" value="PDF" />
+   <String name="PrintLabel" value="Print" />
+   <String name="ConnectWithUsLabel" value="Kontakt os" />
+   <String name="EmailLabel" value="E-mail" />
+   <String name="FaxLabel" value="Fax" />
+   <String name="PhoneLabel" value="Telefon" />
+   <String name="PageDropDownToggleLabel" value="Til/fra-knap for menu på side" />
+   <String name="RelatedTopics" value="Relaterede emner" />
+   <String name="LinkToThumbnail" value="Link til {0}" />
+   <String name="SeeAlso" value="Se også" />
+   <String name="RequiredIndexEntry" value="Manifest" />
+   <String name="MapTOCStyles" value="Kortlæg venligst TOC-stilarter!" />
+   <String name="IndexSeePrefix" value="Se " />
+   <String name="IndexSeeAlsoPrefix" value="Se også " />
+   <String name="SearchButtonLabel" value="Afsted!" />
+   <String name="SearchNoResultsMessage" value="(ingen resultater)" />
+   <String name="SearchSearchingStatus" value="(søger)" />
+   <String name="SearchResultsFound" value="Søgeresultater fundet: " />
+   <String name="SearchResultsLoading" value="Søger..." />
+   <String name="TranslateLabel" value="Oversæt" />
+   <String name="BackToTopTitle" value="Tilbage til toppen" />
+   <String name="SearchTitle" value="Søg" />
+   <String name="SearchFilterMessage" value="Anvendt filter: " />
+   <String name="SearchScopeAllLabel" value="Alle" />
+   <String name="SearchInputPlaceholder" value="Indtast søgeord eller -sætning" />
+   <String name="NoCookiesTitle" value="DOM-lager er deaktiveret" />
+   <String name="NoCookiesBody" value="Din browser har DOM-lager deaktiveret. Sørg for, at DOM-lager er aktiveret og prøv igen." />
+   <String name="NoCookiesButton" value="Prøv igen" />
+   <String name="NoJavaScriptMessage" value="Denne side virker bedst når JavaScript er aktiveret" />
+   <String name="UnsupportedBrowserHeading" value="Det ser ud til, at du bruger en browser, der ikke understøttes." />
+   <String name="UnsupportedBrowserMessage" value="En nyere browser er påkrævet for at kunne bruge funktionerne i dette hjælpesæt. For at få den fulde oplevelse af dette hjælpesæt skal du opgradere til en understøttet browser." />
+   <String name="DocumentLastModifiedDateFormat" value="dd/MM/åååå" />
+   <String name="DocumentLastModifiedDateLabel" value="Sidst ændret den: {0}" />
+   <String name="PublishDateFormat" value="dd/MM/åååå" />
+   <String name="PublishDateLabel" value="Publiceret den: {0}" />
+   <String name="HelpfulButton" value="Nyttig" />
+   <String name="UnhelpfulButton" value="Ikke nyttig" />
+   <String name="PageHelpfulMessage" value="Var dette nyttigt?" />
+   <String name="SearchHelpfulMessage" value="Var denne søgning nyttig?" />
+   <String name="FileNotFoundMessage" value="Fil ikke fundet." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="See " />
+    <SeeAlsoPrefix value="See also " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="1" />
+      <Member match="2" />
+      <Member match="3" />
+      <Member match="4" />
+      <Member match="5" />
+      <Member match="6" />
+      <Member match="7" />
+      <Member match="8" />
+      <Member match="9" />
+      <Member match="0" />
+     </Members>
+     <DefaultGroup name="Numerics" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="A" sort="A" />
+     <Group name="B" sort="B" />
+     <Group name="C" sort="C" />
+     <Group name="D" sort="D" />
+     <Group name="E" sort="E" />
+     <Group name="F" sort="F" />
+     <Group name="G" sort="G" />
+     <Group name="H" sort="H" />
+     <Group name="I" sort="I" />
+     <Group name="J" sort="J" />
+     <Group name="K" sort="K" />
+     <Group name="L" sort="L" />
+     <Group name="M" sort="M" />
+     <Group name="N" sort="N" />
+     <Group name="O" sort="O" />
+     <Group name="P" sort="P" />
+     <Group name="Q" sort="Q" />
+     <Group name="R" sort="R" />
+     <Group name="S" sort="S" />
+     <Group name="T" sort="T" />
+     <Group name="U" sort="U" />
+     <Group name="V" sort="V" />
+     <Group name="W" sort="W" />
+     <Group name="X" sort="X" />
+     <Group name="Y" sort="Y" />
+     <Group name="Z" sort="Z" />
+     <Group name="Æ" sort="Æ" />
+     <Group name="Ø" sort="Ø" />
+     <Group name="Å" sort="Å" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="Symbols" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    af aldrig alle altid altså andet andre at
+    bare begge blandt blev blevet blir blive bør
+    da de den denne der derefter deres derfor derimod det dette dig din dog du
+    eftersom egen egentlig eget ej eller en end enda endnu ene eneste enhver et
+    faktisk fem findes fire flere fleste for fordi forrige fra få før
+    ganske god
+    han hans har hendes her hun hvad hvem hver hvilken hvis hvor hvordan hvorfor hvornår
+    i ikke ind ingen intet
+    ja jo jeg jeres
+    kan kom kommer kun
+    lav lidt lille
+    man mand mange med meget men mens mere mig
+    ned ni nogen noget ny nyt nær næste næsten
+    og også om omkring os op otte over
+    per på
+    sage sagt se seks selv selve ses sig sige sin sit skulle som stor store syv så
+    tage taget ti til to tre
+    ud
+    var
+    øvrig øvrige ovrigt
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+ <Locale name="ar" culture="ar" lcid="0x0401" codepage="1256">
+  <Strings>
+   <String name="CoverTitle" value="الغلاف" />
+   <String name="TOCTitle" value="جدول المحتويات" />
+   <String name="IXTitle" value="الفهرس" />
+   <String name="HomeTabLabel" value="الصفحة الرئيسية" />
+   <String name="TOCTabLabel" value="المحتويات" />
+   <String name="IXTabLabel" value="الفهرس" />
+   <String name="SearchTabLabel" value="بحث" />
+   <String name="FavoritesTabLabel" value="المفضلة" />
+   <String name="GlossaryTabLabel" value="المصطلحات" />
+   <String name="MenuTabLabel" value="القائمة" />
+   <String name="Previous" value="السابق" />
+   <String name="Next" value="التالي" />
+   <String name="PDF" value="بي دي إف" />
+   <String name="PrintLabel" value="طباعة" />
+   <String name="ConnectWithUsLabel" value="تواصل معنا" />
+   <String name="EmailLabel" value="البريد الإلكتروني" />
+   <String name="FaxLabel" value="فاكس" />
+   <String name="PhoneLabel" value="الهاتف" />
+   <String name="PageDropDownToggleLabel" value="قائمة منسدلة للصفحة" />
+   <String name="RelatedTopics" value="مواضيع ذات صلة" />
+   <String name="LinkToThumbnail" value="رابط إلى {0}" />
+   <String name="SeeAlso" value="انظر أيضًا" />
+   <String name="RequiredIndexEntry" value="البيان" />
+   <String name="MapTOCStyles" value="يرجى تعيين أنماط جدول المحتويات!" />
+   <String name="IndexSeePrefix" value="انظر " />
+   <String name="IndexSeeAlsoPrefix" value="انظر أيضًا " />
+   <String name="SearchButtonLabel" value="اذهب!" />
+   <String name="SearchNoResultsMessage" value="(لا توجد نتائج)" />
+   <String name="SearchSearchingStatus" value="(جاري البحث)" />
+   <String name="SearchResultsFound" value="تم العثور على نتائج البحث: " />
+   <String name="SearchResultsLoading" value="جاري البحث..." />
+   <String name="TranslateLabel" value="ترجمة" />
+   <String name="BackToTopTitle" value="العودة إلى الأعلى" />
+   <String name="SearchTitle" value="نتائج البحث" />
+   <String name="SearchFilterMessage" value="تم تطبيق الفلتر: " />
+   <String name="SearchScopeAllLabel" value="الكل" />
+   <String name="SearchInputPlaceholder" value="أدخل مصطلح أو عبارة البحث" />
+   <String name="NoCookiesTitle" value="تم تعطيل تخزين DOM" />
+   <String name="NoCookiesBody" value="المتصفح الخاص بك قام بتعطيل تخزين DOM. تأكد من تمكين تخزين DOM وحاول مرة أخرى." />
+   <String name="NoCookiesButton" value="إعادة المحاولة" />
+   <String name="NoJavaScriptMessage" value="يعمل هذا الموقع بشكل أفضل عند تمكين JavaScript" />
+   <String name="UnsupportedBrowserHeading" value="يبدو أنك تستخدم متصفحًا غير مدعوم." />
+   <String name="UnsupportedBrowserMessage" value="يتطلب استخدام ميزات مجموعة المساعدة هذه متصفحًا أحدث. للاستمتاع بالتجربة الكاملة لهذه المجموعة، يرجى الترقية إلى متصفح مدعوم." />
+   <String name="DocumentLastModifiedDateFormat" value="MM/dd/yyyy" />
+   <String name="DocumentLastModifiedDateLabel" value="تاريخ آخر تعديل: {0}" />
+   <String name="PublishDateFormat" value="MM/dd/yyyy" />
+   <String name="PublishDateLabel" value="تاريخ النشر: {0}" />
+   <String name="HelpfulButton" value="مفيد" />
+   <String name="UnhelpfulButton" value="غير مفيد" />
+   <String name="PageHelpfulMessage" value="هل كان هذا مفيدًا؟" />
+   <String name="SearchHelpfulMessage" value="هل كان البحث مفيدًا؟" />
+   <String name="FileNotFoundMessage" value="الملف غير موجود." />
+  </Strings>
+  <Index>
+   <SeeAlsoExpressions>
+    <SeeAlsoPrefix value="انظر " />
+    <SeeAlsoPrefix value="انظر أيضًا " />
+   </SeeAlsoExpressions>
+   <Sections>
+    <Section position="1">
+     <Members>
+      <Member match="١" />
+      <Member match="٢" />
+      <Member match="٣" />
+      <Member match="٤" />
+      <Member match="٥" />
+      <Member match="٦" />
+      <Member match="٧" />
+      <Member match="٨" />
+      <Member match="٩" />
+      <Member match="٠" />
+     </Members>
+     <DefaultGroup name="الأرقام" />
+    </Section>
+    <Section position="2">
+     <DefaultGroup name="Default" />
+     <Group name="أ" sort="A" />
+     <Group name="ب" sort="B" />
+     <Group name="ت" sort="C" />
+     <Group name="ث" sort="D" />
+     <Group name="ج" sort="E" />
+     <Group name="ح" sort="F" />
+     <Group name="خ" sort="G" />
+     <Group name="د" sort="H" />
+     <Group name="ذ" sort="I" />
+     <Group name="ر" sort="J" />
+     <Group name="ز" sort="K" />
+     <Group name="س" sort="L" />
+     <Group name="ش" sort="M" />
+     <Group name="ص" sort="N" />
+     <Group name="ض" sort="O" />
+     <Group name="ط" sort="P" />
+     <Group name="ظ" sort="Q" />
+     <Group name="ع" sort="R" />
+     <Group name="غ" sort="S" />
+     <Group name="ف" sort="T" />
+     <Group name="ق" sort="U" />
+     <Group name="ك" sort="V" />
+     <Group name="ل" sort="W" />
+     <Group name="م" sort="X" />
+     <Group name="ن" sort="Y" />
+     <Group name="ه" sort="Z" />
+     <Group name="ء" sort="Hamza" />
+    </Section>
+    <Section position="3">
+     <Members>
+      <Member match="!" />
+      <Member match="@" />
+      <Member match="#" />
+      <Member match="$" />
+      <Member match="%" />
+      <Member match="^" />
+      <Member match="&amp;" />
+      <Member match="-" />
+      <Member match="=" />
+      <Member match="+" />
+      <Member match="_" />
+      <Member match="*" />
+      <Member match="(" />
+      <Member match=")" />
+      <Member match="[" />
+      <Member match="]" />
+      <Member match="/" />
+      <Member match="\" />
+      <Member match=";" />
+      <Member match=":" />
+      <Member match="." />
+      <Member match="," />
+      <Member match="&lt;" />
+      <Member match="&gt;" />
+      <Member match="'" />
+      <Member match="&quot;" />
+     </Members>
+     <DefaultGroup name="الرموز" />
+    </Section>
+   </Sections>
+  </Index>
+  <Search>
+   <MinimumWordLength value="3" />
+   <StopWords>
+    أ أو إن إلى إلا إنما إذا إذ حيث حيثما حين حينما
+    على عن عند في مع من منذ مثل كما كان كانت يكون يكونوا
+    قد لقد هل هو هي هم هن هنا هناك هذه هذا ذلك تلك
+    الذي التي الذين اللواتي التي أن أنتم أنت أنا نحن
+    لكن لأنه لأن لما لدى لذا لكي لكل كل شيء بعض
+    ما متى ماذا لماذا مهما من منكم منا معه منها منه
+    سوف قد كان كنت كانوا تكون كنتما كن كنتن كانتا
+    لقد
+   </StopWords>
+   <Synonyms>
+   </Synonyms>
+  </Search>
+ </Locale>
+</Locales>

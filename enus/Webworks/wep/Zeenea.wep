@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Version="1.1.2.0" ProjectID="EifmldnGvu0" ChangeID="-bSrmR4Lxsc" RuntimeVersion="2024.1" FormatVersion="{Current}" xmlns="urn:WebWorks-Publish-Project">
+  <Formats>
+    <Format TargetName="Reverb" Name="Markdown++" Type="Application" TargetID="2LTiJLiESE4">
+      <OutputDirectory>Output\Reverb</OutputDirectory>
+    </Format>
+    <Format TargetName="Target 2" Name="WebWorks Reverb 2.0" Type="Application" TargetID="UTti3rMGVbk">
+      <OutputDirectory>Output\Target 2</OutputDirectory>
+    </Format>
+  </Formats>
+  <Groups>
+    <Group Name="Zeenea" Type="normal" Included="true" GroupID="ZjRXuIIZp1s" ChangeID="ip0yf6WdmU8">
+      <Document Type="normal" Included="true" DocumentID="MZZqW_vtyBQ" ChangeID="" Path="..\..\source\Zeenea\zeenea-intro.md" />
+      <Document Type="normal" Included="true" DocumentID="xvNF1_CcraQ" ChangeID="" Path="..\..\source\Your_First_Step\zeenea-data-explorer.md" />
+      <Document Type="normal" Included="true" DocumentID="8QHI4NGnaG0" ChangeID="" Path="..\..\source\Your_First_Step\zeenea-data-steward.md" />
+      <Document Type="normal" Included="true" DocumentID="Nb6IFTNgX9E" ChangeID="" Path="..\..\source\Your_First_Step\zeenea-superadmin.md" />
+    </Group>
+    <Group Name="Getting Started" Type="normal" Included="true" GroupID="Yq0XdtOLOls" ChangeID="HwZPrYWETO8">
+      <Document Type="normal" Included="true" DocumentID="b2KiFhUWk7I" ChangeID="" Path="..\..\source\Getting Started\zeenea-supported-browsers.md" />
+    </Group>
+    <Group Name="Your First Step" Type="normal" Included="true" GroupID="lSSl4ThjLgk" ChangeID="UgXGhw4zK0g">
+      <Document Type="normal" Included="true" DocumentID="lP5X1j5IcvQ" ChangeID="" Path="..\..\source\Your First Step\zeenea-superadmin.md" />
+      <Document Type="normal" Included="true" DocumentID="Az8aHX_gJE8" ChangeID="" Path="..\..\source\Your First Step\zeenea-data-steward.md" />
+      <Document Type="normal" Included="true" DocumentID="gEH8vZcBBlM" ChangeID="" Path="..\..\source\Your First Step\zeenea-data-explorer.md" />
+    </Group>
+    <Group Name="Scanners" Type="normal" Included="true" GroupID="nJaP2li5P0Y" ChangeID="EVpb51LQjIU">
+      <Document Type="normal" Included="true" DocumentID="4lk2D3GdBVE" ChangeID="" Path="..\..\source\Scanners\zeenea-scanner-setup.md" />
+      <Document Type="normal" Included="true" DocumentID="rchxX95nUS4" ChangeID="" Path="..\..\source\Scanners\zeenea-scanner-docker.md" />
+      <Document Type="normal" Included="true" DocumentID="8xEbEeJyDE0" ChangeID="" Path="..\..\source\Scanners\zeenea-troubleshooting.md" />
+    </Group>
+    <Group Name="Connectors" Type="normal" Included="true" GroupID="BlsrUSbRgXw" ChangeID="Wc4tcZ-PfXI">
+      <Document Type="normal" Included="true" DocumentID="lNkC-Iwp9oA" ChangeID="" Path="..\..\source\Connectors\zeenea-connectors-list.md" />
+      <Document Type="normal" Included="true" DocumentID="Y2gjaeKLSno" ChangeID="" Path="..\..\source\Connectors\zeenea-connectors-install-as-plugin.md" />
+      <Document Type="normal" Included="true" DocumentID="WaZwQlApbO0" ChangeID="" Path="..\..\source\Connectors\zeenea-externalizing-external-connectors.md" />
+      <Document Type="normal" Included="true" DocumentID="h827xZ06rd0" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-actian-informix.md" />
+      <Document Type="normal" Included="true" DocumentID="725MLDi96rM" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-actian-ingres.md" />
+      <Document Type="normal" Included="true" DocumentID="58taIvVkVBU" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-actian-zen.md" />
+      <Document Type="normal" Included="true" DocumentID="xZj5mcvDHzs" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-agile-data-engine-solita.md" />
+      <Document Type="normal" Included="true" DocumentID="hNN8eEYY834" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-aliyun-dataworks-maxcompute.md" />
+      <Document Type="normal" Included="true" DocumentID="oOUVsEdgpMM" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-amazonS3.md" />
+      <Document Type="normal" Included="true" DocumentID="tH9YB1SIaWQ" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-atlas.md" />
+      <Document Type="normal" Included="true" DocumentID="h0PaQ7AKqL4" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-aws-athena.md" />
+      <Document Type="normal" Included="true" DocumentID="kLVnrpI9050" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-aws-dynamodb.md" />
+      <Document Type="normal" Included="true" DocumentID="uOYUX56a3YI" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-aws-glue-data-catalog.md" />
+      <Document Type="normal" Included="true" DocumentID="MyRA8kDmCf8" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-aws-glue-etl.md" />
+      <Document Type="normal" Included="true" DocumentID="eTRmDLxB9pw" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-aws-redshift.md" />
+      <Document Type="normal" Included="true" DocumentID="7FRjk4xjqTU" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-azure-data-factory.md" />
+      <Document Type="normal" Included="true" DocumentID="4cSWfXX0mLU" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-azure-data-lake.md" />
+      <Document Type="normal" Included="true" DocumentID="62ZOb0RqqTo" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-azure-purview.md" />
+      <Document Type="normal" Included="true" DocumentID="VYLzNrz0xxE" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-azure-synapse.md" />
+      <Document Type="normal" Included="true" DocumentID="pkWDOEYSl_s" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-cassandra.md" />
+      <Document Type="normal" Included="true" DocumentID="PpV3Ad3saL4" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-couchbase.md" />
+      <Document Type="normal" Included="true" DocumentID="VkOvKCNP4sU" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-custom-items-csv.md" />
+      <Document Type="normal" Included="true" DocumentID="15dN6zrWSlI" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-databricks-hive-metastore.md" />
+      <Document Type="normal" Included="true" DocumentID="u3dpJ0CSNRM" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-databricks-unity.md" />
+      <Document Type="normal" Included="true" DocumentID="UCE7J_RKgKM" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-dataiku.md" />
+      <Document Type="normal" Included="true" DocumentID="wF8zraN9gP4" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-db2.md" />
+      <Document Type="normal" Included="true" DocumentID="H85cGXDgUvc" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-dbt.md" />
+      <Document Type="normal" Included="true" DocumentID="bdTypeb6Gqw" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-denodo.md" />
+      <Document Type="normal" Included="true" DocumentID="O9FwtkvlEkQ" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-dynamics365.md" />
+      <Document Type="normal" Included="true" DocumentID="vXmcoiaNjAo" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-elasticsearch.md" />
+      <Document Type="normal" Included="true" DocumentID="_3cALrIu_zk" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-generic-dataset.md" />
+      <Document Type="normal" Included="true" DocumentID="KrwkESSl_wQ" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-generic-jdbc.md" />
+      <Document Type="normal" Included="true" DocumentID="IQF0kz8wnJ4" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-generic-lineage.md" />
+      <Document Type="normal" Included="true" DocumentID="mF2XzAf52tk" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-google-bigquery.md" />
+      <Document Type="normal" Included="true" DocumentID="ChlPID3S4d4" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-google-cloud-storage.md" />
+      <Document Type="normal" Included="true" DocumentID="8mX5yeODtfQ" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-google-data-catalog.md" />
+      <Document Type="normal" Included="true" DocumentID="B6Q4FkeCbIQ" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-google-data-lineage.md" />
+      <Document Type="normal" Included="true" DocumentID="U0BeGKDcyjM" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-google-dataplex.md" />
+      <Document Type="normal" Included="true" DocumentID="0sarZJ5sN4k" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-greenplum.md" />
+      <Document Type="normal" Included="true" DocumentID="CQ5RcjYJlC0" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-hdfs.md" />
+      <Document Type="normal" Included="true" DocumentID="tRq48D8F-eg" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-hive.md" />
+      <Document Type="normal" Included="true" DocumentID="16cFE-2u85s" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-impala.md" />
+      <Document Type="normal" Included="true" DocumentID="NE7zVcGcVd4" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-influxdb.md" />
+      <Document Type="normal" Included="true" DocumentID="9FAX5D_P8Vk" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-informatica.md" />
+      <Document Type="normal" Included="true" DocumentID="UQut3p1ttQs" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-kafka.md" />
+      <Document Type="normal" Included="true" DocumentID="5oGxcI-NgaI" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-local-filesystem.md" />
+      <Document Type="normal" Included="true" DocumentID="otBh2nhISmA" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-looker.md" />
+      <Document Type="normal" Included="true" DocumentID="v3ztDlzcRVo" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-mariadb.md" />
+      <Document Type="normal" Included="true" DocumentID="GO9Wmo-VvIE" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-matillion.md" />
+      <Document Type="normal" Included="true" DocumentID="due3zGcG4lg" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-microstrategy.md" />
+      <Document Type="normal" Included="true" DocumentID="BvJiRYftCtE" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-mongodb.md" />
+      <Document Type="normal" Included="true" DocumentID="USiOyNJcO9Y" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-mysql.md" />
+      <Document Type="normal" Included="true" DocumentID="PT1S3N2Kp7w" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-netezza.md" />
+      <Document Type="normal" Included="true" DocumentID="o60tbBNQvME" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-openapi.md" />
+      <Document Type="normal" Included="true" DocumentID="lMxHNqYpGkQ" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-oracle ebusiness-suite.md" />
+      <Document Type="normal" Included="true" DocumentID="l9oX6C2AOvU" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-oracle.md" />
+      <Document Type="normal" Included="true" DocumentID="UplcpFq3f5s" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-oracle-jd-edwards.md" />
+      <Document Type="normal" Included="true" DocumentID="XWpZDlsHFN0" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-oracle-peoplesoft.md" />
+      <Document Type="normal" Included="true" DocumentID="Y1q9IS87lYk" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-oracle-siebel.md" />
+      <Document Type="normal" Included="true" DocumentID="sbXYn5HOg9Q" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-palantir.md" />
+      <Document Type="normal" Included="true" DocumentID="iaWlixRd1oQ" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-postgresql.md" />
+      <Document Type="normal" Included="true" DocumentID="g0G2wsZcBGA" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-powerbi-report-server.md" />
+      <Document Type="normal" Included="true" DocumentID="TQprQsUrd6Y" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-powerbi-saas.md" />
+      <Document Type="normal" Included="true" DocumentID="5WOcoF4YPdQ" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-qlik-cloud.md" />
+      <Document Type="normal" Included="true" DocumentID="6UpmZ19Dfhk" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-qlik-sense.md" />
+      <Document Type="normal" Included="true" DocumentID="DnURgZh_JTE" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-salesforce.md" />
+      <Document Type="normal" Included="true" DocumentID="zl1S18cCRWg" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-sap-analytics-cloud.md" />
+      <Document Type="normal" Included="true" DocumentID="djgf2FcgSlc" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-sap-bo.md" />
+      <Document Type="normal" Included="true" DocumentID="ZvNE9mIUel8" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-sap-bw-safyr.md" />
+      <Document Type="normal" Included="true" DocumentID="n1lT_m6KtNI" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-sap-safyr.md" />
+      <Document Type="normal" Included="true" DocumentID="EwuOEULsgQg" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-sas-data-integration.md" />
+      <Document Type="normal" Included="true" DocumentID="94Qma13VuQc" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-sas-db.md" />
+      <Document Type="normal" Included="true" DocumentID="d8ssNRSLvSY" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-snowflake.md" />
+      <Document Type="normal" Included="true" DocumentID="7mzsaXo6rvs" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-splunk.md" />
+      <Document Type="normal" Included="true" DocumentID="l83c8JyM8nE" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-sqlserver.md" />
+      <Document Type="normal" Included="true" DocumentID="i6OiPBwSUS8" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-ssis.md" />
+      <Document Type="normal" Included="true" DocumentID="DDgBObZwROs" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-ssrs.md" />
+      <Document Type="normal" Included="true" DocumentID="snE8bYrE5MA" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-sybase-iq.md" />
+      <Document Type="normal" Included="true" DocumentID="y2QoHx512sg" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-tableau.md" />
+      <Document Type="normal" Included="true" DocumentID="UszrBctvQEE" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-talend.md" />
+      <Document Type="normal" Included="true" DocumentID="g2rm-OYMQhg" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-teradata.md" />
+      <Document Type="normal" Included="true" DocumentID="oEhZO2Ja3Ow" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-tibco-data-visualization.md" />
+      <Document Type="normal" Included="true" DocumentID="yCR4cNH2jHo" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-tibco-spotfire.md" />
+      <Document Type="normal" Included="true" DocumentID="lYAPKlF7R5w" ChangeID="" Path="..\..\source\Connectors\zeenea-connector-zdf.md" />
+    </Group>
+    <Group Name="Zeenea Studio" Type="normal" Included="true" GroupID="E2FvmNj-vE0" ChangeID="bCJmktSWjk4">
+      <Document Type="normal" Included="true" DocumentID="jnFV6I0I9tg" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-studio-overview.md" />
+      <Document Type="normal" Included="true" DocumentID="t3EjYq39xTk" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-studio-import.md" />
+      <Document Type="normal" Included="true" DocumentID="4iXSVs3mT_0" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-studio-search-export.md" />
+      <Document Type="normal" Included="true" DocumentID="y5RgJb_DxsI" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-dashboard-widgets.md" />
+      <Document Type="normal" Included="true" DocumentID="l0ygeKQDNVg" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-doc-completion-level.md" />
+      <Document Type="normal" Included="true" DocumentID="VmFfoEFCqYk" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-studio-create-delete-item.md" />
+      <Document Type="normal" Included="true" DocumentID="mmCskgN6-DY" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-studio-create-delete-custom-item.md" />
+      <Document Type="normal" Included="true" DocumentID="2OMgQF0Ty74" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-studio-create-delete-data-process.md" />
+      <Document Type="normal" Included="true" DocumentID="ALKbNvmk1Mw" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-studio-create-delete-responsibility.md" />
+      <Document Type="normal" Included="true" DocumentID="D62uDtwZJv8" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-studio-create-edit-delete-property.md" />
+      <Document Type="normal" Included="true" DocumentID="KroWnvvkat4" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-studio-create-edit-delete-topic.md" />
+      <Document Type="normal" Included="true" DocumentID="8jc7S7VpUgU" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-add-remove-item-contacts.md" />
+      <Document Type="normal" Included="true" DocumentID="v5zKqVar3Sc" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-editing-items-in-bulk.md" />
+      <Document Type="normal" Included="true" DocumentID="L0YlcpSRPQE" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-watchlist.md" />
+      <Document Type="normal" Included="true" DocumentID="EB4W_BTc_vY" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-impoting-datasets-or-visualizations.md" />
+      <Document Type="normal" Included="true" DocumentID="HGTcSxiwG4U" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-studio-configure-glossary-model.md" />
+      <Document Type="normal" Included="true" DocumentID="nB5sfAtBFBI" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-notifications.md" />
+      <Document Type="normal" Included="true" DocumentID="6bSn12lOlIU" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-discussion-threads.md" />
+      <Document Type="normal" Included="true" DocumentID="1weuYfo7Amg" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-identifying-orphan-datasets.md" />
+      <Document Type="normal" Included="true" DocumentID="lNShuwUORpo" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-add-input-output-types.md" />
+      <Document Type="normal" Included="true" DocumentID="2gYjkErm0DQ" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-item-documentation.md" />
+      <Document Type="normal" Included="true" DocumentID="7MQukJR_Hbo" ChangeID="" Path="..\..\source\Zeenea Studio\zeenea-analytics-dashboard.md" />
+    </Group>
+    <Group Name="Zeenea Explorer" Type="normal" Included="true" GroupID="TqSvbuBBYu0" ChangeID="n48GSvvYa8w">
+      <Document Type="normal" Included="true" DocumentID="e83vH2sjSpU" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-explorer-overview.md" />
+      <Document Type="normal" Included="true" DocumentID="1DmbR5S7qNQ" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-explorer-search.md" />
+      <Document Type="normal" Included="true" DocumentID="MKZKvEh671o" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-explorer-export-search-results.md" />
+      <Document Type="normal" Included="true" DocumentID="sKhVG6uKzpU" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-searching-federated-catalog.md" />
+      <Document Type="normal" Included="true" DocumentID="MiGNwyERJ4I" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-searching-topics.md" />
+      <Document Type="normal" Included="true" DocumentID="GhriCDhHnp0" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-data-lineage.md" />
+      <Document Type="normal" Included="true" DocumentID="zEs8yOITNkM" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-data-sampling.md" />
+      <Document Type="normal" Included="true" DocumentID="kh70CivhO-Y" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-data-profiling.md" />
+      <Document Type="normal" Included="true" DocumentID="deUGY464mcQ" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-data-model-diagram.md" />
+      <Document Type="normal" Included="true" DocumentID="GFNvY61iQUs" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-data-catalog-item-updates.md" />
+      <Document Type="normal" Included="true" DocumentID="2EGL2-pMQdc" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-item-details-pages.md" />
+      <Document Type="normal" Included="true" DocumentID="Pmi32VuNxrA" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-view-360-diagram.md" />
+      <Document Type="normal" Included="true" DocumentID="QoPJRGhvuaE" ChangeID="" Path="..\..\source\Zeenea Explorer\zeenea-submit-suggestion.md" />
+    </Group>
+    <Group Name="Zeenea Administration" Type="normal" Included="true" GroupID="p2c9lpRJgYo" ChangeID="iaZ1ESl_pYU">
+      <Document Type="normal" Included="true" DocumentID="U1fVTi84KLA" ChangeID="" Path="..\..\source\Zeenea Administration\zeenea-managing-users.md" />
+      <Document Type="normal" Included="true" DocumentID="aSwdLnQ6JQQ" ChangeID="" Path="..\..\source\Zeenea Administration\zeenea-user-profiles-and-permissions.md" />
+      <Document Type="normal" Included="true" DocumentID="mzwCOY5kgdU" ChangeID="" Path="..\..\source\Zeenea Administration\zeenea-managing-groups.md" />
+      <Document Type="normal" Included="true" DocumentID="iwIrEH2Sq3I" ChangeID="" Path="..\..\source\Zeenea Administration\zeenea-managing-catalogs.md" />
+      <Document Type="normal" Included="true" DocumentID="goIQbies1OA" ChangeID="" Path="..\..\source\Zeenea Administration\zeenea-maintenance-mode.md" />
+      <Document Type="normal" Included="true" DocumentID="4Et4_Tr2XEA" ChangeID="" Path="..\..\source\Zeenea Administration\zeenea-access-requests.md" />
+      <Document Type="normal" Included="true" DocumentID="ZrVmuFlokLM" ChangeID="" Path="..\..\source\Zeenea Administration\zeenea-managing-connections.md" />
+      <Document Type="normal" Included="true" DocumentID="RLmMR3HWUFA" ChangeID="" Path="..\..\source\Zeenea Administration\zeenea-managing-api-keys.md" />
+      <Document Type="normal" Included="true" DocumentID="BgfgQHEuhg8" ChangeID="" Path="..\..\source\Zeenea Administration\zeenea-security-flaws-management.md" />
+    </Group>
+    <Group Name="APIs" Type="normal" Included="true" GroupID="slxGOGubtbU" ChangeID="2xN2n4x-O7Q">
+      <Document Type="normal" Included="true" DocumentID="wMeEVpGqeE8" ChangeID="" Path="..\..\source\zeenea-public-apis.md" />
+      <Document Type="normal" Included="true" DocumentID="7aXKgW9AHXQ" ChangeID="" Path="..\..\source\zeenea-audit-trail-apis.md" />
+      <Document Type="normal" Included="true" DocumentID="MEdTb6k6ono" ChangeID="" Path="..\..\source\zeenea-catalog-api-v2.md" />
+      <Document Type="normal" Included="true" DocumentID="LFYa9XpRB0Y" ChangeID="" Path="..\..\source\zeenea-catalog-design-api.md" />
+      <Document Type="normal" Included="true" DocumentID="JsaHuq7KVNU" ChangeID="" Path="..\..\source\zeenea-graphql-api-v2-limitations.md" />
+      <Document Type="normal" Included="true" DocumentID="JI7HyZtz-2Y" ChangeID="" Path="..\..\source\zeenea-scim-api.md" />
+      <Document Type="normal" Included="true" DocumentID="3dGzOafcl2Y" ChangeID="" Path="..\..\source\zeenea-user-management-api.md" />
+    </Group>
+  </Groups>
+  <GlobalConfiguration ChangeID="s6xrHx_44no">
+    <Rules Type="Paragraph" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Blockquote" />
+      <Rule Key="Blockquote Paragraph" />
+      <Rule Key="Code Block" />
+      <Rule Key="Code Fence" />
+      <Rule Key="Heading 1" ChangeID="dcx6UNbXewo">
+        <Options>
+          <Option Name="minitoc-sublevels" Value="all" Source="Explicit" />
+        </Options>
+        <Properties>
+          <Property Name="color" Value="#2549C9" Source="Explicit" />
+          <Property Name="font-size" Value="26pt" Source="Explicit" />
+          <Property Name="font-weight" Value="normal" Source="Explicit" />
+          <Property Name="margin-top" Value="10px" Source="Explicit" />
+        </Properties>
+      </Rule>
+      <Rule Key="Heading 2" ChangeID="YvHEcL-BJrg">
+        <Options>
+          <Option Name="minitoc-sublevels" Value="all" Source="Explicit" />
+          <Option Name="toc-display" Value="false" Source="Explicit" />
+          <Option Name="toc-level" Value="none" Source="Explicit" />
+        </Options>
+        <Properties>
+          <Property Name="color" Value="#2549C9" Source="Explicit" />
+          <Property Name="font-size" Value="22pt" Source="Explicit" />
+          <Property Name="font-weight" Value="normal" Source="Explicit" />
+          <Property Name="margin-top" Value="10px" Source="Explicit" />
+        </Properties>
+      </Rule>
+      <Rule Key="Heading 3" ChangeID="cX-nAJgjc0k">
+        <Options>
+          <Option Name="minitoc-sublevels" Value="all" Source="Explicit" />
+          <Option Name="toc-display" Value="false" Source="Explicit" />
+          <Option Name="toc-level" Value="none" Source="Explicit" />
+        </Options>
+        <Properties>
+          <Property Name="color" Value="#2549C9" Source="Explicit" />
+          <Property Name="font-size" Value="17pt" Source="Explicit" />
+          <Property Name="font-weight" Value="normal" Source="Explicit" />
+          <Property Name="margin-top" Value="10px" Source="Explicit" />
+        </Properties>
+      </Rule>
+      <Rule Key="Heading 4" ChangeID="3VxmOfWPGiU">
+        <Options>
+          <Option Name="toc-display" Value="false" Source="Explicit" />
+          <Option Name="toc-level" Value="none" Source="Explicit" />
+        </Options>
+      </Rule>
+      <Rule Key="Horizontal Rule" />
+      <Rule Key="HTML" />
+      <Rule Key="OList" />
+      <Rule Key="OList Code Fence" />
+      <Rule Key="OList Item" />
+      <Rule Key="OList Paragraph" />
+      <Rule Key="Paragraph" ChangeID="eBVsUriYD-8" />
+      <Rule Key="Table Cell Body" />
+      <Rule Key="Table Cell Head" />
+      <Rule Key="Title 1" ChangeID="payZ-rwxCds">
+        <Options>
+          <Option Name="minitoc-sublevels" Value="all" Source="Explicit" />
+        </Options>
+        <Properties>
+          <Property Name="color" Value="#2549C9" Source="Explicit" />
+          <Property Name="font-weight" Value="normal" Source="Explicit" />
+          <Property Name="margin-bottom" Value="12pt" Source="Explicit" />
+        </Properties>
+      </Rule>
+      <Rule Key="Title 2" />
+      <Rule Key="UList" />
+      <Rule Key="UList Code Block" />
+      <Rule Key="UList Code Fence" />
+      <Rule Key="UList Heading 2" />
+      <Rule Key="UList Item" />
+      <Rule Key="UList Paragraph" />
+    </Rules>
+    <Rules Type="Character" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Bold" />
+      <Rule Key="Code" />
+      <Rule Key="HTML" />
+      <Rule Key="Italic" />
+      <Rule Key="Link" />
+    </Rules>
+    <Rules Type="Marker" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Description" ChangeID="Ok7CwyPvWsw">
+        <Options>
+          <Option Name="marker-type" Value="description" Source="Explicit" />
+        </Options>
+      </Rule>
+      <Rule Key="Keywords" ChangeID="SgC4794VCoY">
+        <Options>
+          <Option Name="marker-type" Value="keywords" Source="Explicit" />
+          <Option Name="search-relevance-weight" Value="50" Source="Explicit" />
+        </Options>
+      </Rule>
+      <Rule Key="Link Title" />
+      <Rule Key="PassThrough" ChangeID="GRnSr2xt_HM">
+        <Options>
+          <Option Name="marker-type" Value="pass-through" Source="Explicit" />
+        </Options>
+      </Rule>
+      <Rule Key="TopicAlias" ChangeID="TMqq1sgwDjU">
+        <Options>
+          <Option Name="marker-type" Value="topic" Source="Explicit" />
+        </Options>
+      </Rule>
+    </Rules>
+    <Rules Type="Graphic" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Image" ChangeID="LU2ZPfLmz78">
+        <Options>
+          <Option Name="max-height" Value="1100" Source="Explicit" />
+          <Option Name="max-width" Value="1100" Source="Explicit" />
+          <Option Name="quality" Value="96" Source="Explicit" />
+        </Options>
+        <Properties>
+          <Property Name="border-bottom-style" Value="solid" Source="Explicit" />
+          <Property Name="border-bottom-width" Value="thin" Source="Explicit" />
+          <Property Name="border-left-style" Value="solid" Source="Explicit" />
+          <Property Name="border-left-width" Value="thin" Source="Explicit" />
+          <Property Name="border-right-style" Value="solid" Source="Explicit" />
+          <Property Name="border-right-width" Value="thin" Source="Explicit" />
+          <Property Name="border-top-style" Value="solid" Source="Explicit" />
+          <Property Name="border-top-width" Value="thin" Source="Explicit" />
+          <Property Name="margin-bottom" Value="5px" Source="Explicit" />
+          <Property Name="margin-top" Value="5px" Source="Explicit" />
+        </Properties>
+      </Rule>
+    </Rules>
+    <Rules Type="Table" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Table" ChangeID="e2kuBQGewy8">
+        <Properties>
+          <Property Name="tbody-alternate-background-color" Value="buttonface" Source="Explicit" />
+          <Property Name="tbody-alternate-background-context" Value="row" Source="Explicit" />
+          <Property Name="tbody-alternate-background-period" Value="1" Source="Explicit" />
+          <Property Name="tbody-background-color" Value="Transparent" Source="Explicit" />
+          <Property Name="tbody-background-period" Value="1" Source="Explicit" />
+          <Property Name="thead-background-color" Value="buttonface" Source="Explicit" />
+          <Property Name="thead-vertical-align" Value="middle" Source="Explicit" />
+        </Properties>
+      </Rule>
+    </Rules>
+    <Rules Type="Page" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Default" />
+    </Rules>
+  </GlobalConfiguration>
+  <FormatConfigurations>
+    <FormatConfiguration TargetID="2LTiJLiESE4" ChangeID="sKCd7Qqo7Ew">
+      <Conditions Expression="" UseClassicConditions="False" UseDocumentExpression="True">
+        <Condition Name="production" Value="Visible" Passthrough="False" UseDocumentValue="True" />
+      </Conditions>
+      <DocumentConfigurations>
+        <DocumentConfiguration ID="gEH8vZcBBlM" ChangeID="" />
+        <DocumentConfiguration ID="h827xZ06rd0" ChangeID="" />
+        <DocumentConfiguration ID="WaZwQlApbO0" ChangeID="" />
+        <DocumentConfiguration ID="lNShuwUORpo" ChangeID="" />
+        <DocumentConfiguration ID="GFNvY61iQUs" ChangeID="" />
+        <DocumentConfiguration ID="4Et4_Tr2XEA" ChangeID="" />
+      </DocumentConfigurations>
+      <MergeSettings Title="">
+        <MergeGroup GroupID="ZjRXuIIZp1s" />
+        <MergeGroup GroupID="Yq0XdtOLOls" />
+        <MergeGroup GroupID="lSSl4ThjLgk" />
+        <MergeGroup GroupID="nJaP2li5P0Y" />
+        <MergeGroup GroupID="BlsrUSbRgXw" />
+        <MergeGroup GroupID="E2FvmNj-vE0" />
+        <MergeGroup GroupID="TqSvbuBBYu0" />
+        <MergeGroup GroupID="p2c9lpRJgYo" />
+        <MergeGroup GroupID="slxGOGubtbU" />
+      </MergeSettings>
+    </FormatConfiguration>
+    <FormatConfiguration TargetID="UTti3rMGVbk" ChangeID="kFMwFUaeqg8">
+      <Rules Type="Paragraph" ChangeID="">
+        <Rule Key="Heading 1" ChangeID="vKdILlOLC3o">
+          <Properties>
+            <Property Name="color" Value="#0056B3" Source="Explicit" />
+            <Property Name="font-family" Value="Sans-Serif, 'Segoe UI'" Source="Explicit" />
+            <Property Name="font-variant" Value="normal" Source="Explicit" />
+          </Properties>
+        </Rule>
+        <Rule Key="Heading 2" ChangeID="_caiWISeKOg">
+          <Options>
+            <Option Name="toc-display" Value="false" Source="Explicit" />
+            <Option Name="toc-level" Value="none" Source="Explicit" />
+          </Options>
+          <Properties>
+            <Property Name="color" Value="#0056B3" Source="Explicit" />
+            <Property Name="font-family" Value="'Segoe UI'" Source="Explicit" />
+          </Properties>
+        </Rule>
+        <Rule Key="Heading 3" ChangeID="PtR47eSrm0k">
+          <Options>
+            <Option Name="toc-display" Value="false" Source="Explicit" />
+            <Option Name="toc-level" Value="none" Source="Explicit" />
+          </Options>
+          <Properties>
+            <Property Name="color" Value="#0056B3" Source="Explicit" />
+            <Property Name="font-family" Value="'Segoe UI'" Source="Explicit" />
+          </Properties>
+        </Rule>
+        <Rule Key="Heading 4" ChangeID="P0aVy3qRzAs">
+          <Properties>
+            <Property Name="color" Value="#0056B3" Source="Explicit" />
+            <Property Name="font-family" Value="'Segoe UI'" Source="Explicit" />
+          </Properties>
+        </Rule>
+        <Rule Key="Title 1" ChangeID="oA9WU4H0iqQ">
+          <Properties>
+            <Property Name="color" Value="#0056B3" Source="Explicit" />
+          </Properties>
+        </Rule>
+      </Rules>
+      <Rules Type="Marker" ChangeID="" />
+      <Rules Type="Graphic" ChangeID="" />
+      <Rules Type="Table" ChangeID="" />
+      <Conditions Expression="" UseClassicConditions="False" UseDocumentExpression="True">
+        <Condition Name="production" Value="Visible" Passthrough="False" UseDocumentValue="True" />
+      </Conditions>
+      <XRefFormatSet />
+      <FormatSettings>
+        <FormatSetting Name="company-copyright" Value="Copyright 2025 Actian Corporation. All rights reserved." />
+        <FormatSetting Name="company-email" Value="https://www.actian.com" />
+        <FormatSetting Name="company-link" Value="https://docs.actian.com/" />
+        <FormatSetting Name="company-logo-src" Value="Actian_logo_doc.png" />
+        <FormatSetting Name="company-name" Value="Actian Corporation" />
+        <FormatSetting Name="connect-browser-tab-icon" Value="favicon.png" />
+        <FormatSetting Name="document-last-modified-date" Value="true" />
+        <FormatSetting Name="footer-generate" Value="true" />
+        <FormatSetting Name="google-translate" Value="true" />
+        <FormatSetting Name="header-generate" Value="true" />
+        <FormatSetting Name="header-logo" Value="company-logo-src" />
+        <FormatSetting Name="header-logo-link-address" Value="company-link" />
+        <FormatSetting Name="header-logo-linked" Value="true" />
+        <FormatSetting Name="page-helpful-buttons" Value="true" />
+        <FormatSetting Name="search-helpful-buttons" Value="true" />
+        <FormatSetting Name="show-first-document" Value="true" />
+        <FormatSetting Name="social-facebook-like" Value="false" />
+        <FormatSetting Name="social-linkedin" Value="false" />
+        <FormatSetting Name="social-twitter" Value="false" />
+        <FormatSetting Name="toolbar-tabs" Value="false" />
+      </FormatSettings>
+      <DocumentConfigurations>
+        <DocumentConfiguration ID="4lk2D3GdBVE" ChangeID="" />
+        <DocumentConfiguration ID="wMeEVpGqeE8" ChangeID="" />
+        <DocumentConfiguration ID="7aXKgW9AHXQ" ChangeID="" />
+        <DocumentConfiguration ID="MZZqW_vtyBQ" ChangeID="" />
+        <DocumentConfiguration ID="xvNF1_CcraQ" ChangeID="" />
+      </DocumentConfigurations>
+      <MergeSettings Title="Welcome to Zeenea documenatation">
+        <MergeGroup GroupID="ZjRXuIIZp1s" Title="Zeenea" />
+        <MergeGroup GroupID="Yq0XdtOLOls" Title="Getting Started" />
+        <MergeGroup GroupID="lSSl4ThjLgk" Title="Your First Step" />
+        <MergeGroup GroupID="nJaP2li5P0Y" />
+        <MergeGroup GroupID="BlsrUSbRgXw" />
+        <MergeGroup GroupID="E2FvmNj-vE0" />
+        <MergeGroup GroupID="TqSvbuBBYu0" />
+        <MergeGroup GroupID="p2c9lpRJgYo" />
+        <MergeGroup GroupID="slxGOGubtbU" />
+      </MergeSettings>
+    </FormatConfiguration>
+  </FormatConfigurations>
+  <AdapterConfigurations ChangeID="nxy9BH4fvcQ">
+    <AdapterConfiguration Name="Adobe FrameMaker" ChangeID="jd_MPviLpKE" />
+    <AdapterConfiguration Name="Helper Adapter" ChangeID="Qcvgu8pqfxw" />
+    <AdapterConfiguration Name="Microsoft Word" ChangeID="T1nt05jgalI">
+      <AdapterConfigurationEntry Name="preserve-change-bars-in-pdf" Value="false" />
+      <AdapterConfigurationEntry Name="rd-field-handling" Value="book" />
+    </AdapterConfiguration>
+    <AdapterConfiguration Name="Xml Adapter" ChangeID="S1ni6OgMwrY">
+      <AdapterConfigurationEntry Name="dita-combine-character-styles" Value="true" />
+      <AdapterConfigurationEntry Name="dita-ot-version" Value="3.7.4" />
+    </AdapterConfiguration>
+  </AdapterConfigurations>
+  <ProjectSettings />
+</Project>

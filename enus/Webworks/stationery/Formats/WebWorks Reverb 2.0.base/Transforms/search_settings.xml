@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Settings version="1.0" xmlns="urn:WebWorks-Settings-Schema">
+ <ScoringPrefs default-weight="0.05" pdf-weight="0.05">
+  <meta name="keywords" weight="1.0"/>
+  <meta name="description" weight="1.0"/>
+  <meta name="summary" weight="1.0"/>
+  <title weight="1.0"/>
+  <div class="myclass" weight="0.05"/>
+  <div weight="0.05"/>
+  <h1 weight="0.1"/>
+  <h2 weight="0.1"/>
+  <caption weight="0.1"/>
+  <h3 weight="0.1"/>
+  <th weight="0.1"/>
+  <h4 weight="0.1"/>
+  <h5 weight="0.1"/>
+  <h6 weight="0.1"/>
+  <h7 weight="0.1"/>
+  <p weight="0.05"/>
+ </ScoringPrefs>
+</Settings>

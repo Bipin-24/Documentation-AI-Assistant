@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Version="1.1.2.0" RuntimeVersion="2024.1" FormatVersion="{Current}" xmlns="urn:WebWorks-Publish-Project">
+  <Formats>
+    <Format TargetName="Reverb" Name="Markdown++" Type="Application" TargetID="2LTiJLiESE4">
+      <OutputDirectory>Output\Reverb</OutputDirectory>
+    </Format>
+    <Format TargetName="Target 2" Name="WebWorks Reverb 2.0" Type="Application" TargetID="UTti3rMGVbk">
+      <OutputDirectory>Output\Target 2</OutputDirectory>
+    </Format>
+  </Formats>
+  <GlobalConfiguration>
+    <Rules Type="Paragraph" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Blockquote" />
+      <Rule Key="Blockquote Paragraph" />
+      <Rule Key="Code Block" />
+      <Rule Key="Code Fence" />
+      <Rule Key="Heading 1">
+        <Options>
+          <Option Name="minitoc-sublevels" Value="all" Source="Explicit" />
+        </Options>
+        <Properties>
+          <Property Name="color" Value="#2549C9" Source="Explicit" />
+          <Property Name="font-size" Value="26pt" Source="Explicit" />
+          <Property Name="font-weight" Value="normal" Source="Explicit" />
+          <Property Name="margin-top" Value="10px" Source="Explicit" />
+        </Properties>
+      </Rule>
+      <Rule Key="Heading 2">
+        <Options>
+          <Option Name="minitoc-sublevels" Value="all" Source="Explicit" />
+          <Option Name="toc-display" Value="false" Source="Explicit" />
+          <Option Name="toc-level" Value="none" Source="Explicit" />
+        </Options>
+        <Properties>
+          <Property Name="color" Value="#2549C9" Source="Explicit" />
+          <Property Name="font-size" Value="22pt" Source="Explicit" />
+          <Property Name="font-weight" Value="normal" Source="Explicit" />
+          <Property Name="margin-top" Value="10px" Source="Explicit" />
+        </Properties>
+      </Rule>
+      <Rule Key="Heading 3">
+        <Options>
+          <Option Name="minitoc-sublevels" Value="all" Source="Explicit" />
+          <Option Name="toc-display" Value="false" Source="Explicit" />
+          <Option Name="toc-level" Value="none" Source="Explicit" />
+        </Options>
+        <Properties>
+          <Property Name="color" Value="#2549C9" Source="Explicit" />
+          <Property Name="font-size" Value="17pt" Source="Explicit" />
+          <Property Name="font-weight" Value="normal" Source="Explicit" />
+          <Property Name="margin-top" Value="10px" Source="Explicit" />
+        </Properties>
+      </Rule>
+      <Rule Key="Heading 4">
+        <Options>
+          <Option Name="toc-display" Value="false" Source="Explicit" />
+          <Option Name="toc-level" Value="none" Source="Explicit" />
+        </Options>
+      </Rule>
+      <Rule Key="Horizontal Rule" />
+      <Rule Key="HTML" />
+      <Rule Key="OList" />
+      <Rule Key="OList Code Fence" />
+      <Rule Key="OList Item" />
+      <Rule Key="OList Paragraph" />
+      <Rule Key="Paragraph" />
+      <Rule Key="Table Cell Body" />
+      <Rule Key="Table Cell Head" />
+      <Rule Key="Title 1">
+        <Options>
+          <Option Name="minitoc-sublevels" Value="all" Source="Explicit" />
+        </Options>
+        <Properties>
+          <Property Name="color" Value="#2549C9" Source="Explicit" />
+          <Property Name="font-weight" Value="normal" Source="Explicit" />
+          <Property Name="margin-bottom" Value="12pt" Source="Explicit" />
+        </Properties>
+      </Rule>
+      <Rule Key="Title 2" />
+      <Rule Key="UList" />
+      <Rule Key="UList Code Block" />
+      <Rule Key="UList Code Fence" />
+      <Rule Key="UList Heading 2" />
+      <Rule Key="UList Item" />
+      <Rule Key="UList Paragraph" />
+    </Rules>
+    <Rules Type="Character" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Bold" />
+      <Rule Key="Code" />
+      <Rule Key="HTML" />
+      <Rule Key="Italic" />
+      <Rule Key="Link" />
+    </Rules>
+    <Rules Type="Marker" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Description">
+        <Options>
+          <Option Name="marker-type" Value="description" Source="Explicit" />
+        </Options>
+      </Rule>
+      <Rule Key="Keywords">
+        <Options>
+          <Option Name="marker-type" Value="keywords" Source="Explicit" />
+          <Option Name="search-relevance-weight" Value="50" Source="Explicit" />
+        </Options>
+      </Rule>
+      <Rule Key="Link Title" />
+      <Rule Key="PassThrough">
+        <Options>
+          <Option Name="marker-type" Value="pass-through" Source="Explicit" />
+        </Options>
+      </Rule>
+      <Rule Key="TopicAlias">
+        <Options>
+          <Option Name="marker-type" Value="topic" Source="Explicit" />
+        </Options>
+      </Rule>
+    </Rules>
+    <Rules Type="Graphic" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Image">
+        <Options>
+          <Option Name="max-height" Value="1100" Source="Explicit" />
+          <Option Name="max-width" Value="1100" Source="Explicit" />
+          <Option Name="quality" Value="96" Source="Explicit" />
+        </Options>
+        <Properties>
+          <Property Name="border-bottom-style" Value="solid" Source="Explicit" />
+          <Property Name="border-bottom-width" Value="thin" Source="Explicit" />
+          <Property Name="border-left-style" Value="solid" Source="Explicit" />
+          <Property Name="border-left-width" Value="thin" Source="Explicit" />
+          <Property Name="border-right-style" Value="solid" Source="Explicit" />
+          <Property Name="border-right-width" Value="thin" Source="Explicit" />
+          <Property Name="border-top-style" Value="solid" Source="Explicit" />
+          <Property Name="border-top-width" Value="thin" Source="Explicit" />
+          <Property Name="margin-bottom" Value="5px" Source="Explicit" />
+          <Property Name="margin-top" Value="5px" Source="Explicit" />
+        </Properties>
+      </Rule>
+    </Rules>
+    <Rules Type="Table" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Table">
+        <Properties>
+          <Property Name="tbody-alternate-background-color" Value="buttonface" Source="Explicit" />
+          <Property Name="tbody-alternate-background-context" Value="row" Source="Explicit" />
+          <Property Name="tbody-alternate-background-period" Value="1" Source="Explicit" />
+          <Property Name="tbody-background-color" Value="Transparent" Source="Explicit" />
+          <Property Name="tbody-background-period" Value="1" Source="Explicit" />
+          <Property Name="thead-background-color" Value="buttonface" Source="Explicit" />
+          <Property Name="thead-vertical-align" Value="middle" Source="Explicit" />
+        </Properties>
+      </Rule>
+    </Rules>
+    <Rules Type="Page" Default="{WWDefaultRule}" ChangeID="">
+      <Rule Key="{WWDefaultRule}" />
+      <Rule Key="Default" />
+    </Rules>
+  </GlobalConfiguration>
+  <FormatConfigurations>
+    <FormatConfiguration TargetID="2LTiJLiESE4">
+      <Conditions Expression="" UseClassicConditions="False" UseDocumentExpression="True">
+        <Condition Name="production" Value="Visible" Passthrough="False" UseDocumentValue="True" />
+      </Conditions>
+    </FormatConfiguration>
+    <FormatConfiguration TargetID="UTti3rMGVbk">
+      <Rules Type="Paragraph" ChangeID="">
+        <Rule Key="Heading 1">
+          <Properties>
+            <Property Name="color" Value="#0056B3" Source="Explicit" />
+            <Property Name="font-family" Value="Sans-Serif, 'Segoe UI'" Source="Explicit" />
+            <Property Name="font-variant" Value="normal" Source="Explicit" />
+          </Properties>
+        </Rule>
+        <Rule Key="Heading 2">
+          <Options>
+            <Option Name="toc-display" Value="false" Source="Explicit" />
+            <Option Name="toc-level" Value="none" Source="Explicit" />
+          </Options>
+          <Properties>
+            <Property Name="color" Value="#0056B3" Source="Explicit" />
+            <Property Name="font-family" Value="'Segoe UI'" Source="Explicit" />
+          </Properties>
+        </Rule>
+        <Rule Key="Heading 3">
+          <Options>
+            <Option Name="toc-display" Value="false" Source="Explicit" />
+            <Option Name="toc-level" Value="none" Source="Explicit" />
+          </Options>
+          <Properties>
+            <Property Name="color" Value="#0056B3" Source="Explicit" />
+            <Property Name="font-family" Value="'Segoe UI'" Source="Explicit" />
+          </Properties>
+        </Rule>
+        <Rule Key="Heading 4">
+          <Properties>
+            <Property Name="color" Value="#0056B3" Source="Explicit" />
+            <Property Name="font-family" Value="'Segoe UI'" Source="Explicit" />
+          </Properties>
+        </Rule>
+        <Rule Key="Title 1">
+          <Properties>
+            <Property Name="color" Value="#0056B3" Source="Explicit" />
+          </Properties>
+        </Rule>
+      </Rules>
+      <Rules Type="Marker" ChangeID="" />
+      <Rules Type="Graphic" ChangeID="" />
+      <Rules Type="Table" ChangeID="" />
+      <Conditions Expression="" UseClassicConditions="False" UseDocumentExpression="True">
+        <Condition Name="production" Value="Visible" Passthrough="False" UseDocumentValue="True" />
+      </Conditions>
+      <XRefFormatSet />
+      <FormatSettings>
+        <FormatSetting Name="company-copyright" Value="Copyright 2025 Actian Corporation. All rights reserved." />
+        <FormatSetting Name="company-email" Value="https://www.actian.com" />
+        <FormatSetting Name="company-link" Value="https://docs.actian.com/" />
+        <FormatSetting Name="company-logo-src" Value="Actian_logo_doc.png" />
+        <FormatSetting Name="company-name" Value="Actian Corporation" />
+        <FormatSetting Name="connect-browser-tab-icon" Value="favicon.png" />
+        <FormatSetting Name="document-last-modified-date" Value="true" />
+        <FormatSetting Name="footer-generate" Value="true" />
+        <FormatSetting Name="google-translate" Value="true" />
+        <FormatSetting Name="header-generate" Value="true" />
+        <FormatSetting Name="header-logo" Value="company-logo-src" />
+        <FormatSetting Name="header-logo-link-address" Value="company-link" />
+        <FormatSetting Name="header-logo-linked" Value="true" />
+        <FormatSetting Name="page-helpful-buttons" Value="true" />
+        <FormatSetting Name="search-helpful-buttons" Value="true" />
+        <FormatSetting Name="show-first-document" Value="true" />
+        <FormatSetting Name="social-facebook-like" Value="false" />
+        <FormatSetting Name="social-linkedin" Value="false" />
+        <FormatSetting Name="social-twitter" Value="false" />
+        <FormatSetting Name="toolbar-tabs" Value="false" />
+      </FormatSettings>
+    </FormatConfiguration>
+  </FormatConfigurations>
+  <FileMappings>
+    <FileMapping extension=".fm" adapter="Adobe FrameMaker" />
+    <FileMapping extension=".mif" adapter="Adobe FrameMaker" />
+    <FileMapping extension=".bk" adapter="Adobe FrameMaker" />
+    <FileMapping extension=".book" adapter="Adobe FrameMaker" />
+    <FileMapping extension=".txt" adapter="Adobe FrameMaker" />
+    <FileMapping extension=".doc" adapter="Microsoft Word" />
+    <FileMapping extension=".docx" adapter="Microsoft Word" />
+    <FileMapping extension=".docm" adapter="Microsoft Word" />
+    <FileMapping extension=".rtf" adapter="Microsoft Word" />
+    <FileMapping extension=".md" adapter="Helper Adapter" />
+    <FileMapping extension=".xml" adapter="Xml Adapter" />
+    <FileMapping extension=".ditamap" adapter="Xml Adapter" />
+    <FileMapping extension=".dita" adapter="Xml Adapter" />
+  </FileMappings>
+  <AdapterConfigurations ChangeID="nxy9BH4fvcQ">
+    <AdapterConfiguration Name="Adobe FrameMaker" ChangeID="jd_MPviLpKE" />
+    <AdapterConfiguration Name="Helper Adapter" ChangeID="Qcvgu8pqfxw" />
+    <AdapterConfiguration Name="Microsoft Word" ChangeID="T1nt05jgalI">
+      <AdapterConfigurationEntry Name="preserve-change-bars-in-pdf" Value="false" />
+      <AdapterConfigurationEntry Name="rd-field-handling" Value="book" />
+    </AdapterConfiguration>
+    <AdapterConfiguration Name="Xml Adapter" ChangeID="S1ni6OgMwrY">
+      <AdapterConfigurationEntry Name="dita-combine-character-styles" Value="true" />
+      <AdapterConfigurationEntry Name="dita-ot-version" Value="3.7.4" />
+    </AdapterConfiguration>
+  </AdapterConfigurations>
+</Project>

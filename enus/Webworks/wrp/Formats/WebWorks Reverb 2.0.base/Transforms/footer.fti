@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="footer-logo">
+   <Item value="company-name" />
+   <Item value="company-logo-src" />
+  </Class>
+  <Class name="footer-logo-link-address">
+   <Item value="button-home" />
+   <Item value="company-link" />
+  </Class>
+  <Class name="footer-location">
+   <Item value="end-of-layout" />
+   <Item value="end-of-page" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="reverb-2.0-footer" />
+ </Groups>
+
+ <Settings>
+  <!-- Footer -->
+  <!--       -->
+  <Setting name="footer-generate" group="reverb-2.0-footer" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="footer-logo" group="reverb-2.0-footer" default="none">
+   <SettingClass name="none" />
+   <SettingClass name="footer-logo" />
+  </Setting>
+  <Setting name="footer-logo-override" group="reverb-2.0-footer" default="">
+   <SettingClass name="project-file-path" />
+  </Setting>
+  <Setting name="footer-logo-linked" group="reverb-2.0-footer" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="footer-logo-link-address" group="reverb-2.0-footer" default="">
+   <SettingClass name="footer-logo-link-address" />
+   <SettingClass name="url" />
+  </Setting>
+  <Setting name="footer-location" group="reverb-2.0-footer" default="end-of-layout">
+   <SettingClass name="footer-location" />
+  </Setting>
+  <Setting name="footer-publish-date" group="reverb-2.0-footer" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

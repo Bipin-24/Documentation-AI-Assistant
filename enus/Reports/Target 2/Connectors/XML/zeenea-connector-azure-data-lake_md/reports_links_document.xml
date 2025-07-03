@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUeja&amp;amp;d=%2Fa%2FNu000002lggz%2FASw0YFvXoykgjjzSOb5IfDgLJuczaIxGUVQ666rzLeU&amp;amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connector-azure-data-lake.md" />
+        <Data key="DocumentID" value="4cSWfXX0mLU" />
+        <Data key="ID" value="p100075" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connector-azure-data-lake.17.2.html#wwp100075" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUeja&amp;amp;d=%2Fa%2FNu000002lggz%2FASw0YFvXoykgjjzSOb5IfDgLJuczaIxGUVQ666rzLeU&amp;amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUfZC&amp;amp;d=%2Fa%2FNu000002lgib%2Fp2E.6CmbtrtzL8Jz6QG0nxuK68fWn4ZnPM7Q738rZ.Q&amp;amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connector-azure-data-lake.md" />
+        <Data key="DocumentID" value="4cSWfXX0mLU" />
+        <Data key="ID" value="p100087" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connector-azure-data-lake.17.2.html#wwp100087" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUfZC&amp;amp;d=%2Fa%2FNu000002lgib%2Fp2E.6CmbtrtzL8Jz6QG0nxuK68fWn4ZnPM7Q738rZ.Q&amp;amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

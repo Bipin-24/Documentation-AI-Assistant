@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUgrp&amp;amp;d=%2Fa%2FNu000002lgNd%2FbRicJ3d4gnHLqe.Ay3rVGy3.uQYr2EGnNxECGmPH6ho&amp;amp;asPdf=false'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\Connectors\zeenea-connector-google-data-catalog.md" />
+        <Data key="DocumentID" value="8mX5yeODtfQ" />
+        <Data key="ID" value="p100051" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-connector-google-data-catalog.html#wwb100057" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUgrp&amp;amp;d=%2Fa%2FNu000002lgNd%2FbRicJ3d4gnHLqe.Ay3rVGy3.uQYr2EGnNxECGmPH6ho&amp;amp;asPdf=false" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

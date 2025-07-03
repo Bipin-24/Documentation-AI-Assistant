@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes />
+
+ <Groups>
+  <Group name="index" />
+ </Groups>
+
+ <Settings>
+  <!-- Index -->
+  <!--       -->
+  <Setting name="index-generate" group="index" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="index-combined-enabled" group="index" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

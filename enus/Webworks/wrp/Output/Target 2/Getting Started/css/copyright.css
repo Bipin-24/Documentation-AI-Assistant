@@ -1,0 +1,27 @@
+div.Heading_1, caption.Heading_1
+{
+  color: #0056B3;
+  font-family: Sans-Serif, 'Segoe UI';
+  font-size: 26pt;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin-top: 10px;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+div.Paragraph, caption.Paragraph
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+
+span.Bold, span.Bold a, span.Bold a:active, abbreviation.Bold, abbreviation.Bold a, abbreviation.Bold a:active, acronym.Bold, acronym.Bold a, acronym.Bold a:active, citation.Bold, citation.Bold a, citation.Bold a:active
+{
+  font-weight: bold;
+}
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Groups>
+  <Group name="report-baggagefiles" />
+ </Groups>
+
+ <Settings>
+  <Setting name="report-baggagefiles-generate" group="report-baggagefiles" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="report-baggagefiles-without-title" group="report-baggagefiles" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-baggagefiles-without-summary" group="report-baggagefiles" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

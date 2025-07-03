@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://auth0.com/docs/connections/enterprise/saml'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\New_files\zeenea-auth0-integration.md" />
+        <Data key="DocumentID" value="6fTbqGoIopQ" />
+        <Data key="ID" value="p100024" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-auth0-integration.html#wwp100024" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://auth0.com/docs/connections/enterprise/saml" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://login.prod.zeenea.app/login/callback?connection=CONNECTION'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\New_files\zeenea-auth0-integration.md" />
+        <Data key="DocumentID" value="6fTbqGoIopQ" />
+        <Data key="ID" value="p100054" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-auth0-integration.html#wwp100054" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://login.prod.zeenea.app/login/callback?connection=CONNECTION" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://login.prod.zeenea.app/samlp/metadata?connection=CONNECTION'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\New_files\zeenea-auth0-integration.md" />
+        <Data key="DocumentID" value="6fTbqGoIopQ" />
+        <Data key="ID" value="p100084" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-auth0-integration.html#wwp100084" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://login.prod.zeenea.app/samlp/metadata?connection=CONNECTION" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\New_files\zeenea-auth0-integration.md" />
+        <Data key="DocumentID" value="6fTbqGoIopQ" />
+        <Data key="ID" value="p100549" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-auth0-integration.html#wwp100549" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\New_files\zeenea-auth0-integration.md" />
+        <Data key="DocumentID" value="6fTbqGoIopQ" />
+        <Data key="ID" value="p100558" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-auth0-integration.html#wwp100558" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://auth0.com/docs/connections/enterprise/saml'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\New_files\zeenea-auth0-integration.md" />
+        <Data key="DocumentID" value="6fTbqGoIopQ" />
+        <Data key="ID" value="p100585" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-auth0-integration.html#wwp100585" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://auth0.com/docs/connections/enterprise/saml" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://auth0.com/docs/connections/enterprise/azure-active-directory/v2'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\New_files\zeenea-auth0-integration.md" />
+        <Data key="DocumentID" value="6fTbqGoIopQ" />
+        <Data key="ID" value="p100600" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-auth0-integration.html#wwp100600" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://auth0.com/docs/connections/enterprise/azure-active-directory/v2" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://auth0.com/docs/connections/enterprise/adfs'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\New_files\zeenea-auth0-integration.md" />
+        <Data key="DocumentID" value="6fTbqGoIopQ" />
+        <Data key="ID" value="p100621" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-auth0-integration.html#wwp100621" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://auth0.com/docs/connections/enterprise/adfs" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://login.prod.zeenea.app/login/callback'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\New_files\zeenea-auth0-integration.md" />
+        <Data key="DocumentID" value="6fTbqGoIopQ" />
+        <Data key="ID" value="p100654" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-auth0-integration.html#wwp100654" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://login.prod.zeenea.app/login/callback" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://auth0.com/docs/connections/enterprise/google-apps'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\zeenea.doc\enus\source\New_files\zeenea-auth0-integration.md" />
+        <Data key="DocumentID" value="6fTbqGoIopQ" />
+        <Data key="ID" value="p100675" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/zeenea.doc/enus/Webworks/wrp/Output/Target%202/Technical%20Documentation/zeenea-auth0-integration.html#wwp100675" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://auth0.com/docs/connections/enterprise/google-apps" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Express/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

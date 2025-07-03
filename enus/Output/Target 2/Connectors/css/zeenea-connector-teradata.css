@@ -1,0 +1,172 @@
+div.Code_Fence, caption.Code_Fence
+{
+  background-color: #efefef;
+  font-family: Consolas;
+  font-size: 11pt;
+  margin-bottom: 6pt;
+  margin-top: 6pt;
+  overflow: auto;
+  padding-bottom: 12pt;
+  padding-left: 12pt;
+  padding-right: 12pt;
+  padding-top: 12pt;
+  white-space: pre;
+}
+
+div.HTML, caption.HTML
+{
+  display: block;
+  overflow: auto;
+}
+
+div.Heading_1, caption.Heading_1
+{
+  color: #0056B3;
+  font-family: Sans-Serif, 'Segoe UI';
+  font-size: 26pt;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 10px;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+div.Heading_2, caption.Heading_2
+{
+  color: #0056B3;
+  font-family: 'Segoe UI';
+  font-size: 22pt;
+  font-weight: 400;
+  letter-spacing: 140%;
+  line-height: 1.2em;
+  margin-top: 10px;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+div.Heading_3, caption.Heading_3
+{
+  color: #0056B3;
+  font-family: 'Segoe UI';
+  font-size: 17pt;
+  font-weight: 400;
+  letter-spacing: 140%;
+  line-height: 1.2em;
+  margin-top: 10px;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+div.Paragraph, caption.Paragraph
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+
+div.Table_Cell_Body, caption.Table_Cell_Body
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+
+div.Table_Cell_Head, caption.Table_Cell_Head
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+
+div.Title_1, caption.Title_1
+{
+  color: #0056B3;
+  font-family: Sans-Serif, 'Segoe UI';
+  font-size: 28pt;
+  font-weight: 400;
+  letter-spacing: 140%;
+  line-height: 1.2em;
+  margin-bottom: 12pt;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+ul.UList, div.UList, caption.UList
+{
+  margin-bottom: 0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  padding-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+}
+
+li.UList_Item, div.UList_Item, caption.UList_Item
+{
+  margin-bottom: 0pt;
+  margin-left: 36pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  padding-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+}
+
+div.UList_Paragraph, caption.UList_Paragraph
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+
+span.Bold, span.Bold a, span.Bold a:active, abbreviation.Bold, abbreviation.Bold a, abbreviation.Bold a:active, acronym.Bold, acronym.Bold a, acronym.Bold a:active, citation.Bold, citation.Bold a, citation.Bold a:active
+{
+  font-weight: bold;
+}
+
+span.Code, span.Code a, span.Code a:active, abbreviation.Code, abbreviation.Code a, abbreviation.Code a:active, acronym.Code, acronym.Code a, acronym.Code a:active, citation.Code, citation.Code a, citation.Code a:active
+{
+  background-color: #efefef;
+  font-family: Consolas;
+  white-space: pre;
+}
+
+span.Italic, span.Italic a, span.Italic a:active, abbreviation.Italic, abbreviation.Italic a, abbreviation.Italic a:active, acronym.Italic, acronym.Italic a, acronym.Italic a:active, citation.Italic, citation.Italic a, citation.Italic a:active
+{
+  font-style: italic;
+}
+
+span.Link, span.Link a, span.Link a:active, abbreviation.Link, abbreviation.Link a, abbreviation.Link a:active, acronym.Link, acronym.Link a, acronym.Link a:active, citation.Link, citation.Link a, citation.Link a:active
+{
+  color: #0078d7;
+  text-decoration: underline;
+}
+
+table.Table
+{
+  border-bottom-color: #222222;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: #222222;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #222222;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #222222;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+

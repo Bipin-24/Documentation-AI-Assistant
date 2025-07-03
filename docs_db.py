@@ -5,7 +5,7 @@ from langchain_community.vectorstores import FAISS
 
 # Load all markdown files
 loader = DirectoryLoader(
-    "/Users/bipinpandey/zeenea.doc/enus/source",  # Replace with your actual path 
+    "/Users/bipinpandey/Documentation-AI-Assistant/enus/source",  # Replace with your actual path 
     glob="**/*.md",
     loader_cls=UnstructuredMarkdownLoader
 )

@@ -1,0 +1,159 @@
+/*~~~~~ FONTS ~~~~~*/
+/*~~~~~~~~~~~~~~~~~*/
+$font_family_main: arial, sans_serif;
+$font_size_xsmall: 10pt;
+$font_size_small: 12pt;
+$font_size_medium: 14pt;
+$font_size_large: 16pt;
+
+$font_size_icons_main: $font_size_large;
+
+/*
+ * toolbar
+*/
+$toolbar_font: $font_family_main;
+$toolbar_font_size: $font_size_medium;
+$toolbar_icons_size: $font_size_icons_main;
+
+$toolbar_button_menu_icon_size: $toolbar_icons_size;
+$toolbar_logo_font: $toolbar_font;
+$toolbar_logo_font_size: $toolbar_font_size;
+
+$toolbar_search_input_font: $toolbar_font;
+$toolbar_search_input_font_size: $font_size_small;
+
+$toolbar_search_scope_selector_font: $font_family_main;
+$toolbar_search_scope_selector_font_size: $font_size_xsmall;
+$toolbar_search_scope_selector_icon_size: $toolbar_search_scope_selector_font_size;
+
+$toolbar_search_scope_option_font: $toolbar_search_scope_selector_font;
+$toolbar_search_scope_option_font_size: $toolbar_search_scope_selector_font_size;
+
+$toolbar_button_search_icon_size: $toolbar_icons_size;
+
+$toolbar_button_previous_icon_size: $toolbar_icons_size;
+$toolbar_buttons_next_icon_size: $toolbar_icons_size;
+$toolbar_button_home_icon_size: $toolbar_icons_size;
+$toolbar_button_translate_icon_size: $toolbar_icons_size;
+
+$toolbar_tab_font: $toolbar_font;
+$toolbar_tab_font_size: $font_size_small;
+$toolbar_tab_font_weight: bold;
+$toolbar_tab_text_alignment: center;
+$toolbar_tab_text_decoration: none;
+
+/*
+ * menu (nav & toc/index)
+*/
+$menu_font: $font_family_main;
+$menu_font_size: $font_size_small;
+
+$menu_nav_buttons_icon_size: $font_size_icons_main;
+
+$menu_toc_font: $menu_font;
+$menu_toc_title_font: $menu_toc_font;
+$menu_toc_title_font_size: $font_size_large;
+$menu_toc_item_font: $menu_toc_font;
+$menu_toc_item_font_size: $font_size_small;
+$menu_toc_item_icon_size: $menu_toc_item_font_size;
+
+$menu_index_font: $menu_font;
+$menu_index_title_font: $menu_font;
+$menu_index_title_font_size: $font_size_large;
+$menu_index_item_font: $menu_font;
+$menu_index_item_font_size: $font_size_small;
+
+/*
+ * page
+*/
+$page_font: $font_family_main;
+
+$page_breadcrumbs_font: $page_font;
+$page_breadcrumbs_font_size: $font_size_small;
+
+$page_toolbar_font: $font_family_main;
+$page_toolbar_font_size: $font_size_medium;
+$page_toolbar_icons_size: $font_size_icons_main;
+
+$page_dropdown_arrow_font_size: $font_size_medium;
+
+$page_publish_date_font: $page_font;
+$page_publish_date_font_size: $font_size_xsmall;
+$page_modified_date_font: $page_font;
+$page_modified_date_font_size: $font_size_xsmall;
+
+$page_helpful_message_font: $page_font;
+$page_helpful_message_font_size: $font_size_small;
+$page_helpful_button_icon_size: $page_helpful_message_font_size;
+
+/*
+ * mini toc
+*/
+
+$mini_toc_font: $font_family_main;
+$mini_toc_font_size: $font_size_small;
+
+/*
+ * related topics
+*/
+$related_topics_title_font: $font_family_main;
+$related_topics_title_font_size: $font_size_small;
+$related_topics_entry_font: $related_topics_title_font;
+$related_topics_entry_font_size: $related_topics_title_font_size;
+
+/*
+ * search
+*/
+$search_font: $font_family_main;
+$search_font_size: $font_size_xsmall;
+
+$search_title_font: $search_font;
+$search_title_font_size: $font_size_large;
+
+$search_filter_message_font: $search_font;
+$search_filter_message_font_size: $font_size_xsmall;
+
+$search_result_count_message_font: $search_font;
+$search_result_count_message_font_size: $font_size_xsmall;
+
+$search_result_title_font: $search_font;
+$search_result_title_font_size: $font_size_small;
+$search_result_icon_size: $search_result_title_font_size;
+$search_result_summary_font: $search_result_title_font;
+$search_result_summary_font_size: $font_size_xsmall;
+$search_result_group_name_font: $search_result_summary_font;
+$search_result_group_name_font_size: $search_result_summary_font_size;
+$search_result_group_name_text_alignment: right;
+
+/*
+ * header
+*/
+$header_font: $font_family_main;
+$header_font_size: $font_size_xsmall;
+$header_icons_size: $font_size_small;
+$header_connect_info_font: $header_font;
+$header_connect_info_font_size: $header_font_size;
+
+/*
+ * footer
+*/
+$footer_font: $font_family_main;
+$footer_font_size: $font_size_xsmall;
+$footer_icons_size: $font_size_small;
+$footer_connect_message_font: $footer_font;
+$footer_connect_message_font_size: $font_size_small;
+$footer_connect_info_font: $footer_font;
+$footer_connect_info_font_size: $footer_font_size;
+
+/*
+ * lightbox
+*/
+$lightbox_button_close_icon_size: $font_size_medium;
+
+/*
+ * unsupported browser
+*/
+$unsupported_browser_heading_font_family: $font_family_main;
+$unsupported_browser_heading_font_size: $font_size_large;
+$unsupported_browser_message_font_family: $unsupported_browser_heading_font_family;
+$unsupported_browser_message_font_size: $font_size_small;

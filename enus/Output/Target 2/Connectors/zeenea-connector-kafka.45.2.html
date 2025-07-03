@@ -1,0 +1,114 @@
+<!DOCTYPE html ><html xml:lang="en" lang="en" data-highlight-require-whitespace="false" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>title: Kafka</title><link rel="Prev" href="zeenea-connector-kafka.45.1.html" title="Previous" /><link rel="Next" href="zeenea-connector-local-filesystem.46.1.html" title="Next" /><link rel="StyleSheet" href="../css/font-awesome/css/all.min.css" type="text/css" media="all" /><link rel="StyleSheet" href="css/zeenea-connector-kafka.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/skin.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/social.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/print.css" type="text/css" media="print" /><noscript><div id="noscript_padding"></div></noscript></head><body id="pN2rWPVsepBRnip_002bz_002bqVYhtA" class="ww_skin_page_body" style="visibility: hidden;"><input type="hidden" id="page_onload_url" value="../index.html#page/Connectors/zeenea-connector-kafka.45.2.html"></input><span id="dropdown_ids" style="display:none;"></span><div id="ww_content_container"><header id="wwconnect_header"><div class="ww_skin_breadcrumbs"><a class="WebWorks_Breadcrumb_Link" href="zeenea-connectors-list.01.1.html">Connectors</a> : <span class="WebWorks_Breadcrumb_Text">title: Kafka</span></div><div class="ww_skin_page_toolbar"><div id="dropdown_button_container" class="dropdown_container dropdown_button_container_disabled"><a id="show_hide_all" class="ww_skin ww_behavior_dropdown_toggle ww_skin_dropdown_toggle" title="Page DropDown Toggle" href="#"><i class="far"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><div id="social_links"><!-- Twitter --><!--         --><a id="social_twitter" class="ww_social ww_social_twitter" title="Twitter" target="_blank" href="#"><i class="fab"></i></a><!-- FaceBook Like --><!--               --><a id="social_facebook_like" class="ww_social ww_social_facebook" title="Facebook" target="_blank" href="#"><i class="fab"></i></a><!-- LinkedIn Share --><!--                --><a id="social_linkedin" class="ww_social ww_social_linkedin" title="LinkedIn" target="_blank" href="#"><i class="fab"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><a class="ww_behavior_print ww_skin ww_skin_print" title="Print" href="#"><i class="fa"></i></a></div><!-- was this helpful button --><!--                         --><div class="ww_skin_was_this_helpful_container"><div class="ww_skin_was_this_helpful_message">Was this helpful?</div><div class="ww_skin_was_this_helpful_buttons_container"><div id="helpful_thumbs_up" class="ww_skin_was_this_helpful_button" title="Helpful"><i class="far"></i></div><div id="helpful_thumbs_down" class="ww_skin_was_this_helpful_button" title="Unhelpful"><i class="far"></i></div></div></div></header><div id="page_content_container"><div id="page_content"><div id="wwp100018" class="Title_1">title: Kafka</div><div class="WebWorks_MiniTOC"><div class="WebWorks_MiniTOC_Heading">&nbsp;</div><dl class="WebWorks_MiniTOC_List"><dd><div class="WebWorks_MiniTOC_Entry"><a class="WebWorks_MiniTOC_Link" href="../Connectors/zeenea-connector-kafka.45.2.html#wwp100024">Adding a Kafka Connection</a></div></dd></dl></div><div id="wwp100024" class="Heading_1">Adding a Kafka Connection</div><div id="wwp100030" class="Heading_2">Prerequisites</div><ul id="wwl100054" class="UList"><li id="wwli100042" class="UList_Item" value="1"><div id="wwp100036" class="UList_Paragraph">A user with sufficient permissions is required to establish a connection with Kafka.</div></li><li id="wwli100051" class="UList_Item" value="2"><div id="wwp100045" class="UList_Paragraph">Zeenea traffic flows towards the data source must be open. </div></li></ul><div class="ww_skin_page_overflow"><table id="wwt100177" class="Table" style="border-collapse: collapse; margin-bottom: 18px" border="1px solid #888888" summary=""><tr><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100063" class="Table_Cell_Head"><div id="wwp100057" class="Paragraph">Target</div></div></th><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100075" class="Table_Cell_Head"><div id="wwp100069" class="Paragraph">Protocol</div></div></th><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100087" class="Table_Cell_Head"><div id="wwp100081" class="Paragraph">Usual Ports</div></div></th></tr><tr><td style="background-color: Transparent"><div id="wwb100102" class="Table_Cell_Body"><div id="wwp100096" class="Paragraph">Kafka Broker</div></div></td><td style="background-color: Transparent"><div id="wwb100114" class="Table_Cell_Body"><div id="wwp100108" class="Paragraph">TCP</div></div></td><td style="background-color: Transparent"><div id="wwb100126" class="Table_Cell_Body"><div id="wwp100120" class="Paragraph">9092</div></div></td></tr><tr><td style="background-color: buttonface"><div id="wwb100141" class="Table_Cell_Body"><div id="wwp100135" class="Paragraph">Kafka Schema Registry</div></div></td><td style="background-color: buttonface"><div id="wwb100153" class="Table_Cell_Body"><div id="wwp100147" class="Paragraph">HTTP, HTTPS</div></div></td><td style="background-color: buttonface"><div id="wwb100165" class="Table_Cell_Body"><div id="wwp100159" class="Paragraph">80, 443, 8081</div></div></td></tr><tr></tr></table></div><div id="wwp100180" class="Heading_2">Supported Versions</div><div id="wwp100186" class="Paragraph">The connector was developed and tested with Kafka Server version 2.8.0 and is compatible with 3.0 and earlier.</div><div id="wwp100192" class="Heading_2">Installing the Plugin</div><div id="wwp100207" class="Paragraph">The Kafka connector is available as a plugin and can be downloaded here: <span class="Link"><a href="../Connectors/zeenea-connectors-list.01.1.html#" title="Zeenea Connector Downloads">Zeenea Connector Downloads</a></span>.</div><div id="wwp100222" class="Paragraph">For more information on how to install a plugin, please refer to the following article: <span class="Link"><a href="../Connectors/zeenea-connectors-install-as-plugin.02.1.html#" title="Installing and Configuring Connectors as a Plugin">Installing and Configuring Connectors as a Plugin</a></span>.</div><div id="wwp100228" class="Heading_2">Declaring the Connection</div><div id="wwp100237" class="Paragraph"> Creating and configuring connectors is done through a dedicated configuration file located in the <span class="Code">/connections</span> folder of the relevant scanner.</div><div id="wwp100243" class="Paragraph"> Read more: Managing Connections</div><div id="wwp100249" class="Paragraph">In order to establish a connection with a Kafka instance, specifying the following parameters in the dedicated file is required:</div><div id="wwp100255" class="HTML"><table>
+  <tr>
+    <th>Parameter</th>
+    <th>Expected value</th>
+  </tr>
+  <tr>
+    <td>`name`</td>
+    <td>The name that will be displayed to catalog users for this connection.</td>
+  </tr>
+  <tr>
+    <td>`code`</td>
+    <td>The unique identifier of the connection on the Zeenea platform. Once registered on the platform, this code must not be modified or the connection will be considered as new and the old one removed from the scanner.</td>
+  </tr>
+  <tr>
+    <td>`connector_id`</td>
+    <td>The type of connector to be used for the connection. Here, the value must be `kafka` and this value must not be modified.</td>
+  </tr>
+  <tr>
+    <td>`connection.bootstrap_servers   `</td>
+    <td>A comma-separated list of host:port pairs to use for establishing the initial connection to the Kafka cluster. Example: `broker1.example.com:9092,broker2.example.com:9092`</td>
+  </tr>
+  <tr>
+    <td>`connection.security_protocol`</td>
+    <td>Protocol used to communicate with brokers. (Property security.protocol of Kafka Client). Valid values are: `PLAINTEXT`, `SSL`. (`SASL_PLAINTEXT`, `SASL_SSL` coming soon). Default: `PLAINTEXT`</td>
+  </tr>
+  <tr>
+    <td>`connection.schema_registry_url `</td>
+    <td>Kafka schema registry URL with the protocol (example: `http://schema-registry.example.com:8081`)</td>
+  </tr>
+  <tr>
+    <td>`connection.username`</td>
+    <td>Username for Schema Registry basic authentication</td>
+  </tr>
+  <tr>
+    <td>`connection.password`</td>
+    <td>Password for Schema Registry basic authentication</td>
+  </tr>
+  <tr>
+    <td>`connection.api_key`</td>
+    <td>API key name for Schema Registry API authentication</td>
+  </tr>
+  <tr>
+    <td>`connection.api_secret`</td>
+    <td>API key secret for Schema Registry API authentication</td>
+  </tr>
+  <tr>
+    <td>`inventory.strategy`</td>
+    <td>Inventory strategy. Possible values `topic_sample` or `schema_registry` depend on the desired mechanism for retrieving topic schemas.</td>
+  </tr>
+  <tr>
+    <td>`inventory.sampling_size`</td>
+    <td>Number of messages sampled by topic (default value `1000`).</td>
+  </tr>
+  <tr>
+    <td>`inventory.topic_exclude`</td>
+    <td>(Optional: default value is `_*`)  Name of topics to ignore in the form of a list of patterns separated by spaces. Each pattern can be a regular expression or a simple pattern (or `glob`) according to the `regex:` or `glob:` prefix. If no prefix is specified, the `glob` type is assumed.  If one of the patterns matches the full name of the topic, it will be ignored.  The operation is similar to that of the `~` operator in filters.<br />Example: `_* glob:test* regex:.*_(test|tu)_.*`</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.path`</td>
+    <td>The Trust Store file path. This file must be provided in case TLS encryption is activated (protocol https) and when certificates of Kafka servers are delivered by a specific authority. It must contain the certification chain.</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.password`</td>
+    <td>Password of the trust store file</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.type`</td>
+    <td>Type of the trust store file. (`PKCS12` or `JKS`). Default value is discovered from the file extension.</td>
+  </tr>
+  <tr>
+    <td>`tls.keystore.path`</td>
+    <td>The key store file path. This file must be provided in case TLS encryption is activated (protocol https) and when certificates of Kafka servers are delivered by a specific authority. It must contain the certification chain.</td>
+  </tr>
+  <tr>
+    <td>`tls.keystore.password`</td>
+    <td>Password of the key store file</td>
+  </tr>
+  <tr>
+    <td>`tls.keystore.type`</td>
+    <td>Type of the sey store file (`PKCS12` or `JKS`). Default value is discovered from the file extension.</td>
+  </tr>
+  <tr>
+    <td>`tls.key.password`</td>
+    <td>Password of the private key (if different from the key store password)</td>
+  </tr>
+</table></div><div id="wwp100270" class="Paragraph">:::note A template of the configuration file is available in <span class="Link"><a href="https://github.com/zeenea/connector-conf-templates/tree/main/templates" target="external_window">this repository</a></span>. :::</div><div id="wwp100276" class="Heading_2">Data Extraction</div><div id="wwp100282" class="Heading_3">Topic Sample</div><div id="wwp100288" class="Paragraph">The connector reads each topic to retrieve the last inventory.sampling_size messages to extract the schema. These messages must be in Avro format. Thus, it retrieves a sample of data to identify the schema used.</div><div id="wwp100294" class="Heading_3">Schema Registry</div><div id="wwp100306" class="Paragraph">The connector will retrieve from the schema registry the topics whose name is suffixed by <span class="Code">-key</span> and <span class="Code">-value</span> to determine the list of topics and the list of their fields.</div><div id="wwp100312" class="Heading_2">Collected Metadata</div><div id="wwp100318" class="Heading_3">Inventory</div><div id="wwp100324" class="Paragraph">Will collect the list of topics and its fields.  </div><div id="wwp100330" class="Heading_3">Dataset</div><div id="wwp100336" class="Paragraph">A dataset is a topic. </div><ul id="wwl100426" class="UList"><li id="wwli100351" class="UList_Item" value="1"><div id="wwp100345" class="UList_Paragraph"><span class="Bold">Name</span></div></li><li id="wwli100363" class="UList_Item" value="2"><div id="wwp100357" class="UList_Paragraph"><span class="Bold">Source Description</span></div></li><li id="wwli100423" class="UList_Item" value="3"><div id="wwp100369" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100420" class="UList"><li id="wwli100381" class="UList_Item" value="1"><div id="wwp100375" class="UList_Paragraph">Topic Format (topic_sample)</div></li><li id="wwli100390" class="UList_Item" value="2"><div id="wwp100384" class="UList_Paragraph">Schema Key Type (schema_registry)</div></li><li id="wwli100399" class="UList_Item" value="3"><div id="wwp100393" class="UList_Paragraph">Schema Key Version (schema_registry)</div></li><li id="wwli100408" class="UList_Item" value="4"><div id="wwp100402" class="UList_Paragraph">Schema Value Type (schema_registry)</div></li><li id="wwli100417" class="UList_Item" value="5"><div id="wwp100411" class="UList_Paragraph">Schema Value Version (schema_registry)</div></li></ul></li></ul><div id="wwp100429" class="Heading_3">Field</div><div id="wwp100435" class="Paragraph">Topic field. </div><ul id="wwl100546" class="UList"><li id="wwli100450" class="UList_Item" value="1"><div id="wwp100444" class="UList_Paragraph"><span class="Bold">Name</span></div></li><li id="wwli100462" class="UList_Item" value="2"><div id="wwp100456" class="UList_Paragraph"><span class="Bold">Source Description</span></div></li><li id="wwli100474" class="UList_Item" value="3"><div id="wwp100468" class="UList_Paragraph"><span class="Bold">Type</span></div></li><li id="wwli100489" class="UList_Item" value="4"><div id="wwp100483" class="UList_Paragraph"><span class="Bold">Can be null</span>: <span class="Code">yes</span>, by default </div></li><li id="wwli100504" class="UList_Item" value="5"><div id="wwp100498" class="UList_Paragraph"><span class="Bold">Multivalued</span>: Not supported. Default value <span class="Code">false</span>.</div></li><li id="wwli100519" class="UList_Item" value="6"><div id="wwp100513" class="UList_Paragraph"><span class="Bold">Primary Key</span>: Not supported. Default value <span class="Code">false</span>.</div></li><li id="wwli100543" class="UList_Item" value="7"><div id="wwp100525" class="UList_Paragraph"><span class="Bold">Technical Metadata</span>:</div><ul id="wwl100540" class="UList"><li id="wwli100537" class="UList_Item" value="1"><div id="wwp100531" class="UList_Paragraph">Schema Name (schema_registry)</div></li></ul></li></ul><div id="wwp100549" class="Heading_2">Object Identification Keys</div><div id="wwp100555" class="Paragraph">An identification key is associated with each object in the catalog. In the case of the object being created by a connector, the connector builds it.</div><div id="wwp100561" class="Paragraph"> Read more: Identification Keys</div><div id="wwp100567" class="HTML"><table>
+  <tr>
+    <th>Object</th>
+    <th>Identification Key</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td>code/topic/dataset name </td>
+    <td>
+      <ul>
+      <li>**code**: Unique identifier of the connection noted in the configuration file</li>
+      <li>**dataset name**: Topic name</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Field</td>
+    <td>code/topic/dataset name/schema type/field name</td>
+    <td>
+      <ul>
+      <li>**code**:  Unique identifier of the connection noted in the configuration file</li>
+      <li>**dataset name**: Topic name</li>
+      <li>**schema type**: : `key` or `value` depending on the source of the schema registry field. `value` with the `topic_sample` strategy.</li>
+      <li>**field name**</li>
+      </ul>
+    </td>
+  </tr>
+</table></div></div><div id="page_dates"><div class="ww_skin_document_last_modified_date">Last modified date: 03/19/2025</div></div><!-- Related Topics --><!--                --><footer><!-- Disqus --><!--        --><!-- Google Translation --><!--                    --><br /></footer></div></div><input type="hidden" id="preserve_unknown_file_links" value="false"></input><noscript><div id="noscript_warning">This site works best with JavaScript enabled</div></noscript><script type="text/javascript" src="../scripts/common.js"></script><script type="text/javascript" src="../scripts/page.js"></script></body></html>

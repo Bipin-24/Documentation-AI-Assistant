@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Properties version="1.0" xmlns="urn:WebWorks-Properties-Schema">
+ <Property name="background-color" />
+ <Property name="background-position" />
+ <Property name="caption-margin" />
+ <Property name="caption-side" />
+ <Property name="clear" />
+ <Property name="color" />
+ <Property name="display" />
+ <Property name="float" />
+ <Property name="font-family" />
+ <Property name="font-size" />
+ <Property name="font-style" />
+ <Property name="font-weight" />
+ <Property name="height" />
+ <Property name="line-height" />
+ <Property name="margin-bottom" />
+ <Property name="margin-left" />
+ <Property name="margin-right" />
+ <Property name="margin-top" />
+ <Property name="text-align" />
+ <Property name="text-decoration" />
+ <Property name="text-indent" />
+ <Property name="white-space" />
+ <Property name="width" />
+</Properties>

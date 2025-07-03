@@ -1,0 +1,25 @@
+// Print CSS
+
+// Colors
+$color_skin_breadcrumbs: black;
+$color_skin_breadcrumbs_background: transparent;
+
+
+.ww_skin_breadcrumbs {
+  color: $color_skin_breadcrumbs;
+  // http://www.webdesignerwall.com/tutorials/cross-browser-css-gradient/
+  background: $color_skin_breadcrumbs_background;
+  filter: none;
+}
+
+.ww_skin_page_toolbar, .ww_social {
+  display: none;
+}
+
+div#disqus_thread {
+  display: block;
+}
+
+.ww_skin_page_overflow {
+  overflow: hidden;
+}

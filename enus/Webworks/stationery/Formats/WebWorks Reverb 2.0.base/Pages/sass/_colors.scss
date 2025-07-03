@@ -1,0 +1,306 @@
+/*~~~~~ COLORS ~~~~~*/
+/*~~~~~~~~~~~~~~~~~~*/
+
+/* custom colors                               */
+/*                                             */
+/* define custom values here for easy tracking */
+$neo_main_color: #008bff;
+$neo_main_text_color: #222222;
+$neo_secondary_color: #eeeeee;
+$neo_secondary_text_color: #fefefe;
+$neo_tertiary_color: #222222;
+$neo_page_color: #fefefe;
+
+$facebook_blue: #4267b2;
+$twitter_blue: #17a2f3;
+$linkedin_teal: #0077b5;
+
+
+/* NOTE: Gradients as background colors are supported through linear/radial-gradient property values.*/
+/*       It is suggested to put the gradient value only where it is needed, as it will cause errors  */
+/*       if it is used in the darken() or lighten() functions.                                       */
+/*       If a gradient value is set for a $_layout_color property, you must remove all darken() and  */
+/*       lighten() calls that derive from the gradient, or there will be no color output where those */
+/*       properties are used.                                                                        */
+/*                                                                                                   */
+/*       Usage documentation for Gradients: https://www.w3schools.com/css/css3_gradients.asp         */
+
+
+/* layout colors: set these for a quick application to the output.                                   */
+/*                                                                                                   */
+
+
+$_layout_color_1: $neo_main_color;
+$_layout_color_2: $neo_main_text_color;
+$_layout_color_3: $neo_secondary_color;
+$_layout_color_4: $neo_secondary_text_color;
+$_layout_color_5: $neo_tertiary_color;
+$_layout_color_6: $neo_page_color;
+
+
+/* Defaults for structure items */
+/*                              */
+$link_default_color: $_layout_color_1;
+$link_visited_color: darken($link_default_color, 20%);
+$link_active_color: lighten($link_default_color, 20%);
+
+$table_border_color: #000000;
+
+/* Mini TOC */
+/*          */
+$mini_toc_background_color: $_layout_color_3;
+$mini_toc_entry_background_color_hover: $_layout_color_1;
+$mini_toc_entry_text_color: $_layout_color_2;
+$mini_toc_entry_text_color_hover: $_layout_color_4;
+$mini_toc_entry_text_color_visited: $_layout_color_2;
+$mini_toc_entry_text_color_visited_hover: $_layout_color_4;
+
+/* Related Topics */
+/*                */
+$related_topics_title_background_color: $_layout_color_1;
+$related_topics_title_text_color: $_layout_color_2;
+$related_topics_dropdown_toggle_icon_color: $related_topics_title_text_color;
+$related_topics_entry_text_color: $_layout_color_1;
+$related_topics_entry_text_color_hover: lighten($related_topics_entry_text_color, 20%);
+$related_topics_entry_icon_color: $_layout_color_2;
+
+/* Search Result Highlight */
+/*                         */
+$search_result_highlight_color: yellow;
+
+
+/* colors for specific items */
+/*                           */
+/* toolbar */
+$toolbar_background_color: $_layout_color_1;
+$toolbar_text_color: $_layout_color_2;
+$toolbar_icon_color: $_layout_color_2;
+
+$toolbar_button_background_color: $toolbar_background_color;
+$toolbar_button_icon_color: $toolbar_icon_color;
+$toolbar_button_icon_color_disabled: lighten($toolbar_button_icon_color, 50%);
+
+$toolbar_button_menu_background_color: $toolbar_button_background_color;
+$toolbar_button_menu_background_color_hover: darken($toolbar_button_menu_background_color, 10%);
+$toolbar_button_menu_background_color_click: lighten($toolbar_button_menu_background_color, 10%);
+$toolbar_button_menu_icon_color: $toolbar_button_icon_color;
+$toolbar_button_menu_icon_color_hover: darken($toolbar_button_menu_icon_color, 20%);
+$toolbar_button_menu_icon_color_click: lighten($toolbar_button_menu_icon_color, 20%);
+$toolbar_button_menu_icon_color_disabled: lighten($toolbar_button_menu_icon_color, 50%);
+
+$toolbar_logo_section_background_color: $toolbar_background_color;
+$toolbar_logo_text_color: $toolbar_text_color;
+$toolbar_logo_link_text_color: $toolbar_logo_text_color;
+$toolbar_logo_link_text_color_hover: darken($toolbar_logo_link_text_color, 20%);
+$toolbar_logo_link_text_color_click: lighten($toolbar_logo_link_text_color, 20%);
+
+$toolbar_search_section_background_color: $toolbar_background_color;
+
+$toolbar_search_scope_selector_background_color: $_layout_color_3;
+$toolbar_search_scope_selector_background_color_hover: darken($toolbar_search_scope_selector_background_color, 10%);
+$toolbar_search_scope_selector_text_color: $toolbar_text_color;
+$toolbar_search_scope_selector_text_color_hover: darken($toolbar_search_scope_selector_text_color, 10%);
+$toolbar_search_scope_selector_icon_color: $toolbar_search_scope_selector_text_color;
+$toolbar_search_scope_selector_icon_color_hover: $toolbar_search_scope_selector_text_color_hover;
+
+$toolbar_search_scope_options_text_color: $toolbar_search_scope_selector_text_color;
+$toolbar_search_scope_options_background_color: $toolbar_search_scope_selector_background_color;
+
+$toolbar_search_scope_option_background_color: $toolbar_search_scope_options_background_color;
+$toolbar_search_scope_option_background_color_hover: darken($toolbar_search_scope_option_background_color, 10%);
+$toolbar_search_scope_option_text_color: $toolbar_search_scope_options_text_color;
+$toolbar_search_scope_option_text_color_hover: darken($toolbar_search_scope_option_text_color, 10%);
+
+$toolbar_button_search_background_color: $toolbar_button_background_color;
+$toolbar_button_search_background_color_hover: darken($toolbar_button_search_background_color, 10%);
+$toolbar_button_search_background_color_click: lighten($toolbar_button_search_background_color, 10%);
+$toolbar_button_search_icon_color: $toolbar_button_icon_color;
+$toolbar_button_search_icon_color_hover: darken($toolbar_button_search_icon_color, 20%);
+$toolbar_button_search_icon_color_click: lighten($toolbar_button_search_icon_color, 20%);
+
+$toolbar_button_previous_background_color: $toolbar_button_background_color;
+$toolbar_button_previous_background_color_hover: darken($toolbar_button_previous_background_color, 10%);
+$toolbar_button_previous_background_color_click: lighten($toolbar_button_previous_background_color, 10%);
+$toolbar_button_previous_icon_color: $toolbar_button_icon_color;
+$toolbar_button_previous_icon_color_hover: darken($toolbar_button_previous_icon_color, 20%);
+$toolbar_button_previous_icon_color_click: lighten($toolbar_button_previous_icon_color, 20%);
+
+$toolbar_button_next_background_color: $toolbar_button_background_color;
+$toolbar_button_next_background_color_hover: darken($toolbar_button_next_background_color, 10%);
+$toolbar_button_next_background_color_click: lighten($toolbar_button_next_background_color, 10%);
+$toolbar_button_next_icon_color: $toolbar_button_icon_color;
+$toolbar_button_next_icon_color_hover: darken($toolbar_button_next_icon_color, 20%);
+$toolbar_button_next_icon_color_click: lighten($toolbar_button_next_icon_color, 20%);
+
+$toolbar_button_home_background_color: $toolbar_button_background_color;
+$toolbar_button_home_background_color_hover: darken($toolbar_button_home_background_color, 10%);
+$toolbar_button_home_background_color_click: lighten($toolbar_button_home_background_color, 10%);
+$toolbar_button_home_icon_color: $toolbar_button_icon_color;
+$toolbar_button_home_icon_color_hover: darken($toolbar_button_home_icon_color, 20%);
+$toolbar_button_home_icon_color_click: lighten($toolbar_button_home_icon_color, 20%);
+
+$toolbar_button_translate_background_color: $toolbar_button_background_color;
+$toolbar_button_translate_background_color_hover: darken($toolbar_button_translate_background_color, 10%);
+$toolbar_button_translate_background_color_click: lighten($toolbar_button_translate_background_color, 10%);
+$toolbar_button_translate_icon_color: $toolbar_button_icon_color;
+$toolbar_button_translate_icon_color_hover: darken($toolbar_button_translate_icon_color, 20%);
+$toolbar_button_translate_icon_color_click: lighten($toolbar_button_translate_icon_color, 20%);
+
+$toolbar_tabs_container_background_color: $_layout_color_1;
+$toolbar_tab_background_color: $_layout_color_1;
+$toolbar_tab_background_color_hover:  darken($toolbar_tab_background_color, 10%);
+$toolbar_tab_text_color: $_layout_color_2;
+$toolbar_tab_text_color_hover: darken($toolbar_tab_text_color, 20%);
+$toolbar_tab_current_background_color: lighten($_layout_color_1, 10%);
+$toolbar_tab_current_background_color_hover:  $toolbar_tab_current_background_color;
+$toolbar_tab_current_text_color: $toolbar_tab_text_color;
+$toolbar_tab_current_text_color_hover: $toolbar_tab_current_text_color;
+
+
+/* menu (nav & toc/index) */
+$menu_background_color: $_layout_color_3;
+$menu_text_color: $_layout_color_2;
+
+$menu_nav_buttons_icon_color: $menu_text_color;
+$menu_nav_buttons_icon_color_hover: $_layout_color_2;
+$menu_nav_buttons_icon_color_click: lighten($_layout_color_2, 10%);
+$menu_nav_buttons_background_color: darken($menu_background_color, 20%);
+$menu_nav_buttons_background_color_hover: $_layout_color_1;
+$menu_nav_buttons_background_color_click: lighten($_layout_color_1, 10%);
+
+$menu_nav_buttons_current_icon_color: $menu_nav_buttons_icon_color;
+$menu_nav_buttons_current_icon_color_hover: $menu_nav_buttons_icon_color;
+$menu_nav_buttons_current_icon_color_click: $menu_nav_buttons_icon_color;
+$menu_nav_buttons_current_background_color: $menu_background_color;
+
+$menu_toc_background_color: $menu_background_color;
+$menu_toc_title_text_color: $menu_text_color;
+$menu_toc_item_background_color: $menu_toc_background_color;
+$menu_toc_item_background_color_hover: darken($menu_toc_item_background_color, 5%);
+$menu_toc_item_background_color_click: lighten($menu_toc_item_background_color, 5%);
+$menu_toc_item_text_color: $menu_text_color;
+$menu_toc_item_text_color_hover: darken($menu_toc_item_text_color, 20%);
+$menu_toc_item_text_color_click: lighten($menu_toc_item_text_color, 20%);
+$menu_toc_item_icon_color: $menu_text_color;
+$menu_toc_item_icon_color_hover: darken($menu_toc_item_icon_color, 20%);
+$menu_toc_item_icon_color_click: lighten($menu_toc_item_icon_color, 20%);
+$menu_toc_item_current_background_color: $menu_toc_item_background_color_hover;
+$menu_toc_item_current_background_color_hover: $menu_toc_item_current_background_color;
+$menu_toc_item_current_background_color_click: $menu_toc_item_current_background_color;
+$menu_toc_item_current_text_color: $menu_toc_item_text_color_hover;
+$menu_toc_item_current_text_color_hover: $menu_toc_item_current_text_color;
+$menu_toc_item_current_text_color_click: $menu_toc_item_current_text_color;
+$menu_toc_item_current_icon_color: $menu_toc_item_current_text_color;
+$menu_toc_item_current_icon_color_hover: $menu_toc_item_current_icon_color;
+$menu_toc_item_current_icon_color_click: $menu_toc_item_current_icon_color;
+$menu_toc_item_current_highlight_color: $toolbar_background_color;
+
+$menu_index_background_color: $menu_background_color;
+$menu_index_text_color: $menu_text_color;
+$menu_index_title_color: $menu_text_color;
+$menu_index_link_color: $menu_index_text_color;
+$menu_index_link_color_visited: lighten($menu_index_link_color, 40%);
+$menu_index_link_color_hover: lighten($menu_index_link_color, 20%);
+
+/* page */
+$page_background_color: $_layout_color_6;
+
+$page_breadcrumbs_background_color: $_layout_color_5;
+$page_breadcrumbs_text_color: $_layout_color_4;
+$page_breadcrumbs_link_color: $link_default_color;
+$page_breadcrumbs_link_color_hover: $page_breadcrumbs_link_color;
+$page_breadcrumbs_link_color_visited: $link_visited_color;
+$page_breadcrumbs_link_color_visited_hover: $page_breadcrumbs_link_color_visited;
+
+$page_toolbar_tool_icon_color: $_layout_color_2;
+$page_toolbar_tool_icon_color_hover: lighten($page_toolbar_tool_icon_color, 40%);
+$page_toolbar_tool_icon_color_click: darken($page_toolbar_tool_icon_color, 20%);
+$page_toolbar_icon_divider_color: $page_toolbar_tool_icon_color;
+$page_toolbar_social_icon_color: $page_toolbar_tool_icon_color;
+$page_toolbar_social_icon_facebook_color: $page_toolbar_tool_icon_color;
+$page_toolbar_social_icon_facebook_color_hover: $facebook_blue;
+$page_toolbar_social_icon_twitter_color: $page_toolbar_tool_icon_color;
+$page_toolbar_social_icon_twitter_color_hover: $twitter_blue;
+$page_toolbar_social_icon_linkedin_color: $page_toolbar_tool_icon_color;
+$page_toolbar_social_icon_linkedin_color_hover: $linkedin_teal;
+$page_toolbar_dropdown_toggle_icon_disabled_color: lighten($page_toolbar_tool_icon_color, 50%);
+
+$page_dropdown_arrow_color: $_layout_color_2;
+$page_dropdown_arrow_color_hover: darken($page_dropdown_arrow_color, 20%);
+$page_dropdown_arrow_color_click: lighten($page_dropdown_arrow_color, 20%);
+
+$page_publish_date_color: lighten($_layout_color_2, 20%);
+$page_modified_date_color: lighten($_layout_color_2, 20%);
+
+$page_helpful_message_text_color: $_layout_color_2;
+$page_helpful_button_icon_color: $page_toolbar_tool_icon_color;
+$page_helpful_button_icon_color_hover: lighten($page_helpful_button_icon_color, 20%);
+$page_helpful_button_icon_color_click: darken($page_helpful_button_icon_color, 20%);
+$page_helpful_button_icon_color_selected: $_layout_color_1;
+
+/* popup */
+$popup_background_color: $_layout_color_6;
+$popup_border_color: $_layout_color_5;
+
+/* disqus */
+$disqus_background_color: $_layout_color_3;
+
+/* search */
+$search_background_color: $_layout_color_6;
+$search_link_text_color:  $_layout_color_1;
+$search_plain_text_color: $_layout_color_2;
+
+$search_title_text_color: $search_plain_text_color;
+
+$search_filter_message_text_color: $search_plain_text_color;
+
+$search_result_count_message_text_color: $search_plain_text_color;
+
+$search_result_background_color: $search_background_color;
+$search_result_background_color_hover: darken($search_result_background_color, 5%);
+$search_result_title_text_color: $search_link_text_color;
+$search_result_title_text_color_hover: lighten($search_result_title_text_color, 20%);
+$search_result_title_text_color_click: darken($search_result_title_text_color, 10%);
+$search_result_title_text_color_visited: darken($search_result_title_text_color, 20%);
+$search_result_icon_color: $search_plain_text_color;
+$search_result_summary_text_color: $search_plain_text_color;
+$search_result_summary_highlight_background_color: $search_result_highlight_color;
+$search_result_summary_highlight_text_color: $search_result_summary_text_color;
+$search_result_group_name_background_color: $search_result_background_color_hover;
+$search_result_group_name_text_color: lighten($search_result_summary_text_color, 40%);
+$search_result_separator_color: darken($search_result_background_color, 20%);
+
+/* header */
+$header_background_color: $_layout_color_5;
+$header_text_color: $_layout_color_3;
+$header_link_color: $link_default_color;
+$header_link_color_visited: $link_visited_color;
+
+/* footer */
+$footer_background_color: $_layout_color_5;
+$footer_text_color: $_layout_color_3;
+$footer_link_color: $link_default_color;
+$footer_link_color_visited: $link_visited_color;
+$footer_hr_color: lighten($footer_background_color, 20%);
+$footer_publish_date_text_color: $footer_hr_color;
+$footer_copyright_message_text_color: $footer_hr_color;
+
+/* back-to-top button */
+$back_to_top_background_color: $_layout_color_1;
+$back_to_top_background_color_hover: darken($back_to_top_background_color, 20%);
+$back_to_top_caret_color: $_layout_color_2;
+$back_to_top_caret_color_hover: darken($back_to_top_caret_color, 20%);
+
+/*
+ * lightbox
+*/
+$lightbox_background_color: rgba(0, 0, 0, 0.7);
+$lightbox_button_close_icon_color: $_layout_color_4;
+
+/* unsupported browser */
+$unsupported_browser_heading_text_color: $_layout_color_1;
+$unsupported_browser_message_text_color: $_layout_color_2;
+
+/* no javascript warning */
+$no_javascript_background_color: #ae0000;
+$no_javascript_text_color: $_layout_color_4;

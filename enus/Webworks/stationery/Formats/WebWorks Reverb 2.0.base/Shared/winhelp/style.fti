@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="attachment">
+   <Item value="scroll" />
+   <Item value="fixed" />
+  </Class>
+
+  <Class name="repeat">
+   <Item value="no-repeat" />
+   <Item value="repeat" />
+   <Item value="repeat-x" />
+   <Item value="repeat-y" />
+  </Class>
+
+  <Class name="layout-position">
+   <Item value="static" />
+   <Item value="relative" />
+   <Item value="absolute" />
+  </Class>
+
+  <Class name="position-horizontal">
+   <Item value="left" />
+   <Item value="center" />
+   <Item value="right" />
+  </Class>
+
+  <Class name="position-vertical">
+   <Item value="top" />
+   <Item value="center" />
+   <Item value="bottom" />
+  </Class>
+
+  <Class name="text-direction">
+   <Item value="ltr" />
+   <Item value="rtl" />
+  </Class>
+
+  <Class name="normal">
+   <Item value="normal" />
+  </Class>
+
+  <Class name="text-align-horizontal">
+   <Item value="left" />
+   <Item value="center" />
+   <Item value="right" />
+   <Item value="justify" />
+  </Class>
+
+  <Class name="text-align-vertical">
+   <Item value="baseline" />
+   <Item value="sub" />
+   <Item value="super" />
+   <Item value="top" />
+   <Item value="text-top" />
+   <Item value="middle" />
+   <Item value="bottom" />
+   <Item value="text-bottom" />
+  </Class>
+
+  <Class name="cell-align-vertical">
+   <Item value="top" />
+   <Item value="middle" />
+   <Item value="bottom" />
+  </Class>
+
+  <Class name="text-decoration-lines">
+   <Item value="none" />
+   <Item value="single" />
+  </Class>
+
+  <Class name="text-transform">
+   <Item value="none" />
+   <Item value="capitalize" />
+   <Item value="uppercase" />
+   <Item value="lowercase" />
+  </Class>
+
+  <Class name="unicode-bidi">
+   <Item value="normal" />
+   <Item value="embed" />
+   <Item value="bidi-override" />
+  </Class>
+
+  <Class name="white-space">
+   <Item value="normal" />
+   <Item value="nowrap" />
+  </Class>
+
+  <Class name="font-family" match="^ *([^ \t\r\n]+) *$" validater="font-family">
+   <Common value="Arial, Verdana, sans-serif" />
+   <Common value="serif" />
+   <Common value="sans-serif" />
+   <Common value="cursive" />
+   <Common value="fantasy" />
+   <Common value="monospace" />
+  </Class>
+
+  <Class name="absolute-size">
+   <Item value="xx-small" />
+   <Item value="x-small" />
+   <Item value="small" />
+   <Item value="medium" />
+   <Item value="large" />
+   <Item value="x-large" />
+   <Item value="xx-large" />
+  </Class>
+
+  <Class name="relative-size">
+   <Item value="larger" />
+   <Item value="smaller" />
+  </Class>
+
+  <Class name="font-style">
+   <Item value="normal" />
+   <Item value="italic" />
+  </Class>
+
+  <Class name="font-variant">
+   <Item value="normal" />
+   <Item value="small-caps" />
+  </Class>
+
+  <Class name="font-weight">
+   <Item value="normal" />
+   <Item value="bold" />
+  </Class>
+
+  <Class name="border-style">
+   <Item value="none" />
+   <Item value="single" />
+   <Item value="dotted" />
+  </Class>
+
+  <Class name="border-width-name">
+   <Item value="thin" />
+   <Item value="medium" />
+   <Item value="thick" />
+  </Class>
+
+  <Class name="auto">
+   <Item value="auto" />
+  </Class>
+
+  <Class name="html-element" match="^ *(.+) *$" validater="html-element" />
+
+  <Class name="html-display">
+   <Item value="none" />
+   <Item value="block" />
+   <Item value="inline" />
+   <Item value="list-item" />
+  </Class>
+
+  <Class name="float">
+   <Item value="none" />
+   <Item value="left" />
+   <Item value="right" />
+  </Class>
+
+  <Class name="clear">
+   <Item value="none" />
+   <Item value="left" />
+   <Item value="right" />
+   <Item value="both" />
+  </Class>
+
+  <Class name="cursor-name">
+   <Item value="default" />
+   <Item value="auto" />
+   <Item value="crosshair" />
+   <Item value="pointer" />
+   <Item value="move" />
+   <Item value="e-resize" />
+   <Item value="ne-resize" />
+   <Item value="nw-resize" />
+   <Item value="n-resize" />
+   <Item value="se-resize" />
+   <Item value="sw-resize" />
+   <Item value="s-resize" />
+   <Item value="w-resize" />
+   <Item value="text" />
+   <Item value="wait" />
+   <Item value="help" />
+  </Class>
+
+  <Class name="overflow">
+   <Item value="auto" />
+   <Item value="visible" />
+   <Item value="hidden" />
+   <Item value="scroll" />
+  </Class>
+
+  <Class name="visibility">
+   <Item value="visible" />
+   <Item value="hidden" />
+  </Class>
+
+  <Class name="alternate-shading-context">
+   <Item value="row" stringid="row" />
+   <Item value="column" stringid="column" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="html" />
+  <Group name="text" />
+  <Group name="font" />
+  <Group name="border" />
+  <Group name="margin" />
+  <Group name="padding" />
+  <Group name="table-head" />
+  <Group name="table-body" />
+  <Group name="table-foot" />
+ </Groups>
+
+ <Settings />
+
+ <RuleTraitsSet>
+  <RuleTraits category="Paragraph">
+   <Options />
+
+   <Properties>
+    <!-- HTML -->
+    <!--      -->
+    
+    <!-- Background -->
+    <!--            -->
+    
+    <!-- Text -->
+    <!--      -->
+    <Property name="color" group="text" default="black">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="text-align" group="text" default="left">
+     <PropertyClass name="text-align-horizontal" />
+    </Property>
+    <Property name="text-decoration-underline" group="text" default="none">
+     <PropertyClass name="text-decoration-lines" />
+    </Property>
+    <Property name="text-decoration-line-through" group="text" default="none">
+     <PropertyClass name="text-decoration-lines" />
+    </Property>
+    <Property name="text-indent" group="text" default="0pt">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="white-space" group="text" default="normal">
+     <PropertyClass name="white-space" />
+    </Property>
+    
+
+    <!-- Font -->
+    <!--      -->
+    <Property name="font-family" group="font" default="sans-serif">
+     <PropertyClass name="font-family" />
+    </Property>
+    <Property name="font-size" group="font" default="12pt">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="font-style" group="font" default="normal">
+     <PropertyClass name="font-style" />
+    </Property>
+    <Property name="font-variant" group="font" default="normal">
+     <PropertyClass name="font-variant" />
+    </Property>
+    <Property name="font-weight" group="font" default="normal">
+     <PropertyClass name="font-weight" />
+    </Property>
+
+    <!-- Borders -->
+    <!--         -->
+    <Property name="border-left-style" group="border" default="single">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-right-style" group="border" default="single">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-top-style" group="border" default="single">
+     <PropertyClass name="border-style" />
+    </Property>
+    <Property name="border-bottom-style" group="border" default="single">
+     <PropertyClass name="border-style" />
+    </Property>
+
+    <!-- Margins -->
+    <!--         -->
+    <Property name="margin-left" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-right" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-top" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="margin-bottom" group="margin" default="auto">
+     <PropertyClass name="auto" />
+     <PropertyClass name="units" />
+    </Property>
+
+    <!-- Padding -->
+    <!--         -->
+    
+    
+    
+    
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Character">
+   <Options />
+
+   <Properties>
+    <!-- HTML -->
+    <!--      -->
+    
+    <!-- Background -->
+    <!--            -->
+
+    <!-- Text -->
+    <!--      -->
+    <Property name="color" group="text" default="black">
+     <PropertyClass name="color-name" />
+     <PropertyClass name="color-rgb" />
+    </Property>
+    <Property name="text-decoration-underline" group="text" default="none">
+     <PropertyClass name="text-decoration-lines" />
+    </Property>
+    <Property name="text-decoration-line-through" group="text" default="none">
+     <PropertyClass name="text-decoration-lines" />
+    </Property>
+
+    <!-- Font -->
+    <!--      -->
+    <Property name="font-family" group="font" default="sans-serif">
+     <PropertyClass name="font-family" />
+    </Property>
+    <Property name="font-size" group="font" default="12pt">
+     <PropertyClass name="units" />
+    </Property>
+    <Property name="font-style" group="font" default="normal">
+     <PropertyClass name="font-style" />
+    </Property>
+    <Property name="font-variant" group="font" default="normal">
+     <PropertyClass name="font-variant" />
+    </Property>
+    <Property name="font-weight" group="font" default="normal">
+     <PropertyClass name="font-weight" />
+    </Property>
+
+    <!-- Borders -->
+    <!--         -->
+
+    <!-- Margins -->
+    <!--         -->
+  
+    <!-- Padding -->
+    <!--         -->
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Table">
+   <Options />
+
+   <Properties>
+    <!-- HTML -->
+    <!--      -->
+
+    <!-- Caption -->
+    <!--         -->
+
+    <!-- Background -->
+    <!--            -->
+
+    <!-- Borders -->
+    <!--         -->
+
+    <!-- Margins -->
+    <!--         -->
+
+    <!-- Padding -->
+    <!--         -->
+
+    <!-- Spacing -->
+    <!--         -->
+
+    <!-- Vertical Alignment -->
+    <!--                    -->
+
+    <!-- Table Head Background -->
+    <!--                       -->
+    <!-- Table Head Borders -->
+    <!--                    -->
+
+    <!-- Table Head Padding -->
+    <!--                    -->
+
+    <!-- Table Head Vertical Alignment -->
+    <!--                               -->
+    
+    <!-- Table Body Background -->
+    <!--                       -->
+    
+    <!-- Table Body Borders -->
+    <!--                    -->
+    
+    <!-- Table Body Padding -->
+    <!--                    -->
+    
+    <!-- Table Body Vertical Alignment -->
+    <!--                               -->
+    
+    <!-- Table Foot Background -->
+    <!--                       -->
+
+    <!-- Table Foot Padding -->
+    <!--                    -->
+
+    <!-- Table Foot Vertical Alignment -->
+    <!--                               -->
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Page">
+   <Options />
+
+   <Properties>
+    <!-- HTML -->
+    <!--      -->
+
+    <!-- Background -->
+    <!--            -->
+
+    <!-- Borders -->
+    <!--         -->
+
+    <!-- Margins -->
+    <!--         -->
+
+    <!-- Padding -->
+    <!--         -->
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Graphic">
+   <Options />
+
+   <Properties>
+    <!-- HTML -->
+    <!--      -->
+
+    <!-- Borders -->
+    <!--         -->
+
+    <!-- Margins -->
+    <!--         -->
+
+    <!-- Padding -->
+    <!--         -->
+   </Properties>
+  </RuleTraits>
+ </RuleTraitsSet>
+</FormatTraitInfo>

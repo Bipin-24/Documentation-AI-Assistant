@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Groups>
+  <Group name="report-topics" />
+ </Groups>
+
+ <Settings>
+  <Setting name="report-topics-generate" group="report-topics" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="report-topics-link" group="report-topics" default="message">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-topics-duplicate" group="report-topics" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

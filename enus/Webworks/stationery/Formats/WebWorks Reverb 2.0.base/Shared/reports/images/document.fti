@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Groups>
+  <Group name="report-images" />
+ </Groups>
+
+ <Settings>
+  <Setting name="report-images-generate" group="report-images" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="report-images-byref-source-missing" group="report-images" default="warning">
+   <SettingClass name="severity" />
+  </Setting>
+  <Setting name="report-images-in-table-cells" group="report-images" default="ignore">
+   <SettingClass name="severity" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

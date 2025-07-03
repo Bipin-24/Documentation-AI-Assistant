@@ -1,0 +1,62 @@
+{
+    "report_accessibility": {
+        "report_accessibility_image_long_descriptions": "warning",
+        "report_accessibility_table_summaries": "warning",
+        "report_accessibility_generate": "false",
+        "report_accessibility_image_map_alt_tags": "warning",
+        "report_accessibility_image_alt_tags": "warning"
+    },
+    "report_styles": {
+        "report_styles_non_standard_style": "warning",
+        "report_styles_override": "warning",
+        "report_styles_generate": "true"
+    },
+    "links": {
+        "external_url_target": "external_window",
+        "baggage_file_target": "external_window"
+    },
+    "report_links": {
+        "report_links_unresolved_to_anchor": "warning",
+        "report_links_unresolved_to_anchor_in_document": "warning",
+        "report_links_unsupported_group_to_group": "warning",
+        "report_links_unresolved_to_document": "warning",
+        "report_links_unsupported_external_url": "warning",
+        "report_links_unresolved_to_file": "warning",
+        "report_links_external_url": "validate",
+        "report_links_generate": "true",
+        "report_links_unsupported_baggage_file": "warning",
+        "report_links_baggage_file": "message"
+    },
+    "report_filenames": {
+        "report_filenames_ignored": "warning",
+        "report_filenames_renamed": "warning",
+        "report_filenames_used": "message",
+        "report_filenames_generate": "true"
+    },
+    "file_processing": {
+        "file_processing_index": "ignore",
+        "file_processing_toc": "ignore",
+        "file_processing_front_matter": "output"
+    },
+    "files": {
+        "groupname_convert_spaces": "false",
+        "file_split_handling": "combine",
+        "filename_split_pattern": "$D;.$DN;.$PN;",
+        "filename_spaces_to_underscores": "false",
+        "filename_convert_name_to": "normal",
+        "filename_frame_pattern": "$D;.$DN;.$PN;.$GN;",
+        "filename_replace_spaces_with": "_"
+    },
+    "report_conditions": {
+        "report_conditions_unknown_condition": "warning",
+        "report_conditions_generate": "true"
+    },
+    "report_images": {
+        "report_images_in_table_cells": "ignore",
+        "report_images_generate": "true",
+        "report_images_byref_source_missing": "warning"
+    },
+    "locale": {
+        "locale": "en"
+    }
+}

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="string" validater="string">
+  </Class>
+
+  <Class name="boolean">
+   <Item value="true" stringid="boolean-true" />
+   <Item value="false" stringid="boolean-false" />
+  </Class>
+
+  <Class name="units" match="^ *([0-9]+) *(%|in|cm|mm|em|ex|pt|pc|px) *$" validater="units" />
+
+  <Class name="number" match="^ *([1-9][0-9]*) *$">
+   <Common value="1" />
+   <Common value="2" />
+   <Common value="3" />
+   <Common value="4" />
+   <Common value="5" />
+  </Class>
+
+  <Class name="pixels" match="^ *([1-9][0-9]*) *$">
+   <Common value="72" />
+   <Common value="96" />
+   <Common value="144" />
+   <Common value="150" />
+   <Common value="300" />
+  </Class>
+
+  <Class name="infinite">
+   <Item value="infinite" />
+  </Class>
+
+  <Class name="color-name">
+   <Item value="transparent" />
+   <Item value="aqua" />
+   <Item value="black" />
+   <Item value="blue" />
+   <Item value="fuchsia" />
+   <Item value="gray" />
+   <Item value="green" />
+   <Item value="lime" />
+   <Item value="maroon" />
+   <Item value="navy" />
+   <Item value="olive" />
+   <Item value="purple" />
+   <Item value="red" />
+   <Item value="silver" />
+   <Item value="teal" />
+   <Item value="white" />
+   <Item value="yellow" />
+  </Class>
+
+  <Class name="color-rgb" match="^ *#?([0-9abcdefABCDEF]{1,6}) *$" validater="color" />
+
+  <Class name="url" match="^ *(.+)$" validater="url" />
+
+  <Class name="email" match="^ *(.+) *$" validater="email" />
+
+  <Class name="path" match="^ *(.+)$" validater="path" />
+
+  <Class name="file-path" match="^ *(.+)$" validater="file-path" />
+
+  <Class name="directory-path" match="^ *(.+)$" validater="directory-path" />
+
+  <Class name="project-file-path" match="^ *(.+)$" validater="project-file-path" />
+
+  <Class name="target-dependency-rule" match="^(.+)$" validater="target-dependency-rule" />
+
+  <Class name="paragraph-rule" match="^(.+)$" validater="paragraph-rule" />
+
+  <Class name="character-rule" match="^(.+)$" validater="character-rule" />
+
+  <Class name="page-rule" match="^(.+)$" validater="page-rule" />
+
+  <Class name="none">
+   <Item value="none" />
+  </Class>
+
+  <Class name="automatic">
+   <Item value="{WWAutomatic}" />
+  </Class>
+
+  <Class name="all">
+   <Item value="all" />
+  </Class>
+
+  <Class name="percent">
+   <Item value="1" />
+   <Item value="2" />
+   <Item value="3" />
+   <Item value="4" />
+   <Item value="5" />
+   <Item value="6" />
+   <Item value="7" />
+   <Item value="8" />
+   <Item value="9" />
+   <Item value="10" />
+   <Item value="11" />
+   <Item value="12" />
+   <Item value="13" />
+   <Item value="14" />
+   <Item value="15" />
+   <Item value="16" />
+   <Item value="17" />
+   <Item value="18" />
+   <Item value="19" />
+   <Item value="20" />
+   <Item value="21" />
+   <Item value="22" />
+   <Item value="23" />
+   <Item value="24" />
+   <Item value="25" />
+   <Item value="26" />
+   <Item value="27" />
+   <Item value="28" />
+   <Item value="29" />
+   <Item value="30" />
+   <Item value="31" />
+   <Item value="32" />
+   <Item value="33" />
+   <Item value="34" />
+   <Item value="35" />
+   <Item value="36" />
+   <Item value="37" />
+   <Item value="38" />
+   <Item value="39" />
+   <Item value="40" />
+   <Item value="41" />
+   <Item value="42" />
+   <Item value="43" />
+   <Item value="44" />
+   <Item value="45" />
+   <Item value="46" />
+   <Item value="47" />
+   <Item value="48" />
+   <Item value="49" />
+   <Item value="50" />
+   <Item value="51" />
+   <Item value="52" />
+   <Item value="53" />
+   <Item value="54" />
+   <Item value="55" />
+   <Item value="56" />
+   <Item value="57" />
+   <Item value="58" />
+   <Item value="59" />
+   <Item value="60" />
+   <Item value="61" />
+   <Item value="62" />
+   <Item value="63" />
+   <Item value="64" />
+   <Item value="65" />
+   <Item value="66" />
+   <Item value="67" />
+   <Item value="68" />
+   <Item value="69" />
+   <Item value="70" />
+   <Item value="71" />
+   <Item value="72" />
+   <Item value="73" />
+   <Item value="74" />
+   <Item value="75" />
+   <Item value="76" />
+   <Item value="77" />
+   <Item value="78" />
+   <Item value="79" />
+   <Item value="80" />
+   <Item value="81" />
+   <Item value="82" />
+   <Item value="83" />
+   <Item value="84" />
+   <Item value="85" />
+   <Item value="86" />
+   <Item value="87" />
+   <Item value="88" />
+   <Item value="89" />
+   <Item value="90" />
+   <Item value="91" />
+   <Item value="92" />
+   <Item value="93" />
+   <Item value="94" />
+   <Item value="95" />
+   <Item value="96" />
+   <Item value="97" />
+   <Item value="98" />
+   <Item value="99" />
+   <Item value="100" />
+  </Class>
+
+  <Class name="filename" match="^(.*)$" validater="filename" />
+
+  <Class name="file-extension" match="^ *(\..+) *$" validater="file-extension" />
+
+  <Class name="severity">
+   <Item value="ignore" stringid="severity-ignore" />
+   <Item value="message" stringid="severity-message" />
+   <Item value="warning" stringid="severity-warning" />
+   <Item value="error" stringid="severity-error" />
+  </Class>
+
+  <Class name="processing">
+   <Item value="ignore" stringid="ignore" />
+   <Item value="output" stringid="generate-output" />
+  </Class>
+
+  <Class name="auto-detect">
+   <Item value="auto-detect" />
+  </Class>
+ </Classes>
+
+ <Groups />
+
+ <Settings />
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

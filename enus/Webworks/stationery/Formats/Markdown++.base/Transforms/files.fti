@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="space-value" validater="string">
+   <Common value="_" />
+   <Common value="-" />
+   <Common value="no-space" />
+   <Common value="ignore" stringid="ignore" />
+  </Class>
+  
+  <Class name="case-value" validater="string">
+   <Item value="normal" />
+   <Item value="lowecase" />
+   <Item value="uppercase" />
+   <Item value="camelcase" />
+   <Item value="pascalcase" />
+  </Class>
+ </Classes>
+
+ <Groups />
+
+ <Settings>
+  <!-- Files -->
+  <!--       -->
+  <Setting name="filename-split-pattern" group="files" default="$D;.$DN;.$PN;">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="filename-frame-pattern" group="files" default="$D;.$DN;.$PN;.$GN;">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="filename-spaces-to-underscores" group="files" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="groupname-convert-spaces" group="files" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="filename-replace-spaces-with" group="files" default="_">
+   <SettingClass name="space-value" />
+  </Setting>
+  <Setting name="filename-convert-name-to" group="files" default="normal">
+   <SettingClass name="case-value" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

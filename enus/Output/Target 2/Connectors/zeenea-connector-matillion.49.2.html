@@ -1,0 +1,119 @@
+<!DOCTYPE html ><html xml:lang="en" lang="en" data-highlight-require-whitespace="false" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>title: Matillion</title><link rel="Prev" href="zeenea-connector-matillion.49.1.html" title="Previous" /><link rel="Next" href="zeenea-connector-microstrategy.50.1.html" title="Next" /><link rel="StyleSheet" href="../css/font-awesome/css/all.min.css" type="text/css" media="all" /><link rel="StyleSheet" href="css/zeenea-connector-matillion.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/skin.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/social.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/print.css" type="text/css" media="print" /><noscript><div id="noscript_padding"></div></noscript></head><body id="pSKxQMSn3Z1ZcQiOQkb0Tng" class="ww_skin_page_body" style="visibility: hidden;"><input type="hidden" id="page_onload_url" value="../index.html#page/Connectors/zeenea-connector-matillion.49.2.html"></input><span id="dropdown_ids" style="display:none;"></span><div id="ww_content_container"><header id="wwconnect_header"><div class="ww_skin_breadcrumbs"><a class="WebWorks_Breadcrumb_Link" href="zeenea-connectors-list.01.1.html">Connectors</a> : <span class="WebWorks_Breadcrumb_Text">title: Matillion  </span></div><div class="ww_skin_page_toolbar"><div id="dropdown_button_container" class="dropdown_container dropdown_button_container_disabled"><a id="show_hide_all" class="ww_skin ww_behavior_dropdown_toggle ww_skin_dropdown_toggle" title="Page DropDown Toggle" href="#"><i class="far"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><div id="social_links"><!-- Twitter --><!--         --><a id="social_twitter" class="ww_social ww_social_twitter" title="Twitter" target="_blank" href="#"><i class="fab"></i></a><!-- FaceBook Like --><!--               --><a id="social_facebook_like" class="ww_social ww_social_facebook" title="Facebook" target="_blank" href="#"><i class="fab"></i></a><!-- LinkedIn Share --><!--                --><a id="social_linkedin" class="ww_social ww_social_linkedin" title="LinkedIn" target="_blank" href="#"><i class="fab"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><a class="ww_behavior_print ww_skin ww_skin_print" title="Print" href="#"><i class="fa"></i></a></div><!-- was this helpful button --><!--                         --><div class="ww_skin_was_this_helpful_container"><div class="ww_skin_was_this_helpful_message">Was this helpful?</div><div class="ww_skin_was_this_helpful_buttons_container"><div id="helpful_thumbs_up" class="ww_skin_was_this_helpful_button" title="Helpful"><i class="far"></i></div><div id="helpful_thumbs_down" class="ww_skin_was_this_helpful_button" title="Unhelpful"><i class="far"></i></div></div></div></header><div id="page_content_container"><div id="page_content"><div id="wwp100018" class="Title_1">title: Matillion  </div><div class="WebWorks_MiniTOC"><div class="WebWorks_MiniTOC_Heading">&nbsp;</div><dl class="WebWorks_MiniTOC_List"><dd><div class="WebWorks_MiniTOC_Entry"><a class="WebWorks_MiniTOC_Link" href="../Connectors/zeenea-connector-matillion.49.2.html#wwp100024">Adding a Matillion Connection</a></div></dd></dl></div><div id="wwp100024" class="Heading_1">Adding a Matillion Connection</div><div id="wwp100030" class="Heading_2">Prerequisites</div><ul id="wwl100063" class="UList"><li id="wwli100051" class="UList_Item" value="1"><div id="wwp100045" class="UList_Paragraph">A user with sufficient <span class="Link"><a href="../Connectors/zeenea-connector-matillion.49.2.html#wwp100207" title="title: Matillion">permissions</a></span> is required to establish a connection with Matillion.</div></li><li id="wwli100060" class="UList_Item" value="2"><div id="wwp100054" class="UList_Paragraph">Zeenea traffic flows towards the ELT must be open.</div></li></ul><div id="wwp100069" class="Paragraph">:::note The configuration template can be downloaded here: <span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUfVz&amp;amp;d=%2Fa%2FNu000002lgAj%2FbyDtktF3VLF4yHIKBY3atDKJ.idKljC9n7gjoeguY20&amp;amp;asPdf=false" target="external_window">matillion.conf</a></span><br />:::</div><div id="wwp100075" class="Heading_2">Supported Versions</div><div id="wwp100081" class="Paragraph">The Matillion module is compatible with the "Basic" edition of the online version of the product. </div><div id="wwp100087" class="Heading_2">Installing the Plugin</div><div id="wwp100102" class="Paragraph">The Matillion plugin can be downloaded here: <span class="Link"><a href="../Connectors/zeenea-connectors-list.01.1.html#" title="Zeenea Connector Downloads">Zeenea Connector Downloads</a></span></div><div id="wwp100117" class="Paragraph">For more information on how to install a plugin, please refer to the following article: <span class="Link"><a href="../Connectors/zeenea-connectors-install-as-plugin.02.1.html#" title="Installing and Configuring Connectors as a Plugin">Installing and Configuring Connectors as a Plugin</a></span>.</div><div id="wwp100123" class="Heading_2">Declaring the Connection</div><div id="wwp100132" class="Paragraph">Creating and configuring connectors is done through a dedicated configuration file located in the <span class="Code">/connections</span> folder of the relevant scanner. The scanner frequently checks for any change and resynchronises automatically.</div><div id="wwp100138" class="Paragraph">Read more: Managing Connections</div><div id="wwp100144" class="Paragraph">In order to establish a connection with a Matillion instance, the following parameters in the dedicated file are required:</div><div id="wwp100150" class="Heading_3">Changes in version 4.1.0</div><div id="wwp100156" class="Paragraph">Since version 4.1.0, rich filters replace the old filters.</div><div id="wwp100162" class="Paragraph">Due to a name conflict between the new parameter (filter) and the old parameters, we were unable to ensure a smooth migration period during which both setting modes could be used.</div><div id="wwp100177" class="Paragraph">The <span class="Code">filter.includes</span> and <span class="Code">filter.exclude</span>s parameters are replaced by the single <span class="Code">filter</span> parameter.</div><div id="wwp100189" class="Paragraph">The <span class="Code">filter.versions</span> parameter is replaced by the <span class="Code">versions</span> parameter, which works in exactly the same way.</div><div id="wwp100195" class="HTML"><table>
+  <tr>
+    <th>Parameter</th>
+    <th>Expected value</th>
+  </tr>
+  <tr>
+    <td>`name`</td>
+    <td>The name that will be displayed to catalog users for this connection.</td>
+  </tr>
+  <tr>
+    <td>`code`</td>
+    <td>The unique identifier of the connection on the Zeenea platform. Once registered on the platform, this code must not be modified or the connection will be considered as new and the old one removed from the scanner.</td>
+  </tr>
+  <tr>
+    <td>`connector_id`</td>
+    <td>The type of connector to be used for the connection. Here, the value must be `matillion` and this value must not be modified.</td>
+  </tr>
+  <tr>
+    <td>`connection.url`</td>
+    <td>Matillion instance URL</td>
+  </tr>
+  <tr>
+    <td>`connection.username`</td>
+    <td>Username</td>
+  </tr>
+  <tr>
+    <td>`connection.password`</td>
+    <td>Password</td>
+  </tr>
+  <tr>
+    <td>`multi_catalog.enabled`</td>
+    <td>Indicates whether the backing database is configured with the multi catalog option or not. The value should be the same as in the corresponding connection.</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.path`</td>
+    <td>The Trust Store file path. This file must be provided in case TLS encryption is activated (protocol https) and when certificates of Matillion servers are delivered by a specific authority. It must contain the certification chain.</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.password`</td>
+    <td>Password of the trust store file</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.type`</td>
+    <td>Type of the trust store file (`PKCS12` or `JKS`). Default value is discovered from the file extension.</td>
+  </tr>
+  <tr>
+    <td>`filter`</td>
+    <td>**Since version 4.1.0**.<br /> Filter the jobs (transformation only for now) that should be synchronized. See [Filters](#filters) below.</td>
+  </tr>
+  <tr>
+    <td>`filter.includes`</td>
+    <td>**Up to version 4.0.0 (replaced by filter)**.<br />List of regular expression with comma separated representing elements to include.</td>
+  </tr>
+  <tr>
+    <td>`filter.excludes`</td>
+    <td>**Up to version 4.0.0 (replaced by filter)**.<br />List of regular expression with comma separated representing elements to exclude.</td>
+  </tr>
+  <tr>
+    <td>
+      <p>**Since version 4.1.0**:<br />`filter`</p>
+      <p>**Since version 4.0.0**:<br />`filter.versions`</p>
+    </td>
+    <td>
+      <ul>
+        <li>List of version rules separated by a comma.</li>
+        <li>Only one version of a project is synchronized.</li>
+        <li>The rules are used to define which version of a project should be synchronized.</li>
+        <li>Each rule consists of three segments separated by a slash `/`.</li>
+        <li>The first segment is a pattern that should match the group name.</li>
+        <li>The second segment is a pattern that should match the project name.</li>
+        <li>The last one is the version name to use. It can uses variable if capturing groups have been defined in the other regex.</li>
+        <li>If the project matches no rule, the synchronized version will be `default`.</li>
+      </ul>
+      <p>Example:</p>
+      <p>`versions="g1/p1/v1,group(\d+)/project(\d+)/version_$1_$2,.*/.*/other_default"`</p>
+      <ul>
+        <li>The synchronized version of project `p1` from group `g1` is `v1`.</li>
+        <li>The version of project p25 from group `g42` is `v_42_25`.</li>
+        <li>The version of others projects is `other_default`.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>`proxy.scheme   `</td>
+    <td>Depending on the proxy, `http` or `https`.</td>
+  </tr>
+  <tr>
+    <td>`proxy.hostname `</td>
+    <td>Proxy address</td>
+  </tr>
+  <tr>
+    <td>`proxy.port`</td>
+    <td>Proxy port</td>
+  </tr>
+  <tr>
+    <td>`proxy.username`</td>
+    <td>Proxy username</td>
+  </tr>
+  <tr>
+    <td>`proxy.password`</td>
+    <td>Proxy account password</td>
+  </tr>
+</table></div><div id="wwp100207" class="Heading_2">User Permissions</div><div id="wwp100213" class="Paragraph">In order to collect metadata, the running user's permissions must allow them to access and read transformations that need cataloging.</div><div id="wwp100219" class="Heading_2">Filters</div><div id="wwp100225" class="Paragraph">Since version 4.1.0 the Matillion connector benefits from the feature of rich filters in the configuration of the connector.</div><div class="ww_skin_page_overflow"><table id="wwt100342" class="Table" style="border-collapse: collapse; margin-bottom: 18px" border="1px solid #888888" summary=""><tr><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100237" class="Table_Cell_Head"><div id="wwp100231" class="Paragraph">Criteria</div></div></th><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100249" class="Table_Cell_Head"><div id="wwp100243" class="Paragraph">Description</div></div></th></tr><tr><td style="background-color: Transparent"><div id="wwb100264" class="Table_Cell_Body"><div id="wwp100258" class="Paragraph">group</div></div></td><td style="background-color: Transparent"><div id="wwb100276" class="Table_Cell_Body"><div id="wwp100270" class="Paragraph">Group name</div></div></td></tr><tr><td style="background-color: buttonface"><div id="wwb100291" class="Table_Cell_Body"><div id="wwp100285" class="Paragraph">project</div></div></td><td style="background-color: buttonface"><div id="wwb100303" class="Table_Cell_Body"><div id="wwp100297" class="Paragraph">Project name</div></div></td></tr><tr><td style="background-color: Transparent"><div id="wwb100318" class="Table_Cell_Body"><div id="wwp100312" class="Paragraph">job</div></div></td><td style="background-color: Transparent"><div id="wwb100330" class="Table_Cell_Body"><div id="wwp100324" class="Paragraph">Transformation job name</div></div></td></tr><tr></tr></table></div><div id="wwp100345" class="Paragraph">Read more: Filters</div><div id="wwp100351" class="Heading_2">Data Extraction</div><div id="wwp100357" class="Paragraph">The Matillion connector feeds Zeenea Database with Data Processes. Like other Data Process connectors, it has a single job "synchronize" that discovers all items of interest and creates or updates their documentation in the catalog. Matillion items of interest are Transformations. So, for each Transformation in Matillion, a Data Process should be created in Zeenea.</div><div id="wwp100363" class="Paragraph">We can logically split the process into two steps, the discovery of the transformations and the extraction of the transformation's metadata.</div><div id="wwp100369" class="Paragraph">To discover the transformations, the connector does a top-down crawl of the Matillion object.</div><div id="wwp100378" class="Paragraph">It lists the groups with the <span class="Code">/group</span> endpoint.</div><ol id="wwl100453" class="OList"><li id="wwli100393" class="OList_Item" value="1"><div id="wwp100387" class="OList_Paragraph">List group from the endpoint <span class="Code">/group</span>.</div></li><li id="wwli100405" class="OList_Item" value="2"><div id="wwp100399" class="OList_Paragraph">For each group, list the projects with the <span class="Code">/group/name/{group_name}/project</span> endpoint.</div></li><li id="wwli100438" class="OList_Item" value="3"><div id="wwp100411" class="OList_Paragraph">For each project, list the versions with the <span class="Code">/group/name/{group_name}/project/name/{project_name}/version</span> endpoint.</div><ol id="wwl100435" class="OList"><li id="wwli100423" class="OList_Item" value="1"><div id="wwp100417" class="OList_Paragraph">If only a single version is returned, it is selected for synchronization.</div></li><li id="wwli100432" class="OList_Item" value="2"><div id="wwp100426" class="OList_Paragraph">If several versions are returned, the connector will select the version configured for the connection. If no version is configured, "default" version will be considered.</div></li></ol></li><li id="wwli100450" class="OList_Item" value="4"><div id="wwp100444" class="OList_Paragraph">For the selected version, list the transformations with the <span class="Code">/group/name/{group_name}/project/name/{project_name}/version/name/{version_name}/transformation</span> endpoint.</div></li></ol><div id="wwp100456" class="Paragraph">For each transformation, the connector gathers metadata from two endpoints:</div><ol id="wwl100486" class="OList"><li id="wwli100471" class="OList_Item" value="1"><div id="wwp100465" class="OList_Paragraph">Transformation job export: <span class="Code">group/name/%s/project/name/%s/version/name/%s/job/name/%s/export</span>.</div></li><li id="wwli100483" class="OList_Item" value="2"><div id="wwp100477" class="OList_Paragraph">Project export: <span class="Code">group/name/%s/project/name/%s/export</span>.</div></li></ol><div id="wwp100489" class="Paragraph">In addition, the connector is able to detect whether tables are involved in transformations through SQL Components and thus includes the link to these tables in the lineage.</div><div id="wwp100495" class="Heading_2">Synchronization</div><div id="wwp100501" class="Paragraph">This connector will harvest all transformation processes identified in the Matillion instance, and automatically represent them in Zeenea.</div><div id="wwp100507" class="Heading_2">Lineage</div><div id="wwp100513" class="Paragraph">The Matillion connector is able to retrieve the lineage with:</div><ul id="wwl100543" class="UList"><li id="wwli100528" class="UList_Item" value="1"><div id="wwp100522" class="UList_Paragraph">Matillion for <span class="Bold">Redshift</span></div></li><li id="wwli100540" class="UList_Item" value="2"><div id="wwp100534" class="UList_Paragraph">Matillion for <span class="Bold">Snowflake</span></div></li></ul><div id="wwp100546" class="Heading_3">Redshift</div><div id="wwp100552" class="Paragraph">To do so, an alias must be defined in the Redshift connection, as detailed below:</div><div id="wwp100561" class="Paragraph">  <span class="Code">alias = [":/"]</span></div><div id="wwp100576" class="Paragraph">In this instance, variables <span class="Code">&lt;host&gt;</span>, <span class="Code">&lt;port&gt;</span> and <span class="Code">&lt;database&gt;</span> need to be replaced with the actual Redshift values. </div><div id="wwp100582" class="Heading_3">Snowflake</div><div id="wwp100591" class="Paragraph"><span class="Bold">Since 4.0.0</span></div><div id="wwp100600" class="Paragraph">The <span class="Code">multi_catalog.enabled</span> parameter should have the same value as the parameter of the same name in the Snowflake connection.</div><div id="wwp100609" class="Paragraph">An alias should also be defined in the Snowflake connection. Its value depends on the value of <span class="Code">multi_catalog.enabled</span>.</div><div id="wwp100618" class="Paragraph">If <span class="Code">multi_catalog.enabled</span> is true:</div><div id="wwp100627" class="Paragraph"><span class="Code">alias = [ "-.snowflakecomputing.com" ]</span></div><div id="wwp100633" class="Paragraph">If multi_catalog.enabled is false:</div><div id="wwp100642" class="Paragraph"><span class="Code">alias = [ "-.snowflakecomputing.com/"" ]</span></div><div id="wwp100648" class="HTML"><font color="red">
+Text is missing placeholder:
+</font></div><div id="wwp100675" class="Paragraph">Where <span class="HTML"><font color="red">[what?]</font></span> is the Snowflake organization identifier, is the snowflake account identifier and is the database of the Snowflake connection.</div><div id="wwp100681" class="Heading_2">Collected Metadata</div><div id="wwp100687" class="Heading_3">Data Process</div><div id="wwp100693" class="Paragraph">A data process is a Matillion transformation. </div><ul id="wwl100825" class="UList"><li id="wwli100708" class="UList_Item" value="1"><div id="wwp100702" class="UList_Paragraph"><span class="Bold">Name</span></div></li><li id="wwli100720" class="UList_Item" value="2"><div id="wwp100714" class="UList_Paragraph"><span class="Bold">Source Description</span></div></li><li id="wwli100732" class="UList_Item" value="3"><div id="wwp100726" class="UList_Paragraph"><span class="Bold">Input</span>: Input datasets</div></li><li id="wwli100744" class="UList_Item" value="4"><div id="wwp100738" class="UList_Paragraph"><span class="Bold">Output</span>: Output datasets</div></li><li id="wwli100822" class="UList_Item" value="5"><div id="wwp100750" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100819" class="UList"><li id="wwli100762" class="UList_Item" value="1"><div id="wwp100756" class="UList_Paragraph">Group</div></li><li id="wwli100771" class="UList_Item" value="2"><div id="wwp100765" class="UList_Paragraph">Project</div></li><li id="wwli100780" class="UList_Item" value="3"><div id="wwp100774" class="UList_Paragraph">Version</div></li><li id="wwli100789" class="UList_Item" value="4"><div id="wwp100783" class="UList_Paragraph">Id</div></li><li id="wwli100798" class="UList_Item" value="5"><div id="wwp100792" class="UList_Paragraph">Name</div></li><li id="wwli100807" class="UList_Item" value="6"><div id="wwp100801" class="UList_Paragraph">Description</div></li><li id="wwli100816" class="UList_Item" value="7"><div id="wwp100810" class="UList_Paragraph">Creation Date</div></li></ul></li></ul><div id="wwp100828" class="Heading_2">Unique Identifier Keys</div><div id="wwp100834" class="Paragraph">A key is associated with each item of the catalog. When the object comes from an external system, the key is built and provided by the connector.</div><div id="wwp100840" class="Paragraph">More information about unique identification keys in this documentation: Identification Keys.</div><div id="wwp100846" class="HTML"> <table>
+   <tr><th>Object</th><th>Identifier Key</th><th>Description</th></tr>
+   <tr>
+     <td>Data process</td>
+     <td>code/group/project/transformation</td>
+     <td>
+       <ul>
+         <li>**code**:  Unique identifier of the connection noted in the configuration file</li>
+         <li>**group**: group name</li>
+         <li>**project**: project  name</li>
+         <li>**transformation**: transformation name</li>
+       </ul>
+     </td>
+   </tr>
+ </table></div></div><div id="page_dates"><div class="ww_skin_document_last_modified_date">Last modified date: 03/19/2025</div></div><!-- Related Topics --><!--                --><footer><!-- Disqus --><!--        --><!-- Google Translation --><!--                    --><br /></footer></div></div><input type="hidden" id="preserve_unknown_file_links" value="false"></input><noscript><div id="noscript_warning">This site works best with JavaScript enabled</div></noscript><script type="text/javascript" src="../scripts/common.js"></script><script type="text/javascript" src="../scripts/page.js"></script></body></html>

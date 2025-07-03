@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+
+  <Class name="href-target" validater="string">
+   <Common value="_blank" />
+   <Common value="_self" />
+   <Common value="_parent" />
+   <Common value="_top" />
+  </Class>
+
+  <Class name="breadcrumbs-separator" validater="string">
+   <Common value=" : " />
+   <Common value=" &gt; " />
+   <Common value=" » " />
+  </Class>
+
+  <!-- Class for assigning the relevance in the styles -->
+  <!--                                                 -->
+  <Class name="search-relevance" validater="number">
+   <Common value="0" stringid="ignore" />
+   <Common value="1" />
+   <Common value="10" />
+   <Common value="20" />
+   <Common value="50" />
+   <Common value="100" />
+  </Class>
+
+  <Class name="marker-type">
+   <Item value="abbreviation" stringid="abbreviation" />
+   <Item value="acronym" stringid="acronym" />
+   <Item value="citation" stringid="citation" />
+   <Item value="ignore" stringid="ignore" />
+   <Item value="filename" stringid="filename" />
+   <Item value="filename-and-topic" stringid="filename-and-topic" />
+   <Item value="topic" stringid="topic" />
+   <Item value="dropdown-end" />
+   <Item value="image-alt-text" stringid="image-alt-text" />
+   <Item value="image-area-alt-text" stringid="image-area-alt-text" />
+   <Item value="image-long-description-not-required" stringid="image-long-description-not-required" />
+   <Item value="image-long-description-text" stringid="image-long-description-text" />
+   <Item value="image-long-description-by-reference" stringid="image-long-description-by-reference" />
+   <Item value="image-scale" />
+   <Item value="keywords" stringid="keywords" />
+   <Item value="description" stringid="description" />
+   <Item value="link-title" stringid="link-title" />
+   <Item value="pass-through" stringid="pass-through" />
+   <Item value="popup-start" />
+   <Item value="popup-start-no-output" />
+   <Item value="popup-end" />
+   <Item value="table-summary" stringid="table-summary" />
+   <Item value="table-summary-not-required" stringid="table-summary-not-required"/>
+   <Item value="toc-entry-class" stringid="toc-entry-class" />
+  </Class>
+
+  <Class name="dropdown">
+   <Item value="start-open" />
+   <Item value="start-closed" />
+   <Item value="continue" />
+   <Item value="break" />
+   <Item value="end" />
+  </Class>
+
+  <Class name="dropdown-toggle-icon-position">
+   <Item value="left" />
+   <Item value="right" />
+  </Class>
+
+  <Class name="popup">
+    <Item value="none" />
+    <Item value="define" />
+    <Item value="define-no-output" />
+    <Item value="append" />
+    <Item value="append-no-output" />
+   </Class>
+
+  <Class name="related-topic">
+   <Item value="none" />
+   <Item value="define" />
+   <Item value="define-no-output" />
+  </Class>
+
+  <Class name="related-topic-dropdown-start-behavior">
+   <Item value="start-open" />
+   <Item value="start-closed" />
+  </Class>
+
+  <Class name="related-topic-icon-position">
+   <Item value="left" />
+   <Item value="right" />
+  </Class>
+
+  <Class name="position-horizontal">
+   <Item value="left" />
+   <Item value="center" />
+   <Item value="right" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="files" />
+  <Group name="toc" />
+  <Group name="accessibility" />
+  <Group name="options" />
+  <Group name="navigation" />
+  <Group name="file-processing" />
+  <Group name="social" />
+  <Group name="analytics" />
+  <Group name="baggage" />
+  <Group name="reverb-2.0-page" />
+ </Groups>
+
+ <Settings>
+
+  <!-- Accessibility -->
+  <!--               -->
+  <Setting name="accessibility-image-d-links" group="accessibility" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="accessibility-skip-navigation-link" group="accessibility" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+
+  <!-- Baggage File Target -->
+  <!--                     -->
+  <Setting name="baggage-file-target" group="links" default="external_window">
+   <SettingClass name="none" />
+   <SettingClass name="href-target" />
+  </Setting>
+
+  <!-- External URL Target -->
+  <!--                     -->
+  <Setting name="external-url-target" group="links" default="external_window">
+   <SettingClass name="none" />
+   <SettingClass name="href-target" />
+  </Setting>
+
+  <!-- Preserve Unknown File Links -->
+  <!--                             -->
+  <Setting name="preserve-unknown-file-links" group="links" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+
+  <!-- Processing -->
+  <!--            -->
+  <Setting name="file-processing-toc" group="file-processing" default="ignore">
+   <SettingClass name="processing" />
+  </Setting>
+  <Setting name="file-processing-index" group="file-processing" default="ignore">
+   <SettingClass name="processing" />
+  </Setting>
+  <Setting name="file-processing-front-matter" group="file-processing" default="output">
+   <SettingClass name="processing" />
+  </Setting>
+  <Setting name="file-processing-pretty-print" group="file-processing" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="file-processing-mark-of-the-web" group="file-processing" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="file-processing-back-to-top-link" group="file-processing" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+
+  <!-- Page -->
+  <!--      -->
+  <Setting name="reverb-2.0-page-style" group="reverb-2.0-page" default="">
+   <SettingClass name="page-rule" />
+  </Setting>
+  <Setting name="document-last-modified-date" group="reverb-2.0-page" default="false">
+    <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="page-publish-date" group="reverb-2.0-page" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="page-dropdown-toggle" group="reverb-2.0-page" default="true">
+    <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="page-related-topic-use-dropdown" group="reverb-2.0-page" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="page-related-topic-icon-position" group="reverb-2.0-page" default="right">
+   <SettingClass name="related-topic-icon-position" />
+  </Setting>
+  <Setting name="page-related-topic-dropdown-start-behavior" group="reverb-2.0-page" default="start-open">
+   <SettingClass name="related-topic-dropdown-start-behavior"/>
+  </Setting>
+
+
+  <!-- Social -->
+  <!--        -->
+  <Setting name="social-facebook-like" group="social" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="social-twitter" group="social" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="social-linkedin" group="social" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="social-disqus-id" group="social" default="">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="social-disqus-developer" group="social" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+
+  <!-- Analytics -->
+  <!--        -->
+  <Setting name="google-analytics-id" group="analytics" default="">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="google-analytics-default-url" group="analytics" default="">
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name= "page-helpful-buttons" group="analytics" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name= "search-helpful-buttons" group="analytics" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+
+  <!-- Baggage -->
+  <!--         -->
+  <Setting name="index-baggage-files" group="baggage" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="copy-baggage-file-dependents" group="baggage" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="baggage-files-list" group="baggage" default="baggage_list.xml">
+   <!-- File that contains the path to the baggage files with summary, title and path attributes -->
+   <SettingClass name="string" />
+  </Setting>
+  <Setting name="index-external-baggage-files" group="baggage" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet>
+  <RuleTraits category="Paragraph">
+   <Options>
+    <Option name="use-numbering" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="use-character-styles" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="minitoc-sublevels" group="options" default="none">
+     <OptionClass name="none" />
+     <OptionClass name="all" />
+     <OptionClass name="number" />
+    </Option>
+    <Option name="dropdown" group="options" default="continue">
+     <OptionClass name="dropdown" />
+    </Option>
+    <Option name="dropdown-toggle-icon-position" group="options" default="right">
+     <OptionClass name="dropdown-toggle-icon-position" />
+    </Option>
+    <Option name="related-topic" group="options" default="none">
+     <OptionClass name="related-topic" />
+    </Option>
+    <Option name="citation" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="pass-through" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="popup" group="options" default="none">
+     <OptionClass name="popup" />
+    </Option>
+    <!-- Option for assigning a relevance weight to every Paragraph style in the UI -->
+    <!--                                                                            -->
+    <Option name="search-relevance-weight" group="options" default="1">
+     <OptionClass name="search-relevance" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+  <RuleTraits category="Character">
+   <Options>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="abbreviation" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="acronym" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="citation" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="pass-through" group="options" default="false">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+  <RuleTraits category="Table">
+   <Options>
+    <Option name="table-as-table" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="dropdown" group="options" default="continue">
+     <OptionClass name="dropdown" />
+    </Option>
+    <Option name="popup" group="options" default="none">
+      <OptionClass name="popup" />
+     </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+  <RuleTraits category="Page">
+   <Options>
+    <Option name="file-extension" group="options" default=".html">
+     <OptionClass name="file-extension" />
+    </Option>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="breadcrumbs-generate" group="navigation" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="include-merge-groups-in-breadcrumbs" group="navigation" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="document-css" group="options" default="">
+     <OptionClass name="project-file-path" />
+    </Option>
+   </Options>
+
+   <Properties>
+    <!-- Navigation -->
+    <!--            -->
+    <Property name="breadcrumbs-separator" group="navigation" default=" : ">
+     <PropertyClass name="breadcrumbs-separator" />
+    </Property>
+   </Properties>
+  </RuleTraits>
+
+  <RuleTraits category="Marker">
+   <Options>
+    <Option name="marker-type" group="options" default="ignore">
+     <OptionClass name="marker-type" />
+    </Option>
+    <!-- Option for assigning a relevance weight to every Marker style in the UI -->
+    <!--                                                                         -->
+    <Option name="search-relevance-weight" group="options" default="1">
+     <OptionClass name="search-relevance" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+  <RuleTraits category="Graphic">
+   <Options>
+    <Option name="by-reference-vector" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="responsive-image-size" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+ </RuleTraitsSet>
+</FormatTraitInfo>

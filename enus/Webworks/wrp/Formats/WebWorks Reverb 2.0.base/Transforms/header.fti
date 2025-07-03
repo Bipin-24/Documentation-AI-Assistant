@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="header-logo">
+   <Item value="company-name" />
+   <Item value="company-logo-src" />
+  </Class>
+  <Class name="header-logo-link-address">
+   <Item value="button-home" />
+   <Item value="company-link" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="reverb-2.0-header" />
+ </Groups>
+
+ <Settings>
+  <!-- Header -->
+  <!--        -->
+  <Setting name="header-generate" group="reverb-2.0-header" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="header-logo" group="reverb-2.0-header" default="none">
+   <SettingClass name="none" />
+   <SettingClass name="header-logo" />
+  </Setting>
+  <Setting name="header-logo-override" group="reverb-2.0-header" default="">
+   <SettingClass name="project-file-path" />
+  </Setting>
+  <Setting name="header-logo-linked" group="reverb-2.0-header" default="false">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="header-logo-link-address" group="reverb-2.0-header" default="">
+   <SettingClass name="header-logo-link-address" />
+   <SettingClass name="url" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

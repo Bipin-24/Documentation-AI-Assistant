@@ -1,0 +1,136 @@
+<!DOCTYPE html ><html xml:lang="en" lang="en" data-highlight-require-whitespace="false" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>title: Qlik Cloud</title><link rel="Prev" href="zeenea-connector-qlik-cloud.64.1.html" title="Previous" /><link rel="Next" href="zeenea-connector-qlik-sense.65.1.html" title="Next" /><link rel="StyleSheet" href="../css/font-awesome/css/all.min.css" type="text/css" media="all" /><link rel="StyleSheet" href="css/zeenea-connector-qlik-cloud.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/skin.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/social.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/print.css" type="text/css" media="print" /><noscript><div id="noscript_padding"></div></noscript></head><body id="pN3jvGcZAVIs_002fymZBonWY7EQ" class="ww_skin_page_body" style="visibility: hidden;"><input type="hidden" id="page_onload_url" value="../index.html#page/Connectors/zeenea-connector-qlik-cloud.64.2.html"></input><span id="dropdown_ids" style="display:none;"></span><div id="ww_content_container"><header id="wwconnect_header"><div class="ww_skin_breadcrumbs"><a class="WebWorks_Breadcrumb_Link" href="zeenea-connectors-list.01.1.html">Connectors</a> : <span class="WebWorks_Breadcrumb_Text">title: Qlik Cloud  </span></div><div class="ww_skin_page_toolbar"><div id="dropdown_button_container" class="dropdown_container dropdown_button_container_disabled"><a id="show_hide_all" class="ww_skin ww_behavior_dropdown_toggle ww_skin_dropdown_toggle" title="Page DropDown Toggle" href="#"><i class="far"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><div id="social_links"><!-- Twitter --><!--         --><a id="social_twitter" class="ww_social ww_social_twitter" title="Twitter" target="_blank" href="#"><i class="fab"></i></a><!-- FaceBook Like --><!--               --><a id="social_facebook_like" class="ww_social ww_social_facebook" title="Facebook" target="_blank" href="#"><i class="fab"></i></a><!-- LinkedIn Share --><!--                --><a id="social_linkedin" class="ww_social ww_social_linkedin" title="LinkedIn" target="_blank" href="#"><i class="fab"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><a class="ww_behavior_print ww_skin ww_skin_print" title="Print" href="#"><i class="fa"></i></a></div><!-- was this helpful button --><!--                         --><div class="ww_skin_was_this_helpful_container"><div class="ww_skin_was_this_helpful_message">Was this helpful?</div><div class="ww_skin_was_this_helpful_buttons_container"><div id="helpful_thumbs_up" class="ww_skin_was_this_helpful_button" title="Helpful"><i class="far"></i></div><div id="helpful_thumbs_down" class="ww_skin_was_this_helpful_button" title="Unhelpful"><i class="far"></i></div></div></div></header><div id="page_content_container"><div id="page_content"><div id="wwp100018" class="Title_1">title: Qlik Cloud  </div><div class="WebWorks_MiniTOC"><div class="WebWorks_MiniTOC_Heading">&nbsp;</div><dl class="WebWorks_MiniTOC_List"><dd><div class="WebWorks_MiniTOC_Entry"><a class="WebWorks_MiniTOC_Link" href="../Connectors/zeenea-connector-qlik-cloud.64.2.html#wwp100024">Adding a Qlik Cloud Connection</a></div></dd></dl></div><div id="wwp100024" class="Heading_1">Adding a Qlik Cloud Connection</div><div id="wwp100030" class="Heading_2">Prerequisites</div><ul id="wwl100063" class="UList"><li id="wwli100051" class="UList_Item" value="1"><div id="wwp100045" class="UList_Paragraph">A user with sufficient <span class="Link"><a href="../Connectors/zeenea-connector-qlik-cloud.64.2.html#wwp100126" title="title: Qlik Cloud">permissions</a></span> is required to establish a connection with Qlik Cloud.</div></li><li id="wwli100060" class="UList_Item" value="2"><div id="wwp100054" class="UList_Paragraph">Zeenea traffic flows towards the data source must be open. </div></li></ul><div id="wwp100069" class="Paragraph">:::note A configuration template can be downloaded here: <span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUd4N&amp;amp;d=%2Fa%2FNu000002lfbF%2F80tPNxbjIFWMcAlfEIBTkgJc5fS1urKbkL58rrMvRV0&amp;amp;asPdf=false" target="external_window">qlik-cloud.conf</a></span>. :::</div><div id="wwp100075" class="Heading_2">Installing the Plugin</div><div id="wwp100090" class="Paragraph">The Qlik Cloud plugin can be downloaded here: <span class="Link"><a href="../Connectors/zeenea-connectors-list.01.1.html#" title="Zeenea Connector Downloads">Zeenea Connector Downloads</a></span></div><div id="wwp100105" class="Paragraph">For more information on how to install a plugin, please refer to the following article: <span class="Link"><a href="../Connectors/zeenea-connectors-install-as-plugin.02.1.html#" title="Installing and Configuring Connectors as a Plugin">Installing and Configuring Connectors as a Plugin</a></span>.</div><div id="wwp100111" class="Heading_2">Declaring the Connection</div><div id="wwp100120" class="Paragraph">Creating and configuring connectors is done through a dedicated configuration file located in the <span class="Code">/connections</span> folder of the relevant scanner. The scanner frequently checks for any change and resynchronises automatically.</div><div id="wwp100126" class="Paragraph">Read more: Managing Connections</div><div id="wwp100132" class="Paragraph">In order to establish a connection with a Qlik Cloud instance, specifying the following parameters in the dedicated file is required:</div><div id="wwp100138" class="HTML"><table>
+  <tr>
+    <th>Parameter</th>
+    <th>Expected value</th>
+  </tr>
+  <tr>
+    <td>`name`</td>
+    <td>The name that will be displayed to catalog users for this connection</td>
+  </tr>
+  <tr>
+    <td>`code`</td>
+    <td>The unique identifier of the connection on the Zeenea platform. Once registered on the platform, this code must not be modified or the connection will be considered as new and the old one removed from the scanner.</td>
+  </tr>
+  <tr>
+    <td>`connector_id`</td>
+    <td>The connector type to use for the connection. Here, the value must be `qlik-cloud` and this value must not be modified.</td>
+  </tr>
+  <tr>
+    <td>`connection.url`</td>
+    <td>Instance address (`https://.eu.qlikcloud.com`)</td>
+  </tr>
+  <tr>
+    <td>`connection.auth_mode`</td>
+    <td>Qlik Cloud authentication mode (accepted values : `oauth`, `token`)</td>
+  </tr>
+  <tr>
+    <td>`connection.auth.value`</td>
+    <td>Header value for authentication, format: `domain\user name`</td>
+  </tr>
+  <tr>
+    <td>`connection.token`</td>
+    <td>Connection token for Qlik API</td>
+  </tr>
+  <tr>
+    <td>`connection.oauth.client_id`</td>
+    <td>OAuth application ID (client)</td>
+  </tr>
+  <tr>
+    <td>`connection.oauth.client_secret`</td>
+    <td>OAuth client secret</td>
+  </tr>
+  <tr>
+    <td>`filter`</td>
+    <td>To filter visualizations during the inventory. See [Rich Filters](#rich-filters).</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.path`</td>
+    <td>The Trust Store file path. This file must be provided in case TLS encryption is activated (protocol https) and when certificates of servers are delivered by a specific authority. It must contain the certification chain.</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.password`</td>
+    <td>Password of the trust store file</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.type`</td>
+    <td>Type of the trust store file (`PKCS12` or `JKS`). Default value is discovered from the file extension.</td>
+  </tr>
+  <tr>
+    <td>`proxy.scheme`</td>
+    <td>Depending on the proxy, `http` or `https`</td>
+  </tr>
+  <tr>
+    <td>`proxy.hostname`</td>
+    <td>Proxy address</td>
+  </tr>
+  <tr>
+    <td>`proxy.port`</td>
+    <td>Proxy port</td>
+  </tr>
+  <tr>
+    <td>`proxy.username`</td>
+    <td>Proxy username</td>
+  </tr>
+  <tr>
+    <td>`proxy.password`</td>
+    <td>Proxy account password</td>
+  </tr>
+</table></div><div id="wwp100150" class="Heading_2">User Permissions</div><div id="wwp100156" class="Paragraph">In order to collect metadata, the running user's permissions must allow them to access and read needed applications.</div><div id="wwp100162" class="Paragraph">When authenticating with OAuth, you need to configure the following scopes for the OAuth application:</div><ul id="wwl100204" class="UList"><li id="wwli100174" class="UList_Item" value="1"><div id="wwp100168" class="UList_Paragraph">user_default</div></li><li id="wwli100183" class="UList_Item" value="2"><div id="wwp100177" class="UList_Paragraph">admin_classic</div></li><li id="wwli100192" class="UList_Item" value="3"><div id="wwp100186" class="UList_Paragraph">admin.apps</div></li><li id="wwli100201" class="UList_Item" value="4"><div id="wwp100195" class="UList_Paragraph">apps</div></li></ul><div id="wwp100207" class="Heading_2">Rich Filters</div><div id="wwp100213" class="Paragraph">Qlik Cloud connector benefits from the feature of rich filters in the configuration of the connector.</div><div id="wwp100219" class="Paragraph">Available filtering key for Qlik Cloud is the following :</div><ul id="wwl100237" class="UList"><li id="wwli100234" class="UList_Item" value="1"><div id="wwp100228" class="UList_Paragraph"><span class="Code">name</span></div></li></ul><div id="wwp100240" class="Paragraph">Read more: Filters.</div><div id="wwp100246" class="Heading_2">Data Extraction</div><div id="wwp100252" class="Paragraph">To extract information, the connector runs REST requests on following endpoints:</div><ul id="wwl100348" class="UList"><li id="wwli100270" class="UList_Item" value="1"><div id="wwp100264" class="UList_Paragraph"><span class="Bold">GET</span> <span class="Code">/api/v1/items</span>: Get all visible applications</div></li><li id="wwli100285" class="UList_Item" value="2"><div id="wwp100279" class="UList_Paragraph"><span class="Bold">GET</span> <span class="Code">/api/v1/apps/</span>: Get application metadata</div></li><li id="wwli100300" class="UList_Item" value="3"><div id="wwp100294" class="UList_Paragraph"><span class="Bold">GET</span> <span class="Code">/api/v1/apps//data/metadata</span>: Get application datamodel</div></li><li id="wwli100315" class="UList_Item" value="4"><div id="wwp100309" class="UList_Paragraph"><span class="Bold">GET</span> <span class="Code">/api/v1/lineage-graphs/nodes/</span>: Get application lineage</div></li><li id="wwli100330" class="UList_Item" value="5"><div id="wwp100324" class="UList_Paragraph"><span class="Bold">GET</span> <span class="Code">/api/v1/users/</span>: Get user information</div></li><li id="wwli100345" class="UList_Item" value="6"><div id="wwp100339" class="UList_Paragraph"><span class="Bold">GET</span> <span class="Code">/api/v1/data-connections</span>: Get all configured data connections</div></li></ul><div id="wwp100351" class="Heading_2">Collected Metadata</div><div id="wwp100357" class="Heading_3">Inventory</div><div id="wwp100363" class="Paragraph">Will collect the list of applications accessible by the user.</div><div id="wwp100369" class="Heading_2">Lineage</div><div id="wwp100375" class="Paragraph">Qlik Cloud connector is able to reconstruct the lineage of tables used in applications if they are used directly by them.</div><div id="wwp100381" class="HTML"><table>
+  <tr>
+    <th>Source System</th>
+    <th>Possible value of `alias` parameter to be set in source system configuration file</th>
+  </tr>
+  <tr>
+    <td>[BigQuery](./zeenea-connector-google-bigquery.md)</td>
+    <td>`bigquery.googleapis.com/{project name}`</td>
+  </tr>
+  <tr>
+    <td>[Snowflake](./zeenea-connector-snowflake.md)</td>
+    <td>`{snowflake account name}.snowflakecomputing.com/{database name}`</td>
+  </tr>
+</table></div><div id="wwp100393" class="Paragraph">:::caution[Warning] If transformations are performed on the source data, Qlik Cloud will convert the data into Qlik files that cannot be interpreted by the connector. As a result, lineage will not be functional. :::</div><div id="wwp100399" class="Heading_3">Visualization</div><div id="wwp100405" class="Paragraph">A Visualization is a Qlik application.</div><ul id="wwl100516" class="UList"><li id="wwli100420" class="UList_Item" value="1"><div id="wwp100414" class="UList_Paragraph"><span class="Bold">Name</span>: Application name</div></li><li id="wwli100432" class="UList_Item" value="2"><div id="wwp100426" class="UList_Paragraph"><span class="Bold">Source Description</span>: Application description</div></li><li id="wwli100444" class="UList_Item" value="3"><div id="wwp100438" class="UList_Paragraph"><span class="Bold">Contacts</span></div></li><li id="wwli100513" class="UList_Item" value="4"><div id="wwp100450" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100510" class="UList"><li id="wwli100462" class="UList_Item" value="1"><div id="wwp100456" class="UList_Paragraph">Application Name: Application name</div></li><li id="wwli100471" class="UList_Item" value="2"><div id="wwp100465" class="UList_Paragraph">Application URL: Application URL</div></li><li id="wwli100480" class="UList_Item" value="3"><div id="wwp100474" class="UList_Paragraph">Created At: Application creation datetime</div></li><li id="wwli100489" class="UList_Item" value="4"><div id="wwp100483" class="UList_Paragraph">Modified At: Application update datetime</div></li><li id="wwli100498" class="UList_Item" value="5"><div id="wwp100492" class="UList_Paragraph">Reloaded At: Application last reload datetime</div></li><li id="wwli100507" class="UList_Item" value="6"><div id="wwp100501" class="UList_Paragraph">Created By: User name who created the application</div></li></ul></li></ul><div id="wwp100519" class="Heading_3">Dataset</div><div id="wwp100525" class="Paragraph">A Dataset is a table from application's datamodel:</div><ul id="wwl100588" class="UList"><li id="wwli100540" class="UList_Item" value="1"><div id="wwp100534" class="UList_Paragraph"><span class="Bold">Name</span>: Table name</div></li><li id="wwli100552" class="UList_Item" value="2"><div id="wwp100546" class="UList_Paragraph"><span class="Bold">Source Description</span>: Table description</div></li><li id="wwli100585" class="UList_Item" value="3"><div id="wwp100558" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100582" class="UList"><li id="wwli100570" class="UList_Item" value="1"><div id="wwp100564" class="UList_Paragraph">Byte Size: Byte size of table data</div></li><li id="wwli100579" class="UList_Item" value="2"><div id="wwp100573" class="UList_Paragraph">Number of Rows: Number of rows of loaded table</div></li></ul></li></ul><div id="wwp100591" class="Heading_3">Field</div><div id="wwp100597" class="Paragraph">Dataset field.</div><ul id="wwl100675" class="UList"><li id="wwli100612" class="UList_Item" value="1"><div id="wwp100606" class="UList_Paragraph"><span class="Bold">Name</span>: Field name</div></li><li id="wwli100624" class="UList_Item" value="2"><div id="wwp100618" class="UList_Paragraph"><span class="Bold">Type</span>: Interpreted type</div></li><li id="wwli100639" class="UList_Item" value="3"><div id="wwp100633" class="UList_Paragraph"><span class="Bold">Can be null</span>: <span class="Code">true</span> if field is not primary key</div></li><li id="wwli100654" class="UList_Item" value="4"><div id="wwp100648" class="UList_Paragraph"><span class="Bold">Multivalued</span>: <span class="Code">false</span> by default</div></li><li id="wwli100672" class="UList_Item" value="5"><div id="wwp100666" class="UList_Paragraph"><span class="Bold">Primary Key</span>:<span class="Code">true</span> if field has <span class="Code">$key</span> tag</div></li></ul><div id="wwp100678" class="Heading_3">Data Process</div><div id="wwp100684" class="Paragraph">To represent the data flow from an external source, a Zeenea Data Process will be created for each Qlik application if lineage is found.</div><ul id="wwl100705" class="UList"><li id="wwli100702" class="UList_Item" value="1"><div id="wwp100696" class="UList_Paragraph"><span class="Bold">Name</span>: <span class="Code">import application-name</span></div></li></ul><div id="wwp100708" class="Heading_2">Object Identification Keys</div><div id="wwp100714" class="Paragraph">An identification key is associated with each object in the catalog. In the case of the object being created by a connector, the connector builds it.</div><div id="wwp100720" class="Paragraph">More information about unique identification keys in this documentation: Identification Keys.</div><div id="wwp100726" class="HTML"> <table>
+   <tr><th>Object</th><th>Identification Key</th><th>Description</th></tr>
+   <tr>
+     <td>Visualization</td>
+     <td>code/application id</td>
+     <td>
+       <ul>
+         <li>**code**: Unique identifier of the connection noted in the configuration file</li>
+         <li>**application id**</li>
+       </ul>
+     </td>
+   </tr>
+   <tr>
+     <td>Dataset</td>
+     <td>code/application id/table name</td>
+     <td>
+       <ul>
+         <li>**code**: Unique identifier of the connection noted in the configuration file</li>
+         <li>**application id**</li>
+         <li>**table name**</li>
+       </ul>
+     </td>
+   </tr>
+   <tr>
+     <td>Field</td>
+     <td>code/application id/table name/field name</td>
+     <td>
+       <ul>
+         <li>**code**: Unique identifier of the connection noted in the configuration file</li>
+         <li>**application id**</li>
+         <li>**table name**</li>
+         <li>**field  name**</li>
+       </ul>
+     </td>
+   </tr>
+   <tr>
+     <td>Data Process</td>
+     <td>code/lineage/application id</td>
+     <td>
+       <ul>
+         <li>**code**: Unique identifier of the connection noted in the configuration file</li>
+         <li>**application id**</li>
+       </ul>
+     </td>
+   </tr>
+ </table></div></div><div id="page_dates"><div class="ww_skin_document_last_modified_date">Last modified date: 03/19/2025</div></div><!-- Related Topics --><!--                --><footer><!-- Disqus --><!--        --><!-- Google Translation --><!--                    --><br /></footer></div></div><input type="hidden" id="preserve_unknown_file_links" value="false"></input><noscript><div id="noscript_warning">This site works best with JavaScript enabled</div></noscript><script type="text/javascript" src="../scripts/common.js"></script><script type="text/javascript" src="../scripts/page.js"></script></body></html>

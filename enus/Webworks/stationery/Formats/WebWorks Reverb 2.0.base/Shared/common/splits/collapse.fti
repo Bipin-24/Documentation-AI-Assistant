@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="file-split-handling">
+   <Item value="never" stringid="file-split-handling-never" />
+   <Item value="always" stringid="file-split-handling-always" />
+   <Item value="combine" stringid="file-split-handling-combine" />
+   <Item value="if-not-previous" stringid="file-split-handling-if-not-previous" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="files" />
+ </Groups>
+
+ <Settings>
+  <Setting name="file-split-handling" group="files" default="combine">
+   <SettingClass name="file-split-handling" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

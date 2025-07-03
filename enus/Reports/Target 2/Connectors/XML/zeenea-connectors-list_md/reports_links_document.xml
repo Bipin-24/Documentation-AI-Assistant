@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report version="1.0" xmlns="urn:WebWorks-Reports-Schema">
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://github.com/zeenea/connector-conf-templates/tree/main/templates'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100036" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwb100042" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://github.com/zeenea/connector-conf-templates/tree/main/templates" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="unresolved" severity="warning">
+    <Description>Unresolved link from document 'zeenea-connectors-list.md' to document 'zeenea-scanner-setup.md'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100036" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwb100042" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="unresolved_link_other_documents" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/jdbc-connector-plugin/jdbc-connector-plugin-78.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100369" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100369" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/jdbc-connector-plugin/jdbc-connector-plugin-78.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-78.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100507" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100507" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-78.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-78-cdh5.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100507" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100507" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-78-cdh5.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-78-cdh6.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100507" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100507" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-78-cdh6.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-75-hdp2.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100507" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100507" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-75-hdp2.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-75-hdp2.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100522" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100522" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-75-hdp2.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hive-connector-plugin/hive-connector-plugin-78.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100660" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100660" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hive-connector-plugin/hive-connector-plugin-78.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-78-cdh5.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100660" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100660" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-78-cdh5.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hive-connector-plugin/hive-connector-plugin-78-cdh6.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100660" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100660" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hive-connector-plugin/hive-connector-plugin-78-cdh6.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hive-connector-plugin/hive-connector-plugin-75-hdp2.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100660" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100660" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hive-connector-plugin/hive-connector-plugin-75-hdp2.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-75-hdp2.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100675" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100675" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hdfs-connector-plugin/hdfs-connector-plugin-75-hdp2.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/azure-adls-connector-plugin/azure-adls-connector-plugin-78.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100747" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100747" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/azure-adls-connector-plugin/azure-adls-connector-plugin-78.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/powerbi-report-connector-plugin/powerbi-report-connector-plugin-78.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100810" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100810" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/powerbi-report-connector-plugin/powerbi-report-connector-plugin-78.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/aws-s3-connector-plugin/aws-s3-connector-plugin-78.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100873" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100873" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/aws-s3-connector-plugin/aws-s3-connector-plugin-78.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/google-cloud-storage-connector-plugin/google-cloud-storage-connector-plugin-78.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p100936" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp100936" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/google-cloud-storage-connector-plugin/google-cloud-storage-connector-plugin-78.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/google-cloud-bigquery-connector-plugin/google-cloud-bigquery-connector-plugin-78.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101017" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101017" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/google-cloud-bigquery-connector-plugin/google-cloud-bigquery-connector-plugin-78.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/google-cloud-connector-plugin/google-cloud-connector-plugin-1.6.1.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101116" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101116" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/google-cloud-connector-plugin/google-cloud-connector-plugin-1.6.1.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/local-file-system-connector-plugin/local-file-system-connector-plugin-78.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101179" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101179" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/local-file-system-connector-plugin/local-file-system-connector-plugin-78.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/sybaseiq-connector-plugin/sybaseiq-connector-plugin-78.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101242" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101242" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/sybaseiq-connector-plugin/sybaseiq-connector-plugin-78.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/solita-connector-plugin/solita-connector-plugin-0.2.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101305" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101305" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/solita-connector-plugin/solita-connector-plugin-0.2.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/aliyun-connector-plugin/aliyun-connector-plugin-1.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101368" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101368" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/aliyun-connector-plugin/aliyun-connector-plugin-1.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/hadoop-connector-plugin/hadoop-connector-plugin-4.3.7.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101449" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101449" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/hadoop-connector-plugin/hadoop-connector-plugin-4.3.7.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/aws-connector-plugin/aws-connector-plugin-3.4.1.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101566" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101566" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/aws-connector-plugin/aws-connector-plugin-3.4.1.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/azure-connector-plugin/azure-connector-plugin-1.6.2.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101665" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101665" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/azure-connector-plugin/azure-connector-plugin-1.6.2.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/cassandra-connector-plugin/cassandra-connector-plugin-1.1.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101728" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101728" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/cassandra-connector-plugin/cassandra-connector-plugin-1.1.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/couchbase-connector-plugin/couchbase-connector-plugin-1.1.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101791" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101791" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/couchbase-connector-plugin/couchbase-connector-plugin-1.1.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/csv-connector-plugin/csv-connector-plugin-2.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101857" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101857" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/csv-connector-plugin/csv-connector-plugin-2.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/databricks-connector-plugin/databricks-connector-plugin-1.4.2.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p101938" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp101938" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/databricks-connector-plugin/databricks-connector-plugin-1.4.2.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/dataiku-connector-plugin/dataiku-connector-plugin-1.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102001" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102001" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/dataiku-connector-plugin/dataiku-connector-plugin-1.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/dbt-connector-plugin/dbt-connector-plugin-2.9.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102064" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102064" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/dbt-connector-plugin/dbt-connector-plugin-2.9.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/denodo-connector-plugin/denodo-connector-plugin-1.2.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102127" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102127" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/denodo-connector-plugin/denodo-connector-plugin-1.2.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/silwood-safyr-connector-plugin/silwood-safyr-connector-plugin-3.1.2.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102325" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102325" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/silwood-safyr-connector-plugin/silwood-safyr-connector-plugin-3.1.2.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/elasticsearch-connector-plugin/elasticsearch-connector-plugin-1.0.1.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102388" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102388" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/elasticsearch-connector-plugin/elasticsearch-connector-plugin-1.0.1.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/influxdb-connector-plugin/influxdb-connector-plugin-1.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102451" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102451" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/influxdb-connector-plugin/influxdb-connector-plugin-1.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/informatica-connector-plugin/informatica-connector-plugin-1.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102514" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102514" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/informatica-connector-plugin/informatica-connector-plugin-1.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/kafka-connector-plugin/kafka-connector-plugin-1.6.2.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102577" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102577" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/kafka-connector-plugin/kafka-connector-plugin-1.6.2.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/lineage-connector-plugin/lineage-connector-plugin-1.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102643" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102643" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/lineage-connector-plugin/lineage-connector-plugin-1.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/looker-connector-plugin/looker-connector-plugin-3.4.3.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102706" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102706" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/looker-connector-plugin/looker-connector-plugin-3.4.3.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/matillion-connector-plugin/matillion-connector-plugin-4.1.1.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102769" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102769" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/matillion-connector-plugin/matillion-connector-plugin-4.1.1.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/microstrategy-connector-plugin/microstrategy-connector-plugin-2.5.3.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102832" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102832" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/microstrategy-connector-plugin/microstrategy-connector-plugin-2.5.3.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/mongodb-connector-plugin/mongodb-connector-plugin-1.1.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102895" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102895" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/mongodb-connector-plugin/mongodb-connector-plugin-1.1.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/openapi-connector-plugin/openapi-connector-plugin-2.0.1.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p102958" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp102958" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/openapi-connector-plugin/openapi-connector-plugin-2.0.1.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/palantir-connector-plugin/palantir-connector-plugin-1.4.2.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103021" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103021" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/palantir-connector-plugin/palantir-connector-plugin-1.4.2.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/powerbi-connector-plugin/powerbi-connector-plugin-1.16.4.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103084" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103084" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/powerbi-connector-plugin/powerbi-connector-plugin-1.16.4.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/qlik-connector-plugin/qlik-connector-plugin-1.1.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103165" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103165" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/qlik-connector-plugin/qlik-connector-plugin-1.1.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/sap-connector-plugin/sap-connector-plugin-1.1.4.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103246" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103246" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/sap-connector-plugin/sap-connector-plugin-1.1.4.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/sas-connector-plugin/sas-connector-plugin-1.3.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103327" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103327" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/sas-connector-plugin/sas-connector-plugin-1.3.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/splunk-connector-plugin/splunk-connector-plugin-1.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103390" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103390" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/splunk-connector-plugin/splunk-connector-plugin-1.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/sqlserver-services-connector-plugin/sqlserver-services-connector-plugin-1.8.3.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103489" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103489" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/sqlserver-services-connector-plugin/sqlserver-services-connector-plugin-1.8.3.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/tableau-connector-plugin/tableau-connector-plugin-4.2.2.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103552" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103552" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/tableau-connector-plugin/tableau-connector-plugin-4.2.2.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/talend-connector-plugin/talend-connector-plugin-1.5.3.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103615" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103615" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/talend-connector-plugin/talend-connector-plugin-1.5.3.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/tibco-connector-plugin/tibco-connector-plugin-4.0.1.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103696" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103696" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/tibco-connector-plugin/tibco-connector-plugin-4.0.1.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/dataset-connector-plugin/dataset-connector-plugin-1.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103765" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103765" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/dataset-connector-plugin/dataset-connector-plugin-1.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/zdf-connector-plugin/zdf-connector-plugin-2.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103831" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103831" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/zdf-connector-plugin/zdf-connector-plugin-2.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/zdf-connector-plugin/zdf-connector-plugin-2.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103897" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103897" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/zdf-connector-plugin/zdf-connector-plugin-2.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+  <Entry context="links" type="external-url" severity="message">
+    <Description>External URL link 'https://plugins.zeenea.app/zdf-connector-plugin/zdf-connector-plugin-2.0.0.zip'.</Description>
+    <Navigation context="source">
+      <Link protocol="adapter">
+        <Data key="Path" value="C:\Users\bpandey\Documents\ePublisher Designer Projects\Zeenea\source\Connectors\zeenea-connectors-list.md" />
+        <Data key="DocumentID" value="lNkC-Iwp9oA" />
+        <Data key="ID" value="p103963" />
+      </Link>
+    </Navigation>
+    <Navigation context="output">
+      <wwreport:Link protocol="uri" xmlns:wwreport="urn:WebWorks-Reports-Schema">
+        <wwreport:Data key="URI" value="file:///C:/Users/bpandey/Documents/ePublisher%20Designer%20Projects/Zeenea/Output/Target%202/Connectors/zeenea-connectors-list.01.2.html#wwp103963" />
+      </wwreport:Link>
+    </Navigation>
+    <Navigation context="uri">
+      <Link protocol="uri">
+        <Data key="URI" value="https://plugins.zeenea.app/zdf-connector-plugin/zdf-connector-plugin-2.0.0.zip" />
+      </Link>
+    </Navigation>
+    <Navigation context="details">
+      <Link protocol="wwh5api">
+        <Data key="BaseURI" value="file:///C:/Program%20Files/WebWorks/ePublisher/2024.1/ePublisher%20Designer/Help/en" />
+        <Data key="Context" value="preparing" />
+        <Data key="Topic" value="external_URLs" />
+      </Link>
+    </Navigation>
+  </Entry>
+</Report>

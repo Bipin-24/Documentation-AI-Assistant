@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MarkdownDefaults version="1.0" xmlns="urn:WebWorks-Markdown-Defaults-Schema">
+ <ParagraphStyles>
+  <ParagraphStyle name="Blockquote" />
+  <ParagraphStyle name="Code Block" />
+  <ParagraphStyle name="Code Fence" />
+  <ParagraphStyle name="Footnote Reference" />
+  <ParagraphStyle name="Heading 1" />
+  <ParagraphStyle name="Heading 2" />
+  <ParagraphStyle name="Heading 3" />
+  <ParagraphStyle name="Heading 4" />
+  <ParagraphStyle name="Heading 5" />
+  <ParagraphStyle name="Heading 6" />
+  <ParagraphStyle name="Horizontal Rule" />
+  <ParagraphStyle name="HTML" />
+  <ParagraphStyle name="Image" />
+  <ParagraphStyle name="Paragraph" />
+  <ParagraphStyle name="Table Cell Body" />
+  <ParagraphStyle name="Table Cell Head" />
+  <ParagraphStyle name="Title 1" />
+  <ParagraphStyle name="Title 2" />
+ </ParagraphStyles>
+ <CharacterStyles>
+  <CharacterStyle name="Bold" />
+  <CharacterStyle name="Code" />
+  <CharacterStyle name="Italic" />
+  <CharacterStyle name="HTML" />
+  <CharacterStyle name="Strikethrough" />
+ </CharacterStyles>
+ <TableStyles>
+  <TableStyle name="Table" />
+ </TableStyles>
+ <GraphicStyles>
+  <GraphicStyle name="Default" /><!-- FrameMaker, Word, DITA -->
+  <GraphicStyle name="Image" />
+ </GraphicStyles>
+</MarkdownDefaults>

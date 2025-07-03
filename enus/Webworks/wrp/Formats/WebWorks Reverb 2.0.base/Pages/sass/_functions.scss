@@ -1,0 +1,75 @@
+/* ~~~~ FUNCTIONS ~~~~ */
+/*                     */
+
+@function lighten-all($colors, $amount) {
+  $colors_final: '';
+
+  @for $i from 1 through length($colors) {
+    $color: nth($colors, $i);
+
+    @if (type-of($color) == color) {
+      $color: lighten($color, $amount);
+    }
+
+    @if ($i == 1) {
+      $colors_final: $colors_final + $color;
+    }
+    @else {
+      $colors_final: $colors_final + ' ' + $color;
+    }
+  }
+
+  @return unquote($colors_final);
+}
+
+@function darken-all($colors, $amount) {
+  $colors_final: '';
+
+  @for $i from 1 through length($colors) {
+    $color: nth($colors, $i);
+
+    @if (type-of($color) == color) {
+      $color: darken($color, $amount);
+    }
+
+    @if ($i == 1) {
+      $colors_final: $colors_final + $color;
+    }
+    @else {
+      $colors_final: $colors_final + ' ' + $color;
+    }
+  }
+
+  @return unquote($colors_final);
+}
+
+@function negative-margin($amounts) {
+  $amounts_final: '';
+
+  @for $i from 1 through length($amounts) {
+    $amount: nth($amounts, $i);
+
+    @if (type-of($amount) == number) {
+      $amount: $amount * -1;
+    }
+
+    @if ($i == 1) {
+      $amounts_final: $amounts_final + $amount;
+    }
+    @else {
+      $amounts_final: $amounts_final + ' ' + $amount;
+    }
+  }
+
+  @return unquote($amounts_final);
+}
+
+@function indentation-amount-value($toc_level) {
+  $result: '';
+
+  @for $i from 0 to $toc_level {
+    $result: $result + ' + #{$menu_toc_item_indentation_amount} + #{$menu_toc_item_icon_padding_right}';
+  }
+
+  @return unquote($result);
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes>
+  <Class name="locale" validater="locale">
+   <Common value="en" />
+   <Common value="fr" />
+   <Common value="de" />
+   <Common value="ja" />
+   <Common value="es" />
+   <Common value="it" />
+   <Common value="ko" />
+   <Common value="pt" />
+   <Common value="ru" />
+   <Common value="sv" />
+   <Common value="zh" />
+   <Common value="zh_TW" />
+   <Common value="da" />
+   <Common value="cs" />
+   <Common value="et" />
+   <Common value="fi" />
+   <Common value="hr" />
+   <Common value="hu" />
+   <Common value="lt" />
+   <Common value="nl" />
+   <Common value="no" />
+   <Common value="pl" />
+   <Common value="tr" />
+   <Common value="ar" />
+  </Class>
+ </Classes>
+
+ <Groups>
+  <Group name="locale" />
+ </Groups>
+
+ <Settings>
+  <!-- Locale -->
+  <!--        -->
+  <Setting name="locale" group="locale" default="en">
+   <SettingClass name="locale" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

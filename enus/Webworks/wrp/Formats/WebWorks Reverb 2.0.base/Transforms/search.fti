@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes/>
+
+ <Groups>
+  <Group name="reverb-2.0-search" />
+ </Groups>
+
+ <Settings>
+  <!-- Search -->
+  <!--        -->
+  <Setting name="search-scope-enabled" group="reverb-2.0-search" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="search-result-count" group="reverb-2.0-search" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="progressive-search-enabled" group="reverb-2.0-search" default="true">
+   <SettingClass name="boolean" />
+  </Setting>
+  <Setting name="search-query-minimum-character-amount" group="reverb-2.0-search" default="4">
+   <SettingClass name="number" />
+  </Setting>
+ </Settings>
+
+ <RuleTraitsSet />
+</FormatTraitInfo>

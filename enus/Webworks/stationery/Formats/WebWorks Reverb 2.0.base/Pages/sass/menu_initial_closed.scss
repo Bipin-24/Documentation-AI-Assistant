@@ -1,0 +1,57 @@
+@import "fonts";
+@import "sizes";
+
+$initial_state_query: "only screen and (min-width : 900px)"; // layout_wide
+
+/* Toggle Buttons - Initial State */
+#layout_div {
+  &.layout_narrow {
+    #presentation_div {
+      &.menu_initial {
+        #menu_toggle_show {
+          display: table;
+        }
+        #menu_toggle_hide {
+          display: none;
+        }
+      }
+    }
+  }
+  &.layout_wide {
+    #presentation_div {
+      &.menu_initial {
+        #menu_toggle_show {
+          display: table;
+        }
+        #menu_toggle_hide {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/* Menu - Initial State */
+#layout_div {
+  &.layout_narrow {
+    #presentation_div {
+      &.menu_initial {
+        #menu_frame {
+          left: (-$menu_width);
+        }
+        #menu_backdrop {
+          display: none;
+        }
+      }
+    }
+  }
+  &.layout_wide {
+    #presentation_div {
+      &.menu_initial {
+        #menu_frame {
+          left: (-$menu_width);
+        }
+      }
+    }
+  }
+}

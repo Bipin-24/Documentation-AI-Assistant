@@ -1,0 +1,94 @@
+<!DOCTYPE html ><html xml:lang="en" lang="en" data-highlight-require-whitespace="false" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>title: SAP Analytics Cloud</title><link rel="Prev" href="zeenea-connector-sap-analytics-cloud.67.1.html" title="Previous" /><link rel="Next" href="zeenea-connector-sap-bo.68.1.html" title="Next" /><link rel="StyleSheet" href="../css/font-awesome/css/all.min.css" type="text/css" media="all" /><link rel="StyleSheet" href="css/zeenea-connector-sap-analytics-cloud.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/skin.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/social.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/print.css" type="text/css" media="print" /><noscript><div id="noscript_padding"></div></noscript></head><body id="pBIaSGdk1IEtKvsAXeHntlg" class="ww_skin_page_body" style="visibility: hidden;"><input type="hidden" id="page_onload_url" value="../index.html#page/Connectors/zeenea-connector-sap-analytics-cloud.67.2.html"></input><span id="dropdown_ids" style="display:none;"></span><div id="ww_content_container"><header id="wwconnect_header"><div class="ww_skin_breadcrumbs"><a class="WebWorks_Breadcrumb_Link" href="zeenea-connectors-list.01.1.html">Connectors</a> : <span class="WebWorks_Breadcrumb_Text">title: SAP Analytics Cloud  </span></div><div class="ww_skin_page_toolbar"><div id="dropdown_button_container" class="dropdown_container dropdown_button_container_disabled"><a id="show_hide_all" class="ww_skin ww_behavior_dropdown_toggle ww_skin_dropdown_toggle" title="Page DropDown Toggle" href="#"><i class="far"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><div id="social_links"><!-- Twitter --><!--         --><a id="social_twitter" class="ww_social ww_social_twitter" title="Twitter" target="_blank" href="#"><i class="fab"></i></a><!-- FaceBook Like --><!--               --><a id="social_facebook_like" class="ww_social ww_social_facebook" title="Facebook" target="_blank" href="#"><i class="fab"></i></a><!-- LinkedIn Share --><!--                --><a id="social_linkedin" class="ww_social ww_social_linkedin" title="LinkedIn" target="_blank" href="#"><i class="fab"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><a class="ww_behavior_print ww_skin ww_skin_print" title="Print" href="#"><i class="fa"></i></a></div><!-- was this helpful button --><!--                         --><div class="ww_skin_was_this_helpful_container"><div class="ww_skin_was_this_helpful_message">Was this helpful?</div><div class="ww_skin_was_this_helpful_buttons_container"><div id="helpful_thumbs_up" class="ww_skin_was_this_helpful_button" title="Helpful"><i class="far"></i></div><div id="helpful_thumbs_down" class="ww_skin_was_this_helpful_button" title="Unhelpful"><i class="far"></i></div></div></div></header><div id="page_content_container"><div id="page_content"><div id="wwp100018" class="Title_1">title: SAP Analytics Cloud  </div><div class="WebWorks_MiniTOC"><div class="WebWorks_MiniTOC_Heading">&nbsp;</div><dl class="WebWorks_MiniTOC_List"><dd><div class="WebWorks_MiniTOC_Entry"><a class="WebWorks_MiniTOC_Link" href="../Connectors/zeenea-connector-sap-analytics-cloud.67.2.html#wwp100024">Adding an SAP Analytics Cloud Connection</a></div></dd></dl></div><div id="wwp100024" class="Heading_1">Adding an SAP Analytics Cloud Connection</div><div id="wwp100030" class="Heading_2">Prerequisites</div><ul id="wwl100063" class="UList"><li id="wwli100051" class="UList_Item" value="1"><div id="wwp100045" class="UList_Paragraph">A user with sufficient <span class="Link"><a href="../Connectors/zeenea-connector-sap-analytics-cloud.67.2.html#wwp100162" title="title: SAP Analytics Cloud">permissions</a></span> is required to establish a connection with SAP Analytics Cloud.</div></li><li id="wwli100060" class="UList_Item" value="2"><div id="wwp100054" class="UList_Paragraph">Zeenea traffic flows towards the data source must be open. </div></li></ul><div id="wwp100066" class="Heading_2">Supported Versions</div><div id="wwp100072" class="Paragraph">The SAP Analytics Cloud connector is compatible with the online version of the service. </div><div id="wwp100078" class="Heading_2">Installing the Plugin</div><div id="wwp100093" class="Paragraph">The SAP plugin can be downloaded here: <span class="Link"><a href="../Connectors/zeenea-connectors-list.01.1.html#" title="Zeenea Connector Downloads">Zeenea Connector Downloads</a></span></div><div id="wwp100108" class="Paragraph">For more information on how to install a plugin, please refer to the following article: <span class="Link"><a href="../Connectors/zeenea-connectors-install-as-plugin.02.1.html#" title="Installing and Configuring Connectors as a Plugin">Installing and Configuring Connectors as a Plugin</a></span>.</div><div id="wwp100114" class="Heading_2">Declaring the Connection</div><div id="wwp100123" class="Paragraph">Creating and configuring connectors is done through a dedicated configuration file located in the <span class="Code">/connections</span> folder of the relevant scanner. The scanner frequently checks for any change and resynchronises automatically.</div><div id="wwp100129" class="Paragraph">Read more: Managing Connections</div><div id="wwp100135" class="Paragraph">In order to establish a connection with SAP Analytics Cloud, specifying the following parameters in the dedicated file is required:</div><div id="wwp100141" class="HTML"><table>
+  <tr>
+    <th>Parameter</th>
+    <th>Expected value</th>
+  </tr>
+  <tr>
+    <td>`name`</td>
+    <td>The name that will be displayed to catalog users for this connection.</td>
+  </tr>
+  <tr>
+    <td>`code`</td>
+    <td>The unique identifier of the connection on the Zeenea platform. Once registered on the platform, this code must not be modified or the connection will be considered as new and the old one removed from the scanner.</td>
+  </tr>
+  <tr>
+    <td>`connector_id`</td>
+    <td>The connector type to use for the connection. Here, the value must be `sap-sac` and this value must not be modified.</td>
+  </tr>
+  <tr>
+    <td>`connection.oauth.endpoint`</td>
+    <td>SAP Analytics Cloud endpoint<br />Example: `https://example.authentication.eu10.hana.ondemand.com/oauth/token`</td>
+  </tr>
+  <tr>
+    <td>`connection.oauth.client_id`</td>
+    <td>Client identifier</td>
+  </tr>
+  <tr>
+    <td>`connection.oauth.client_secret`</td>
+    <td>Client secret</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.path`</td>
+    <td>The Trust Store file path. This file must be provided in case TLS encryption is activated (protocol https) and when certificates of servers are delivered by a specific authority. It must contain the certification chain.</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.password`</td>
+    <td>Password of the trust store file</td>
+  </tr>
+  <tr>
+    <td>`tls.truststore.type`</td>
+    <td>Type of the trust store file (`PKCS12` or `JKS`). Default value is discovered from the file extension.</td>
+  </tr>
+  <tr>
+    <td>`proxy.scheme`</td>
+    <td>Depending on the proxy, `http` or `https`</td>
+  </tr>
+  <tr>
+    <td>`proxy.hostname`</td>
+    <td>Proxy address</td>
+  </tr>
+  <tr>
+    <td>`proxy.port`</td>
+    <td>Proxy port</td>
+  </tr>
+  <tr>
+    <td>`proxy.username`</td>
+    <td>Proxy username</td>
+  </tr>
+  <tr>
+    <td>`proxy.password`</td>
+    <td>Proxy account password</td>
+  </tr>
+</table></div><div id="wwp100156" class="Paragraph">:::note A template of the configuration file is available in <span class="Link"><a href="https://github.com/zeenea/connector-conf-templates/tree/main/templates" target="external_window">this repository</a></span>. :::</div><div id="wwp100162" class="Heading_2">User Permissions</div><div id="wwp100168" class="Paragraph">In order to collect metadata, the running user's permissions must allow them to access and read stories that need cataloging. </div><div id="wwp100174" class="Paragraph">In our case, the configuration is done at the OAuth2 client level according to the SAP documentation described in the following article: https://blogs.sap.com/2018/04/20/sap-analytics-cloud-apis-getting-started-guide/.</div><div id="wwp100180" class="Heading_2">Data Extraction</div><div id="wwp100186" class="Paragraph">To extract information, the connector runs the followings requests on the API:</div><ul id="wwl100216" class="UList"><li id="wwli100201" class="UList_Item" value="1"><div id="wwp100195" class="UList_Paragraph"><span class="Code">/oauth/token?grant_type=client_credentials</span>: To authenticate</div></li><li id="wwli100213" class="UList_Item" value="2"><div id="wwp100207" class="UList_Paragraph"><span class="Code">/api/v1/stories?include=models</span>: To collect all the stories and related models</div></li></ul><div id="wwp100219" class="Heading_2">Collected Metadata</div><div id="wwp100225" class="Heading_3">Inventory</div><div id="wwp100231" class="Paragraph">Will collect the list of stories accessible by the user.  </div><div id="wwp100237" class="Heading_3">Lineage</div><div id="wwp100243" class="Paragraph">The connector is able to reconstruct the lineage of the tables used in the stories if they are present in the catalog. This functionality is available when SAP Analytics Cloud uses datasets from the technologies mentioned below. In some cases, it is necessary to specify an additional parameter in the configuration files of the original connections of these tables as it is referenced in the configuration of SAP Analytics Cloud connections.</div><div id="wwp100252" class="Paragraph">Summary table of possible values of the <span class="Code">alias</span> parameter to be completed in the data source configuration file.</div><div class="ww_skin_page_overflow"><table id="wwt100348" class="Table" style="border-collapse: collapse; margin-bottom: 18px" border="1px solid #888888" summary=""><tr><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100264" class="Table_Cell_Head"><div id="wwp100258" class="Paragraph">Source System</div></div></th><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100276" class="Table_Cell_Head"><div id="wwp100270" class="Paragraph">Model</div></div></th><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100288" class="Table_Cell_Head"><div id="wwp100282" class="Paragraph">Example</div></div></th></tr><tr><td style="background-color: Transparent"><div id="wwb100312" class="Table_Cell_Body"><div id="wwp100306" class="Paragraph"><span class="Link"><a href="../Connectors/zeenea-connector-sap-bw-safyr.69.1.html#" title="title: SAP BW (Safyr)">SAP BW</a></span></div></div></td><td style="background-color: Transparent"><div id="wwb100324" class="Table_Cell_Body"><div id="wwp100318" class="Paragraph">N/A</div></div></td><td style="background-color: Transparent"><div id="wwb100336" class="Table_Cell_Body"><div id="wwp100330" class="Paragraph">N/A</div></div></td></tr><tr></tr></table></div><div id="wwp100351" class="Heading_3">Visualization</div><div id="wwp100357" class="Paragraph">A visualization is an SAP Analytics Cloud story.</div><ul id="wwl100456" class="UList"><li id="wwli100372" class="UList_Item" value="1"><div id="wwp100366" class="UList_Paragraph"><span class="Bold">Name</span></div></li><li id="wwli100384" class="UList_Item" value="2"><div id="wwp100378" class="UList_Paragraph"><span class="Bold">Source Description</span></div></li><li id="wwli100453" class="UList_Item" value="3"><div id="wwp100390" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100450" class="UList"><li id="wwli100402" class="UList_Item" value="1"><div id="wwp100396" class="UList_Paragraph">SAP Identifier</div></li><li id="wwli100411" class="UList_Item" value="2"><div id="wwp100405" class="UList_Paragraph">URL</div></li><li id="wwli100420" class="UList_Item" value="3"><div id="wwp100414" class="UList_Paragraph">Created At</div></li><li id="wwli100429" class="UList_Item" value="4"><div id="wwp100423" class="UList_Paragraph">Updated At</div></li><li id="wwli100438" class="UList_Item" value="5"><div id="wwp100432" class="UList_Paragraph">Created By</div></li><li id="wwli100447" class="UList_Item" value="6"><div id="wwp100441" class="UList_Paragraph">Updated By</div></li></ul></li></ul><div id="wwp100459" class="Heading_3">Dataset</div><div id="wwp100465" class="Paragraph">A dataset is an SAP Analytics Cloud model. </div><ul id="wwl100519" class="UList"><li id="wwli100480" class="UList_Item" value="1"><div id="wwp100474" class="UList_Paragraph"><span class="Bold">Name</span></div></li><li id="wwli100492" class="UList_Item" value="2"><div id="wwp100486" class="UList_Paragraph"><span class="Bold">Source Description</span></div></li><li id="wwli100516" class="UList_Item" value="3"><div id="wwp100498" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100513" class="UList"><li id="wwli100510" class="UList_Item" value="1"><div id="wwp100504" class="UList_Paragraph">SAP Identifier</div></li></ul></li></ul><div id="wwp100522" class="Heading_3">Data Process</div><div id="wwp100528" class="Paragraph">To represent the data flow from an external source, a Zeenea Data Process will be created for each SAP Analytics Cloud model.</div><ul id="wwl100549" class="UList"><li id="wwli100546" class="UList_Item" value="1"><div id="wwp100540" class="UList_Paragraph"><span class="Bold">Name</span>: <span class="Code">import dataset_name</span></div></li></ul><div id="wwp100552" class="Heading_3">Fields</div><div id="wwp100558" class="Paragraph">The connector does not return any information about the story fields. They are not exposed by the SAP Analytics Cloud API.</div><div id="wwp100564" class="Heading_2">Unique Identifier Keys</div><div id="wwp100570" class="Paragraph">A key is associated with each item of the catalog. When the object comes from an external system, the key is built and provided by the connector.</div><div id="wwp100576" class="Paragraph">More information about unique identification keys in this documentation: Identification Keys.</div><div id="wwp100582" class="HTML"> <table>
+   <tr><th>Object</th><th>Identifier Key</th><th>Description</th></tr>
+   <tr>
+     <td>Visualization</td>
+     <td>code/story/technical identifier</td>
+     <td>
+       <ul>
+         <li>**code**: Unique identifier of the connection noted in the configuration file</li>
+         <li>**technical identifier**: SAP technical identifier of the story</li>
+       </ul>
+     </td>
+   </tr>
+   <tr>
+     <td>Dataset</td>
+     <td>code/model/technical identifier</td>
+     <td>
+       <ul>
+         <li>**code**:  Unique identifier of the connection noted in the configuration file</li>
+         <li>**technical identifier**: SAP technical identifier of the model</li>
+       </ul>
+     </td>
+   </tr>
+   <tr>
+     <td>Data process</td>
+     <td>code/transformation/technical identifier</td>
+     <td>
+       <ul>
+         <li>**code**:  Unique identifier of the connection noted in the configuration file</li>
+         <li>**technical identifier**: SAP technical identifier of the model</li>
+       </ul>
+     </td>
+   </tr>
+ </table></div></div><div id="page_dates"><div class="ww_skin_document_last_modified_date">Last modified date: 03/19/2025</div></div><!-- Related Topics --><!--                --><footer><!-- Disqus --><!--        --><!-- Google Translation --><!--                    --><br /></footer></div></div><input type="hidden" id="preserve_unknown_file_links" value="false"></input><noscript><div id="noscript_warning">This site works best with JavaScript enabled</div></noscript><script type="text/javascript" src="../scripts/common.js"></script><script type="text/javascript" src="../scripts/page.js"></script></body></html>

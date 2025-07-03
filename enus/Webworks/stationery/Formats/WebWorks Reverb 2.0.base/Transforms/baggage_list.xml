@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Baggage files info list -->
+<!--                         -->
+
+<!--                                 ALLOWED ATTRIBUTES                                  -->
+<!--    @path: Absolute or relative to this file                                         -->
+<!--   @title: Title to show in the Search Results                                       -->
+<!-- @summary: Summary to show in the Search Results                                     -->
+<!-- @noindex: If present with "true" value, disables indexing of the corresponding path -->
+
+<Files version="1.0" xmlns="urn:WebWorks-Baggage-List-Schema">
+ <!-- EXAMPLES:
+ <File path="http://www.webworks.com/default.shtm" noindex="true"/>
+	<File path="../../Source-Docs/DevGuide Ref/apidocs/pdf/XMLquickref.pdf" title="XML Syntax Quick Reference" summary="XML useful documentation"/>
+	<File path="C:\FirstFolder\SecondFolder\index.html" title="My index title" summary="My index summary"/>
+ -->
+</Files>

@@ -1,0 +1,122 @@
+div.Heading_1, caption.Heading_1
+{
+  color: #0056B3;
+  font-family: Sans-Serif, 'Segoe UI';
+  font-size: 26pt;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: 10px;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+div.Heading_2, caption.Heading_2
+{
+  color: #0056B3;
+  font-family: 'Segoe UI';
+  font-size: 22pt;
+  font-weight: 400;
+  letter-spacing: 140%;
+  line-height: 1.2em;
+  margin-top: 10px;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+ol.OList, div.OList, caption.OList
+{
+  margin-bottom: 0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  padding-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+}
+
+li.OList_Item, div.OList_Item, caption.OList_Item
+{
+  margin-bottom: 0pt;
+  margin-left: 36pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  padding-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+}
+
+div.OList_Paragraph, caption.OList_Paragraph
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+
+div.Paragraph, caption.Paragraph
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+
+div.Table_Cell_Body, caption.Table_Cell_Body
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+
+div.Table_Cell_Head, caption.Table_Cell_Head
+{
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.2em;
+  padding-bottom: 6pt;
+  padding-top: 0pt;
+}
+
+div.Title_1, caption.Title_1
+{
+  color: #0056B3;
+  font-family: Sans-Serif, 'Segoe UI';
+  font-size: 28pt;
+  font-weight: 400;
+  letter-spacing: 140%;
+  line-height: 1.2em;
+  margin-bottom: 12pt;
+  padding-bottom: 12pt;
+  padding-top: 0pt;
+}
+
+span.Code, span.Code a, span.Code a:active, abbreviation.Code, abbreviation.Code a, abbreviation.Code a:active, acronym.Code, acronym.Code a, acronym.Code a:active, citation.Code, citation.Code a, citation.Code a:active
+{
+  background-color: #efefef;
+  font-family: Consolas;
+  white-space: pre;
+}
+
+table.Table
+{
+  border-bottom-color: #222222;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: #222222;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #222222;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #222222;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+

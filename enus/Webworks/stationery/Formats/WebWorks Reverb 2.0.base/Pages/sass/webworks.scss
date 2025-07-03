@@ -1,0 +1,238 @@
+@import "_colors.scss";
+@import "_fonts.scss";
+@import "_icons.scss";
+@import "_sizes.scss";
+@import "_borders.scss";
+
+
+body {
+  font-family: $font_family_main;
+  font-size: $font_size_small;
+}
+
+// Default style for links
+a {
+  &:link {
+    &:active {
+      color: $link_active_color;
+    }
+    color: $link_default_color;
+  }
+  &:visited {
+    color: $link_visited_color;
+  }
+  &:link:hover, &:visited:hover {}
+}
+
+span.WebWorks_Number {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
+div {
+  &.WebWorks_Table {
+    border: 1px solid $table_border_color;
+  }
+
+  &.WebWorks_Table_Row {
+    clear: left;
+  }
+
+  &.WebWorks_Table_Cell {
+    float: left;
+  }
+
+  &.WebWorks_Table_End {
+    clear: both;
+    font-size: 1px;
+  }
+
+  &.WebWorks_MiniTOC {
+    font-family: $mini_toc_font;
+    font-size: $mini_toc_font_size;
+    margin: $mini_toc_margin;
+    padding: 0;
+    background: $mini_toc_background_color;
+    border-style: $mini_toc_border_style;
+    border-width: $mini_toc_border_width;
+    border-color: $mini_toc_border_color;
+    border-radius: $mini_toc_border_radius;
+  }
+
+  &.WebWorks_MiniTOC_Heading {
+    display: none;
+  }
+}
+
+// Breadcrumbs
+//
+.WebWorks_Breadcrumb_Link, .WebWorks_Breadcrumb_Text {
+  display: inline-block;
+}
+
+// Mini TOC
+//
+dl.WebWorks_MiniTOC_List {
+  margin: 0;
+  padding: 0 0 0 ($mini_toc_entry_indentation_amount * 2);
+}
+
+div.WebWorks_MiniTOC > dl.WebWorks_MiniTOC_List {
+  padding-left: 0;
+}
+
+dl.WebWorks_MiniTOC_List > dd {
+  margin: 0;
+  padding: 0px ($mini_toc_entry_indentation_amount);
+}
+
+div {
+  &.WebWorks_MiniTOC_Entry {
+    cursor: pointer;
+    padding: $mini_toc_entry_padding;
+    border-style: $mini_toc_entry_border_style;
+    border-width: $mini_toc_entry_border_width;
+    border-color: $mini_toc_entry_border_color;
+    border-radius: $mini_toc_entry_border_radius;
+  }
+
+  &.WebWorks_MiniTOC > dl.WebWorks_MiniTOC_List > dd:first-child > div.WebWorks_MiniTOC_Entry {
+    border-width: 0;
+  }
+
+  &.WebWorks_MiniTOC_Entry:hover {
+    background: $mini_toc_entry_background_color_hover;
+  }
+}
+
+a.WebWorks_MiniTOC_Link {
+  &:link {
+    color: $mini_toc_entry_text_color;
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: $mini_toc_entry_text_color_visited;
+    text-decoration: none;
+  }
+}
+
+div.WebWorks_MiniTOC_Entry:hover > a.WebWorks_MiniTOC_Link {
+  &:link {
+    color: $mini_toc_entry_text_color_hover;
+  }
+
+  &:visited {
+    color: $mini_toc_entry_text_color_visited_hover;
+  }
+}
+
+// Related Topics
+//
+.Related_Topics {
+  padding: $related_topics_padding;
+  border-top: $related_topics_border_style $related_topics_border_color $related_topics_border_width;
+  border-right: $related_topics_border_style $related_topics_border_color $related_topics_border_width;
+  border-bottom: $related_topics_border_style $related_topics_border_color $related_topics_border_width;
+  border-left: $related_topics_border_style $related_topics_border_color $related_topics_border_width;
+  border-radius: $related_topics_border_radius;
+}
+
+.Related_Topics_Title {
+  font-weight: bold;
+  font-family: $related_topics_title_font;
+  font-size: $related_topics_title_font_size;
+  color: $related_topics_title_text_color;
+  background: $related_topics_title_background_color;
+  padding: $related_topics_title_padding;
+  border-top: $related_topics_title_border_style $related_topics_title_border_color $related_topics_title_border_width;
+  border-right: $related_topics_title_border_style $related_topics_title_border_color $related_topics_title_border_width;
+  border-bottom: $related_topics_title_border_style $related_topics_title_border_color $related_topics_title_border_width;
+  border-left: $related_topics_title_border_style $related_topics_title_border_color $related_topics_title_border_width;
+  border-radius: $related_topics_title_border_radius;
+
+  .ww_skin_dropdown_arrow i {
+    color: $related_topics_dropdown_toggle_icon_color;
+  }
+}
+
+.Related_Topics_List {
+  padding: $related_topics_list_padding;
+  border-top: none;
+  border-right: $related_topics_list_border_style $related_topics_list_border_color $related_topics_list_border_width;
+  border-bottom: $related_topics_list_border_style $related_topics_list_border_color $related_topics_list_border_width;
+  border-left: $related_topics_list_border_style $related_topics_list_border_color $related_topics_list_border_width;
+  border-radius: $related_topics_list_border_radius;
+}
+
+.Related_Topics_Entry {
+  font-family: $related_topics_entry_font;
+  font-size: $related_topics_entry_font_size;
+  padding: $related_topics_entry_padding;
+  border-top: $related_topics_entry_border_style $related_topics_entry_border_color $related_topics_entry_border_width;
+  border-right: $related_topics_entry_border_style $related_topics_entry_border_color $related_topics_entry_border_width;
+  border-bottom: $related_topics_entry_border_style $related_topics_entry_border_color $related_topics_entry_border_width;
+  border-left: $related_topics_entry_border_style $related_topics_entry_border_color $related_topics_entry_border_width;
+  border-radius: $related_topics_entry_border_radius;
+
+  &:hover {
+  }
+
+  a {
+    &:link, &:visited {
+      color: $related_topics_entry_text_color;
+    }
+
+    &:hover {
+      &:link, &:visited {
+        color: $related_topics_entry_text_color_hover;
+      }
+    }
+  }
+
+  i {
+    color: $related_topics_entry_icon_color;
+    padding: $related_topics_entry_icon_padding;
+
+    &:before {
+      content: $page_related_topic_entry_icon;
+    }
+  }
+}
+
+// LinkedIn Share and Google +1
+span {
+  &#social_linkedin {
+    margin-right: 12pt;
+    vertical-align: -7px;
+  }
+}
+
+.Search_Result_Highlight {
+  background-color: $search_result_highlight_color;
+}
+
+// No JavaScript
+#noscript_padding {
+  padding-top: 1.9em;
+}
+
+#noscript_warning {
+  font-family: $font_family_main;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 101;
+  text-align: center;
+  font-weight: bold;
+  color: $no_javascript_text_color;
+  background-color: $no_javascript_background_color;
+  padding: 5px 0 5px 0;
+}
+// Disable pointer event handling in SVG object tags wrapped by links
+a object[type="image/svg+xml"] {
+  pointer-events: none;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MapEntrySets xmlns="urn:WebWorks-XSLT-Extension-Document">
+ <!-- Common HTML character entity names -->
+ <!--                                    -->
+ <MapEntrySet name="common">
+  <MapEntry match="&#160;">&amp;nbsp;</MapEntry>
+  <MapEntry match="&#8194;">&amp;nbsp;</MapEntry>
+  <MapEntry match="&#8195;">&amp;nbsp;</MapEntry>
+ </MapEntrySet>
+</MapEntrySets>

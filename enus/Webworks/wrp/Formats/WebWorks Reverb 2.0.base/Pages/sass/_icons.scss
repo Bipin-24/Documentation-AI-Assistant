@@ -1,0 +1,70 @@
+/*~~~~~ ICONS ~~~~~*/
+/*~~~~~~~~~~~~~~~~~*/
+
+/*
+  This file contains the character codes applied to the icons in the output.
+
+  Usage: Find the character code of the icon to be used in the font-awesome cheatsheet.
+         The 4-character code is next to it's respective icon.
+         (ex: f002 for search)
+         Apply to variable value in quotes and a leading backslash
+         (ex: "\f002")
+
+  font-awesome cheatsheet: https://fontawesome.com/v5/cheatsheet/free
+*/
+
+
+
+/* toolbar */
+$toolbar_menu_toggle_button_icon: "\f0c9";
+$toolbar_search_scope_selector_caret_down_icon: "\f107";
+$toolbar_search_button_icon: "\f002";
+$toolbar_search_button_cancel_icon: "\f00d";
+$toolbar_previous_button_icon: "\f104";
+$toolbar_next_button_icon: "\f105";
+$toolbar_home_button_icon: "\f015";
+$toolbar_translate_button_icon: "\f1ab";
+
+/* menu */
+$menu_nav_button_toc_icon: "\f03a";
+$menu_nav_button_index_icon: "\f02e";
+$menu_toc_item_dropdown_open_icon: "\f07c";
+$menu_toc_item_dropdown_closed_icon: "\f07b";
+
+/* page */
+$page_social_twitter_icon: "\f081";
+$page_social_facebook_icon: "\f082";
+$page_social_linkedin_icon: "\f08c";
+$page_toolbar_pdf_icon: "\f1c1";
+$page_toolbar_print_icon: "\f02f";
+$page_toolbar_email_icon: "\f0e0";
+$page_thumbs_up_icon: "\f164";
+$page_thumbs_down_icon: "\f165";
+$page_thumbs_up_selected_icon: "\f164";
+$page_thumbs_down_selected_icon: "\f165";
+$page_dropdown_arrow_expanded_icon: "\f0d7";
+$page_dropdown_arrow_collapsed_icon: "\f0da";
+$page_dropdown_toggle_open_icon: "\f150";
+$page_dropdown_toggle_closed_icon: "\f152";
+$page_dropdown_toggle_disabled_icon: "\f152";
+$page_related_topic_entry_icon: "\f0f6";
+
+/* page loading */
+$page_loading_spinner_icon: "\f110";
+
+/* header */
+$header_connect_phone_icon: "\f095";
+$header_connect_fax_icon: "\f1ac";
+$header_connect_email_icon: "\f0e0";
+
+/* footer */
+$footer_connect_phone_icon: "\f095";
+$footer_connect_fax_icon: "\f1ac";
+$footer_connect_email_icon: "\f0e0";
+
+/* search */
+$search_result_html_icon: "\f0ac";
+$search_result_pdf_icon: "\f1c1";
+$search_result_external_icon: "\f08e";
+
+$lightbox_button_close_icon: "\f00d";

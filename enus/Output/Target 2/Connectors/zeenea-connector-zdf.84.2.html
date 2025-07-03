@@ -1,0 +1,452 @@
+<!DOCTYPE html ><html xml:lang="en" lang="en" data-highlight-require-whitespace="false" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>title: Zeenea Descriptor Format (ZDF)</title><link rel="Prev" href="zeenea-connector-zdf.84.1.html" title="Previous" /><link rel="StyleSheet" href="../css/font-awesome/css/all.min.css" type="text/css" media="all" /><link rel="StyleSheet" href="css/zeenea-connector-zdf.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/skin.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/social.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/print.css" type="text/css" media="print" /><noscript><div id="noscript_padding"></div></noscript></head><body id="pu37IeB_002fvBEJYGwuC9Eqy7w" class="ww_skin_page_body" style="visibility: hidden;"><input type="hidden" id="page_onload_url" value="../index.html#page/Connectors/zeenea-connector-zdf.84.2.html"></input><span id="dropdown_ids" style="display:none;"></span><div id="ww_content_container"><header id="wwconnect_header"><div class="ww_skin_breadcrumbs"><a class="WebWorks_Breadcrumb_Link" href="zeenea-connectors-list.01.1.html">Connectors</a> : <span class="WebWorks_Breadcrumb_Text">title: Zeenea Descriptor Format (ZDF)  </span></div><div class="ww_skin_page_toolbar"><div id="dropdown_button_container" class="dropdown_container dropdown_button_container_disabled"><a id="show_hide_all" class="ww_skin ww_behavior_dropdown_toggle ww_skin_dropdown_toggle" title="Page DropDown Toggle" href="#"><i class="far"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><div id="social_links"><!-- Twitter --><!--         --><a id="social_twitter" class="ww_social ww_social_twitter" title="Twitter" target="_blank" href="#"><i class="fab"></i></a><!-- FaceBook Like --><!--               --><a id="social_facebook_like" class="ww_social ww_social_facebook" title="Facebook" target="_blank" href="#"><i class="fab"></i></a><!-- LinkedIn Share --><!--                --><a id="social_linkedin" class="ww_social ww_social_linkedin" title="LinkedIn" target="_blank" href="#"><i class="fab"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><a class="ww_behavior_print ww_skin ww_skin_print" title="Print" href="#"><i class="fa"></i></a></div><!-- was this helpful button --><!--                         --><div class="ww_skin_was_this_helpful_container"><div class="ww_skin_was_this_helpful_message">Was this helpful?</div><div class="ww_skin_was_this_helpful_buttons_container"><div id="helpful_thumbs_up" class="ww_skin_was_this_helpful_button" title="Helpful"><i class="far"></i></div><div id="helpful_thumbs_down" class="ww_skin_was_this_helpful_button" title="Unhelpful"><i class="far"></i></div></div></div></header><div id="page_content_container"><div id="page_content"><div id="wwp100018" class="Title_1">title: Zeenea Descriptor Format (ZDF)  </div><div class="WebWorks_MiniTOC"><div class="WebWorks_MiniTOC_Heading">&nbsp;</div><dl class="WebWorks_MiniTOC_List"><dd><div class="WebWorks_MiniTOC_Entry"><a class="WebWorks_MiniTOC_Link" href="../Connectors/zeenea-connector-zdf.84.2.html#wwp100024">Adding a ZDF Connection</a></div></dd></dl></div><div id="wwp100024" class="Heading_1">Adding a ZDF Connection</div><div id="wwp100030" class="Heading_2">Connectors</div><div id="wwp100036" class="Paragraph">Zeenea Descriptor Format (ZDF) plugin describes a set of three connectors allowing the management of datasets, visualizations and data processes based on declarative files.</div><div id="wwp100045" class="Paragraph">:::note <span class="Bold">These connectors must be used in very specific cases where a traditional connector is not an option</span>. By using a description of the items instead of the discoverability mechanism used by regular connectors, you must ensure that you comply with the assertions that other connectors respect, such as the existence of elements.</div><div id="wwp100054" class="Paragraph"><span class="Bold">Don't hesitate to reach out your Customer Success Manager in case you need more information about these connectors</span>. :::</div><div id="wwp100060" class="Heading_2">Adding a Connection</div><div id="wwp100066" class="Paragraph">These three connectors work the same way and share the same configuration parameters.</div><div id="wwp100072" class="Heading_3">Plugin Installation</div><div id="wwp100078" class="Paragraph">These connectors are available in the zdf-connector-plugin.</div><div id="wwp100093" class="Paragraph">It can be downloaded here: <span class="Link"><a href="../Connectors/zeenea-connectors-list.01.1.html#" title="Zeenea Connector Downloads">Zeenea Connector Downloads</a></span>.</div><div id="wwp100108" class="Paragraph">For more information on how to install a plugin, please refer to the following article: <span class="Link"><a href="../Connectors/zeenea-connectors-install-as-plugin.02.1.html#" title="Installing and Configuring Connectors as a Plugin">Installing and Configuring Connectors as a Plugin</a></span>.</div><div id="wwp100114" class="Heading_3">Connection Settings</div><div id="wwp100123" class="Paragraph">Creating and configuring connectors is done through a dedicated configuration file located in the <span class="Code">/connections</span> folder of the relevant scanner.</div><div id="wwp100129" class="Paragraph">Read more: Managing Connections</div><div id="wwp100135" class="Heading_3">Configuration Templates:</div><div id="wwp100141" class="Paragraph">The following links can be used to download configuration templates:</div><ul id="wwl100273" class="UList"><li id="wwli100156" class="UList_Item" value="1"><div id="wwp100150" class="UList_Paragraph"><span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUgF8&amp;amp;d=%2Fa%2FNu000002lf09%2FtEQr1W0phzg21nSQpzd3Z2LL9n9wdK4FEO3VD3Ful_k&amp;amp;asPdf=false" target="external_window">zdf-dataset.conf</a></span></div></li><li id="wwli100168" class="UList_Item" value="2"><div id="wwp100162" class="UList_Paragraph"><span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUgIL&amp;amp;d=%2Fa%2FNu000002lf1l%2Fsz0GVeVhOCGVWrGgW0j8T3hUw2igFa85jxkzmS4Hs.Y&amp;amp;asPdf=false" target="external_window">zdf-visualization.conf</a></span></div></li><li id="wwli100180" class="UList_Item" value="3"><div id="wwp100174" class="UList_Paragraph"><span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUgJx&amp;amp;d=%2Fa%2FNu000002lf3N%2FUlWOzC3GcEgFUkW8O3NGJuquSoVw6f44nocTd0yvFgs&amp;amp;asPdf=false" target="external_window">zdf-lineage.conf</a></span></div></li><li id="wwli100195" class="UList_Item" value="4"><div id="wwp100189" class="UList_Paragraph"><span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUfit&amp;amp;d=%2Fa%2FNu000002lf4z%2Fdt8mFO7tuHk.0ooicZNgT31A.LNQqWPFcADrsBvG6Fk&amp;amp;asPdf=false" target="external_window">empty<span class="Italic">dataprocess</span>description.zeenea</a></span></div></li><li id="wwli100210" class="UList_Item" value="5"><div id="wwp100204" class="UList_Paragraph"><span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUgLZ&amp;amp;d=%2Fa%2FNu000002lf6b%2Fz4jLoeVL1zmw0wI6wSvN84do7byKhfPt.2jdDLDme8g&amp;amp;asPdf=false" target="external_window">example<span class="Italic">dataprocess</span>description.zeenea</a></span></div></li><li id="wwli100225" class="UList_Item" value="6"><div id="wwp100219" class="UList_Paragraph"><span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUbKL&amp;amp;d=%2Fa%2FNu000002lf8D%2F70sgTuXPSUK9jX3JbeFdVFmxV63xry3ISEbEqJseyNs&amp;amp;asPdf=false" target="external_window">empty<span class="Italic">visualization</span>description.zeenea</a></span></div></li><li id="wwli100240" class="UList_Item" value="7"><div id="wwp100234" class="UList_Paragraph"><span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUYuM&amp;amp;d=%2Fa%2FNu000002ldXr%2FhSvnsS0Gz4hj5yjjtXexDXIKO4eEP9p6JAy3nZgthPM&amp;amp;asPdf=false" target="external_window">example<span class="Italic">datasets</span>description.zeenea</a></span></div></li><li id="wwli100255" class="UList_Item" value="8"><div id="wwp100249" class="UList_Paragraph"><span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUe5J&amp;amp;d=%2Fa%2FNu000002lf9p%2FhJuTKF9YdDxLF6yEwgnRJw9Zd.qaaeL0gFCB3alppBo&amp;amp;asPdf=false" target="external_window">empty<span class="Italic">datasets</span>description.zeenea</a></span></div></li><li id="wwli100270" class="UList_Item" value="9"><div id="wwp100264" class="UList_Paragraph"><span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUPr6&amp;amp;d=%2Fa%2FNu000002lfBR%2FA49pkIUsaja4qRMCu87JESPPHSuO847kIXOXe63nWHI&amp;amp;asPdf=false" target="external_window">example<span class="Italic">visualization</span>description.zeenea</a></span></div></li></ul><div id="wwp100276" class="Paragraph">To connect to an instance, the parameters of the connection file must be completed with the following values:</div><div id="wwp100282" class="HTML"><table>
+  <tr>
+    <th>Parameter</th>
+    <th>Expected value</th>
+  </tr>
+  <tr>
+    <td>`name`</td>
+    <td>The name that will be displayed to catalog users for this connection.</td>
+  </tr>
+  <tr>
+    <td>`code`</td>
+    <td>The unique identifier of the connection on the Zeenea platform. Once registered on the platform, this code must not be modified or the connection will be considered as new and the old one removed from the scanner.</td>
+  </tr>
+  <tr>
+    <td>`connector_id`</td>
+    <td>The type of connector to be used for the connection. Here, the value must be `zdf-dataset`, `zdf-visualization`, or `zdf-lineage`. Once defined, this value must not be modified.</td>
+  </tr>
+  <tr>
+    <td>`enabled`</td>
+    <td>
+      <p>Optional</p>
+        <p>Boolean (`true`/`false`) indicating whether the connection is active or not.</p>
+        <p>Default value: `true`</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.path`</td>
+    <td>
+      <p>Path to file or folder containing description files.</p>
+      <p>This value is mandatory if no git repository is declared.</p>
+      <p>If a git repository is declared, the value can be null or a path relative to the repository root.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.git.repository`</td>
+    <td>
+      <p>Optional</p>
+      <p>URL of the git repository where to read the files.</p>
+      <p>Example: `https://github.com/acme/bigproject`</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.git.branch`</td>
+    <td>
+        <p>Optional</p>
+        <p>Branch to clone. By default, HEAD is used.</p>
+        <p>Example: `https://github.com/acme/bigproject`</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.git.token`</td>
+    <td>
+      <p>Optional</p>
+      <p>Authentication Token</p>
+      <p>Replaces the usage of the username/password parameters.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.git.username`</td>
+    <td>
+      <p>Optional</p>
+      <p>Git user name. Requires password.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.git.token`</td>
+    <td>
+      <p>Optional</p>
+      <p>Git user password. Requires username.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.git.workdir`</td>
+    <td>
+      <p>Optional</p>
+      <p>Local working folder where the git repository will be cloned.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.git.cleandir`</td>
+    <td>
+      <p>Optional</p>
+      <p>Boolean (`true`/`false`) indicating whether the working folder should be deleted after processing. If deleted, the repository will be cloned at each operation, otherwise only an update will be performed.</p>
+      <p>Default value: `false`</p>
+    </td>
+  </tr>
+</table></div><div id="wwp100294" class="Heading_2">zdf-dataset</div><div id="wwp100300" class="Paragraph">This is a Dataset connector.</div><div id="wwp100306" class="Paragraph">It operates according to the inventory/import/update cycle. The objects inventoried are Datasets.</div><div id="wwp100312" class="Paragraph">Description files are in JSON format. The root is an object containing two attributes.</div><div id="wwp100318" class="HTML"><table>
+  <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+  <tr>
+    <td>datasets</td>
+    <td>`List<ZdfDataset>`</td>
+    <td>Dataset list</td>
+  </tr>
+  <tr>
+    <td>lineage</td>
+    <td>`List<ZdfProcess>`</td>
+    <td>List of lineage links linked to datasets</td>
+  </tr>
+</table></div><div id="wwp100330" class="Heading_2">zdf-visualization</div><div id="wwp100336" class="Paragraph">This is a Visualization connector.</div><div id="wwp100342" class="Paragraph">It operates according to the inventory/import/update cycle. The objects inventoried are the Visualizations.</div><div id="wwp100348" class="Paragraph">Description files are in JSON format. The root is an object containing two attributes.</div><div id="wwp100354" class="HTML"><table>
+  <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+  <tr>
+    <td>visualizations</td>
+    <td>`List<ZdfVisualization>`</td>
+    <td>Visualization list</td>
+  </tr>
+  <tr>
+    <td>lineage</td>
+    <td>`List<ZdfProcess>`</td>
+    <td>List of lineage links between visualizations' internal datasets and external datasets</td>
+  </tr>
+</table></div><div id="wwp100366" class="Heading_2">zdf-lineage</div><div id="wwp100372" class="Paragraph">This is a Data Process connector.</div><div id="wwp100378" class="Paragraph">It works with a single synchronization operation.</div><div id="wwp100384" class="Paragraph">Description files are in JSON format. The root is an object containing an attribute.</div><div id="wwp100390" class="HTML"><table>
+  <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+  <tr>
+    <td>lineage</td>
+    <td>`List<ZdfProcess>`</td>
+    <td>List of lineage links between the Data Process and  its datasets</td>
+  </tr>
+</table></div><div id="wwp100402" class="Heading_2">Description File Discovery</div><div id="wwp100411" class="Paragraph">The connector recursively searches all ordinary files with the extension <span class="Code">.zeenea</span> starting from the search root. The root can also refer to a single valid file.</div><div id="wwp100420" class="Paragraph">If no git repository is declared, the root is specified by the <span class="Code">connection.path</span> parameter.</div><div id="wwp100435" class="Paragraph">If a git repository is declared, the repository is cloned into the working folder, or updated if the clone is already present. The root folder is the concatenation of the working folder and the <span class="Code">connection.path</span> parameter. At the end of processing, if the <span class="Code">connection.git.cleandir</span> option is <span class="Code">true</span>, the working folder is deleted.</div><div id="wwp100441" class="Heading_2">Format Details</div><div id="wwp100447" class="HTML"><font color="red">NOTE: Some attributes below have a "*" next to them, but there is no corresponding footnote.</font></div><div id="wwp100459" class="Heading_3">ZdfDataset</div><div id="wwp100465" class="Paragraph">Dataset description.</div><div id="wwp100471" class="HTML"> <table>
+   <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+   <tr>
+     <td>`path`</td>
+     <td>`Text`</td>
+     <td>
+        <p>Path identifying the dataset in relation to the connection.</p>
+        <p>If not specified, the path will be `/dataset/`. Example: `/crm_db/sap/customer`.</p>
+    </td>
+   </tr>
+   <tr>
+     <td>`name`*</td>
+     <td>`Text`</td>
+     <td>Dataset name</td>
+   </tr>
+   <tr>
+     <td>`description`</td>
+     <td>`Text`</td>
+     <td>Dataset description</td>
+   </tr>
+   <tr>
+     <td>`owner`</td>
+     <td>ZdfOwner</td>
+     <td>Dataset owner contact</td>
+   </tr>
+   <tr>
+     <td>`fields`*</td>
+     <td>`List<ZdfField>`</td>
+     <td>Dataset field list</td>
+   </tr>
+   <tr>
+     <td>`foreignKeys`</td>
+     <td>`List<ZdfForeignKey>`</td>
+     <td>Foreign key list</td>
+   </tr>
+   <tr>
+     <td>`type`</td>
+     <td>`Text`</td>
+     <td>Source property `type`</td>
+   </tr>
+   <tr>
+     <td>`label`</td>
+     <td>`Text`</td>
+     <td>
+        <p>Source property `label`.</p>
+        <p>**Note**: This is different from the `name` property.</p>
+    </td>
+   </tr>
+   <tr>
+     <td>`format`</td>
+     <td>`Text`</td>
+     <td>Source property `format`</td>
+   </tr>
+   <tr>
+     <td>`numberOfRows`</td>
+     <td>`Text`</td>
+     <td>Source property `number of rows`</td>
+   </tr>
+   <tr>
+     <td>`diskUsage`</td>
+     <td>`Text`</td>
+     <td>Source property `disk usage`</td>
+   </tr>
+   <tr>
+     <td>`location`</td>
+     <td>`Text`</td>
+     <td>Source property `location`</td>
+   </tr>
+   <tr>
+     <td>`project`</td>
+     <td>`Text`</td>
+     <td>Source property `project`</td>
+   </tr>
+   <tr>
+     <td>`catalog`</td>
+     <td>`Text`</td>
+     <td>Source property `catalog`</td>
+   </tr>
+   <tr>
+     <td>`schema`</td>
+     <td>`Text`</td>
+     <td>Source property `schema`</td>
+   </tr>
+   <tr>
+     <td>`database`</td>
+     <td>`Text`</td>
+     <td>Source property `database`</td>
+   </tr>
+   <tr>
+     <td>`replicationFactor`</td>
+     <td>`Text`</td>
+     <td>Source property `replication factor`</td>
+   </tr>
+   <tr>
+     <td>`tags`</td>
+     <td>`Text`</td>
+     <td>Source property `tags`</td>
+   </tr>
+   <tr>
+     <td>`sourceSystem`</td>
+     <td>`Text`</td>
+     <td>Source property `source system`</td>
+   </tr>
+   <tr>
+     <td>`origin`</td>
+     <td>`Text`</td>
+     <td>Source property `origin`</td>
+   </tr>
+   <tr>
+     <td>`creationDate`</td>
+     <td>`Text`</td>
+     <td>Source property `creation date`</td>
+   </tr>
+   <tr>
+     <td>`updateDate`</td>
+     <td>`Text`</td>
+     <td>Source property `update date`</td>
+   </tr>
+   <tr>
+     <td>`createdBy`</td>
+     <td>`Text`</td>
+     <td>Source property `created by`</td>
+   </tr>
+   <tr>
+     <td>`updatedBy`</td>
+     <td>`Text`</td>
+     <td>Source property `updated by`</td>
+   </tr>
+   <tr>
+     <td>`comments`</td>
+     <td>`Text`</td>
+     <td>Source property `comments`</td>
+   </tr>
+ </table></div><div id="wwp100483" class="Heading_3">ZdfVisualization</div><div id="wwp100489" class="Paragraph">A visualization description.</div><div id="wwp100495" class="HTML"> <table>
+   <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+   <tr>
+     <td>`path`</td>
+     <td>`Text`</td>
+     <td>
+      <p>Path identifying the view in the connection.</p>
+      <p> If not specified, the path will be `/report/` (example: `/report/sales_evolutions`).</p>
+    </td>
+   </tr>
+   <tr>
+     <td>`name`*</td>
+     <td>`Text`</td>
+     <td>Visualization name</td>
+   </tr>
+   <tr>
+     <td>`description`</td>
+     <td>`Text`</td>
+     <td>Visualization description</td>
+   </tr>
+   <tr>
+     <td>`owner`</td>
+     <td>`ZdfOwner`</td>
+     <td>Visualization owner contact</td>
+   </tr>
+   <tr>
+     <td>`datasets`*</td>
+     <td>`List<ZdfDataset>`</td>
+     <td>List of the visualization's internal datasets.<br /><br />**Note**: these objects represent access to visualization data. They belong to the visualization and cannot be shared. Their life cycle is the same as that of the visualization to which they are attached.<br /><br />Shared datasets must be produced in another connection with the zdf-dataset connector.</td>
+   </tr>
+</table></div><div id="wwp100507" class="Heading_3">ZdfProcess</div><div id="wwp100513" class="Paragraph">Process description.</div><div id="wwp100519" class="HTML"> <table>
+   <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+   <tr>
+     <td>`path`</td>
+     <td>`Text`</td>
+     <td>
+      <p>Path identifying the process in relation to the connection.</p>
+      <p>If not specified, the path will be `/transformation/`.</p>
+      <p>Example: `/transformation/47ccd226-11e1-11ef-9b10-00155d60aaf0`</p>
+    </td>
+   </tr>
+   <tr>
+     <td>`name`*</td>
+     <td>`Text`</td>
+     <td>Process name</td>
+   </tr>
+   <tr>
+     <td>`description`</td>
+     <td>`Text`</td>
+     <td>Process description</td>
+   </tr>
+   <tr>
+     <td>`owner`</td>
+     <td>`ZdfOwner`</td>
+     <td>Process owner contact</td>
+   </tr>
+   <tr>
+     <td>`inputs`</td>
+     <td>`List<ZdfDatasetRef>`</td>
+     <td>List of process input dataset references</td>
+   </tr>
+   <tr>
+     <td>`outputs`</td>
+     <td>`List<ZdfDatasetRef>`</td>
+     <td>List of process output dataset references</td>
+   </tr>
+</table></div><div id="wwp100531" class="Heading_3">ZdfField</div><div id="wwp100537" class="Paragraph">A field description.</div><div id="wwp100543" class="HTML"> <table>
+   <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+   <tr>
+     <td>`name`*</td>
+     <td>`Text`</td>
+     <td>Field name</td>
+   </tr>
+   <tr>
+     <td>`description`</td>
+     <td>`Text`</td>
+     <td>Field description</td>
+   </tr>
+   <tr>
+     <td>`nativeType`</td>
+     <td>`Text`</td>
+     <td>
+        <p>Native type of the field.</p>
+        <p>If unset, the `dataType` value is used.</p>
+      </td>
+  </tr>
+  <tr>
+    <td>`dataType`</td>
+    <td>`Text`</td>
+    <td>
+      <p>Zeenea type of the field.</p>
+      <p>If unset, the `nativeType` value is used.</p>
+      <p>Allowed values are:</p>
+      <ul>
+        <li>`boolean`</li>
+        <li>`byte`</li>
+        <li>`short`</li>
+        <li>`integer`</li>
+        <li>`long`</li>
+        <li>`float`</li>
+        <li>`double`</li>
+        <li>`string`</li>
+        <li>`date`</li>
+        <li>`timestamp`</li>
+        <li>`binary`</li>
+        <li>`struct`</li>
+        <li>`unknown`</li>
+      </ul>
+    </td>
+  </tr>
+   <tr>
+     <td>`isNullable`</td>
+     <td>`Boolean`</td>
+     <td>The field can be null. Default value `false`.</td>
+  </tr>
+   <tr>
+     <td>`isMultivalued`</td>
+     <td>`Boolean`</td>
+     <td>The field can contain <font color="red">[WHAT?]</font>. Default value `false`.</td>
+  </tr>
+   <tr>
+     <td>`isPrimaryKey`</td>
+     <td>`Boolean`</td>
+     <td>The field is part of the primary key. Default value `false`.</td>
+  </tr>
+   <tr>
+     <td>`encoding`</td>
+     <td>`Text`</td>
+     <td>Source property `encoding`</td>
+  </tr>
+   <tr>
+     <td>`format`</td>
+     <td>`Text`</td>
+     <td>Source property `format`</td>
+  </tr>
+   <tr>
+     <td>`length`</td>
+     <td>`Text`</td>
+     <td>Source property `length`</td>
+  </tr>
+</table></div><div id="wwp100555" class="Heading_2">ZdfDatasetRef</div><div id="wwp100561" class="Paragraph">A link to a dataset.</div><div id="wwp100567" class="Paragraph">The link can be represented either with the identification key, or with the connection code and identification path.</div><div id="wwp100579" class="Paragraph">One of the attributes <span class="Code">identificationKey</span> or <span class="Code">path</span> must be filled in.</div><div id="wwp100585" class="HTML"> <table>
+   <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+   <tr>
+     <td>`identificationKey`</td>
+     <td>`Text`</td>
+     <td>Dataset [identification key](./zeenea-identification-keys.md)</td>
+   </tr>
+   <tr>
+     <td>`connectionCode`</td>
+     <td>`Text`</td>
+     <td>Connection code. Leave blank if this is the current connection. It is possible to use one of the connection aliases.</td>
+   </tr>
+   <tr>
+     <td>`zeepath`</td>
+     <td>`Text`</td>
+     <td>Dataset path</td>
+   </tr>
+  </table></div><div id="wwp100597" class="Heading_2">ZdfOwner</div><div id="wwp100603" class="Paragraph">A contact description.</div><div id="wwp100609" class="HTML"> <table>
+   <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+   <tr>
+     <td>`role`*</td>
+     <td>`Text`</td>
+     <td>Contact role</td>
+   </tr>
+   <tr>
+     <td>`email`*</td>
+     <td>`Text`</td>
+     <td>Contact email address</td>
+   </tr>
+   <tr>
+     <td>`firstname`</td>
+     <td>`Text`</td>
+     <td>Contact first name</td>
+   </tr>
+   <tr>
+     <td>`lastname`</td>
+     <td>`Text`</td>
+     <td>Contact last name</td>
+   </tr>
+  </table></div><div id="wwp100621" class="Heading_2">ZdfForeignKey</div><div id="wwp100627" class="Paragraph">A foreign key description.</div><div id="wwp100633" class="HTML"> <table>
+   <tr><th>Attribute</th><th>Type</th><th>Description</th></tr>
+   <tr>
+     <td>`dataset`*</td>
+     <td>`Text`</td>
+     <td>Path of the target dataset (the one with the primary key)</td>
+   </tr>
+   <tr>
+     <td>`sourceFields`*</td>
+     <td>`List`</td>
+     <td>Source dataset field list</td>
+   </tr>
+   <tr>
+     <td>`targetFields`</td>
+     <td>`List`</td>
+     <td>Target dataset field list</td>
+   </tr>
+   <tr>
+     <td>`name`</td>
+     <td>`Text`</td>
+     <td>Foreign key name</td>
+   </tr>
+  </table>  </div></div><div id="page_dates"><div class="ww_skin_document_last_modified_date">Last modified date: 03/19/2025</div></div><!-- Related Topics --><!--                --><footer><!-- Disqus --><!--        --><!-- Google Translation --><!--                    --><br /></footer></div></div><input type="hidden" id="preserve_unknown_file_links" value="false"></input><noscript><div id="noscript_warning">This site works best with JavaScript enabled</div></noscript><script type="text/javascript" src="../scripts/common.js"></script><script type="text/javascript" src="../scripts/page.js"></script></body></html>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MimeTypes xmlns="urn:WebWorks-MimeTypes-Schema">
+
+ <!-- application -->
+ <!--             -->
+ <MimeType extension="ai">application/postscript</MimeType>
+ <MimeType extension="atom">application/atom+xml</MimeType>
+ <MimeType extension="bcpio">application/x-bcpio</MimeType>
+ <MimeType extension="bin">application/octet-stream</MimeType>
+ <MimeType extension="cdf">application/x-netcdf</MimeType>
+ <MimeType extension="class">application/octet-stream</MimeType>
+ <MimeType extension="cpio">application/x-cpio</MimeType>
+ <MimeType extension="cpt">application/mac-compactpro</MimeType>
+ <MimeType extension="csh">application/x-csh</MimeType>
+ <MimeType extension="dcr">application/x-director</MimeType>
+ <MimeType extension="dir">application/x-director</MimeType>
+ <MimeType extension="dll">application/octet-stream</MimeType>
+ <MimeType extension="dmg">application/octet-stream</MimeType>
+ <MimeType extension="dms">application/octet-stream</MimeType>
+ <MimeType extension="doc">application/msword</MimeType>
+ <MimeType extension="dtd">application/xml-dtd</MimeType>
+ <MimeType extension="dvi">application/x-dvi</MimeType>
+ <MimeType extension="dxr">application/x-director</MimeType>
+ <MimeType extension="eps">application/postscript</MimeType>
+ <MimeType extension="exe">application/octet-stream</MimeType>
+ <MimeType extension="ez">application/andrew-inset</MimeType>
+ <MimeType extension="gram">application/srgs</MimeType>
+ <MimeType extension="grxml">application/srgs+xml</MimeType>
+ <MimeType extension="gtar">application/x-gtar</MimeType>
+ <MimeType extension="hdf">application/x-hdf</MimeType>
+ <MimeType extension="hqx">application/mac-binhex40</MimeType>
+ <MimeType extension="jnlp">application/x-java-jnlp-file</MimeType>
+ <MimeType extension="js">application/x-javascript</MimeType>
+ <MimeType extension="latex">application/x-latex</MimeType>
+ <MimeType extension="lha">application/octet-stream</MimeType>
+ <MimeType extension="lzh">application/octet-stream</MimeType>
+ <MimeType extension="man">application/x-troff-man</MimeType>
+ <MimeType extension="mathml">application/mathmmathml</MimeType>
+ <MimeType extension="mif">application/vnd.mif</MimeType>
+ <MimeType extension="nc">application/x-netcdf</MimeType>
+ <MimeType extension="ncx">application/application/x-dtbncx+xml</MimeType>
+ <MimeType extension="oda">application/oda</MimeType>
+ <MimeType extension="ogg">application/ogg</MimeType>
+ <MimeType extension="pdf">application/pdf</MimeType>
+ <MimeType extension="pgn">application/x-chess-pgn</MimeType>
+ <MimeType extension="ppt">application/vnd.ms-powerpoint</MimeType>
+ <MimeType extension="ps">application/postscript</MimeType>
+ <MimeType extension="rdf">application/rdf+xml</MimeType>
+ <MimeType extension="rm">application/vnd.rn-realmedia</MimeType>
+ <MimeType extension="roff">application/x-troff</MimeType>
+ <MimeType extension="sh">application/x-sh</MimeType>
+ <MimeType extension="shar">application/x-sshar</MimeType>
+ <MimeType extension="sit">application/x-stuffit</MimeType>
+ <MimeType extension="skd">application/x-koan</MimeType>
+ <MimeType extension="xhtml">application/xhtml+xml</MimeType>
+
+ <!-- audio -->
+ <!--       -->
+ <MimeType extension="aif">audio/x-aiff</MimeType>
+ <MimeType extension="aifc">audio/x-aiff</MimeType>
+ <MimeType extension="aiff">audio/x-aiff</MimeType>
+ <MimeType extension="au">audio/basic</MimeType>
+ <MimeType extension="kar">audio/midi</MimeType>
+ <MimeType extension="m3u">audio/x-mpegurl</MimeType>
+ <MimeType extension="m4a">audio/mp4a-latm</MimeType>
+ <MimeType extension="m4b">audio/mp4a-latm</MimeType>
+ <MimeType extension="mid">audio/midi</MimeType>
+ <MimeType extension="midi">audio/midi</MimeType>
+ <MimeType extension="mp2">audio/mpeg</MimeType>
+ <MimeType extension="mp3">audio/mpeg</MimeType>
+ <MimeType extension="ra">audio/x-pn-realaudio</MimeType>
+ <MimeType extension="ram">audio/x-pn-realaudio</MimeType>
+
+ <!-- image -->
+ <!--       -->
+ <MimeType extension="bmp">image/bmp</MimeType>
+ <MimeType extension="cgm">image/cgm</MimeType>
+ <MimeType extension="djv">image/vnd.djvu</MimeType>
+ <MimeType extension="djvu">image/vnd.djvu</MimeType>
+ <MimeType extension="gif">image/gif</MimeType>
+ <MimeType extension="ico">image/x-icon</MimeType>
+ <MimeType extension="ief">image/ief</MimeType>
+ <MimeType extension="jp2">image/jp2</MimeType>
+ <MimeType extension="jpe">image/jpeg</MimeType>
+ <MimeType extension="jpeg">image/jpeg</MimeType>
+ <MimeType extension="jpg">image/jpeg</MimeType>
+ <MimeType extension="mac">image/x-macpaint</MimeType>
+ <MimeType extension="pbm">image/x-portable-bitmap</MimeType>
+ <MimeType extension="pct">image/pict</MimeType>
+ <MimeType extension="pgm">image/x-portable-graymap</MimeType>
+ <MimeType extension="pic">image/pipt</MimeType>
+ <MimeType extension="pict">image/pict</MimeType>
+ <MimeType extension="png">image/png</MimeType>
+ <MimeType extension="pnm">image/x-portable-anymap</MimeType>
+ <MimeType extension="pntg">image/x-macpaint</MimeType>
+ <MimeType extension="ppm">image/xppm</MimeType>
+ <MimeType extension="qti">image/x-quicktime</MimeType>
+ <MimeType extension="qtif">image/x-quicktime</MimeType>
+ <MimeType extension="ras">image/x-cmu-raster</MimeType>
+ <MimeType extension="rgb">image/x-rgb</MimeType>
+ <MimeType extension="svg">image/svg+xml</MimeType>
+
+ <!-- model -->
+ <!--       -->
+ <MimeType extension="iges">model/iges</MimeType>
+ <MimeType extension="igs">model/iges</MimeType>
+ <MimeType extension="mesh">model/mesh</MimeType>
+ <MimeType extension="msh">model/mesh</MimeType>
+ <MimeType extension="silo">model/mesh</MimeType>
+ <MimeType extension="vrml">model/vrml</MimeType>
+ <MimeType extension="wrl">model/vrml</MimeType>
+
+ <!-- text -->
+ <!--      -->
+ <MimeType extension="asc">text/plain</MimeType>
+ <MimeType extension="css">text/css</MimeType>
+ <MimeType extension="etx">text/x-setext</MimeType>
+ <MimeType extension="htm">text/html</MimeType>
+ <MimeType extension="html">text/html</MimeType>
+ <MimeType extension="ics">text/calendar</MimeType>
+ <MimeType extension="ifb">text/calendar</MimeType>
+ <MimeType extension="rtf">text/rtf</MimeType>
+ <MimeType extension="rtx">text/richtext</MimeType>
+ <MimeType extension="sgm">text/sgml</MimeType>
+ <MimeType extension="sgml">text/sgml</MimeType>
+ <MimeType extension="xml">text/xml</MimeType>
+ <MimeType extension="xsl">text/xml</MimeType>
+ <MimeType extension="xslt">text/xml</MimeType>
+
+ <!-- video -->
+ <!--       -->
+ <MimeType extension="avi">video/x-msvideo</MimeType>
+ <MimeType extension="dif">video/x-dv</MimeType>
+ <MimeType extension="dv">video/x-dv</MimeType>
+ <MimeType extension="m4v">video/x-m4v</MimeType>
+ <MimeType extension="mov">video/quicktime</MimeType>
+ <MimeType extension="movie">video/x-sgi-movie</MimeType>
+ <MimeType extension="mp4">video/mp4</MimeType>
+ <MimeType extension="mpe">video/mpeg</MimeType>
+ <MimeType extension="mpeg">video/mpeg</MimeType>
+ <MimeType extension="mxu">video/vnd.mpegurl</MimeType>
+ <MimeType extension="qt">video/quicktime</MimeType>
+</MimeTypes>

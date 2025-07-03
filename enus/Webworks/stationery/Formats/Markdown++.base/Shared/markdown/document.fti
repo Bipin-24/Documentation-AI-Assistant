@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormatTraitInfo version="1.0" xmlns="urn:WebWorks-Engine-FormatTraitInfo-Schema">
+ <Classes />
+
+ <Groups />
+
+ <Settings />
+
+ <RuleTraitsSet>
+  <RuleTraits category="Paragraph">
+   <Options>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="split-priority" group="options" default="none">
+     <OptionClass name="none" />
+     <OptionClass name="number" />
+    </Option>
+    <Option name="preserve-empty" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+
+  <RuleTraits category="Table">
+   <Options>
+    <Option name="generate-output" group="options" default="true">
+     <OptionClass name="boolean" />
+    </Option>
+    <Option name="split-priority" group="options" default="none">
+     <OptionClass name="none" />
+     <OptionClass name="number" />
+    </Option>
+   </Options>
+
+   <Properties />
+  </RuleTraits>
+ </RuleTraitsSet>
+</FormatTraitInfo>

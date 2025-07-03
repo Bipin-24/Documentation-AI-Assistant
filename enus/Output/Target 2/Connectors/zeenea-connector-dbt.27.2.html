@@ -1,0 +1,165 @@
+<!DOCTYPE html ><html xml:lang="en" lang="en" data-highlight-require-whitespace="false" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><meta http-equiv="Content-Style-Type" content="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><title>title: DBT</title><link rel="Prev" href="zeenea-connector-dbt.27.1.html" title="Previous" /><link rel="Next" href="zeenea-connector-denodo.28.1.html" title="Next" /><link rel="StyleSheet" href="../css/font-awesome/css/all.min.css" type="text/css" media="all" /><link rel="StyleSheet" href="css/zeenea-connector-dbt.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/webworks.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/skin.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/social.css" type="text/css" media="all" /><link rel="StyleSheet" href="../css/print.css" type="text/css" media="print" /><noscript><div id="noscript_padding"></div></noscript></head><body id="pN_002bhgC8I5pR3B2oPuHl6s4Bg" class="ww_skin_page_body" style="visibility: hidden;"><input type="hidden" id="page_onload_url" value="../index.html#page/Connectors/zeenea-connector-dbt.27.2.html"></input><span id="dropdown_ids" style="display:none;"></span><div id="ww_content_container"><header id="wwconnect_header"><div class="ww_skin_breadcrumbs"><a class="WebWorks_Breadcrumb_Link" href="zeenea-connectors-list.01.1.html">Connectors</a> : <span class="WebWorks_Breadcrumb_Text">title: DBT</span></div><div class="ww_skin_page_toolbar"><div id="dropdown_button_container" class="dropdown_container dropdown_button_container_disabled"><a id="show_hide_all" class="ww_skin ww_behavior_dropdown_toggle ww_skin_dropdown_toggle" title="Page DropDown Toggle" href="#"><i class="far"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><div id="social_links"><!-- Twitter --><!--         --><a id="social_twitter" class="ww_social ww_social_twitter" title="Twitter" target="_blank" href="#"><i class="fab"></i></a><!-- FaceBook Like --><!--               --><a id="social_facebook_like" class="ww_social ww_social_facebook" title="Facebook" target="_blank" href="#"><i class="fab"></i></a><!-- LinkedIn Share --><!--                --><a id="social_linkedin" class="ww_social ww_social_linkedin" title="LinkedIn" target="_blank" href="#"><i class="fab"></i></a><span class="ww_skin_page_toolbar_divider">&nbsp;</span></div><a class="ww_behavior_print ww_skin ww_skin_print" title="Print" href="#"><i class="fa"></i></a></div><!-- was this helpful button --><!--                         --><div class="ww_skin_was_this_helpful_container"><div class="ww_skin_was_this_helpful_message">Was this helpful?</div><div class="ww_skin_was_this_helpful_buttons_container"><div id="helpful_thumbs_up" class="ww_skin_was_this_helpful_button" title="Helpful"><i class="far"></i></div><div id="helpful_thumbs_down" class="ww_skin_was_this_helpful_button" title="Unhelpful"><i class="far"></i></div></div></div></header><div id="page_content_container"><div id="page_content"><div id="wwp100018" class="Title_1">title: DBT</div><div class="WebWorks_MiniTOC"><div class="WebWorks_MiniTOC_Heading">&nbsp;</div><dl class="WebWorks_MiniTOC_List"><dd><div class="WebWorks_MiniTOC_Entry"><a class="WebWorks_MiniTOC_Link" href="../Connectors/zeenea-connector-dbt.27.2.html#wwp100024">Adding a DBT Connection</a></div></dd></dl></div><div id="wwp100024" class="Heading_1">Adding a DBT Connection</div><div id="wwp100030" class="Heading_2">Prerequisites</div><ul id="wwl100054" class="UList"><li id="wwli100042" class="UList_Item" value="1"><div id="wwp100036" class="UList_Paragraph">A user with sufficient permissions is required to establish a connection with DBT.</div></li><li id="wwli100051" class="UList_Item" value="2"><div id="wwp100045" class="UList_Paragraph">Zeenea traffic flows towards DB2 must be open.  </div></li></ul><div id="wwp100060" class="Paragraph">:::note A configuration template can be downloaded here: <span class="Link"><a href="https://actian.file.force.com/sfc/dist/version/download/?oid=00D300000001XnW&amp;amp;ids=068Nu00000GUNpN&amp;amp;d=%2Fa%2FNu000002leSI%2FDJxA.g_pmwx5m9BHegpbWc3dqZOUOH2Dzv9MRK46yRk&amp;amp;asPdf=false" target="external_window">dbt.conf</a></span><br />:::</div><div id="wwp100066" class="Heading_2">Supported Versions</div><div id="wwp100072" class="Paragraph">The DBT connector was tested with version 1.3. It is compatible with version 1.3 and earlier. </div><div id="wwp100081" class="Paragraph">:::note The DBT connector is currently <span class="Bold">NOT</span> compatible with DBT Cloud. :::</div><div id="wwp100087" class="Heading_2">Installing the Plugin</div><div id="wwp100102" class="Paragraph">The dbt plugin can be downloaded here: <span class="Link"><a href="../Connectors/zeenea-connectors-list.01.1.html#" title="Zeenea Connector Downloads">Zeenea Connector Downloads</a></span>.</div><div id="wwp100117" class="Paragraph">For more information on how to install a plugin, please refer to the following article: <span class="Link"><a href="../Connectors/zeenea-connectors-install-as-plugin.02.1.html#" title="Installing and Configuring Connectors as a Plugin">Installing and Configuring Connectors as a Plugin</a></span>.</div><div id="wwp100123" class="Heading_2">Declaring the Connection</div><div id="wwp100132" class="Paragraph">Creating and configuring connectors is done through a dedicated configuration file located in the <span class="Code">/connections</span> folder of the relevant scanner.</div><div id="wwp100138" class="Paragraph">Read more: Managing Connections</div><div id="wwp100144" class="Paragraph">In order to establish a connection with an DBT instance, specifying the following parameters in the dedicated file is required:</div><div id="wwp100150" class="HTML"><table>
+  <tr>
+    <th>Parameter</th>
+    <th>Expected value</th>
+  </tr>
+  <tr>
+    <td>`name`</td>
+    <td>The name that will be displayed to catalog users for this connection.</td>
+  </tr>
+  <tr>
+    <td>`code`</td>
+    <td>The unique identifier of the connection on the Zeenea platform. Once registered on the platform, this code must not be modified or the connection will be considered as new and the old one removed from the scanner.</td>
+  </tr>
+  <tr>
+    <td>`connector_id`</td>
+    <td>The type of connector to be used for the connection. Here, the value must be `dbt` and this value must not be modified.</td>
+  </tr>
+  <tr>
+    <td>`connection.path`</td>
+    <td>
+      <p>Path to the DBT projects. Must be formatted like:</p>
+        <ul>
+          <li>AWS S3: `s3://[bucket_name]/[optional_prefix]`</li>
+          <li>Google Storage: `gs://[bucket_name]/[optional_prefix]`</li>
+          <li>Local File System: `file:///path/to/project/folder/root` or `/path/to/project/folder/root`</li>
+          <li>(**≥2.8.0**) Azure ADLS Gen 2: `http://[account_name].dfs.core.windows.net/[container_name]/[optional_prefix]`</li>
+          <li>(**< 2.7.0**) Azure Storage: `az://[bucket_name]/[optional_prefix]`</li>
+        </ul>
+        <p>Examples:<br /><br />`connection.path = "aws://dbt-bucket/projects"`<br />or<br />`connection.path = "/var/dbt/projects"`</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">**Google Cloud Storage**</td>
+  </tr>
+  <tr>
+    <td>`connection.google_cloud.json_key`</td>
+    <td>
+      <p>JSON key either as:</p>
+      <ul>
+        <li>an embedded raw value (use triple quotes `"""{ "json: "here" }"""`)</li>
+        <li>or as a file by setting a absolute file URL<br /> (e.g., `file:///etc/bigquery/zeenea-key.json`)</li>
+      </ul>
+      <p>Using the file URL to an external JSON key file is recommended.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.google_cloud.project_id`</td>
+    <td>Project Id used at connection. Invoices will be sent to this project.</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <p>**AWS - S3**</p>
+      <p>In **version 2.7.0 and later**, the connector uses the official Amazon SDK. So the following parameters can be set to specify a region and an access key. If not set, information will be taken from:</p>
+        <ol>
+          <li>environment variables</li>
+          <li>shared credential and config files</li>
+          <li>ECS container or EC2 instance role</li>
+        </ol>
+        <p>See [Amazon documentation](https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/credentials.html).</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.aws.region`</td>
+    <td>**Added in 2.7.0**<br /><br />Amazon S3 region</td>
+  </tr>
+  <tr>
+    <td>`connection.aws.access_key_id`</td>
+    <td>Amazon S3 Access Key Identifier.<br /><br />*Prefer to use container or instance role for versions 2.7.0 and later*.</td>
+  </tr>
+  <tr>
+    <td>`connection.aws.secret_access_key`</td>
+    <td>Amazon S3 Secret Access Key.<br /><br />*Prefer to use container or instance role for versions 2.7.0 and later*.</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <p>**Azure ADLS Gen 2**</p>
+      <p>In **version 2.8.0 and later**, the connector can fetch the files from ADLS Gen 2.</p>
+      <p>Two authentication methods are available:</p>
+        <ol>
+          <li>Service Account OAuth2 credentials (`client_id`, `client_secret`, `tenant_id`)</li>
+          <li>Account Key (`account_name`, `account_key`)</li>
+        </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.azure.tenant_id`</td>
+    <td>Tenant Identifier</td>
+  </tr>
+  <tr>
+    <td>`connection.azure.client_id`</td>
+    <td>Client Application Identifier</td>
+  </tr>
+  <tr>
+    <td>`connection.azure.client_secret`</td>
+    <td>Client Application Secret</td>
+  </tr>
+  <tr>
+    <td>`connection.azure.account_name`</td>
+    <td>Storage Account Name</td>
+  </tr>
+  <tr>
+    <td>`connection.azure.account_key`</td>
+    <td>Storage Account Secret Key</td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p>**Azure Storage**</p>
+      <p>*Azure Storage support is discontinued in version 2.7.0 of the connector.<br />If you need it, please contact support for it to be added again.*</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`connection.azure.account_name`</td>
+    <td>**Before 2.7.0**<br /><br />The Storage Account Name</td>
+  </tr>
+  <tr>
+    <td>`connection.azure.account_key`</td>
+    <td>**Before 2.7.0**<br /><br />Account Key; can be retrieved in the Access Key section of the Azure menu.</td>
+  </tr>
+  <tr>
+    <td>`multi_catalog.enabled`</td>
+    <td>Set to `true` if the dataset source system is also configured as `multi catalog`.<br />Default value `false`.</td>
+  </tr>
+  <tr>
+    <td>`dbt.profiles_yml`</td>
+    <td>
+      <p>(Optional) Path to the profiles file. Must be formatted like:</p>
+        <ul>
+          <li>Amazon S3: `s3://bucket_name/path/to/profiles.yml`</li>
+          <li>Google Storage: `gs://bucket_name/path/to/profiles.yml`</li>
+          <li>(≥2.8.0) Azure ADLS Gen 2: `http://[account_name].dfs.core.windows.net/[container_name]/[optional_prefix]`</li>
+          <li>File System: `file:///path/to/profiles.yml` or `/path/to/profiles.yml`</li>
+        </ul>
+        <p>If not set, the first found file will be used:</p>
+        <ul>
+          <li>`$DBT_PROFILES_DIR/profiles.yml`</li>
+          <li>`$HOME/.dbt/profiles.yml`</li>
+          <li>`/profiles.yml`</li>
+        </ul>
+        <p>Note: the YAML should not contain anchors or references.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>`dbt.target`</td>   
+    <td>(Optional) Target environment name. If not set the default target of the profile is used.</td>
+  </tr>
+</table></div><div id="wwp100162" class="Heading_2">Data Extraction</div><div id="wwp100168" class="Paragraph">In order to collect metadata, the user must provide the dbt files to the connector. </div><div id="wwp100174" class="Paragraph">These files can be in the file system of the computer where the scanner is installed. The file system can be local or a mounted network file system (an NFS mount, for instance). It can also be an Amazon S3 or a Google Cloud Storage bucket.</div><div id="wwp100189" class="Paragraph"><span class="HTML"><!-- #p100168 --></span></div><div id="wwp100195" class="Heading_3">Finding Projects</div><div id="wwp100207" class="Paragraph">First, the connector walk though the file storage from the root given in the parameter <span class="Code">connection.path</span> and search for files with the name <span class="Code">dbt_project.yml</span>.</div><div id="wwp100216" class="Paragraph">For each <span class="Code">dbt_project.yml</span> file found, it will consider the folder to be a dbt project. The identifier of items from a project is prefixed by the path of the project folder relative to the connection.path in order to ensure the identifier unicity.</div><div id="wwp100222" class="Heading_3">Extracting Metadata</div><div id="wwp100231" class="Paragraph">Metadata is extracted from manifest.json and catalog.json. These two files are produced when running the dbt process. Their location is given by the optional target-path entry in <span class="Code">dbt_project.yml</span>. If not set, they will be found in the target subfolder of the project.</div><div id="wwp100240" class="Paragraph">The connector needs some extra information about the data source from the <span class="Code">profile.yml</span> file. This file can be shared by all project. It can be the same file used in production are a similar one with all connection information except the credentials.</div><div id="wwp100255" class="Paragraph">For a given project, the connector uses the profile defined by the <span class="Code">profile</span> entry in <span class="Code">dbt_project.yml</span>. The target used is either the target defined by <span class="Code">dbt.target</span> in the connector configuration or the default one defined in the profile.</div><div id="wwp100261" class="Heading_3">Pre-required dbt commands</div><div id="wwp100273" class="Paragraph"><span class="Code">manifest.json</span> and <span class="Code">catalog.json</span> are produced when running dbt. To ensure they are complete, the following commands should be executed.</div><ul id="wwl100315" class="UList"><li id="wwli100288" class="UList_Item" value="1"><div id="wwp100282" class="UList_Paragraph"><span class="Bold">dbt seed</span>: https://docs.getdbt.com/reference/commands/seed</div></li><li id="wwli100300" class="UList_Item" value="2"><div id="wwp100294" class="UList_Paragraph"><span class="Bold">dbt run</span>: https://docs.getdbt.com/reference/commands/run</div></li><li id="wwli100312" class="UList_Item" value="3"><div id="wwp100306" class="UList_Paragraph"><span class="Bold">dbt docs generate</span>: https://docs.getdbt.com/reference/commands/cmd-docs</div></li></ul><div id="wwp100318" class="Heading_2">Collected Metadata</div><div id="wwp100324" class="Heading_3">Synchronization</div><div id="wwp100330" class="Paragraph">The connector will synchronize all DBT project's job and automatically represent them in the catalog.</div><div id="wwp100336" class="Heading_3">Lineage</div><div id="wwp100345" class="Paragraph">The DBT connector is able to retrieve the lineage between datasets that have been imported to the catalog. Datasets from other connections must have been previously imported to the catalog to be linked to the DBT process. This feature is available for the following systems and, for it to work, an additional parameter is needed in <span class="Bold">the configuration file of the source system connection</span> as configured in the DBT connection configuration panel. For example, if the DBT process uses a table coming from a SQL Server table, then a new alias parameter must be added in the SQL Server connection configuration file.</div><div id="wwp100354" class="Paragraph">Table summarizing the possible values of the <span class="Code">alias</span> parameter to be completed in the data source configuration file:</div><div class="ww_skin_page_overflow"><table id="wwt100609" class="Table" style="border-collapse: collapse; margin-bottom: 18px" border="1px solid #888888" summary=""><tr><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100366" class="Table_Cell_Head"><div id="wwp100360" class="Paragraph">Source System</div></div></th><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100378" class="Table_Cell_Head"><div id="wwp100372" class="Paragraph">Model</div></div></th><th style="background-color: buttonface; vertical-align: middle"><div id="wwb100390" class="Table_Cell_Head"><div id="wwp100384" class="Paragraph">Example</div></div></th></tr><tr><td style="background-color: Transparent"><div id="wwb100414" class="Table_Cell_Body"><div id="wwp100408" class="Paragraph"><span class="Link"><a href="../Connectors/zeenea-connector-sqlserver.75.1.html#" title="title: SQL Server">SQL Server</a></span></div></div></td><td style="background-color: Transparent"><div id="wwb100426" class="Table_Cell_Body"><div id="wwp100420" class="Paragraph">Server name:port/Database name</div></div></td><td style="background-color: Transparent"><div id="wwb100441" class="Table_Cell_Body"><div id="wwp100435" class="Paragraph"><span class="Code">alias = ["zeenea.database.windows.net:1433/db"]</span> *</div></div></td></tr><tr><td style="background-color: buttonface"><div id="wwb100465" class="Table_Cell_Body"><div id="wwp100459" class="Paragraph"><span class="Link"><a href="../Connectors/zeenea-connector-snowflake.73.1.html#" title="title: Snowflake">Snowflake</a></span></div></div></td><td style="background-color: buttonface"><div id="wwb100477" class="Table_Cell_Body"><div id="wwp100471" class="Paragraph">Server name/Database name</div></div></td><td style="background-color: buttonface"><div id="wwb100492" class="Table_Cell_Body"><div id="wwp100486" class="Paragraph"><span class="Code">alias = ["kn999999.eu-west-1.snowflakecomputing.com/ZEENEA""]</span> *</div></div></td></tr><tr><td style="background-color: Transparent"><div id="wwb100516" class="Table_Cell_Body"><div id="wwp100510" class="Paragraph"><span class="Link"><a href="../Connectors/zeenea-connector-google-bigquery.34.1.html#" title="title: Google BigQuery">BigQuery</a></span></div></div></td><td style="background-color: Transparent"><div id="wwb100531" class="Table_Cell_Body"><div id="wwp100525" class="Paragraph"><span class="Code">bigquery.googleapis.com/</span> + BigQuery project identifier</div></div></td><td style="background-color: Transparent"><div id="wwb100546" class="Table_Cell_Body"><div id="wwp100540" class="Paragraph"><span class="Code">alias = ["bigquery.googleapis.com/zeenea-project"]</span></div></div></td></tr><tr><td style="background-color: buttonface"><div id="wwb100570" class="Table_Cell_Body"><div id="wwp100564" class="Paragraph"><span class="Link"><a href="../Connectors/zeenea-connector-aws-redshift.15.1.html#" title="title: AWS Redshift">AWS Redshift</a></span></div></div></td><td style="background-color: buttonface"><div id="wwb100582" class="Table_Cell_Body"><div id="wwp100576" class="Paragraph">Server name:port/Database name</div></div></td><td style="background-color: buttonface"><div id="wwb100597" class="Table_Cell_Body"><div id="wwp100591" class="Paragraph"><span class="Code">alias = ["zeenea.cthwlv3ueke2.eu-west-3.redshift.amazonaws.com:5439/database"]</span> *</div></div></td></tr><tr></tr></table></div><div id="wwp100615" class="Paragraph">* Do not fill in the database name if the configuration of the connectors is in <span class="Code">multi_catalog.enabled = true</span>.</div><div id="wwp100621" class="Heading_3">Data Process</div><ul id="wwl100720" class="UList"><li id="wwli100636" class="UList_Item" value="1"><div id="wwp100630" class="UList_Paragraph"><span class="Bold">Name</span></div></li><li id="wwli100648" class="UList_Item" value="2"><div id="wwp100642" class="UList_Paragraph"><span class="Bold">Source Description</span></div></li><li id="wwli100717" class="UList_Item" value="3"><div id="wwp100654" class="UList_Paragraph"><span class="Bold">Technical Data</span>:</div><ul id="wwl100714" class="UList"><li id="wwli100666" class="UList_Item" value="1"><div id="wwp100660" class="UList_Paragraph">Project</div></li><li id="wwli100675" class="UList_Item" value="2"><div id="wwp100669" class="UList_Paragraph">Doc Generation Time</div></li><li id="wwli100684" class="UList_Item" value="3"><div id="wwp100678" class="UList_Paragraph">Owner</div></li><li id="wwli100693" class="UList_Item" value="4"><div id="wwp100687" class="UList_Paragraph">Database</div></li><li id="wwli100702" class="UList_Item" value="5"><div id="wwp100696" class="UList_Paragraph">Schema</div></li><li id="wwli100711" class="UList_Item" value="6"><div id="wwp100705" class="UList_Paragraph">Type</div></li></ul></li></ul><div id="wwp100723" class="Heading_2">Unique Identification Keys</div><div id="wwp100729" class="Paragraph">A key is associated with each item of the catalog. When the object comes from an external system, the key is built and provided by the connector.</div><div id="wwp100735" class="Paragraph"> Read more: Identification Keys</div><div id="wwp100741" class="HTML"><table>
+  <tr>
+    <th>Object</th>
+    <th>Identifier Key</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Dataset</td>
+    <td>code/path/type.package_name.resource_name</td>
+    <td>
+      <ul>
+        <li>**code**: Unique identifier of the connection noted in the configuration file</li>
+        <li>**path**: (Optional) Path to the project folder</li>
+        <li>**type**: Kind of materialization</li>
+        <li>**package_name**: Package name</li>
+        <li>**resource_name**: Resource name</li>
+      </ul>
+    </td>
+  </tr>
+</table></div></div><div id="page_dates"><div class="ww_skin_document_last_modified_date">Last modified date: 03/19/2025</div></div><!-- Related Topics --><!--                --><footer><!-- Disqus --><!--        --><!-- Google Translation --><!--                    --><br /></footer></div></div><input type="hidden" id="preserve_unknown_file_links" value="false"></input><noscript><div id="noscript_warning">This site works best with JavaScript enabled</div></noscript><script type="text/javascript" src="../scripts/common.js"></script><script type="text/javascript" src="../scripts/page.js"></script></body></html>
